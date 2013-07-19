@@ -1,4 +1,5 @@
 _site/
+_images/
 pkg/
 test/
 .DS_store
