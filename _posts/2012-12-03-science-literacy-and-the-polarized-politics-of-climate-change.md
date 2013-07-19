@@ -6,7 +6,7 @@ date: 2012-12-03 10:01
 excerpt: If increasing science knowledge can increase climate change denial, how can educators respond? 
 source: PLOS Sci-Ed
 sourceurl: http://blogs.plos.org/scied/2012/12/03/science-literacy-and-the-polarized-politics-of-climate-change/
-image_url_1: http://static.oliverpattison.org/2012/2012-12-03-lone-polar-bear-on-sea-ice-fruchtzwergs-world-on-flickr.jpg
+image_url_1: 2012-12-03-lone-polar-bear-on-sea-ice-fruchtzwergs-world-on-flickr.jpg
 ---
 
 One of the major goals of science education is for all citizens to have some basic level of science literacy. The rationale is that a basic understanding of science is necessary in order to participate in a modern democratic society, where we must often grapple with policy decisions that deal with socioscientific issues, and where scientific evidence can be a major deciding factor in policy.
