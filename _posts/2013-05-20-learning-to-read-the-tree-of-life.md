@@ -1,11 +1,14 @@
 ---
 layout: article
 category: writing
-title: Learning to read the tree of life
+title: "Learning to read the tree of life"
 date: 2013-05-20 10:00
 excerpt: For biologists, the "tree of life" stands for both the unity and diversity of life. But are students and non-scientists accurately interpreting its branches?
 source: PLOS Sci-Ed
 sourceurl: http://blogs.plos.org/scied/2013/01/14/facing-the-research-practice-divide-in-science-education/
+image-1: 2013-05-20-1000px-identical-cladograms-alexei-kouprianov-cc-by-sa.png
+image-2: 2013-05-20-lone-tree-daveybot-cc-by-nc-sa.jpg
+image-3: 2013-05-20-dynamic-evolutionary-map-vultures-vultures-sonia-stephens-cc-by-nc-sa.png
 ---
 
 Evolution education is entering an exciting time: scientists are working on the [Open Tree of Life](http://blog.opentreeoflife.org/project-summary/ "The Open Tree of Life - Project Summary")  the first comprehensive tree charting the evolutionary relationships of all named species -- and many U.S. classrooms are preparing for state adoption of the [Next Generation Science Standards](http://www.nextgenscience.org/next-generation-science-standards "Next Generation Science Standards") (NGSS), in which evolution and common ancestry are central. However, in order to capitalize on these developments, students will need to become competent in the surprisingly tricky skill of "tree thinking".

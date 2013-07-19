@@ -4,7 +4,9 @@ category: writing
 title: "Science education at Science Online 2013"
 date: 2013-02-25 10:01
 excerpt: "Highlights from the sessions focussed on science education"
+source: PLOS Sci-Ed
 sourceurl: http://blogs.plos.org/scied/2013/02/25/science-education-at-science-online-2013/
+image-1: 2013-02-25-science-online-jean-flanagan.jpg
 ---
 
 This was my first Science Online conference, and it was a refreshingly collaborative experience. Research scientists, high school teachers, museum educators, education researchers, science writers, psychologists, and social scientists all came together with no pretensions for a shared purpose: to share ideas on how to better educate and communicate with the public about science.

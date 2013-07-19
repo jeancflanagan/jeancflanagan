@@ -1,11 +1,12 @@
 ---
 layout: article
 category: writing
-title: Open data for science education 
-date: 2013-06-04 10:01
+title: "Open data for science education"
+date: 2013-07-08 10:01
 excerpt: Science students can benefit greatly from educational materials that expose them to real-world data, but educators can't access most scientific data.
 source: PLOS Sci-Ed
 sourceurl: http://blogs.plos.org/scied/2013/07/08/open-data-for-science-education/
+image-1: 2013-07-08-open-data-opensourceway-cc-by-sa.png
 ---
 
 [Open data](https://p2pu.org/en/courses/5/content/13/) is the idea that scientific data should be freely available to all, without restrictions, in searchable online repositories. The open data movement is gaining momentum in the scientific community because of its [promise](http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.1001195) to enable more frequent replication of studies and to accelerate the pace of research. But the advantages for science education are just as compelling. 
