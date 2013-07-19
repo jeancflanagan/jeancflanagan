@@ -4,10 +4,11 @@ author:
   name: Jean C. Flanagan
   email: jeancflanagan@gmail.com
 url: http://jeancflanagan.com
+image_url: http:/static.oliverpattison.org/
 
 pygments: true
 layouts: ./_layouts
 plugins: ./_plugins
 
-permalink: /:year/:title
+permalink: /:year/:title/
 markdown: kramdown

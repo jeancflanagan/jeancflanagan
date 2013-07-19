@@ -30,7 +30,22 @@ The *content* of this site (in _posts directory) is licensed under CC-BY [(Creat
 - Limit use of plugins except where absolutely required
 - No fancy responsive image tricks, just ~1.5-2x scaled images with heavy optimization (10-40 quality JPEGs run through ImageOptim). Why? There will not be enough images to justify a JavaScript or `<picture>` solution. Most images will be relatively small in file size, and larger feature images will be worth the size/performance trade-off on high resolution screens.
 
-#### Notes:
+### Requirements
+
+#### Broadly
+
+- OS X (not tested in Linux, but most of this should work)
+- SSH authentication on your remote server
+
+#### Specifically
+
+- Ruby (tested on 1.9.3p194)
+- Ruby Environment Manager - RVM (tested on 1.21.11)
+- Jekyll (tested on 1.1.0) and installed dependencies
+- ImageOptim (for rakefile)
+- ImageOptim-CLI (for rakefile)
+
+### Notes:
 
 - Remote moved 2013-07-12 to GitHub
 - Remote added 2013-07-11 at Webfaction Domain
