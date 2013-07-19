@@ -2,10 +2,11 @@
 layout: article
 category: writing
 title: "Facing the research-practice divide in science education"
-date: "2013-01-14 10:00"
+date: 2013-01-14 10:00
 excerpt: "Unfortunately, science education research and practice tend to exist in parallel universes. If we care about science education, we have to face the research-practice divide."
-source: "PLOS Sci-Ed"
-sourceurl: "http://blogs.plos.org/scied/2013/01/14/facing-the-research-practice-divide-in-science-education/"
+source: PLOS Sci-Ed
+sourceurl: http://blogs.plos.org/scied/2013/01/14/facing-the-research-practice-divide-in-science-education/
+image-1: 2013-01-14-sather-tower-uc-berkeley-brostad-flickr.jpg
 ---
 
 Science education researchers and science teachers have much to offer each other. In an ideal world, knowledge would flow freely between researchers and educators. Unfortunately, research and practice tend to exist in parallel universes. As long as this divide persists, classrooms will rarely benefit from research findings, and research studies will rarely be rooted in the realities of the classroom. If we care about science education, we have to face the research-practice divide.
