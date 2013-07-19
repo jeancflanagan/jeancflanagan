@@ -28,7 +28,7 @@ end
 
 ## "rake deploy" to deploy _site and _images to your server
 desc "deploy Jekyll _site and _images to remote server via rsync"
-+task :deploy => :load do
+task :deploy => :load do
   system "rsync -avze ssh #{"--delete" unless rsync_delete == false} #{local_site}/ #{ssh_user}:#{remote_site}/"
   puts "## Deploying _site via rsync ##"
 end
