@@ -3,11 +3,11 @@
 # Assumes that ssh is already set up on the server.
 # Assumes that ImageOptim and ImageOptim-CLI are installed
 
-ssh_user       = "opattison@oliverpattison.org"
+ssh_user       = "jcflanagan@jeancflanagan.com"
 local_images   = "_images" # typically called "_images"
 local_site     = "_site" # typically called "_site"
 remote_images  = "webapps/static"
-remote_site    = "webapps/development"
+remote_site    = "webapps/dev"
 
 rsync_delete   = true
 include_images = "--include='*.png' --include='*.jpg' --include='*/' --exclude='*'"
