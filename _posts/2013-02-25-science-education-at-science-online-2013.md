@@ -13,6 +13,11 @@ This was my first Science Online conference, and it was a refreshingly collabora
 
 The design of the name badges nicely captures the feel of the “unconference” format. The badges emphasize first names and are intentionally devoid of institutional affiliations, creating an open, egalitarian atmosphere. The style of this conference is a perfect example of one way to combat the problems of elitism and distrust that I outlined in my earlier post on the research-practice divide in science education.
 
+<figure class="right">
+<img src="{{ site.image-url }}{{ page.image-1 }}"/>
+<figcaption>Science Online 2013 name badge. (PLOS sponsored the lanyards for everyone.) Photo by Jean Flanagan.</figcaption>
+</figure>
+
 There were a few sessions directly focused on science education, and I’ve attempted to capture a few of the highlights from those here. However, many sessions that were more focused on science communication and journalism had implications for education as well, and may serve as inspiration for future posts.
 
 ## Why won’t the science deficit model die?

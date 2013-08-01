@@ -17,6 +17,12 @@ Experts who do understand evolution by natural selection often use shortcuts and
 
 I’ll attempt to outline some of the major misconceptions and learning difficulties related to the mechanism of natural selection and discuss some common ways of talking about evolutionary processes that can reinforce these misconceptions.
 
+<figure class="left">
+<img src="{{ site.image-url }}{{ page.image-1 }}"/>
+<figcaption>Darwin's finches or Galapagos finches. Charles Darwin, 1845. U.S. public domain. 
+</figcaption>
+</figure>
+
 ## Fitness and “survival of the fittest”
 
 To evolutionary biologists, fitness has a very specific meaning: the number of offspring left by individuals of a species having a certain genetic makeup compared to other individuals with different genetic makeups. A recent “daily explainer” on i09, “[Why ‘survival of the fittest’ is wrong](http://io9.com/5988401/why-survival-of-the-fittest-is-wrong),” tackled some of the issues wrapped up in this word. The colloquial usage of “fit” as “big, strong and healthy” [^2] makes the phrase misleading. And evolution isn’t really about survival at all. It’s entirely about reproduction. Often living longer can mean more chances to mate, but survival only contributes to evolutionary fitness inasmuch as it enables an increase in successful reproduction events. An organism that lives to the upper limit of its lifespan — but never successfully reproduces — contributes exactly nothing to the next generation.
