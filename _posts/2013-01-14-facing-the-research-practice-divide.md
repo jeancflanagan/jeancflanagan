@@ -29,6 +29,10 @@ When I asked high school science teacher Laurie Almeida how she perceived the cr
 
 >Somewhat credible. I work at a difficult school, so I feel that some of the research is way too out of touch with the reality of my school.
 
+<figure class="right">
+<img src="{{ site.image-url }}{{ page.image-1 }}"/>
+<figcaption>An ivory tower of sorts: Sather Tower, U.C. Berkeley. Photo by <a href="http://www.flickr.com/photos/brostad/2878353059/">Bernt Rostad on Flickr.</a></figcaption>
+</figure>
 
 There is sometimes truth to the ivory tower criticisms; Gore and Gitlin noted that in some academic circles, the more closely research is associated with practice, the more devalued it is. Furthermore, science education research is far from perfect. Small-scale studies with limited applicability are published more frequently in science education than they are the natural sciences. This trend hasn’t escaped notice from teachers either. When I asked about the perceived credibility of science education research among teachers, science teacher Toni Taylor told me:
 
