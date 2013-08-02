@@ -511,7 +511,7 @@ figcaption {
     left: 50%;
     margin-left: -21em;
     position: absolute;
-    top: 5.5em;
+    top: 6em;
     transition: position 0ms;
     width: 42em;
   }
@@ -605,6 +605,10 @@ figcaption {
 
   .excerpt article {
     min-height: 15em;
+  }
+
+  #menu {
+    top: 7.5em;
   }
 
 }
