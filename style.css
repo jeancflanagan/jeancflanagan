@@ -141,7 +141,7 @@ hr {
 .banner {
   background: hsla(138, 10%, 99.5%, 1);
   margin: 0;
-  padding: 1em 0 0 0;
+  padding: 3em 0 0 0;
   text-align: center;
 }
 
@@ -149,6 +149,7 @@ hr {
   text-decoration: none;
 }
 
+/* Banner headings */
 .banner hgroup {
   padding: .5em 0;
 }
@@ -161,6 +162,20 @@ hr {
   font-size: 1em;
 }
 
+/* Banner responsive navigation */
+
+.banner nav a {
+  background: hsla(138, 37.5%, 59.5%, .1);
+  border-left: hsla(138, 37.5%, 59.5%, 1) 5px solid;
+  display: block;
+  position: absolute;
+  font-family: 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
+  padding: .5em 1em;
+  right: .5em;
+  text-decoration: none;
+  top: .5em;
+}
+
 /** Navigation (responsive, small screen) **/
 #menu nav {
   font: normal 400 1em/1.5 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
@@ -169,6 +184,7 @@ hr {
 }
 
 #menu nav ul {
+  list-style: none;
   margin: 0 1em;
   padding: 0;
 }
@@ -183,7 +199,17 @@ hr {
 }
 
 #menu nav li a {
+  display: block;
   text-decoration: none;
+}
+
+#menu nav li:last-child {
+  background: hsla(138, 0%, 59.5%, .1);
+  border-left: hsla(138, 0%, 59.5%, 1) 5px solid;
+}
+
+#menu nav li:last-child a {
+  color: hsla(138, 16%, 10%, 1);
 }
 
 /** Site footer **/
@@ -429,15 +455,16 @@ figcaption {
 @media screen and (min-width: 44em) {
   /* i.e. 704px */
 
+  .banner {
+    padding: 1em 0 0 0;
+  }
+
   .banner,
   .page {
     font-size: 1.25em;
   }
 
-  .page {
-    max-width: 42em;
-  }
-
+  .page,
   .excerpt-index {
     max-width: 42em;
   }
@@ -458,6 +485,16 @@ figcaption {
 
 @media screen and (min-width: 50em) {
   /* i.e. 800px */
+  /* This breakpoint turns a responsive small-screen anchored navigation pattern 
+  to a large-screen conventional inline-block navigation */
+
+  .banner {
+    padding-bottom: 4em;
+  }
+
+  .banner nav {
+    display: none;
+  }
 
   #menu {
     border: none;
@@ -466,7 +503,7 @@ figcaption {
     left: 50%;
     margin-left: -21em;
     position: absolute;
-    top: 8em;
+    top: 6em;
     transition: position 0ms;
     width: 42em;
   }
@@ -477,11 +514,11 @@ figcaption {
 
   #menu nav li {
     display: inline-block;
-    margin: .5em;
+    margin: 0 .5em;
   }
 
-  .banner {
-    padding-bottom: 3em;
+  #menu nav li:last-child {
+    display: none;
   }
 
 }
