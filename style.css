@@ -101,19 +101,23 @@ a:focus {
 
 h1 {
   font: normal 400 1.5em/1.33333333 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
+  margin: 0;
 }
 
 h2 {
   font: normal 400 1.25em/1.4 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
+  margin: 0;
 }
 
 h3 {
   color: hsla(138, 16%, 18%, 1);
   font: normal 400 1.125em/1.33333333 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
+  margin: 0;
 }
 
 h4 {
   font: normal 600 1em/1.5 Calluna, Georgia, serif;
+  margin: 0;
 }
 
 blockquote {
@@ -210,6 +214,7 @@ hr {
 /** Archive (index excerpt container) **/
 .excerpt-index {
   margin: .5em auto;
+  overflow: auto;
   padding: 0;
   transition: none;
 }
