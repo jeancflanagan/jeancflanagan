@@ -143,7 +143,7 @@ hr {
 #banner {
   background: hsla(138, 10%, 99.5%, 1);
   margin: 0;
-  padding: 3em 0 0 0;
+  padding: 2.5em 0 0 0;
   text-align: center;
 }
 
@@ -492,7 +492,7 @@ figcaption {
   to a large-screen conventional inline-block navigation */
 
   #banner {
-    padding-bottom: 4em;
+    padding-bottom: 3em;
   }
 
   #banner nav {
@@ -506,7 +506,7 @@ figcaption {
     left: 50%;
     margin-left: -21em;
     position: absolute;
-    top: 6em;
+    top: 5.5em;
     transition: position 0ms;
     width: 42em;
   }
