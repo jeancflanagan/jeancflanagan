@@ -26,8 +26,10 @@ The *content* of this site (in _posts directory) is licensed under CC-BY [(Creat
 ### Implementation Details
 
 - The entire site was designed intentionally around *real* written content and no ipsums or fillers.
-- Minimalism drives the design of the site, so the site was built around the most basic and spare forms.
-- Limit use of plugins except where absolutely required
+- A drive towards minimalism influenced the initial design of the site. The site is built around the most basic and spare forms, with a content-first ethic.
+- On smaller screens, navigation is handled using a footer-anchor pattern.
+- Screens are important, but "mobile" and "tablet" devices aren't as much. The site's content and responsive features are shaped with smaller screens in mind first, but no particular device types are assumed at any given viewport width. Features are developed with touch and mobile capabilities in mind, but not with the feature-sets or designs of today's devices specifically.
+- Limit use of plugins and JavaScript except where absolutely required.
 - No fancy responsive image tricks, just ~1.5-2x scaled images with heavy optimization (10-40 quality JPEGs run through ImageOptim). Why? There will not be enough images to justify a JavaScript or `<picture>` solution. Most images will be relatively small in file size, and larger feature images will be worth the size/performance trade-off on high resolution screens.
 
 ### Requirements
