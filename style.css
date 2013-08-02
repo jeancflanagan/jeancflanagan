@@ -157,7 +157,7 @@ hr {
 }
 
 #banner h1 {
-  font: normal 600 1.75em/1.25 Calluna, Georgia, serif;
+  font: normal 600 2em/1.25 Calluna, Georgia, serif;
 }
 
 #banner h2 {
@@ -172,7 +172,7 @@ hr {
   display: block;
   position: absolute;
   font-family: 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
-  padding: .5em 1em;
+  padding: .75em 1em;
   right: .5em;
   text-decoration: none;
   top: .5em;
@@ -197,16 +197,16 @@ hr {
   display: block;
   margin: .5em auto;
   max-width: 20em;
-  padding: .25em 1em;
 }
 
 #menu nav li a {
   display: block;
+  padding: .5em 1em;
   text-decoration: none;
 }
 
 #menu nav li:last-child {
-  background: hsla(138, 0%, 59.5%, .1);
+  background: hsla(138, 0%, 59.5%, .2);
   border-left: hsla(138, 0%, 59.5%, 1) 5px solid;
 }
 
@@ -395,7 +395,7 @@ figcaption {
   /* i.e. 320px */
   
   #banner h1 {
-    font-size: 2em;
+    font-size: 2.5em;
   }
 
   .excerpt {
@@ -492,7 +492,7 @@ figcaption {
   to a large-screen conventional inline-block navigation */
 
   #banner {
-    padding-bottom: 3em;
+    padding-bottom: 3.5em;
   }
 
   #banner nav {
