@@ -3,17 +3,19 @@ layout: fundamental
 title: Home
 ---
 
-<ul class="excerpt-index">
-  {% for post in site.posts %}
-  <li class="excerpt">
-    <a href="{{ post.url }}">
-      <article>
-        <h1>{{ post.title }}</h1>
-        {{ post.excerpt | markdownify }}
-        <footer>Published {% if post.source != 'here' %}on{% endif %} {{ post.source }}<br> <time datetime="{{ post.date | date: "%Y-%m-%d" }}T{{ post.date | date: "%H:%M" }}" pubdate>{{ post.date | date: "%B %d, %Y" }}</time>
-        </footer>
-      </article>
-    </a>
-  </li>
-  {% endfor %}
-</ul>
+<section class="index">
+  <ul class="excerpt-index">
+    {% for post in site.posts %}
+    <li class="excerpt">
+      <a href="{{ post.url }}">
+        <article>
+          <h1>{{ post.title }}</h1>
+          {{ post.excerpt | markdownify }}
+          <footer>Published {% if post.source != 'here' %}on{% endif %} {{ post.source }}<br> <time datetime="{{ post.date | date: "%Y-%m-%d" }}T{{ post.date | date: "%H:%M" }}" pubdate>{{ post.date | date: "%B %d, %Y" }}</time>
+          </footer>
+        </article>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
