@@ -563,33 +563,22 @@ figcaption {
   /* i.e. 1280px */
 
   .excerpt-index {
+    font-size: 1.125em;
     max-width: 66em;
-  }
-
-  .excerpt {
-    margin: 1em;
   }
 
 }
 
-@media screen and (min-width: 90em) {
-  /* i.e. 1440px */
+@media screen and (min-width: 95em) {
+  /* i.e. 1520px */
 
   .excerpt-index {
-    max-width: 81em;
+    font-size: 1.25em;
   }
 
   .banner,
   .page {
     font-size: 1.5em;
-  }
-
-  .excerpt {
-    width: 25em;
-  }
-
-  .excerpt article {
-    min-height: 15em;
   }
 
   .site-nav {
