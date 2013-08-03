@@ -416,7 +416,8 @@ figcaption {
   }
 
   .banner,
-  .page {
+  .page,
+  .site-nav {
     font-size: 1.1875em;
   }
 
