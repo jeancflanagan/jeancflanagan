@@ -169,10 +169,9 @@ hr {
 .banner nav a {
   background: hsla(138, 37.5%, 59.5%, .2);
   border-left: hsla(138, 37.5%, 59.5%, 1) 5px solid;
-  display: block;
-  position: absolute;
   font-family: 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
   padding: .75em 1em;
+  position: absolute;
   right: .5em;
   text-decoration: none;
   top: .5em;
@@ -180,7 +179,7 @@ hr {
 
 /** Navigation (responsive, small screen) **/
 .site-nav {
-  background: white;
+  background: hsla(138, 10%, 99.5%, 1);
   font: normal 400 1em/1.5 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
   padding: 1em 0 .5em;
   text-align: center;
@@ -217,11 +216,11 @@ hr {
 
 /** Site footer **/
 .site-info {
-  background: white;
+  background: hsla(138, 10%, 99.5%, 1);
   clear: both;
   font: normal 400 1em/1.5 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
   margin: 0 auto;
-  padding: 2em 0 4em;
+  padding: 2em 0 3em;
   text-align: center;
 }
 
@@ -282,7 +281,8 @@ article.page {
 
 .page ul,
 .page ol {
-  margin: .75em 2em;
+  margin: .75em 0 .75em 2em;
+  padding: 0;
 }
 
 .page footer {
@@ -411,10 +411,6 @@ figcaption {
 @media screen and (min-width: 30em) {
   /* i.e. 480px */
 
-  .site-info a {
-    display: inline;
-  }
-
   .banner,
   .page,
   .site-nav {
@@ -496,8 +492,6 @@ figcaption {
   }
 
   .site-nav {
-    border: none;
-    box-shadow: none;
     font-size: 1.25em;
     left: 50%;
     margin-left: -21em;
