@@ -168,15 +168,9 @@ hr {
 /* Banner responsive navigation */
 
 .banner nav a {
-<<<<<<< HEAD
   background: hsla(138, 37.5%, 59.5%, .2);
   border-left: hsla(138, 37.5%, 59.5%, 1) 5px solid;
   font-family: 'open-sans', 'Open Sans', Calibri, sans-serif;
-=======
-  background: hsla(138, 39%, 54%, .25);
-  border-left: hsla(138, 39%, 54%, 1) 6px solid;
-  font-family: 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
->>>>>>> color-adjustment
   padding: .75em 1em;
   position: absolute;
   right: .5em;
@@ -192,13 +186,8 @@ hr {
 
 /** Navigation (responsive, small screen) **/
 .site-nav {
-<<<<<<< HEAD
   background: hsla(138, 10%, 99.5%, 1);
   font: normal 400 1em/1.5 'open-sans', 'Open Sans', Calibri, sans-serif;
-=======
-  background: hsla(138, 10%, 98%, 1);
-  font: normal 400 1em/1.5 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
->>>>>>> color-adjustment
   padding: 1em 0 .5em;
   text-align: center;
 }
@@ -327,13 +316,8 @@ article.page {
 
 /* Next/Previous navigation */
 .more {
-<<<<<<< HEAD
   background: hsla(138, 37.5%, 59.5%, .2);
   font-family: 'open-sans', 'Open Sans', Calibri, sans-serif;
-=======
-  background: hsla(138, 39%, 54%, .25);
-  font-family: 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
->>>>>>> color-adjustment
   padding: .5em;
   text-align: center;
   text-decoration: none;
