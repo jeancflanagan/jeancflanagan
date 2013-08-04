@@ -186,7 +186,7 @@ hr {
 
 /** Navigation (responsive, small screen) **/
 .site-nav {
-  background: hsla(138, 10%, 99.5%, 1);
+  background: hsla(138, 10%, 98%, 1);
   font: normal 400 1em/1.5 'open-sans', 'Open Sans', Calibri, sans-serif;
   padding: 1em 0 .5em;
   text-align: center;
