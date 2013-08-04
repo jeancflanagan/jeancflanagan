@@ -275,7 +275,7 @@ article.page {
 .page,
 .excerpt article {
   background: hsla(138, 10%, 98%, 1);
-  border-bottom: hsla(138, 39%, 54%, 1) 4px solid;
+  border-bottom: hsla(138, 39%, 54%, 1) 6px solid;
   line-height: 1.375;
 }
 
