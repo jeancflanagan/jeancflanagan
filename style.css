@@ -275,7 +275,7 @@ article.page {
 .page,
 .excerpt article {
   background: hsla(138, 10%, 98%, 1);
-  border-bottom: hsla(138, 39%, 54%, 1) 6px solid;
+  border-bottom: hsla(138, 39%, 54%, 1) 4px solid;
   line-height: 1.375;
 }
 
@@ -373,10 +373,9 @@ article.page {
   text-decoration: none;
 }
 
-.excerpt article:hover, 
-.excerpt article:focus {
-  border-bottom: hsla(37, 75%, 55%, 1) 6px solid;
-  box-shadow: hsla(37, 75%, 55%, 1) 0 4px 0 0;
+.excerpt a article:hover, 
+.excerpt a article:focus {
+  box-shadow: hsla(138, 39%, 54%, 1) 0 4px 0 0;
 }
 
 /** Images **/
