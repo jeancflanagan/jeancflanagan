@@ -259,7 +259,7 @@ hr {
 .excerpt-index {
   list-style: none;
   margin: .5em auto;
-  overflow: auto;
+  overflow: hidden;
   padding: 0;
   transition: none;
 }
@@ -567,10 +567,6 @@ figcaption {
     display: none;
   }
 
-  .excerpt-index {
-    overflow: none; /* auto fix is no longer needed because of shifted .site-nav */
-  }
-
   .site-nav {
     font-size: 1.25em;
     left: 50%; /* this hack centers the nav */
@@ -661,10 +657,6 @@ figcaption {
   .excerpt-index,
   .site-info {
     font-size: 1.125em;
-  }
-
-  .excerpt-index {
-    max-width: 66em;
   }
 
 }
