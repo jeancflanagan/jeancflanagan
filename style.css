@@ -393,15 +393,32 @@ article.page {
 /** Home page link to archive (continuation of index) **/
 
 .archive-link {
-  margin: 1em auto;
-  height: 3em;
+  display: block;
   font: 1em/0 'open-sans', 'Open Sans', Calibri, sans-serif;
+  height: 3.5em;
+  margin: 1em auto;
   text-align: center;
 }
 
 .archive-link a {
   font-size: 6em;
   text-decoration: none;
+}
+
+.archive-link p {
+  height: inherit;
+}
+
+.archive-link:hover,
+.archive-link:focus {
+  -ms-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+}
+
+.archive-link a:hover,
+.archive-link a:focus {
+  color: hsla(138, 39%, 54%, 1);
 }
 
 /** Images **/
@@ -514,15 +531,25 @@ figcaption {
   }
 
   /* becomes 2 columns for the first time here */
-  .excerpt {
+  .excerpt,
+  .archive-link {
     float: left;
     margin: .5em;
-    transition: none;
     width: 20em;
   }
 
-  .excerpt article {
+  .excerpt article,
+  .archive-link {
     min-height: 17em;
+  }
+
+  .archive-link {
+    line-height: 2; /* keeps the ellipsis centered vertically */
+  }
+
+  .archive-link p {
+    font-size: 1.25em;
+    line-height: 1.5;
   }
 
 }
@@ -540,10 +567,14 @@ figcaption {
     display: none;
   }
 
+  .excerpt-index {
+    overflow: none; /* auto fix is no longer needed because of shifted .site-nav */
+  }
+
   .site-nav {
     font-size: 1.25em;
-    left: 50%;
-    margin-left: -20em;
+    left: 50%; /* this hack centers the nav */
+    margin-left: -20em; /* this hack also centers the nav */
     position: absolute;
     top: 8em;
     transition: position 0ms;
@@ -572,12 +603,18 @@ figcaption {
     max-width: 52em;
   }
 
-  .excerpt {
+  .excerpt,
+  .archive-link {
     width: 25em;
   }
 
-  .excerpt article {
+  .excerpt article,
+  .archive-link {
     min-height: 15em;
+  }
+
+  .archive-link p {
+    line-height: 1.25;
   }
 
 }
@@ -593,17 +630,27 @@ figcaption {
     padding: 0 4em 3em;
   }
 
+  /* Becomes 3 columns for the first time here. */
   .excerpt-index {
     max-width: 63em;
   }
 
-  /* Becomes 3 columns for the first time here. */
   .excerpt {
     width: 20em;
   }
 
   .excerpt article {
     min-height: 17em;
+  }
+
+  .archive-link {
+    margin: 0 auto;
+    min-height: 5em;
+    width: 63em;
+  }
+
+  .archive-link p {
+    line-height: 0;
   }
 
 }
