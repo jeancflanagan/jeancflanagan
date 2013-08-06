@@ -130,6 +130,14 @@ blockquote {
   padding: 0em 1em;
 }
 
+sup:before {
+  content: "[ ";
+}
+
+sup:after {
+  content: " ]";
+}
+
 hr {
   border-style: solid;
   border-width: 1px;
@@ -306,6 +314,10 @@ article.page {
 .page footer {
   margin: .5em;
   padding: 1em .5em;
+}
+
+.footnotes {
+  margin: 1.5em 1.5em 1.5em 0;
 }
 
 .reversefootnote {
