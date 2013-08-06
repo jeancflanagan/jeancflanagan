@@ -540,7 +540,7 @@ figcaption {
 
   .excerpt article,
   .archive-link {
-    min-height: 17em;
+    min-height: 17.5em;
   }
 
   .archive-link {
@@ -606,7 +606,7 @@ figcaption {
 
   .excerpt article,
   .archive-link {
-    min-height: 15em;
+    min-height: 15.5em;
   }
 
   .archive-link p {
@@ -636,7 +636,7 @@ figcaption {
   }
 
   .excerpt article {
-    min-height: 17em;
+    min-height: 17.5em;
   }
 
   .archive-link {
