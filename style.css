@@ -400,9 +400,9 @@ article.page {
 
 .archive-link:hover,
 .archive-link:focus {
-  -ms-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -ms-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
 }
 
 .ellipsis {
@@ -434,12 +434,6 @@ article.page {
   left: -2em;
   position: absolute;
   width: 1em;
-}
-
-.ellipsis:hover {
-  -ms-transform: scale(1.25);
-  -webkit-transform: scale(1.25);
-  transition: all 200ms;
 }
 
 /** Images **/
