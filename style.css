@@ -394,7 +394,8 @@ article.page {
 
 .archive-link a {
   display: block;
-  padding: 1em;
+  margin: .5em 8em;
+  padding: .5em;
 }
 
 .archive-link:hover,
@@ -564,8 +565,7 @@ figcaption {
   }
 
   .archive-link a {
-    height: 15.5em;
-    min-height: 15.5em;
+    margin: 7.5em 5em;
   }
 
 }
@@ -626,8 +626,7 @@ figcaption {
   }
 
   .archive-link a {
-    height: 13.5em;
-    min-height: 13.5em;
+    margin: 6.5em 6em;
   }
 
 }
@@ -663,8 +662,7 @@ figcaption {
   }
 
   .archive-link a {
-    height: 3em;
-    min-height: 3em;
+    margin: .5em 25em;
   }
 
   .ellipsis {
