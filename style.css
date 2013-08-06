@@ -153,16 +153,15 @@ hr {
 }
 
 /* Banner headings */
-.banner hgroup {
-  padding: .5em 0;
-}
 
 .banner h1 {
   font: normal 600 2em/1.25 Calluna, Georgia, serif;
+  padding: .4em 0 .1em;
 }
 
 .banner h2 {
-  font-size: 1em;
+  font: normal 400 1em/1 Calluna, Georgia, serif;
+  padding: 0 0 1.5em 0;
 }
 
 /* Banner responsive navigation */
@@ -290,7 +289,7 @@ article.page {
 }
 
 .page header h2 {
-  font-size: .875em;
+  font-size: .8em;
 }
 
 .page p {
@@ -519,7 +518,7 @@ figcaption {
     left: 50%;
     margin-left: -21em;
     position: absolute;
-    top: 7em;
+    top: 8em;
     transition: position 0ms;
     width: 42em;
   }
@@ -585,8 +584,12 @@ figcaption {
 @media screen and (min-width: 80em) {
   /* i.e. 1280px */
 
-  .excerpt-index {
+  .excerpt-index,
+  .site-info {
     font-size: 1.125em;
+  }
+
+  .excerpt-index {
     max-width: 66em;
   }
 
@@ -595,7 +598,8 @@ figcaption {
 @media screen and (min-width: 95em) {
   /* i.e. 1520px */
 
-  .excerpt-index {
+  .excerpt-index,
+  .site-info {
     font-size: 1.25em;
   }
 
@@ -605,7 +609,7 @@ figcaption {
   }
 
   .site-nav {
-    top: 8.5em;
+    top: 9.5em;
   }
 
 }
