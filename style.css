@@ -560,7 +560,7 @@ figcaption {
   to a large-screen conventional inline-block navigation */
 
   .banner {
-    padding-bottom: 3.5em;
+    padding-bottom: 2.75em;
   }
 
   .banner nav {
@@ -572,7 +572,7 @@ figcaption {
     left: 50%; /* this hack centers the nav */
     margin-left: -20em; /* this hack also centers the nav */
     position: absolute;
-    top: 7.5em;
+    top: 7em;
     transition: position 0ms;
     width: 40em;
   }
