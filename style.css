@@ -76,6 +76,7 @@ textarea {
 /*** Basic structure and formatting ***/
 
 html {
+  background: hsla(138, 10%, 98%, 1);
   color: hsla(138, 16%, 10%, 1);
   font: normal 400 16px/1 Calluna, Georgia, serif;
   font: normal 400 1rem/1 Calluna, Georgia, serif;
@@ -256,6 +257,7 @@ hr {
 
 /** Archive (index excerpt container) **/
 .excerpt-index {
+  list-style: none;
   margin: .5em auto;
   overflow: auto;
   padding: 0;
@@ -358,7 +360,6 @@ article.page {
 /* Excerpt-specific */
 .excerpt {
   margin: 1em auto;
-  list-style: none;
 }
 
 .excerpt article {
@@ -387,6 +388,20 @@ article.page {
 .excerpt a article:hover, 
 .excerpt a article:focus {
   box-shadow: hsla(138, 39%, 54%, 1) 0 4px 0 0;
+}
+
+/** Home page link to archive (continuation of index) **/
+
+.archive-link {
+  margin: 1em auto;
+  height: 3em;
+  font: 1em/0 'open-sans', 'Open Sans', Calibri, sans-serif;
+  text-align: center;
+}
+
+.archive-link a {
+  font-size: 6em;
+  text-decoration: none;
 }
 
 /** Images **/
@@ -528,11 +543,11 @@ figcaption {
   .site-nav {
     font-size: 1.25em;
     left: 50%;
-    margin-left: -21em;
+    margin-left: -20em;
     position: absolute;
     top: 8em;
     transition: position 0ms;
-    width: 42em;
+    width: 40em;
   }
 
   .site-nav {
