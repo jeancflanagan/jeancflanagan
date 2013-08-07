@@ -392,21 +392,10 @@ article.page {
 
 /** Home page link to archive (continuation of index) **/
 
-.archive-link {
-  display: block;
-  font: 1em/0 'open-sans', 'Open Sans', Calibri, sans-serif;
-  height: 3.5em;
-  margin: 1em auto;
-  text-align: center;
-}
-
 .archive-link a {
-  font-size: 6em;
-  text-decoration: none;
-}
-
-.archive-link p {
-  height: inherit;
+  display: block;
+  margin: 0 8em;
+  padding: 1em;
 }
 
 .archive-link:hover,
@@ -416,9 +405,35 @@ article.page {
   transform: scale(1.25);
 }
 
-.archive-link a:hover,
-.archive-link a:focus {
-  color: hsla(138, 39%, 54%, 1);
+.ellipsis {
+  background: hsla(138, 39%, 54%, 1);
+  border-radius: 100%;
+  display: block;
+  height: 1em;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  width: 1em;
+}
+
+.ellipsis:after {
+  background: hsla(138, 39%, 54%, 1);
+  border-radius: 100%;
+  content: "";
+  height: 1em;
+  left: 2em;
+  position: absolute;
+  width: 1em;
+}
+
+.ellipsis:before {
+  background: hsla(138, 39%, 54%, 1);
+  border-radius: 100%;
+  content: "";
+  height: 1em;
+  left: -2em;
+  position: absolute;
+  width: 1em;
 }
 
 /** Images **/
@@ -543,13 +558,8 @@ figcaption {
     min-height: 17.5em;
   }
 
-  .archive-link {
-    line-height: 2; /* keeps the ellipsis centered vertically */
-  }
-
-  .archive-link p {
-    font-size: 1.25em;
-    line-height: 1.5;
+  .archive-link a {
+    margin: 7.5em 5em;
   }
 
 }
@@ -609,8 +619,8 @@ figcaption {
     min-height: 15.5em;
   }
 
-  .archive-link p {
-    line-height: 1.25;
+  .archive-link a {
+    margin: 6.5em 6em;
   }
 
 }
@@ -641,12 +651,16 @@ figcaption {
 
   .archive-link {
     margin: 0 auto;
-    min-height: 5em;
+    min-height: 3em;
     width: 63em;
   }
 
-  .archive-link p {
-    line-height: 0;
+  .archive-link a {
+    margin: .5em 25em;
+  }
+
+  .ellipsis {
+    top: 0;
   }
 
 }
