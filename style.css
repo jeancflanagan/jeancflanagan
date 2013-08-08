@@ -537,12 +537,16 @@ figcaption {
     font-size: 1.25em;
   }
 
-  .page,
-  .excerpt-index {
+  .page {
     max-width: 36em;
   }
 
   /* becomes 2 columns for the first time here */
+
+  .excerpt-index {
+    max-width: 42em;
+  }
+
   .excerpt,
   .archive-link {
     float: left;
