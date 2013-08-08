@@ -267,7 +267,7 @@ hr {
 .page {
   margin: 1em auto;
   max-width: 42em;
-  padding: 1em 5% 3em;
+  padding: 0 1em 3em;
 }
 
 /* Shared page/excerpt styles */
@@ -430,11 +430,11 @@ figcaption {
 
 }
 
-@media screen and (min-width: 25em) {
-  /* i.e. 400px */
+@media screen and (min-width: 22em) {
+  /* i.e. 352px */
 
   .page {
-    padding: 0 2em 3em;
+    padding: 0 1.5em 3em;
   }
 
 }
@@ -442,10 +442,14 @@ figcaption {
 @media screen and (min-width: 30em) {
   /* i.e. 480px */
 
+  .page {
+    padding: 0 2em 3em;
+  }
+
   .banner,
   .page,
   .site-nav {
-    font-size: 1.1875em;
+    font-size: 1.125em;
   }
 
   .excerpt {
