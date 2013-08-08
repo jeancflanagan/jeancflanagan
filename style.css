@@ -533,7 +533,8 @@ figcaption {
   }
 
   .banner,
-  .page {
+  .page,
+  .site-nav {
     font-size: 1.25em;
   }
 
@@ -579,7 +580,6 @@ figcaption {
   }
 
   .site-nav {
-    font-size: 1.25em;
     left: 50%; /* this hack centers the nav */
     margin-left: -20em; /* this hack also centers the nav */
     position: absolute;
