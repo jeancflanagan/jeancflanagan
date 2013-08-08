@@ -6,7 +6,7 @@ date: 2013-02-25 10:01
 excerpt: "Highlights from the sessions focussed on science education"
 source: PLOS Sci-Ed
 sourceurl: http://blogs.plos.org/scied/2013/02/25/science-education-at-science-online-2013/
-image-1: 2013-02-25-science-online-jean-flanagan.jpg
+image: 2013-02-25-science-online-jean-flanagan.jpg
 ---
 
 This was my first Science Online conference, and it was a refreshingly collaborative experience. Research scientists, high school teachers, museum educators, education researchers, science writers, psychologists, and social scientists all came together with no pretensions for a shared purpose: to share ideas on how to better educate and communicate with the public about science.
@@ -14,7 +14,7 @@ This was my first Science Online conference, and it was a refreshingly collabora
 The design of the name badges nicely captures the feel of the “unconference” format. The badges emphasize first names and are intentionally devoid of institutional affiliations, creating an open, egalitarian atmosphere. The style of this conference is a perfect example of one way to combat the problems of elitism and distrust that I outlined in my earlier post on the research-practice divide in science education.
 
 <figure class="right">
-<img src="{{ site.image-url }}{{ page.image-1 }}"/>
+<img src="{{ site.image-url }}{{ page.image }}"/>
 <figcaption>Science Online 2013 name badge. (PLOS sponsored the lanyards for everyone.) Photo by Jean Flanagan.</figcaption>
 </figure>
 

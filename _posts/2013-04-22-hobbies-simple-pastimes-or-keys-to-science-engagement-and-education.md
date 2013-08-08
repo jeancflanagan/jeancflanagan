@@ -5,13 +5,13 @@ date: 2013-04-22 10:01
 excerpt: "Many scientists report hobbies as being influential to their career plans growing up. What does this mean for science education?"
 source: PLOS Sci-Ed
 sourceurl: http://blogs.plos.org/scied/2013/04/22/hobbies-idle-pastimes-or-keys-to-science-engagement/
-image-1: 2013-04-22-gems-cc-jean-flanagan.jpg
+image: 2013-04-22-gems-cc-jean-flanagan.jpg
 ---
 
 Collecting and polishing rocks and minerals, hunting for shells and fossils, gardening, birding, keeping freshwater and marine aquariums – this was how I spent my childhood: hopping from one hobby to the next, all centered around the natural (or semi-natural) world. My interest in science and nature started before I can remember – it just always seemed to be there. I'm sure my parents had something to do with it, my dad being an aerospace engineer, and my mom a student of botany and horticulture and a sort of unofficial lifelong naturalist. But while they supported my hobbies (often with a great deal of time, effort, and patience), these activities were all primarily driven by my own interests and inclinations. They weren't things I was pushed to do. Over the years I cycled through paleontologist, veterinarian, science teacher, ecologist and marine biologist as my career goal of choice, but it was always a given in my mind that I would go to college, study biology, and end up in some sort of science-related career. The career I was set on pursuing in any given year usually matched whichever hobby I was currently most engaged with. 
 
 <figure class="right">
-<img src="{{ site.image-url }}{{ page.image-1 }}"/>
+<img src="{{ site.image-url }}{{ page.image }}"/>
 <figcaption>A few representatives from my childhood rock and mineral collection. Photo by Jean Flanagan.</figcaption>
 </figure>
 
