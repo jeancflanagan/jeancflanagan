@@ -76,6 +76,7 @@ textarea {
 /*** Basic structure and formatting ***/
 
 html {
+  background: hsla(138, 10%, 98%, 1);
   color: hsla(138, 16%, 10%, 1);
   font: normal 400 16px/1 Calluna, Georgia, serif;
   font: normal 400 1rem/1 Calluna, Georgia, serif;
@@ -176,7 +177,7 @@ hr {
 
 .banner nav a {
   background: hsla(138, 37.5%, 59.5%, .2);
-  border-left: hsla(138, 37.5%, 59.5%, 1) 5px solid;
+  border-left: hsla(138, 37.5%, 59.5%, 1) 6px solid;
   font-family: 'open-sans', 'Open Sans', Calibri, sans-serif;
   padding: .75em 1em;
   position: absolute;
@@ -201,25 +202,25 @@ hr {
 
 .site-nav ul {
   list-style: none;
-  margin: 0 1em;
+  margin: 0 auto;
+  max-width: 20em;
   padding: 0;
 }
 
-.site-nav li {
+.site-nav li a {
   background: hsla(138, 39%, 54%, .25);
   border-left: hsla(138, 39%, 54%, 1) 6px solid;
   display: block;
   margin: .5em auto;
-  max-width: 20em;
 }
 
-.site-nav li:last-child {
+.site-nav li:last-child a {
   background: hsla(138, 0%, 59.5%, .25);
   border-left: hsla(138, 0%, 59.5%, 1) 6px solid;
 }
 
-.site-nav li:hover,
-.site-nav li:focus {
+.site-nav li a:hover,
+.site-nav li a:focus {
   background: hsla(37, 75%, 55%, .25);
   border-left: hsla(37, 75%, 55%, 1) 6px solid;
 }
@@ -234,8 +235,8 @@ hr {
   color: hsla(138, 16%, 10%, 1);
 }
 
-.site-nav li:last-child a:hover,
-.site-nav li:last-child a:focus {
+.site-nav li:last-child:hover,
+.site-nav li:last-child:focus {
   color: hsla(37, 75%, 55%, 1);
 }
 
@@ -256,8 +257,9 @@ hr {
 
 /** Archive (index excerpt container) **/
 .excerpt-index {
+  list-style: none;
   margin: .5em auto;
-  overflow: auto;
+  overflow: hidden;
   padding: 0;
   transition: none;
 }
@@ -355,7 +357,6 @@ hr {
 /* Excerpt-specific */
 .excerpt {
   margin: 1em auto;
-  list-style: none;
 }
 
 .excerpt article {
@@ -384,6 +385,52 @@ hr {
 .excerpt a article:hover, 
 .excerpt a article:focus {
   box-shadow: hsla(138, 39%, 54%, 1) 0 4px 0 0;
+}
+
+/** Home page link to archive (continuation of index) **/
+
+.archive-link a {
+  display: block;
+  margin: 0 8em;
+  padding: 1em;
+}
+
+.archive-link:hover,
+.archive-link:focus {
+  -ms-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+}
+
+.ellipsis {
+  background: hsla(138, 39%, 54%, 1);
+  border-radius: 100%;
+  display: block;
+  height: 1em;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  width: 1em;
+}
+
+.ellipsis:after {
+  background: hsla(138, 39%, 54%, 1);
+  border-radius: 100%;
+  content: "";
+  height: 1em;
+  left: 2em;
+  position: absolute;
+  width: 1em;
+}
+
+.ellipsis:before {
+  background: hsla(138, 39%, 54%, 1);
+  border-radius: 100%;
+  content: "";
+  height: 1em;
+  left: -2em;
+  position: absolute;
+  width: 1em;
 }
 
 /** Images **/
@@ -496,15 +543,20 @@ figcaption {
   }
 
   /* becomes 2 columns for the first time here */
-  .excerpt {
+  .excerpt,
+  .archive-link {
     float: left;
     margin: .5em;
-    transition: none;
     width: 20em;
   }
 
-  .excerpt article {
-    min-height: 17em;
+  .excerpt article,
+  .archive-link {
+    min-height: 17.5em;
+  }
+
+  .archive-link a {
+    margin: 7.5em 5em;
   }
 
 }
@@ -515,7 +567,7 @@ figcaption {
   to a large-screen conventional inline-block navigation */
 
   .banner {
-    padding-bottom: 3.5em;
+    padding-bottom: 2.75em;
   }
 
   .banner nav {
@@ -524,12 +576,12 @@ figcaption {
 
   .site-nav {
     font-size: 1.25em;
-    left: 50%;
-    margin-left: -21em;
+    left: 50%; /* this hack centers the nav */
+    margin-left: -20em; /* this hack also centers the nav */
     position: absolute;
-    top: 8em;
+    top: 7em;
     transition: position 0ms;
-    width: 42em;
+    width: 40em;
   }
 
   .site-nav {
@@ -560,12 +612,18 @@ figcaption {
     max-width: 52em;
   }
 
-  .excerpt {
+  .excerpt,
+  .archive-link {
     width: 25em;
   }
 
-  .excerpt article {
-    min-height: 15em;
+  .excerpt article,
+  .archive-link {
+    min-height: 15.5em;
+  }
+
+  .archive-link a {
+    margin: 6.5em 6em;
   }
 
   .right {
@@ -589,17 +647,31 @@ figcaption {
     font-size: 1.5em;
   }
 
+  /* Becomes 3 columns for the first time here. */
   .excerpt-index {
     max-width: 63em;
   }
 
-  /* Becomes 3 columns for the first time here. */
   .excerpt {
     width: 20em;
   }
 
   .excerpt article {
-    min-height: 17em;
+    min-height: 17.5em;
+  }
+
+  .archive-link {
+    margin: 0 auto;
+    min-height: 3em;
+    width: 63em;
+  }
+
+  .archive-link a {
+    margin: .5em 25em;
+  }
+
+  .ellipsis {
+    top: 0;
   }
 
 }
@@ -610,10 +682,6 @@ figcaption {
   .excerpt-index,
   .site-info {
     font-size: 1.125em;
-  }
-
-  .excerpt-index {
-    max-width: 66em;
   }
 
 }
@@ -635,7 +703,7 @@ figcaption {
   }
 
   .site-nav {
-    top: 9.5em;
+    top: 9em;
   }
 
 }

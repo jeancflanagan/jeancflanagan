@@ -1,10 +1,10 @@
 ---
 layout: fundamental
-title: Home
+title: Writing Archive
 ---
 
 <ul class="excerpt-index">
-  {% for post in site.posts limit:3 %}
+  {% for post in site.posts %}
   <li class="excerpt">
     <a href="{{ post.url }}">
       <article>
@@ -16,9 +16,4 @@ title: Home
     </a>
   </li>
   {% endfor %}
-  <li class="archive-link">
-    <a title="The writing archive" href="/writing/">
-      <i class="ellipsis"></i>
-    </a>
-  </li>
 </ul>
