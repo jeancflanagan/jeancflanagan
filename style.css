@@ -154,7 +154,7 @@ hr {
   background: hsla(138, 10%, 98%, 1);
   box-shadow: hsla(218, 2%, 10%, .5) 0 -1px 10px 1px;
   margin: 0;
-  padding: 2.5em 0 0 0;
+  padding: 3.5em 0 0 0;
   text-align: center;
   transition: none;
 }
@@ -494,14 +494,18 @@ figcaption {
 @media screen and (min-width: 30em) {
   /* i.e. 480px */
 
-  .page {
-    padding: 0 2em 3em;
-  }
-
   .banner,
   .page,
   .site-nav {
     font-size: 1.125em;
+  }
+
+  .page {
+    padding: 0 2em 3em;
+  }
+
+  .banner {
+    padding: 2.5em 0 0 0;
   }
 
   .excerpt {
