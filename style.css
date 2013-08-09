@@ -376,7 +376,7 @@ hr {
 /* Gallery-specific */
 
 .gallery {
-  max-width: 50em;
+  max-width: 48em; /* i.e. 768px or "1.333 density ratio" width for images */
   padding: 0 0 2em 0;
 }
 
