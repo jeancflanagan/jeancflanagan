@@ -1,9 +1,9 @@
 ---
 layout: article
 category: writing
-title: "Science education at Science Online 2013"
+title: 'Science education at Science Online 2013'
 date: 2013-02-25 10:01
-excerpt: "Highlights from the sessions focussed on science education"
+excerpt: 'Highlights from the sessions focussed on science education'
 source: PLOS Sci-Ed
 sourceurl: http://blogs.plos.org/scied/2013/02/25/science-education-at-science-online-2013/
 image: 2013-02-25-science-online-jean-flanagan.jpg

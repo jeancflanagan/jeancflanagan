@@ -1,9 +1,9 @@
 ---
 layout: article
 category: writing
-title: "Learning to read the tree of life"
+title: 'Learning to read the tree of life'
 date: 2013-05-20 10:00
-excerpt: For biologists, the "tree of life" stands for both the unity and diversity of life. But are students and non-scientists accurately interpreting its branches?
+excerpt: 'For biologists, the "tree of life" stands for both the unity and diversity of life. But are students and non-scientists accurately interpreting its branches?'
 source: PLOS Sci-Ed
 sourceurl: http://blogs.plos.org/scied/2013/01/14/facing-the-research-practice-divide-in-science-education/
 image: 

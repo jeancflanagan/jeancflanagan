@@ -1,9 +1,9 @@
 ---
 layout: article
 category: writing
-title: "Open data for science education"
+title: 'Open data for science education'
 date: 2013-07-08 10:01
-excerpt: Science students can benefit greatly from educational materials that expose them to real-world data, but educators can't access most scientific data.
+excerpt: 'Science students can benefit greatly from educational materials that expose them to real-world data, but educators can't access most scientific data.'
 source: PLOS Sci-Ed
 sourceurl: http://blogs.plos.org/scied/2013/07/08/open-data-for-science-education/
 image: 2013-07-08-open-data-opensourceway-cc-by-sa.png
