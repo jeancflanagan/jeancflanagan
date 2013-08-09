@@ -1,7 +1,12 @@
 ---
 layout: fundamental
 ---
-<article class="page" role="main">
-  <!-- TODO: image liquid loop -->
-  {{ content }}
+<article class="foreground gallery" role="main">
+  <section class="photos">
+    {% for image in page.image %}
+    <figure>
+      <img src="{{ image }}" alt="{{ image-alt }}">
+    </figure>
+    {% endfor %}
+  </section>
 </article>

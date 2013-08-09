@@ -92,6 +92,10 @@ body {
   background: hsla(218, 2%, 32%, 1);
 }
 
+.foreground {
+  background: hsla(138, 10%, 98%, 1);
+}
+
 a,
 a:visited,
 .excerpt article h1 {
@@ -151,7 +155,6 @@ hr {
 /*** Component styles ***/
 /** Site header **/
 .banner {
-  background: hsla(138, 10%, 98%, 1);
   margin: 0;
   padding: 2.5em 0 0 0;
   text-align: center;
@@ -194,7 +197,6 @@ hr {
 
 /** Navigation (responsive, small screen) **/
 .site-nav {
-  background: hsla(138, 10%, 98%, 1);
   font: normal 400 1em/1.5 'open-sans', 'Open Sans', Calibri, sans-serif;
   padding: 1em 0 .5em;
   text-align: center;
@@ -242,7 +244,6 @@ hr {
 
 /** Site footer **/
 .site-info {
-  background: hsla(138, 10%, 98%, 1);
   clear: both;
   font: normal 400 1em/1.5 'open-sans', 'Open Sans', Calibri, sans-serif;
   margin: 0 auto;
@@ -264,7 +265,7 @@ hr {
   transition: none;
 }
 
-/** Posts, pages and excerpts **/
+/** Posts, pages, galleries and excerpts **/
 /* Fundamental page */
 .page {
   margin: 1em auto;
@@ -275,15 +276,16 @@ article.page {
   padding: 1em 5% 3em;
 }
 
-/* Shared page/excerpt styles */
+/* Shared page/gallery/excerpt styles */
 .page,
-.excerpt {
+.excerpt,
+.gallery {
   box-shadow: hsla(218, 2%, 10%, .5) 0 -1px 10px 1px;
 }
 
 .page,
-.excerpt article {
-  background: hsla(138, 10%, 98%, 1);
+.excerpt article,
+.gallery {
   border-bottom: hsla(138, 39%, 54%, 1) 6px solid;
   line-height: 1.375;
 }
@@ -363,6 +365,7 @@ article.page {
 }
 
 .excerpt article {
+  background: hsla(138, 10%, 98%, 1);
   color: hsla(138, 16%, 10%, 1); /* get rid of that default link color */
   min-height: 12em;
   padding: .75em;
