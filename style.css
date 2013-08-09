@@ -618,6 +618,10 @@ figure img {
     padding: 0;
   }
 
+  .site-nav ul {
+    max-width: none;
+  }
+
   .site-nav li {
     display: inline-block;
     margin: 0 .5em;
