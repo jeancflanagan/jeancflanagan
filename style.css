@@ -270,10 +270,7 @@ hr {
 .page {
   margin: 1em auto;
   max-width: 42em;
-}
-
-article.page {
-  padding: 1em 5% 3em;
+  padding: 0 1em 3em;
 }
 
 /* Shared page/gallery/excerpt styles */
@@ -483,11 +480,11 @@ figcaption {
 
 }
 
-@media screen and (min-width: 25em) {
-  /* i.e. 400px */
+@media screen and (min-width: 22em) {
+  /* i.e. 352px */
 
-  article.page {
-    padding: 0 3em 3em;
+  .page {
+    padding: 0 1.5em 3em;
   }
 
 }
@@ -495,10 +492,14 @@ figcaption {
 @media screen and (min-width: 30em) {
   /* i.e. 480px */
 
+  .page {
+    padding: 0 2em 3em;
+  }
+
   .banner,
   .page,
   .site-nav {
-    font-size: 1.1875em;
+    font-size: 1.125em;
   }
 
   .excerpt {
@@ -511,21 +512,17 @@ figcaption {
 @media screen and (min-width: 38em) {
   /* i.e. 608px */
 
-  article.page {
-    padding: 0 4em 3em;
-  }
-
   /* Image layout and sizes */
 
   .right {
     float: right;
-    margin: .5em -4em .5em 1.5em;
+    margin: .5em -2em .5em 1.5em;
     max-width: 50%;
   }
 
   .left {
     float: left;
-    margin: .5em 1.5em .5em -4em;
+    margin: .5em 1.5em .5em -2em;
     max-width: 50%;
   }
 
@@ -539,16 +536,21 @@ figcaption {
   }
 
   .banner,
-  .page {
+  .page,
+  .site-nav {
     font-size: 1.25em;
   }
 
-  .page,
+  .page {
+    max-width: 36em;
+  }
+
+  /* becomes 2 columns for the first time here */
+
   .excerpt-index {
     max-width: 42em;
   }
 
-  /* becomes 2 columns for the first time here */
   .excerpt,
   .archive-link {
     float: left;
@@ -581,7 +583,6 @@ figcaption {
   }
 
   .site-nav {
-    font-size: 1.25em;
     left: 50%; /* this hack centers the nav */
     margin-left: -20em; /* this hack also centers the nav */
     position: absolute;
@@ -608,6 +609,12 @@ figcaption {
 @media screen and (min-width: 54em) {
   /* i.e. 864px */
 
+  .page {
+    font-size: 1.375em;
+    max-width: 40em;
+    padding: 0 4em 3em;
+  }
+
   .excerpt-index {
     max-width: 52em;
   }
@@ -626,17 +633,25 @@ figcaption {
     margin: 6.5em 6em;
   }
 
+  .right {
+    float: right;
+    margin: .5em -4em .5em 1.5em;
+    max-width: 50%;
+  }
+
+  .left {
+    float: left;
+    margin: .5em 1.5em .5em -4em;
+    max-width: 50%;
+  }
+
 }
 
 @media screen and (min-width: 64em) {
   /* i.e. 1024px */
 
   .page {
-    font-size: 1.375em;
-  }
-
-  article.page {
-    padding: 0 4em 3em;
+    font-size: 1.5em;
   }
 
   /* Becomes 3 columns for the first time here. */
@@ -686,9 +701,12 @@ figcaption {
     font-size: 1.25em;
   }
 
-  .banner,
-  .page {
+  .banner {
     font-size: 1.5em;
+  }
+
+  .page {
+    font-size: 1.625em;
   }
 
   .site-nav {
