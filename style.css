@@ -283,11 +283,13 @@ hr {
 .ellipsis:after {
   content: "";
   left: 2em;
+  position: absolute;
 }
 
 .ellipsis:before {
   content: "";
   left: -2em;
+  position: absolute;
 }
 
 .ellipsis,
@@ -296,7 +298,6 @@ hr {
   background: hsla(138, 39%, 54%, 1);
   border-radius: 100%;
   height: 1em;
-  position: absolute;
   width: 1em;
 }
 
@@ -308,12 +309,6 @@ hr {
 }
 
 /** Posts, pages, galleries and excerpts **/
-/* Fundamental page */
-.page {
-  margin: 1em auto;
-  max-width: 42em;
-  padding: 0 1em 3em;
-}
 
 /* Shared page/gallery/excerpt styles */
 .page,
@@ -329,7 +324,17 @@ hr {
   line-height: 1.375;
 }
 
+.page,
+.gallery {
+  margin: 1em auto;
+}
+
 /* Page-specific */
+.page {
+  max-width: 42em;
+  padding: 0 1em 3em;
+}
+
 .page header {
   padding: 1em 0;
   text-align: center;
@@ -366,6 +371,13 @@ hr {
   float: right;
   left: 1.5em;
   position: relative;
+}
+
+/* Gallery-specific */
+
+.gallery {
+  max-width: 50em;
+  padding: 0 0 2em 0;
 }
 
 /* Excerpt-specific */
@@ -434,14 +446,24 @@ hr {
 
 /** Images **/
 
-figure {
-  background: hsla(138, 39%, 54%, .25);
-  margin: 1em 0;
-}
+/* General figure styles */
 
 figure img {
   display: block;
   margin: 0 auto;
+}
+
+/* Page-specific figure styles */
+
+.page figure {
+  background: hsla(138, 39%, 54%, .25);
+  margin: 1em 0;
+}
+
+.page figcaption {
+  font: normal 400 .75em/1.5 'open-sans', 'Open Sans', Calibri, sans-serif;
+  padding: .5em;
+  text-align: center;
 }
 
 .right,
@@ -449,9 +471,14 @@ figure img {
   max-width: 100%; /* 50% at smaller viewports */
 }
 
-figcaption {
-  font: normal 400 .75em/1.5 'open-sans', 'Open Sans', Calibri, sans-serif;
-  padding: .5em;
+/* Gallery-specific figure styles */
+
+.gallery figure {
+  margin: 1em 0;  
+}
+
+.gallery figcaption {
+  font-size: .875em;
   text-align: center;
 }
 
@@ -682,8 +709,13 @@ figcaption {
 @media screen and (min-width: 80em) {
   /* i.e. 1280px */
 
+  .gallery {
+    max-width: 64em;
+  }
+
   .excerpt-index,
-  .site-info {
+  .site-info,
+  .gallery figcaption {
     font-size: 1.125em;
   }
 
