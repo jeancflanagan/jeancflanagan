@@ -1,20 +1,21 @@
 ---
-layout: article
+layout: writing
 category: writing
-title: "Learning to read the tree of life"
+title: 'Learning to read the tree of life'
 date: 2013-05-20 10:00
-excerpt: For biologists, the "tree of life" stands for both the unity and diversity of life. But are students and non-scientists accurately interpreting its branches?
+excerpt: 'For biologists, the "tree of life" stands for both the unity and diversity of life. But are students and non-scientists accurately interpreting its branches?'
 source: PLOS Sci-Ed
 sourceurl: http://blogs.plos.org/scied/2013/01/14/facing-the-research-practice-divide-in-science-education/
-image-1: 2013-05-20-lone-tree-daveybot-cc-by-nc-sa.jpg
-image-2: 2013-05-20-1000px-identical-cladograms-alexei-kouprianov-cc-by-sa.png
-image-3: 2013-05-20-dynamic-evolutionary-map-vultures-vultures-sonia-stephens-cc-by-nc-sa.png
+image: 
+  - 2013-05-20-lone-tree-daveybot-cc-by-nc-sa.jpg
+  - 2013-05-20-1000px-identical-cladograms-alexei-kouprianov-cc-by-sa.png
+  - 2013-05-20-dynamic-evolutionary-map-vultures-vultures-sonia-stephens-cc-by-nc-sa.png
 ---
 
 Evolution education is entering an exciting time: scientists are working on the [Open Tree of Life](http://blog.opentreeoflife.org/project-summary/ "The Open Tree of Life - Project Summary")  the first comprehensive tree charting the evolutionary relationships of all named species -- and many U.S. classrooms are preparing for state adoption of the [Next Generation Science Standards](http://www.nextgenscience.org/next-generation-science-standards "Next Generation Science Standards") (NGSS), in which evolution and common ancestry are central. However, in order to capitalize on these developments, students will need to become competent in the surprisingly tricky skill of "tree thinking".
 
 <figure>
-<img src="{{ site.image-url }}{{ page.image-1 }}"/>
+<img src="{{ site.image-url }}{{ page.image[0] }}"/>
 <figcaption>Lone tree. Photo by <a href="http://www.flickr.com/photos/davemorris/96442418/in/faves-jeancflanagan/">Daveybot on Flickr (CC-BY-NC-SA).</a></figcaption>
 </figure>
 
@@ -25,7 +26,7 @@ Trees are one of the most powerful metaphors in art and science. For biologists,
 Science education researchers have been documenting students' troubles with trees for many years. Textbooks, museum exhibits, and other learning resources are filled with a variety of tree-inspired diagrams that often represent different types of information from each other. Different diagrams may show different levels of taxa (for example, species, genera, or orders). Some may be oriented horizontally and others vertically. And they may or may not include shared traits, shared ancestors, or time. Some researchers have argued that diagrams that are not cladograms -- which use a simple branching system to depict clades, or groups that share a common ancestor --  are less useful and [only serve to confuse](http://evolution.berkeley.edu/UToL/catley_novick08.pdf "Catley & Novick - Seeing the Wood for the Trees"). Yet cladograms themselves are notoriously easy to misinterpret. 
 
 <figure class="left">
-<img src="{{ site.image-url }}{{ page.image-2 }}"/>
+<img src="{{ site.image-url }}{{ page.image[1] }}"/>
 <figcaption>Two styles of cladogram depicting identical relationships. Branches can rotate around nodes without altering the meaning of the diagram. Image by Alexei Kouprianov (CC-BY-SA).</a></figcaption>
 </figure>
 
@@ -51,7 +52,7 @@ I met [Sonia Stephens](http://terpsinoe.wordpress.com/my-cv/ "Sonia Stephens - C
 In her [paper](http://link.springer.com/article/10.1007/s12052-012-0457-3/fulltext.html "From Tree to Map: Using Cognitive Learning Theory to Suggest Alternative Ways to Visualize Macroevolution") in *Evolution: Education & Outreach*, Sonia explains that the map is essentially a top-down cross-section of a phylogenetic tree. Multiple cross-sections, which animate in sequence, represent different points in time. Taxa appear as dots whose relative spatial distances are determined by phylogenetic relatedness. When reading a cladogram, the intuitive impulse to infer relatedness from spatial distance between branch tips inevitably leads to error. The DEM works with this intuition, rather than against it. 
 
 <figure>
-<img src="{{ site.image-url }}{{ page.image-3 }}"/>
+<img src="{{ site.image-url }}{{ page.image[2] }}"/>
 <figcaption>The Dynamic Evolutionary Map showing the present day. Visualization by Sonia Stephens (CC-BY-NC-SA).</a></figcaption>
 </figure>
 
