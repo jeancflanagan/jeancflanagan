@@ -98,7 +98,7 @@ body {
 
 a,
 a:visited,
-.excerpt article h1 {
+.writing-excerpt h1 {
   color: hsla(138, 39%, 54%, 1);
 }
 
@@ -318,7 +318,7 @@ hr {
 }
 
 .page,
-.excerpt article,
+.writing-excerpt,
 .gallery {
   border-bottom: hsla(138, 39%, 54%, 1) 6px solid;
   line-height: 1.375;
@@ -385,22 +385,22 @@ hr {
   margin: 1em auto;
 }
 
-.excerpt article {
+.writing-excerpt {
   background: hsla(138, 10%, 98%, 1);
   color: hsla(138, 16%, 10%, 1); /* get rid of that default link color */
   min-height: 12em;
   padding: .75em;
 }
 
-.excerpt article h1 {
+.writing-excerpt h1 {
   font: normal 400 1.25em 'open-sans', 'Open Sans', Calibri, sans-serif;
 }
 
-.excerpt article p {
+.writing-excerpt p {
   margin: 1em 0;
 }
 
-.excerpt article footer {
+.writing-excerpt footer {
   font: normal 400 .875em 'open-sans', 'Open Sans', Calibri, sans-serif;
   text-align: right;
 }
@@ -409,8 +409,8 @@ hr {
   text-decoration: none;
 }
 
-.excerpt a article:hover, 
-.excerpt a article:focus {
+.writing-excerpt a:hover, 
+.writing-excerpt a:focus {
   box-shadow: hsla(138, 39%, 54%, 1) 0 4px 0 0;
 }
 
@@ -581,7 +581,7 @@ figure img {
     width: 20em;
   }
 
-  .excerpt article,
+  .writing-excerpt,
   .archive-link {
     min-height: 17.5em;
   }
@@ -651,7 +651,7 @@ figure img {
     width: 25em;
   }
 
-  .excerpt article,
+  .writing-excerpt,
   .archive-link {
     min-height: 15.5em;
   }
@@ -690,7 +690,7 @@ figure img {
     width: 20em;
   }
 
-  .excerpt article {
+  .writing-excerpt {
     min-height: 17.5em;
   }
 

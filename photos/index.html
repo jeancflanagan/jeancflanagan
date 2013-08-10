@@ -5,11 +5,9 @@ title: Writing Archive
 
 <ul class="excerpt-index">
   {% for post in site.categories.photo %}
-  <li class="excerpt">
+  <li class="foreground excerpt">
     <a href="{{ post.url }}">
-      <article>
-        <img src="{{ post.image[0] }}">
-      </article>
+      <img src="{{ post.excerpt-image }}">
     </a>
   </li>
   {% endfor %}
