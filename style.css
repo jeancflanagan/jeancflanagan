@@ -98,7 +98,7 @@ body {
 
 a,
 a:visited,
-.writing-excerpt h1 {
+.excerpt-writing h1 {
   color: hsla(138, 39%, 54%, 1);
 }
 
@@ -385,42 +385,42 @@ hr {
   text-decoration: none;
 }
 
-.writing-excerpt,
-.photo-excerpt {
+.excerpt-writing,
+.excerpt-photo {
   color: hsla(138, 16%, 10%, 1); /* get rid of that default link color */
   min-height: 12em;
 }
 
-.writing-excerpt {
+.excerpt-writing {
   padding: .75em;
 }
 
-.writing-excerpt h1 {
+.excerpt-writing h1 {
   font: normal 400 1.25em 'open-sans', 'Open Sans', Calibri, sans-serif;
 }
 
-.writing-excerpt p {
+.excerpt-writing p {
   margin: 1em 0;
 }
 
-.photo-excerpt p {
+.excerpt-photo p {
   margin: 1em 1em;
 }
 
-.writing-excerpt:hover,
-.photo-excerpt:hover,
-.writing-excerpt:focus,
-.photo-excerpt:focus {
+.excerpt-writing:hover,
+.excerpt-photo:hover,
+.excerpt-writing:focus,
+.excerpt-photo:focus {
   box-shadow: hsla(138, 39%, 54%, 1) 0 10px 0 0;
 }
 
-.writing-excerpt footer,
-.photo-excerpt footer {
+.excerpt-writing footer,
+.excerpt-photo footer {
   font: normal 400 .875em 'open-sans', 'Open Sans', Calibri, sans-serif;
   text-align: right;
 }
 
-.photo-excerpt footer {
+.excerpt-photo footer {
   padding: 1em;
 }
 
@@ -589,8 +589,8 @@ figure img {
     width: 20em;
   }
 
-  .writing-excerpt,
-  .photo-excerpt,
+  .excerpt-writing,
+  .excerpt-photo,
   .archive-link {
     min-height: 17.5em;
   }
@@ -664,8 +664,8 @@ figure img {
     width: 25em;
   }
 
-  .writing-excerpt,
-  .photo-excerpt,
+  .excerpt-writing,
+  .excerpt-photo,
   .archive-link {
     min-height: 15.5em;
   }
@@ -713,8 +713,8 @@ figure img {
     width: 20em;
   }
 
-  .writing-excerpt,
-  .photo-excerpt {
+  .excerpt-writing,
+  .excerpt-photo {
     min-height: 17.5em;
   }
 
