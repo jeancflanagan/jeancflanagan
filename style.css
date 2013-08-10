@@ -92,9 +92,13 @@ body {
   background: hsla(218, 2%, 32%, 1);
 }
 
+.foreground {
+  background: hsla(138, 10%, 98%, 1);
+}
+
 a,
 a:visited,
-.excerpt article h1 {
+.excerpt-writing h1 {
   color: hsla(138, 39%, 54%, 1);
 }
 
@@ -124,10 +128,14 @@ h4 {
   margin: 0;
 }
 
+ul {
+  list-style-type: square;
+}
+
 blockquote {
   border-left: hsla(138, 39%, 54%, .25) 1em solid;
   color: hsla(0, 0%, 50%, 1); /* TODO: test this against the color palette for the site */
-  margin: 1em .5em;
+  margin: 1em 0;
   padding: 0em 1em;
 }
 
@@ -149,6 +157,7 @@ hr {
 /*** END Basic structure and formatting ***/
 
 /*** Component styles ***/
+
 /** Site header **/
 .banner {
   background: hsla(138, 10%, 98%, 1);
@@ -175,10 +184,9 @@ hr {
 }
 
 /* Banner responsive navigation */
-
 .top-menu a {
-  background: hsla(138, 37.5%, 59.5%, .2);
-  border-left: hsla(138, 37.5%, 59.5%, 1) 6px solid;
+  background: hsla(138, 39%, 54%, .25);;
+  border-left: hsla(138, 39%, 54%, 1) 6px solid;
   font-family: 'open-sans', 'Open Sans', Calibri, sans-serif;
   padding: 1em 1em;
   position: absolute;
@@ -214,12 +222,12 @@ hr {
 }
 
 .site-nav li:last-child {
-  border-bottom: hsla(138, 0%, 59.5%, .3) 1px solid;
+  border-bottom: hsla(138, 0%, 54%, .3) 1px solid;
 }
 
 .site-nav li:last-child a {
-  background: hsla(138, 0%, 59.5%, .25);
-  border-left: hsla(138, 0%, 59.5%, 1) 6px solid;
+  background: hsla(138, 0%, 54%, .25);
+  border-left: hsla(138, 0%, 54%, 1) 6px solid;
 }
 
 .site-nav li a:hover,
@@ -247,7 +255,6 @@ hr {
 
 /** Site footer **/
 .site-info {
-  background: hsla(138, 10%, 98%, 1);
   clear: both;
   font: normal 400 1em/1.5 'open-sans', 'Open Sans', Calibri, sans-serif;
   margin: 0 auto;
@@ -260,37 +267,77 @@ hr {
   margin: 0 .25em;
 }
 
-/** Archive (index excerpt container) **/
+/** Container for post excerpts (an index) **/
 .excerpt-index {
   list-style: none;
   margin: .5em auto;
   overflow: hidden;
   padding: 0;
-  transition: none;
 }
 
-/** Posts, pages and excerpts **/
-/* Fundamental page */
-.page {
-  margin: 1em auto;
-  max-width: 42em;
-  padding: 0 1em 3em;
+/** Home index link to archive (continuation of index) **/
+.archive-link a {
+  display: block;
+  margin: 0 8em;
+  padding: 1em;
 }
 
-/* Shared page/excerpt styles */
+.archive-link:hover,
+.archive-link:focus {
+  -ms-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+}
+
+.ellipsis:after {
+  content: "";
+  left: 2em;
+  position: absolute;
+}
+
+.ellipsis:before {
+  content: "";
+  left: -2em;
+  position: absolute;
+}
+
+.ellipsis,
+.ellipsis:after,
+.ellipsis:before {
+  background: hsla(138, 39%, 54%, 1);
+  border-radius: 100%;
+  height: 1em;
+  width: 1em;
+}
+
+.ellipsis {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+}
+
+/** Posts, pages, galleries and excerpts **/
+/* Shared page/photoset/excerpt styles */
 .page,
-.excerpt {
-  box-shadow: hsla(218, 2%, 10%, .5) 0 -1px 10px 1px;
-}
-
-.page,
-.excerpt article {
-  background: hsla(138, 10%, 98%, 1);
+.excerpt,
+.photoset {
   border-bottom: hsla(138, 39%, 54%, 1) 6px solid;
+  box-shadow: hsla(218, 2%, 10%, .5) 0 -1px 10px 1px;
   line-height: 1.375;
 }
 
+.page,
+.photoset {
+  margin: 1em auto;
+}
+
 /* Page-specific */
+.page {
+  max-width: 42em;
+  padding: 0 1em 2em;
+}
+
 .page header {
   padding: 1em 0;
   text-align: center;
@@ -314,11 +361,6 @@ hr {
   padding: 0;
 }
 
-.page footer {
-  margin: .5em;
-  padding: 1em .5em;
-}
-
 .footnotes {
   margin: 1.5em 1.5em 1.5em 0;
 }
@@ -329,11 +371,81 @@ hr {
   position: relative;
 }
 
-/* Next/Previous navigation */
-.more {
-  background: hsla(138, 37.5%, 59.5%, .2);
-  font-family: 'open-sans', 'Open Sans', Calibri, sans-serif;
+/* photoset-specific */
+.photoset {
+  max-width: 48em;
+  padding: 0 0 2em;
+}
+
+.photos {
+  margin: 0 0 2em;
+}
+
+/* Excerpt-specific */
+.excerpt {
+  margin: 1em auto;
+  transition: none;
+  transition: box-shadow 200ms;
+}
+
+.excerpt a {
+  text-decoration: none;
+}
+
+.excerpt-writing,
+.excerpt-photo {
+  color: hsla(138, 16%, 10%, 1); /* get rid of that default link color */
+  min-height: 12em;
+}
+
+.excerpt-writing {
   padding: .75em;
+}
+
+.excerpt-writing h1 {
+  font: normal 400 1.25em 'open-sans', 'Open Sans', Calibri, sans-serif;
+}
+
+.excerpt-writing p {
+  margin: 1em 0;
+}
+
+.excerpt-photo p {
+  margin: 1em 1em;
+}
+
+.excerpt-writing:hover,
+.excerpt-photo:hover,
+.excerpt-writing:focus,
+.excerpt-photo:focus {
+  box-shadow: hsla(138, 39%, 54%, 1) 0 10px 0 0;
+}
+
+.excerpt-writing footer,
+.excerpt-photo footer {
+  font: normal 400 .875em 'open-sans', 'Open Sans', Calibri, sans-serif;
+  text-align: right;
+}
+
+.excerpt-photo footer {
+  padding: 1em;
+}
+
+/* Next/Previous navigation */
+.post-nav {
+  height: 2.5em;
+  margin: 2em 0 0;
+}
+
+.photoset .post-nav {
+  margin: 2em 0 0;
+  padding: 0 1em;
+}
+
+.more {
+  background: hsla(138, 39%, 54%, .25);
+  font-family: 'open-sans', 'Open Sans', Calibri, sans-serif;
+  padding: 1em;
   text-align: center;
   text-decoration: none;
 }
@@ -359,105 +471,34 @@ hr {
   content: " →";
 }
 
-/* Excerpt-specific */
-.excerpt {
-  margin: 1em auto;
-}
-
-.excerpt article {
-  color: hsla(138, 16%, 10%, 1); /* get rid of that default link color */
-  min-height: 12em;
-  padding: .75em;
-}
-
-.excerpt article h1 {
-  font: normal 400 1.25em 'open-sans', 'Open Sans', Calibri, sans-serif;
-}
-
-.excerpt article p {
-  margin: 1em 0;
-}
-
-.excerpt article footer {
-  font: normal 400 .875em 'open-sans', 'Open Sans', Calibri, sans-serif;
-  text-align: right;
-}
-
-.excerpt a {
-  text-decoration: none;
-}
-
-.excerpt a article:hover, 
-.excerpt a article:focus {
-  box-shadow: hsla(138, 39%, 54%, 1) 0 4px 0 0;
-}
-
-/** Home page link to archive (continuation of index) **/
-
-.archive-link a {
-  display: block;
-  margin: 0 8em;
-  padding: 1em;
-}
-
-.archive-link:hover,
-.archive-link:focus {
-  -ms-transform: scale(1.25);
-  -webkit-transform: scale(1.25);
-  transform: scale(1.25);
-}
-
-.ellipsis {
-  background: hsla(138, 39%, 54%, 1);
-  border-radius: 100%;
-  display: block;
-  height: 1em;
-  margin: 0 auto;
-  position: relative;
-  top: 50%;
-  width: 1em;
-}
-
-.ellipsis:after {
-  background: hsla(138, 39%, 54%, 1);
-  border-radius: 100%;
-  content: "";
-  height: 1em;
-  left: 2em;
-  position: absolute;
-  width: 1em;
-}
-
-.ellipsis:before {
-  background: hsla(138, 39%, 54%, 1);
-  border-radius: 100%;
-  content: "";
-  height: 1em;
-  left: -2em;
-  position: absolute;
-  width: 1em;
-}
-
 /** Images **/
 
-figure {
-  background: hsla(138, 39%, 54%, .25);
-  margin: 1em 0;
-}
-
+/* General figure styles */
 figure img {
   display: block;
   margin: 0 auto;
 }
 
-.right,
-.left {
-  max-width: 100%; /* 50% at smaller viewports */
+/* Page-specific figure styles */
+.page figure {
+  background: hsla(138, 39%, 54%, .25);
+  margin: 1em -1em;
 }
 
-figcaption {
+.page figcaption {
   font: normal 400 .75em/1.5 'open-sans', 'Open Sans', Calibri, sans-serif;
-  padding: .5em;
+  padding: .5em 1em .75em;
+  text-align: center;
+}
+
+/* photoset-specific figure styles */
+.photoset figure {
+  margin: 1em 0;  
+}
+
+.photoset figcaption {
+  font-size: .875em;
+  margin: 1em 1em 1.5em;
   text-align: center;
 }
 
@@ -489,6 +530,10 @@ figcaption {
     padding: 0 1.5em 3em;
   }
 
+  .page figure {
+    margin: 1em -1.5em;
+  }
+
 }
 
 @media screen and (min-width: 30em) {
@@ -496,21 +541,38 @@ figcaption {
 
   .banner,
   .page,
+  .photoset .post-nav,
   .site-nav {
     font-size: 1.125em;
   }
 
-  .page {
-    padding: 0 2em 3em;
+  .banner {
+    padding: 2.5em 0 0;
   }
 
-  .banner {
-    padding: 2.5em 0 0 0;
+  .page {
+    padding: 0 2em 2.5em;
+  }
+
+  .page figure {
+    margin: 1em -2em;
+  }
+
+  .page figcaption {
+    font-size: .833333333em; /* not magic - 15px/18px */
+    padding: .6em 1em 1em;
+  }
+
+  .photoset {
+    padding: 0 0 2.5em;
+  }
+
+  .photoset .post-nav {
+    padding: 0 2em;
   }
 
   .excerpt {
     max-width: 25em;
-    transition: none;
   }
 
 }
@@ -518,18 +580,21 @@ figcaption {
 @media screen and (min-width: 38em) {
   /* i.e. 608px */
 
-  /* Image layout and sizes */
-
-  .right {
-    float: right;
-    margin: .5em -2em .5em 1.5em;
-    max-width: 50%;
+  /* Responsive image layout and sizes for posts */
+  .page .right, 
+  .page .left {
+    max-width: 320px;
+    width: 50%;
   }
 
-  .left {
+  .page .right {
+    float: right;
+    margin: .5em -2em .5em 1.5em;
+  }
+
+  .page .left {
     float: left;
     margin: .5em 1.5em .5em -2em;
-    max-width: 50%;
   }
 
 }
@@ -544,16 +609,30 @@ figcaption {
 
   .banner,
   .page,
+  .photoset .post-nav,
   .site-nav {
-    font-size: 1.25em;
+    font-size: 1.25em; /* i.e. 20px */
   }
 
   .page {
     max-width: 36em;
   }
 
-  /* becomes 2 columns for the first time here */
+  .page figcaption {
+    font-size: .8em; /* i.e. 16px */
+    padding: .6875em .75em 1em;
+  }
 
+  blockquote {
+    margin: 1em;
+  }
+
+  .photoset figcaption {
+    font-size: 1em;
+    margin: 1em 2em 2em;
+  }
+
+  /* becomes 2 columns for the first time here */
   .excerpt-index {
     max-width: 42em;
   }
@@ -565,7 +644,8 @@ figcaption {
     width: 20em;
   }
 
-  .excerpt article,
+  .excerpt-writing,
+  .excerpt-photo,
   .archive-link {
     min-height: 17.5em;
   }
@@ -580,7 +660,6 @@ figcaption {
   /* i.e. 800px */
   /* This breakpoint turns a responsive small-screen anchored navigation pattern 
   to a large-screen conventional inline-block navigation */
-
   .banner {
     height: 10em;
     padding-bottom: 2.75em;
@@ -600,6 +679,10 @@ figcaption {
     top: 7.5em;
     width: 40em;
     transition: none;
+  }
+
+  .site-nav ul {
+    max-width: none;
   }
 
   .site-nav ul {
@@ -626,9 +709,27 @@ figcaption {
   /* i.e. 864px */
 
   .page {
-    font-size: 1.375em;
+    font-size: 1.375em; /* i.e. 22px */
     max-width: 40em;
-    padding: 0 4em 3em;
+    padding: 0 3.2em 3em;
+  }
+
+  .page figure {
+    margin: 1em -3.2em;
+  }
+
+  .page figcaption {
+    font-size: .818181818em; /* i.e. 18px */
+    padding: .666666667em .666666667em 1em;
+  }
+
+  .photoset {
+    padding: 0 0 3em;
+  }
+
+  .photoset .post-nav {
+    font-size: 1.375em; /* so the photo post-nav can keep up */
+    padding: 0 2em 3em;
   }
 
   .excerpt-index {
@@ -640,7 +741,8 @@ figcaption {
     width: 25em;
   }
 
-  .excerpt article,
+  .excerpt-writing,
+  .excerpt-photo,
   .archive-link {
     min-height: 15.5em;
   }
@@ -649,16 +751,18 @@ figcaption {
     margin: 6.5em 6em;
   }
 
-  .right {
-    float: right;
-    margin: .5em -4em .5em 1.5em;
-    max-width: 50%;
+  .page .right, 
+  .page .left {
+    max-width: 400px;
+    width: 400px;
   }
 
-  .left {
-    float: left;
-    margin: .5em 1.5em .5em -4em;
-    max-width: 50%;
+  .page .right {
+    margin: .5em -3.2em .5em 1.5em;
+  }
+
+  .page .left {
+    margin: .5em 1.5em .5em -3.2em;
   }
 
 }
@@ -667,7 +771,25 @@ figcaption {
   /* i.e. 1024px */
 
   .page {
-    font-size: 1.5em;
+    font-size: 1.5em; /* i.e. 24px */
+    padding: 0 3.5em 3em;
+  }
+
+  .page figure {
+    margin: 1em -3.5em;
+  }
+
+  .page figcaption {
+    font-size: .833333333em; /* not magic - 20px/24px */
+    padding: .6em .6em 1em;
+  }
+
+  .page .right {
+    margin: .5em -3.5em .5em 1.5em;
+  }
+
+  .page .left {
+    margin: .5em 1.5em .5em -3.5em;
   }
 
   /* Becomes 3 columns for the first time here. */
@@ -679,7 +801,8 @@ figcaption {
     width: 20em;
   }
 
-  .excerpt article {
+  .excerpt-writing,
+  .excerpt-photo {
     min-height: 17.5em;
   }
 
@@ -702,6 +825,14 @@ figcaption {
 @media screen and (min-width: 80em) {
   /* i.e. 1280px */
 
+  .photoset {
+    max-width: 64em;
+  }
+
+  .photoset figcaption {
+    font-size: 1.25em;
+  }
+
   .excerpt-index,
   .site-info {
     font-size: 1.125em;
@@ -722,11 +853,15 @@ figcaption {
   }
 
   .page {
-    font-size: 1.625em;
+    font-size: 1.5625em; /* i.e. 25px */
+  }
+
+  .page figcaption {
+    font-size: .8em;
   }
 
   .site-nav {
-    top: 9em;
+    top: 9.5em;
   }
 
 }

@@ -1,12 +1,12 @@
 ---
-layout: article
+layout: writing
 category: writing
-title: "Open data for science education"
+title: 'Open data for science education'
 date: 2013-07-08 10:01
-excerpt: Science students can benefit greatly from educational materials that expose them to real-world data, but educators can't access most scientific data.
+excerpt: 'Science students can benefit greatly from educational materials that expose them to real-world data, but educators can’t access most scientific data.'
 source: PLOS Sci-Ed
 sourceurl: http://blogs.plos.org/scied/2013/07/08/open-data-for-science-education/
-image-1: 2013-07-08-open-data-opensourceway-cc-by-sa.png
+image: 2013-07-08-open-data-opensourceway-cc-by-sa.png
 ---
 
 [Open data](https://p2pu.org/en/courses/5/content/13/) is the idea that scientific data should be freely available to all, without restrictions, in searchable online repositories. The open data movement is gaining momentum in the scientific community because of its [promise](http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.1001195) to enable more frequent replication of studies and to accelerate the pace of research. But the advantages for science education are just as compelling. 
@@ -16,7 +16,7 @@ Science students can benefit greatly from educational materials that expose them
 However, barriers exist that prevent educators from effectively using much of the data that scientists produce. As a reader of PLOS blogs, you are likely familiar with the [open access](http://en.wikipedia.org/wiki/Open_access) movement in scholarly publishing. But even access to journal articles, though valuable, is often not sufficient for educators' purposes. Data in journal articles are usually in the form of a few graphs. These graphs are typically frozen in PDFs as part of a paper that conveys the authors' interpretation of the results in the context of their particular study. And the data presentation choices were made with one audience in mind: experts in the field. 
 
 <figure class="right">
-<img src="{{ site.image-url }}{{ page.image-1 }}"/>
+<img src="{{ site.image-url }}{{ page.image }}"/>
 <figcaption>Open Data. Image by <a href="http://www.flickr.com/photos/opensourceway/5538036200/in/faves-jeancflanagan/">Colleen Simon for opensource.com on Flickr (CC-BY-SA).</a></figcaption>
 </figure>
 

@@ -1,0 +1,8 @@
+<li class="foreground excerpt">
+  <a href="{{ post.url }}">
+    <article class="excerpt-photo">
+      <img src="{{ post.excerpt-image }}">
+      <footer>{{ post.location }}<br><time datetime="{{ post.date | date: "%Y-%m-%d" }}T{{ post.date | date: "%H:%M" }}">{{ post.date | date: "%B %d, %Y" }}</time></footer>
+    </article>
+  </a>
+</li>

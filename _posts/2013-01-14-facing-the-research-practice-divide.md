@@ -1,12 +1,12 @@
 ---
-layout: article
+layout: writing
 category: writing
-title: "Facing the research-practice divide in science education"
+title: 'Facing the research-practice divide in science education'
 date: 2013-01-14 10:00
-excerpt: "Unfortunately, science education research and practice tend to exist in parallel universes. If we care about science education, we have to face the research-practice divide."
+excerpt: 'Unfortunately, science education research and practice tend to exist in parallel universes. If we care about science education, we have to face the research-practice divide.'
 source: PLOS Sci-Ed
 sourceurl: http://blogs.plos.org/scied/2013/01/14/facing-the-research-practice-divide-in-science-education/
-image-1: 2013-01-14-sather-tower-uc-berkeley-brostad-flickr.jpg
+image: 2013-01-14-sather-tower-uc-berkeley-brostad-flickr.jpg
 ---
 
 Science education researchers and science teachers have much to offer each other. In an ideal world, knowledge would flow freely between researchers and educators. Unfortunately, research and practice tend to exist in parallel universes. As long as this divide persists, classrooms will rarely benefit from research findings, and research studies will rarely be rooted in the realities of the classroom. If we care about science education, we have to face the research-practice divide.
@@ -30,7 +30,7 @@ When I asked high school science teacher Laurie Almeida how she perceived the cr
 >Somewhat credible. I work at a difficult school, so I feel that some of the research is way too out of touch with the reality of my school.
 
 <figure class="right">
-<img src="{{ site.image-url }}{{ page.image-1 }}"/>
+<img src="{{ site.image-url }}{{ page.image }}"/>
 <figcaption>An ivory tower of sorts: Sather Tower, U.C. Berkeley. Photo by <a href="http://www.flickr.com/photos/brostad/2878353059/">Bernt Rostad on Flickr.</a></figcaption>
 </figure>
 

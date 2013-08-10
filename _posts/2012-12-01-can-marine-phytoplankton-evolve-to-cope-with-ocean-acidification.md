@@ -1,11 +1,10 @@
 ---
-layout: article
+layout: writing
 category: writing
-title: Can marine phytoplankton evolve to cope with ocean acidification?
+title: 'Can marine phytoplankton evolve to cope with ocean acidification?'
 date: 2012-12-01 10:01
-excerpt: New evidence suggests that an important marine alga could quickly evolve adaptations to ocean acidification.
+excerpt: 'New evidence suggests that an important marine alga could quickly evolve adaptations to ocean acidification.'
 source: here
-sourceurl: 
 ---
 
 One of the most pressing questions in evolutionary biology is whether or not species will be able to evolve in response to global climate change and its associated effects such as [ocean acidification](http://www.pmel.noaa.gov/co2/story/What+is+Ocean+Acidification%3F). A [paper](http://www.nature.com/ngeo/journal/v5/n5/abs/ngeo1441.html) published earlier this year in *Nature Geoscience* provides experimental evidence that one of the ocean’s most important species, *Emiliania huxleyi*, is capable of quickly adapting to increased levels of acidification through natural selection.
