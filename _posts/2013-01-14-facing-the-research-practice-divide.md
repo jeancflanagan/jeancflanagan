@@ -30,7 +30,7 @@ When I asked high school science teacher Laurie Almeida how she perceived the cr
 >Somewhat credible. I work at a difficult school, so I feel that some of the research is way too out of touch with the reality of my school.
 
 <figure class="right">
-<img src="{{ site.image-url }}{{ page.image[1] }}"/>
+<img src="{{ site.image-url }}{{ page.image }}"/>
 <figcaption>An ivory tower of sorts: Sather Tower, U.C. Berkeley. Photo by <a href="http://www.flickr.com/photos/brostad/2878353059/">Bernt Rostad on Flickr.</a></figcaption>
 </figure>
 
