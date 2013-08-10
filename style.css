@@ -318,17 +318,17 @@ hr {
 }
 
 /** Posts, pages, galleries and excerpts **/
-/* Shared page/gallery/excerpt styles */
+/* Shared page/photoset/excerpt styles */
 .page,
 .excerpt,
-.gallery {
+.photoset {
   border-bottom: hsla(138, 39%, 54%, 1) 6px solid;
   box-shadow: hsla(218, 2%, 10%, .5) 0 -1px 10px 1px;
   line-height: 1.375;
 }
 
 .page,
-.gallery {
+.photoset {
   margin: 1em auto;
 }
 
@@ -371,8 +371,8 @@ hr {
   position: relative;
 }
 
-/* Gallery-specific */
-.gallery {
+/* photoset-specific */
+.photoset {
   max-width: 48em;
   padding: 0 0 2em;
 }
@@ -437,7 +437,7 @@ hr {
   margin: 2em 0 0;
 }
 
-.gallery .post-nav {
+.photoset .post-nav {
   margin: 2em 0 0;
   padding: 0 1em;
 }
@@ -491,12 +491,12 @@ figure img {
   text-align: center;
 }
 
-/* Gallery-specific figure styles */
-.gallery figure {
+/* photoset-specific figure styles */
+.photoset figure {
   margin: 1em 0;  
 }
 
-.gallery figcaption {
+.photoset figcaption {
   font-size: .875em;
   margin: 1em 1em 1.5em;
   text-align: center;
@@ -541,7 +541,7 @@ figure img {
 
   .banner,
   .page,
-  .gallery .post-nav,
+  .photoset .post-nav,
   .site-nav {
     font-size: 1.125em;
   }
@@ -563,11 +563,11 @@ figure img {
     padding: .6em 1em 1em;
   }
 
-  .gallery {
+  .photoset {
     padding: 0 0 2.5em;
   }
 
-  .gallery .post-nav {
+  .photoset .post-nav {
     padding: 0 2em;
   }
 
@@ -605,7 +605,7 @@ figure img {
 
   .banner,
   .page,
-  .gallery .post-nav,
+  .photoset .post-nav,
   .site-nav {
     font-size: 1.25em; /* i.e. 20px */
   }
@@ -623,7 +623,7 @@ figure img {
     margin: 1em;
   }
 
-  .gallery figcaption {
+  .photoset figcaption {
     font-size: 1em;
     margin: 1em 2em 2em;
   }
@@ -719,11 +719,11 @@ figure img {
     padding: .666666667em .666666667em 1em;
   }
 
-  .gallery {
+  .photoset {
     padding: 0 0 3em;
   }
 
-  .gallery .post-nav {
+  .photoset .post-nav {
     font-size: 1.375em; /* so the photo post-nav can keep up */
     padding: 0 2em 3em;
   }
@@ -815,11 +815,11 @@ figure img {
 @media screen and (min-width: 80em) {
   /* i.e. 1280px */
 
-  .gallery {
+  .photoset {
     max-width: 64em;
   }
 
-  .gallery figcaption {
+  .photoset figcaption {
     font-size: 1.25em;
   }
 
@@ -851,7 +851,7 @@ figure img {
   }
 
   .site-nav {
-    top: 9em;
+    top: 9.5em;
   }
 
 }
