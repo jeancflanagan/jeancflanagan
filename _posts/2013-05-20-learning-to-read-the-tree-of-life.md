@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: writing
 category: writing
 title: 'Learning to read the tree of life'
 date: 2013-05-20 10:00

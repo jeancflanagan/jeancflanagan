@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: writing
 category: writing
 title: 'Facing the research-practice divide in science education'
 date: 2013-01-14 10:00

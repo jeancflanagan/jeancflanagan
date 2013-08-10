@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: writing
 category: writing
 title: 'Hobbies: idle pastimes or keys to science engagement and education?'
 date: 2013-04-22 10:01

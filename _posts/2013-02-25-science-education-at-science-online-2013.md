@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: writing
 category: writing
 title: 'Science education at Science Online 2013'
 date: 2013-02-25 10:01

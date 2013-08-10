@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: writing
 category: writing
 title: 'Communicating about evolution: the danger of shortcuts'
 date: 2013-03-18 10:01

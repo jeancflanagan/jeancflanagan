@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: writing
 category: writing
 title: 'Reflections on Feathers: the Evolution of a Natural Miracle'
 date: 2012-11-13 10:01

@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: writing
 category: writing
 title: 'Open data for science education'
 date: 2013-07-08 10:01
