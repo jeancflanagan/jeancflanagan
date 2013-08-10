@@ -3,7 +3,7 @@ layout: gallery
 category: photo
 title: 'Sample photo'
 date: 2013-08-13 10:01
-excerpt: 'Photos from a place.'
+location: 'Dupont Circle, DC'
 excerpt-image: http://farm9.staticflickr.com/8396/8690159972_a1fc390487_z.jpg
 image: 
   - http://farm9.staticflickr.com/8396/8690159972_a1fc390487_b.jpg

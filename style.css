@@ -388,10 +388,10 @@ hr {
 .writing-excerpt,
 .photo-excerpt {
   color: hsla(138, 16%, 10%, 1); /* get rid of that default link color */
+  min-height: 12em;
 }
 
 .writing-excerpt {
-  min-height: 12em;
   padding: .75em;
 }
 
@@ -407,9 +407,11 @@ hr {
   margin: 1em 1em;
 }
 
-.excerpt:hover, 
-.excerpt:focus {
-  box-shadow: hsla(138, 39%, 54%, 1) 0 4px 0 0;
+.writing-excerpt:hover,
+.photo-excerpt:hover,
+.writing-excerpt:focus,
+.photo-excerpt:focus {
+  box-shadow: hsla(138, 39%, 54%, 1) 0 10px 0 0;
 }
 
 .writing-excerpt footer,
@@ -589,6 +591,7 @@ figure img {
   }
 
   .writing-excerpt,
+  .photo-excerpt,
   .archive-link {
     min-height: 17.5em;
   }
@@ -659,6 +662,7 @@ figure img {
   }
 
   .writing-excerpt,
+  .photo-excerpt,
   .archive-link {
     min-height: 15.5em;
   }
@@ -697,7 +701,8 @@ figure img {
     width: 20em;
   }
 
-  .writing-excerpt {
+  .writing-excerpt,
+  .photo-excerpt {
     min-height: 17.5em;
   }
 
