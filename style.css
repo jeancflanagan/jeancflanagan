@@ -490,7 +490,7 @@ figure img {
 
 .page figcaption {
   font: normal 400 .75em/1.5 'open-sans', 'Open Sans', Calibri, sans-serif;
-  padding: .5em;
+  padding: .5em 1em .75em;
   text-align: center;
 }
 
@@ -535,7 +535,7 @@ figure img {
   }
 
   .page figure {
-    margin: 1em -2em;
+    margin: 1em -1.5em;
   }
 
 }
@@ -556,6 +556,15 @@ figure img {
 
   .page {
     padding: 0 2em 2.5em;
+  }
+
+  .page figure {
+    margin: 1em -2em;
+  }
+
+  .page figcaption {
+    font-size: .833333333em; /* not magic - 15px/18px */
+    padding: .6em 1em 1em;
   }
 
   .gallery {
@@ -607,6 +616,11 @@ figure img {
 
   .page {
     max-width: 36em;
+  }
+
+  .page figcaption {
+    font-size: .8em; /* i.e. 16px */
+    padding: .6875em .75em 1em;
   }
 
   blockquote {
@@ -696,13 +710,18 @@ figure img {
   /* i.e. 864px */
 
   .page {
-    font-size: 1.375em;
+    font-size: 1.375em; /* i.e. 22px */
     max-width: 40em;
     padding: 0 3.2em 3em;
   }
 
   .page figure {
     margin: 1em -3.2em;
+  }
+
+  .page figcaption {
+    font-size: .818181818em; /* i.e. 18px */
+    padding: .666666667em .666666667em 1em;
   }
 
   .gallery {
@@ -753,6 +772,11 @@ figure img {
 
   .page figure {
     margin: 1em -3.5em;
+  }
+
+  .page figcaption {
+    font-size: .833333333em; /* not magic - 20px/24px */
+    padding: .6em .6em 1em;
   }
 
   .page .right {
@@ -824,7 +848,11 @@ figure img {
   }
 
   .page {
-    font-size: 1.625em;
+    font-size: 1.5625em; /* i.e. 25px */
+  }
+
+  .page figcaption {
+    font-size: .8em;
   }
 
   .site-nav {
