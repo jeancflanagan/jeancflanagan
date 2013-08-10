@@ -581,16 +581,20 @@ figure img {
   /* i.e. 608px */
 
   /* Responsive image layout and sizes for posts */
+  .page .right, 
+  .page .left {
+    max-width: 320px;
+    width: 50%;
+  }
+
   .page .right {
     float: right;
     margin: .5em -2em .5em 1.5em;
-    max-width: 50%;
   }
 
   .page .left {
     float: left;
     margin: .5em 1.5em .5em -2em;
-    max-width: 50%;
   }
 
 }
@@ -745,6 +749,12 @@ figure img {
 
   .archive-link a {
     margin: 6.5em 6em;
+  }
+
+  .page .right, 
+  .page .left {
+    max-width: 400px;
+    width: 400px;
   }
 
   .page .right {
