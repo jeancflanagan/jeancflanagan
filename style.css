@@ -476,8 +476,8 @@ figure img {
   text-align: center;
 }
 
-.right,
-.left {
+.page .right,
+.page .left {
   max-width: 100%; /* 50% at smaller viewports */
 }
 
@@ -546,13 +546,13 @@ figure img {
 
   /* Image layout and sizes */
 
-  .right {
+  .page .right {
     float: right;
     margin: .5em -2em .5em 1.5em;
     max-width: 50%;
   }
 
-  .left {
+  .page .left {
     float: left;
     margin: .5em 1.5em .5em -2em;
     max-width: 50%;
@@ -671,16 +671,12 @@ figure img {
     margin: 6.5em 6em;
   }
 
-  .right {
-    float: right;
+  .page .right {
     margin: .5em -4em .5em 1.5em;
-    max-width: 50%;
   }
 
-  .left {
-    float: left;
+  .page .left {
     margin: .5em 1.5em .5em -4em;
-    max-width: 50%;
   }
 
 }
