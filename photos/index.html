@@ -9,7 +9,6 @@ title: Writing Archive
     <a href="{{ post.url }}">
       <article class="photo-excerpt">
         <img src="{{ post.excerpt-image }}">
-        <p>{{ post.excerpt }}</p>
         <footer>{{ post.location }}<br><time datetime="{{ post.date | date: "%Y-%m-%d" }}T{{ post.date | date: "%H:%M" }}">{{ post.date | date: "%B %d, %Y" }}</time></footer>
       </article>
     </a>
