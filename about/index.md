@@ -1,5 +1,5 @@
 ---
-layout: static-page
+layout: page
 title: About
 ---
 
