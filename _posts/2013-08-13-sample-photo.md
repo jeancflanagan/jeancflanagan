@@ -1,5 +1,5 @@
 ---
-layout: gallery
+layout: photoset
 category: photo
 title: 'Sample photo'
 date: 2013-08-13 10:01

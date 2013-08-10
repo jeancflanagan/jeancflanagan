@@ -1,7 +1,7 @@
 ---
 layout: fundamental
 ---
-<article class="foreground gallery" role="main">
+<article class="foreground photoset" role="main">
   <section class="photos">
     {% for image in page.image %}
     <figure>
@@ -10,5 +10,5 @@ layout: fundamental
     <figcaption>{{ page.image-caption[forloop.index0] }}</figcaption>
     {% endfor %}
   </section>
-  {% include gallery-nav.html %}
+  {% include photoset-nav.html %}
 </article>
