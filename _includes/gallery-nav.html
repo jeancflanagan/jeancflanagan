@@ -1,0 +1,8 @@
+<footer class="post-nav">
+{% if page.next.url and page.next.categories contains 'photo' %}
+  <a class="more next" href="{{page.next.url}}" title="Later gallery: {{page.next.title}}">Next</a>
+{% endif %}
+{% if page.previous.url and page.previous.categories contains 'photo' %}
+  <a class="more previous" href="{{page.previous.url}}" title="Earlier gallery: {{page.previous.title}}">Previous</a>
+{% endif %}
+</footer>

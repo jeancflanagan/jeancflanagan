@@ -326,7 +326,7 @@ hr {
 /* Page-specific */
 .page {
   max-width: 42em;
-  padding: 0 1em 3em;
+  padding: 0 1em 2em;
 }
 
 .page header {
@@ -352,11 +352,6 @@ hr {
   padding: 0;
 }
 
-.page footer {
-  margin: .5em;
-  padding: 1em .5em;
-}
-
 .footnotes {
   margin: 1.5em 1.5em 1.5em 0;
 }
@@ -370,8 +365,12 @@ hr {
 /* Gallery-specific */
 
 .gallery {
-  max-width: 48em; /* i.e. 768px or "1.333 density ratio" width for images */
+  max-width: 48em;
   padding: 0 0 2em 0;
+}
+
+.photos {
+  margin: 0 0 2em;
 }
 
 /* Excerpt-specific */
@@ -425,6 +424,17 @@ hr {
 }
 
 /* Next/Previous navigation */
+
+.post-nav {
+  height: 2.5em;
+  margin: 2em .5em 0;
+}
+
+.gallery .post-nav {
+  margin: 2em 0 0;
+  padding: 0 2em;
+}
+
 .more {
   background: hsla(138, 37.5%, 59.5%, .2);
   font-family: 'open-sans', 'Open Sans', Calibri, sans-serif;
@@ -525,7 +535,7 @@ figure img {
   /* i.e. 480px */
 
   .page {
-    padding: 0 2em 3em;
+    padding: 0 2em 2.5em;
   }
 
   .banner,
@@ -648,7 +658,7 @@ figure img {
   .page {
     font-size: 1.375em;
     max-width: 40em;
-    padding: 0 3.2em 4em;
+    padding: 0 3.2em 3em;
   }
 
   .page figure {
@@ -689,7 +699,7 @@ figure img {
 
   .page {
     font-size: 1.5em;
-    padding: 0 3.5em 4em;
+    padding: 0 3.5em 3em;
   }
 
   .page figure {
