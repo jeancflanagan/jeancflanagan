@@ -157,6 +157,7 @@ hr {
 /*** END Basic structure and formatting ***/
 
 /*** Component styles ***/
+
 /** Site header **/
 .banner {
   background: hsla(138, 10%, 98%, 1);
@@ -183,7 +184,6 @@ hr {
 }
 
 /* Banner responsive navigation */
-
 .top-menu a {
   background: hsla(138, 37.5%, 59.5%, .2);
   border-left: hsla(138, 37.5%, 59.5%, 1) 6px solid;
@@ -267,7 +267,7 @@ hr {
   margin: 0 .25em;
 }
 
-/** Archive (index excerpt container) **/
+/** Container for post excerpts (an index) **/
 .excerpt-index {
   list-style: none;
   margin: .5em auto;
@@ -276,7 +276,6 @@ hr {
 }
 
 /** Home index link to archive (continuation of index) **/
-
 .archive-link a {
   display: block;
   margin: 0 8em;
@@ -319,7 +318,6 @@ hr {
 }
 
 /** Posts, pages, galleries and excerpts **/
-
 /* Shared page/gallery/excerpt styles */
 .page,
 .excerpt,
@@ -434,7 +432,6 @@ hr {
 }
 
 /* Next/Previous navigation */
-
 .post-nav {
   height: 2.5em;
   margin: 2em 0 0;
@@ -495,7 +492,6 @@ figure img {
 }
 
 /* Gallery-specific figure styles */
-
 .gallery figure {
   margin: 1em 0;  
 }
@@ -611,7 +607,7 @@ figure img {
   .page,
   .gallery .post-nav,
   .site-nav {
-    font-size: 1.25em;
+    font-size: 1.25em; /* i.e. 20px */
   }
 
   .page {
@@ -660,7 +656,6 @@ figure img {
   /* i.e. 800px */
   /* This breakpoint turns a responsive small-screen anchored navigation pattern 
   to a large-screen conventional inline-block navigation */
-
   .banner {
     height: 10em;
     padding-bottom: 2.75em;
@@ -766,7 +761,7 @@ figure img {
   /* i.e. 1024px */
 
   .page {
-    font-size: 1.5em;
+    font-size: 1.5em; /* i.e. 24px */
     padding: 0 3.5em 3em;
   }
 
