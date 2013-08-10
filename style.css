@@ -370,18 +370,9 @@ hr {
 }
 
 /* Gallery-specific */
-/* Next/Previous navigation */
-.more {
-  background: hsla(138, 37.5%, 59.5%, .2);
-  font-family: 'open-sans', 'Open Sans', Calibri, sans-serif;
-  padding: .75em;
-  text-align: center;
-  text-decoration: none;
-}
-
 .gallery {
   max-width: 48em;
-  padding: 0 0 2em 0;
+  padding: 0 0 2em;
 }
 
 .photos {
@@ -442,18 +433,18 @@ hr {
 
 .post-nav {
   height: 2.5em;
-  margin: 2em .5em 0;
+  margin: 2em 0 0;
 }
 
 .gallery .post-nav {
   margin: 2em 0 0;
-  padding: 0 2em;
+  padding: 0 1em;
 }
 
 .more {
   background: hsla(138, 37.5%, 59.5%, .2);
   font-family: 'open-sans', 'Open Sans', Calibri, sans-serif;
-  padding: .5em;
+  padding: 1em;
   text-align: center;
   text-decoration: none;
 }
@@ -482,14 +473,12 @@ hr {
 /** Images **/
 
 /* General figure styles */
-
 figure img {
   display: block;
   margin: 0 auto;
 }
 
 /* Page-specific figure styles */
-
 .page figure {
   background: hsla(138, 39%, 54%, .25);
   margin: 1em -1em;
@@ -509,6 +498,7 @@ figure img {
 
 .gallery figcaption {
   font-size: .875em;
+  margin: 1em 2em 2em;
   text-align: center;
 }
 
@@ -551,16 +541,25 @@ figure img {
 
   .banner,
   .page,
+  .gallery .post-nav,
   .site-nav {
     font-size: 1.125em;
+  }
+
+  .banner {
+    padding: 2.5em 0 0;
   }
 
   .page {
     padding: 0 2em 2.5em;
   }
 
-  .banner {
-    padding: 2.5em 0 0 0;
+  .gallery {
+    padding: 0 0 2.5em;
+  }
+
+  .gallery .post-nav {
+    padding: 0 2em;
   }
 
   .excerpt {
@@ -572,8 +571,7 @@ figure img {
 @media screen and (min-width: 38em) {
   /* i.e. 608px */
 
-  /* Image layout and sizes */
-
+  /* Responsive image layout and sizes for posts */
   .page .right {
     float: right;
     margin: .5em -2em .5em 1.5em;
@@ -598,6 +596,7 @@ figure img {
 
   .banner,
   .page,
+  .gallery .post-nav,
   .site-nav {
     font-size: 1.25em;
   }
@@ -606,8 +605,11 @@ figure img {
     max-width: 36em;
   }
 
-  /* becomes 2 columns for the first time here */
+  .gallery figcaption {
+    font-size: 1em;
+  }
 
+  /* becomes 2 columns for the first time here */
   .excerpt-index {
     max-width: 42em;
   }
@@ -692,6 +694,15 @@ figure img {
 
   .page figure {
     margin: 1em -3.2em;
+  }
+
+  .gallery {
+    padding: 0 0 3em;
+  }
+
+  .gallery .post-nav {
+    font-size: 1.375em; /* so the photo post-nav can keep up */
+    padding: 0 2em 3em;
   }
 
   .excerpt-index {
@@ -780,9 +791,12 @@ figure img {
     max-width: 64em;
   }
 
-  .excerpt-index,
-  .site-info,
   .gallery figcaption {
+    font-size: 1.25em;
+  }
+
+  .excerpt-index,
+  .site-info {
     font-size: 1.125em;
   }
 
