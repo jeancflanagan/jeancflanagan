@@ -467,18 +467,13 @@ figure img {
 
 .page figure {
   background: hsla(138, 39%, 54%, .25);
-  margin: 1em 0;
+  margin: 1em -1em;
 }
 
 .page figcaption {
   font: normal 400 .75em/1.5 'open-sans', 'Open Sans', Calibri, sans-serif;
   padding: .5em;
   text-align: center;
-}
-
-.page .right,
-.page .left {
-  max-width: 100%; /* 50% at smaller viewports */
 }
 
 /* Gallery-specific figure styles */
@@ -518,6 +513,10 @@ figure img {
 
   .page {
     padding: 0 1.5em 3em;
+  }
+
+  .page figure {
+    margin: 1em -2em;
   }
 
 }
@@ -650,6 +649,10 @@ figure img {
     font-size: 1.375em;
     max-width: 40em;
     padding: 0 4em 3em;
+  }
+
+  .page figure {
+    margin: 1em -4em;
   }
 
   .excerpt-index {
