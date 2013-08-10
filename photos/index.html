@@ -7,7 +7,13 @@ title: Writing Archive
   {% for post in site.categories.photo %}
   <li class="foreground excerpt">
     <a href="{{ post.url }}">
-      <img src="{{ post.excerpt-image }}">
+      <article class="photo-excerpt">
+        <img src="{{ post.excerpt-image }}">
+        <p>{{ post.excerpt }}</p>
+        <footer>
+          <time datetime="{{ post.date | date: "%Y-%m-%d" }}T{{ post.date | date: "%H:%M" }}">{{ post.date | date: "%B %d, %Y" }}</time>
+        </footer>
+      </article>
     </a>
   </li>
   {% endfor %}

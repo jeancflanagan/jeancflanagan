@@ -262,7 +262,6 @@ hr {
   margin: .5em auto;
   overflow: hidden;
   padding: 0;
-  transition: none;
 }
 
 /** Home index link to archive (continuation of index) **/
@@ -314,13 +313,8 @@ hr {
 .page,
 .excerpt,
 .gallery {
-  box-shadow: hsla(218, 2%, 10%, .5) 0 -1px 10px 1px;
-}
-
-.page,
-.writing-excerpt,
-.gallery {
   border-bottom: hsla(138, 39%, 54%, 1) 6px solid;
+  box-shadow: hsla(218, 2%, 10%, .5) 0 -1px 10px 1px;
   line-height: 1.375;
 }
 
@@ -383,11 +377,20 @@ hr {
 /* Excerpt-specific */
 .excerpt {
   margin: 1em auto;
+  transition: none;
+  transition: box-shadow 200ms;
+}
+
+.excerpt a {
+  text-decoration: none;
+}
+
+.writing-excerpt,
+.photo-excerpt {
+  color: hsla(138, 16%, 10%, 1); /* get rid of that default link color */
 }
 
 .writing-excerpt {
-  background: hsla(138, 10%, 98%, 1);
-  color: hsla(138, 16%, 10%, 1); /* get rid of that default link color */
   min-height: 12em;
   padding: .75em;
 }
@@ -400,18 +403,23 @@ hr {
   margin: 1em 0;
 }
 
-.writing-excerpt footer {
+.photo-excerpt p {
+  margin: 1em 1em;
+}
+
+.excerpt:hover, 
+.excerpt:focus {
+  box-shadow: hsla(138, 39%, 54%, 1) 0 4px 0 0;
+}
+
+.writing-excerpt footer,
+.photo-excerpt footer {
   font: normal 400 .875em 'open-sans', 'Open Sans', Calibri, sans-serif;
   text-align: right;
 }
 
-.excerpt a {
-  text-decoration: none;
-}
-
-.writing-excerpt a:hover, 
-.writing-excerpt a:focus {
-  box-shadow: hsla(138, 39%, 54%, 1) 0 4px 0 0;
+.photo-excerpt footer {
+  padding: 1em;
 }
 
 /* Next/Previous navigation */
@@ -527,7 +535,6 @@ figure img {
 
   .excerpt {
     max-width: 25em;
-    transition: none;
   }
 
 }
