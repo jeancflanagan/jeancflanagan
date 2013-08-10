@@ -129,7 +129,7 @@ h4 {
 }
 
 blockquote {
-  border-left: hsla(138, 39%, 54%, .25) .5em solid;
+  border-left: hsla(138, 39%, 54%, .25) 1em solid;
   color: hsla(0, 0%, 50%, 1); /* TODO: test this against the color palette for the site */
   margin: 1em .5em;
   padding: 0em 1em;
@@ -155,9 +155,12 @@ hr {
 /*** Component styles ***/
 /** Site header **/
 .banner {
+  background: hsla(138, 10%, 98%, 1);
+  box-shadow: hsla(218, 2%, 10%, .5) 0 -1px 10px 1px;
   margin: 0;
-  padding: 2.5em 0 0 0;
+  padding: 3.5em 0 0 0;
   text-align: center;
+  transition: none;
 }
 
 .banner a {
@@ -165,7 +168,6 @@ hr {
 }
 
 /* Banner headings */
-
 .banner h1 {
   font: normal 600 2em/1.25 Calluna, Georgia, serif;
   padding: .4em 0 .1em;
@@ -173,30 +175,32 @@ hr {
 
 .banner h2 {
   font: normal 400 1em/1 Calluna, Georgia, serif;
-  padding: 0 0 1.5em 0;
+  padding: 0 0 1em 0;
 }
 
 /* Banner responsive navigation */
 
-.banner nav a {
+.top-menu a {
   background: hsla(138, 37.5%, 59.5%, .2);
   border-left: hsla(138, 37.5%, 59.5%, 1) 6px solid;
   font-family: 'open-sans', 'Open Sans', Calibri, sans-serif;
-  padding: .75em 1em;
+  padding: 1em 1em;
   position: absolute;
-  right: .5em;
+  right: 0;
   text-decoration: none;
   top: .5em;
 }
 
-.banner nav a:hover,
-.banner nav a:focus {
+.top-menu a:hover,
+.top-menu a:focus {
   background: hsla(37, 75%, 55%, .25);
   border-left: hsla(37, 75%, 55%, 1) 6px solid;
 }
 
 /** Navigation (responsive, small screen) **/
 .site-nav {
+  background: hsla(138, 10%, 98%, 1);
+  box-shadow: hsla(218, 2%, 10%, .5) 0 -1px 10px 1px;
   font: normal 400 1em/1.5 'open-sans', 'Open Sans', Calibri, sans-serif;
   padding: 1em 0 .5em;
   text-align: center;
@@ -205,15 +209,16 @@ hr {
 .site-nav ul {
   list-style: none;
   margin: 0 auto;
-  max-width: 20em;
-  padding: 0;
+  max-width: 22em;
+  padding: 0 1em;
 }
 
-.site-nav li a {
-  background: hsla(138, 39%, 54%, .25);
-  border-left: hsla(138, 39%, 54%, 1) 6px solid;
-  display: block;
-  margin: .5em auto;
+.site-nav li {
+  border-bottom: hsla(138, 39%, 54%, .5) 1px solid;
+}
+
+.site-nav li:last-child {
+  border-bottom: hsla(138, 0%, 59.5%, .3) 1px solid;
 }
 
 .site-nav li:last-child a {
@@ -228,8 +233,10 @@ hr {
 }
 
 .site-nav li a {
+  background: hsla(138, 39%, 54%, .25);
+  border-left: hsla(138, 39%, 54%, 1) 6px solid;
   display: block;
-  padding: .5em 1em;
+  padding: .75em 1.5em;
   text-decoration: none;
 }
 
@@ -363,6 +370,14 @@ hr {
 }
 
 /* Gallery-specific */
+/* Next/Previous navigation */
+.more {
+  background: hsla(138, 37.5%, 59.5%, .2);
+  font-family: 'open-sans', 'Open Sans', Calibri, sans-serif;
+  padding: .75em;
+  text-align: center;
+  text-decoration: none;
+}
 
 .gallery {
   max-width: 48em;
@@ -534,14 +549,18 @@ figure img {
 @media screen and (min-width: 30em) {
   /* i.e. 480px */
 
-  .page {
-    padding: 0 2em 2.5em;
-  }
-
   .banner,
   .page,
   .site-nav {
     font-size: 1.125em;
+  }
+
+  .page {
+    padding: 0 2em 2.5em;
+  }
+
+  .banner {
+    padding: 2.5em 0 0 0;
   }
 
   .excerpt {
@@ -573,6 +592,7 @@ figure img {
   /* i.e. 704px */
 
   .banner {
+    height: 8em;
     padding: 1em 0 0 0;
   }
 
@@ -617,24 +637,28 @@ figure img {
   to a large-screen conventional inline-block navigation */
 
   .banner {
+    height: 10em;
     padding-bottom: 2.75em;
   }
 
-  .banner nav {
+  .top-menu {
     display: none;
   }
 
   .site-nav {
+    border-bottom: none;
+    box-shadow: none;
     left: 50%; /* this hack centers the nav */
     margin-left: -20em; /* this hack also centers the nav */
+    padding: 0;
     position: absolute;
-    top: 7em;
-    transition: position 0ms;
+    top: 7.5em;
     width: 40em;
+    transition: none;
   }
 
-  .site-nav {
-    padding: 0;
+  .site-nav ul {
+    max-width: none;
   }
 
   .site-nav ul {
@@ -642,12 +666,17 @@ figure img {
   }
 
   .site-nav li {
+    border-bottom: none;
     display: inline-block;
     margin: 0 .5em;
   }
 
   .site-nav li:last-child {
     display: none;
+  }
+
+  .site-nav li a {
+    padding: .5em 1.5em;
   }
 
 }
