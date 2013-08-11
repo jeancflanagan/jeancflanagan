@@ -500,7 +500,12 @@ figure img {
   text-align: center;
 }
 
-/* photoset-specific figure styles */
+.page .right img,
+.page .left img {
+  width: 150%; /* Just in case the image pixel width is too small. */
+}
+
+/* Photoset-specific figure styles */
 .photoset figure {
   margin: 1em 0;  
 }
