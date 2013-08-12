@@ -273,6 +273,11 @@ hr {
 }
 
 /** Home index link to archive (continuation of index) **/
+
+.archive-link {
+  margin: 1em 0 1.5em;
+}
+
 .archive-link a {
   display: block;
   margin: 0 8em;
@@ -824,13 +829,13 @@ figure img {
   }
 
   .archive-link {
-    margin: 0 auto;
+    margin: .5em auto 1em;
     min-height: 3em;
     width: 63em;
   }
 
   .archive-link a {
-    margin: .5em 25em;
+    margin: 0 25em;
   }
 
   .ellipsis {

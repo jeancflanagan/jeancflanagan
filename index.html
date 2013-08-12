@@ -7,5 +7,9 @@ title: Home
   {% for post in site.categories.writing limit:3 %}
   {% include excerpt-writing.html %}
   {% endfor %}
-  {% include archive-link.html %}
+  {% include writing-archive-link.html %}
+  {% for post in site.categories.photo limit:3 %}
+  {% include excerpt-photo.html %}
+  {% endfor %}
+  {% include photoset-archive-link.html %}
 </ul>
