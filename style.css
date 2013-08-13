@@ -267,7 +267,7 @@ hr {
 /** Container for post excerpts (an index) **/
 .excerpt-index {
   list-style: none;
-  margin: .5em auto;
+  margin: .5em auto 1em;
   overflow: hidden;
   padding: 0;
 }
