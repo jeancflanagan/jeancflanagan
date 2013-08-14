@@ -1,35 +1,35 @@
 # Title: Figure/image tag plugin for Jekyll
-# Author: Oliver Pattison http://oliverpattison.org
-# Description: Create figure/img HTML blocks with optional class and captions. A Liquid tag plugin for Jekyll.
+# Author: Oliver Pattison | http://oliverpattison.org
+# Description: Create figure/img HTML blocks with optional classes and captions. This is a YAML-dependent Liquid tag plugin for Jekyll for those who fear link rot.
 # 
 # Download/source/issues: https://github.com/opattison/jekyll-figure-image-tag
 # Documentation: https://github.com/opattison/jekyll-figure-image-tag/blob/master/README.md
 # 
-# Note: designed specifically for implementations with images, captions and alt text in post YAML Front Matter.
-# 
-# Create YAML collections like this:
+# Note: designed specifically for implementations with YAML front matter-based images, captions and alt text.
+# Create YAML collections in a post like this:
 # 
 #   image:
 #     - path/to/image
 #     - path/to/another-image
 # 
-# Make sure to have an image host specified in the _config.yml file. Like:
+# Make sure to have an image host specified in the _config.yml file:
 # 
 #   image_url: http://images.example.com/
 # 
-# Syntax: {% figure [class name(s)] /path/to/image 'alt text' 'caption text' %}
+# Syntax: 
+# {% figure [class name(s)] /path/to/image 'alt text' ['caption text'] %}
 # 
-# Sample (all, with front matter): 
-# {% figure left {{ page.image[1] }} {{ page.image_alt[1] }} {{ page.image_caption[1] }} %}
+# Sample (typical use): 
+# {% figure left {{ page.image[0] }} {{ page.image_alt[0] }} {{ page.image_caption[0] }} %}
 #
 # Output:
 # <figure class="left">
 #   <img src="http://images.example.com/solar-farm.jpg" alt="Landscape view of solar farm">
 #   <figcaption>
-#     <p>Photos from my trip to [the solar farm](http://example.com).</p>
+#     <p>Photos from my trip to <a href="http://example.com">the solar farm</a>.</p>
 #   </figcaption>
 # </figure>
-#
+# 
 
 module Jekyll
   class FigureTag < Liquid::Tag
@@ -41,21 +41,20 @@ module Jekyll
       @alt = ''
       @caption = nil #not required
 
-      if 
+      if markup =~ /(\S.*\s+)?(page.image\[\d\])(\s+page.image_alt\[\d\])?(\s+page.image_caption\[\d\])?/
         #regex that grabs the src and alt at minimum, but optionally alt and caption
-        markup =~ /(\S.*\s+)?(page.image\[\d\])(\s+page.image_alt\[\d\])?(\s+page.image_caption\[\d\])?/
         @class = $1
-        @src = "{{ #{$2} }}"
-        @alt = "{{ #{$3} }}"
-        @caption = "{{ #{$4} | markdownify }}" #markdownified so it can contain hyperlinks
+        @src = $2
+        @alt = $3
+        @caption = $4
       end
     end
 
     def render(context)
       # making sure that liquid tags referencing the front matter are parsed as liquid tags
-      @src = Liquid::Template.parse(@src).render(context)
-      @alt = Liquid::Template.parse(@alt).render(context)
-      @caption = Liquid::Template.parse(@caption).render(context)
+      @src = Liquid::Template.parse("{{ #{@src} }}").render(context)
+      @alt = Liquid::Template.parse("{{ #{@alt} }}").render(context)
+      @caption = Liquid::Template.parse("{{ #{@caption} | markdownify }}").render(context)
       @site_url = Liquid::Template.parse("{{ site.image_url }}").render(context)
 
       if @class
@@ -66,12 +65,12 @@ module Jekyll
 
       figure += "<img src=\"#{@site_url}#{@src}\" alt=\"#{@alt}\"/>"
       
-      if @caption 
+      if @caption
+        figure += "</figure>"
+      else
         figure += "<figcaption>#{@caption}</figcaption>"
+        figure += "</figure>"
       end
-      
-      figure += "</figure>"
-
     end
   end
 end
