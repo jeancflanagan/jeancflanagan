@@ -6,7 +6,12 @@ date: 2013-01-14 10:00
 excerpt: 'Unfortunately, science education research and practice tend to exist in parallel universes. If we care about science education, we have to face the research-practice divide.'
 source: PLOS Sci-Ed
 sourceurl: http://blogs.plos.org/scied/2013/01/14/facing-the-research-practice-divide-in-science-education/
-image: 2013-01-14-sather-tower-uc-berkeley-brostad-flickr.jpg
+image: 
+  - 2013-01-14-sather-tower-uc-berkeley-brostad-flickr.jpg
+image_alt:
+  - 'Sather Tower, U.C. Berkeley'
+image_caption:
+  - 'An ivory tower of sorts: Sather Tower, U.C. Berkeley. Photo by [Bernt Rostad on Flickr](http://www.flickr.com/photos/brostad/2878353059/)'
 ---
 
 Science education researchers and science teachers have much to offer each other. In an ideal world, knowledge would flow freely between researchers and educators. Unfortunately, research and practice tend to exist in parallel universes. As long as this divide persists, classrooms will rarely benefit from research findings, and research studies will rarely be rooted in the realities of the classroom. If we care about science education, we have to face the research-practice divide.
@@ -29,18 +34,13 @@ When I asked high school science teacher Laurie Almeida how she perceived the cr
 
 >Somewhat credible. I work at a difficult school, so I feel that some of the research is way too out of touch with the reality of my school.
 
-<figure class="right">
-<img src="{{ site.image-url }}{{ page.image }}"/>
-<figcaption>An ivory tower of sorts: Sather Tower, U.C. Berkeley. Photo by <a href="http://www.flickr.com/photos/brostad/2878353059/">Bernt Rostad on Flickr.</a></figcaption>
-</figure>
+{% figure right page.image[0] page.image_alt[0] page.image_caption[0] %}
 
 There is sometimes truth to the ivory tower criticisms; Gore and Gitlin noted that in some academic circles, the more closely research is associated with practice, the more devalued it is. Furthermore, science education research is far from perfect. Small-scale studies with limited applicability are published more frequently in science education than they are the natural sciences. This trend hasn’t escaped notice from teachers either. When I asked about the perceived credibility of science education research among teachers, science teacher Toni Taylor told me:
 
 >Too often I see "research" that includes only a small sample population which makes me question the validity of the research... sometimes I feel like science education simply tries to reinvent the wheel.
 
 However, a lot of the mistrust between the two groups is based on their misunderstanding of each other’s professions. Teachers do not always appreciate that many researchers are often in the classroom regularly, conducting classroom-based studies and collecting data. This “back of the class” view can be highly illuminating, and is a valid way to know classrooms. Some researchers got their start as K-12 teachers. And higher education is certainly not immune from classroom management issues or over-filled schedules. Professors have stress — just ask the [#realForbesProfessors](https://twitter.com/search?q=%23realforbesprofessors&src=typd) (this hashtag exploded on Twitter following the publication of a [*Forbes* article](http://www.forbes.com/sites/susanadams/2013/01/03/the-least-stressful-jobs-of-2013/) claiming that professors have one of the least stressful jobs). Similarly, researchers can forget that experienced teachers have a wealth of knowledge about the specific interactions of classroom context, pedagogy, and subject matter.
-
- 
 
 ## What can be done?
 
