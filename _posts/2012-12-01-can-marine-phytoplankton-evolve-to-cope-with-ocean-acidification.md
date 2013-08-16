@@ -5,6 +5,12 @@ title: 'Can marine phytoplankton evolve to cope with ocean acidification?'
 date: 2012-12-01 10:01
 excerpt: 'New evidence suggests that an important marine alga could quickly evolve adaptations to ocean acidification.'
 source: here
+image:
+  - 2012-12-01-e-huxleyi-small-and-large-2.jpg
+image_alt:
+  - 'E. huxlyei under SEM microscope vs. bloom in Barents Sea from space' 
+image_caption:
+  - 'E. huxlyei is both tiny and gigantic. Left: one individual under an SEM microscope (photo by Alison R. Taylor). Right: a bloom in the Barents Sea from space (photo from NASA).'
 ---
 
 One of the most pressing questions in evolutionary biology is whether or not species will be able to evolve in response to global climate change and its associated effects such as [ocean acidification](http://www.pmel.noaa.gov/co2/story/What+is+Ocean+Acidification%3F). A [paper](http://www.nature.com/ngeo/journal/v5/n5/abs/ngeo1441.html) published earlier this year in *Nature Geoscience* provides experimental evidence that one of the ocean’s most important species, *Emiliania huxleyi*, is capable of quickly adapting to increased levels of acidification through natural selection.
@@ -14,6 +20,8 @@ One of the most pressing questions in evolutionary biology is whether or not spe
 The fate of certain organisms will have an outsized impact on the world’s ecosystems, and *E. huxleyi*, a species of phytoplankton, is one of them. It’s hard to overstate the importance of phytoplankton; these tiny photosynthesizing drifters form the base of nearly all the ocean’s food webs, and are responsible for half of all photosynthetic activity on the planet. Specifically, *E. huxleyi* is a coccolithophore, a type of single-celled algae that makes up an important part of the ocean’s phytoplankton. The “coccoliths” that cover the cells are plates made of calcium carbonate, the same substance stony coral reefs are made of. Just as ocean acidification [threatens](http://www.sciencemag.org/content/318/5857/1737.short) the ability of corals to produce their reef-building calcium carbonate structures, it threatens to do the same for coccolithophores. 
 
 The coccoliths themselves have their own ecological significance. When these calcium carbonate plates sink toward the ocean floor, they can [push organic particles down](http://www.int-res.com/abstracts/meps/v126/p247-265/) with them, impacting the amount of organic matter that reaches the deep sea. Though individuals are only visible with a microscope, when conditions are right algal blooms can occur that can be seen from space because the coccoliths reflect light and change the seas to a beautiful milky blue.
+
+{% figure_img page.image[0] page.image_alt[0] page.image_caption[0] %}
 
 Previous short-term studies have shown slower growth rates and lower levels of calcium carbonate production for *E. huxleyi* exposed to acidic (high carbon dioxide) conditions. Lead author [Kai Lohbeck](http://www.geomar.de/en/mitarbeiter/fb3/ev/klohbeck/) and his colleagues wanted to see if natural selection under acidic conditions could result in adaptations that would partially or fully restore growth and a calcification levels to normal.  Adapting to increasing ocean acidification is a race against time, but fortunately phytoplankton have very short generation times. 
 

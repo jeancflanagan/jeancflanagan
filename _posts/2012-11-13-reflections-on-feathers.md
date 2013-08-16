@@ -5,10 +5,15 @@ title: 'Reflections on Feathers: the Evolution of a Natural Miracle'
 date: 2012-11-13 10:01
 excerpt: 'Thor Hanson’s book *Feathers* is a compelling read, touching on the biology, history, and culture of feathers.'
 source: here
-sourceurl: 
+image:
+  - 2012-11-13-thor-hanson-feathers-book-cover.jpg
+image_alt:
+  - 'Thor Hanson Feathers book cover'
 ---
 
 As a lifelong casual bird watcher, the title *Feathers* drew me in right away. I grew up in and around an Audubon-designated bird sanctuary, and as I flipped through the book I started to think about how feathers might be a lot of the reason birds had captured my attention. The brilliant colors, the effortless beauty of flight, and the fascinating behaviors of birds could all be most efficiently explained by an examination of feathers. In *Feathers*, Thor Hanson takes a seemingly small topic and surprises you with all the directions it can lead. While the focus is the evolutionary biology of feathers, it touches on everything from fashion, to aircraft, to the down industry, to pens, to the aviaries of the Aztecs, and should entice a broad range of readers.
+
+{% figure_img right page.image[0] page.image_alt[0] %}
 
 [Thor Hanson](http://thorhanson.net/About.html) is a field biologist, a self-descriptor he uses often in the book. While not all readers will appreciate the distinction between "biologist" and "field biologist," I think the subtle difference is apparent in his writing. He clearly has many of the hallmarks of the naturalists of an earlier era. He spends an ample amount of time outdoors in direct observation of animals, takes copious field notes, and has an inclination for hands-on exploration of anatomy and physiology. Reading about the University of Vermont’s [field naturalist program](http://www.uvm.edu/~fntrlst/), where he got his master’s, gives you a sense where he’s coming from. Though some of his projects in the “racoon shack”—his outdoor shed/office/workspace—remind me of the pursuits of a nature-obsessed ten-year-old, I think they are illustrative of an immediate joy in and curiosity about the natural world that is less evident in many other scientists and science writers.
 

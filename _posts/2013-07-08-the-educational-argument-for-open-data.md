@@ -6,21 +6,23 @@ date: 2013-07-08 10:01
 excerpt: 'Science students can benefit greatly from educational materials that expose them to real-world data, but educators can’t access most scientific data.'
 source: PLOS Sci-Ed
 sourceurl: http://blogs.plos.org/scied/2013/07/08/open-data-for-science-education/
-image: 2013-07-08-open-data-opensourceway-cc-by-sa.png
+image: 
+  - 2013-07-08-open-data-opensourceway-cc-by-sa.png
+image_alt: 
+  - 'Open data graphic'
+image_caption: 
+  - 'Open Data. Image by [Colleen Simon for opensource.com on Flickr (CC-BY-SA)](http://www.flickr.com/photos/opensourceway/5538036200/in/faves-jeancflanagan/).'
 ---
 
 [Open data](https://p2pu.org/en/courses/5/content/13/) is the idea that scientific data should be freely available to all, without restrictions, in searchable online repositories. The open data movement is gaining momentum in the scientific community because of its [promise](http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.1001195) to enable more frequent replication of studies and to accelerate the pace of research. But the advantages for science education are just as compelling. 
 
-Science students can benefit greatly from educational materials that expose them to real-world phenomena and data. Unlike learning from broad generalizations and pre-fabricated "cookbook" labs, examining and working with real data can increase interest and better prepare students for careers in science. As states begin to adopt the [Next Generation Science Standards](http://www.nextgenscience.org/next-generation-science-standards), which emphasize practices such as analyzing and interpreting data, and mathematical and computational thinking, developers of K-12 science curriculum materials are increasingly looking for ways to incorporate scientific data into their lessons and assessments.  
+Science students can benefit greatly from educational materials that expose them to real-world phenomena and data. Unlike learning from broad generalizations and pre-fabricated "cookbook" labs, examining and working with real data can increase interest and better prepare students for careers in science. As states begin to adopt the [Next Generation Science Standards](http://www.nextgenscience.org/next-generation-science-standards), which emphasize practices such as analyzing and interpreting data, and mathematical and computational thinking, developers of K-12 science curriculum materials are increasingly looking for ways to incorporate scientific data into their lessons and assessments.
 
-However, barriers exist that prevent educators from effectively using much of the data that scientists produce. As a reader of PLOS blogs, you are likely familiar with the [open access](http://en.wikipedia.org/wiki/Open_access) movement in scholarly publishing. But even access to journal articles, though valuable, is often not sufficient for educators' purposes. Data in journal articles are usually in the form of a few graphs. These graphs are typically frozen in PDFs as part of a paper that conveys the authors' interpretation of the results in the context of their particular study. And the data presentation choices were made with one audience in mind: experts in the field. 
+However, barriers exist that prevent educators from effectively using much of the data that scientists produce. As a reader of PLOS blogs, you are likely familiar with the [open access](http://en.wikipedia.org/wiki/Open_access) movement in scholarly publishing. But even access to journal articles, though valuable, is often not sufficient for educators' purposes. Data in journal articles are usually in the form of a few graphs. These graphs are typically frozen in PDFs as part of a paper that conveys the authors' interpretation of the results in the context of their particular study. And the data presentation choices were made with one audience in mind: experts in the field.
 
-<figure class="right">
-<img src="{{ site.image-url }}{{ page.image }}"/>
-<figcaption>Open Data. Image by <a href="http://www.flickr.com/photos/opensourceway/5538036200/in/faves-jeancflanagan/">Colleen Simon for opensource.com on Flickr (CC-BY-SA).</a></figcaption>
-</figure>
+{% figure_img right page.image[0] page.image_alt[0] page.image_caption[0] %}
 
-Using data as it is presented in papers is almost never pedagogically sound at the middle or high school level; much must be changed about the presentation. Jargon and acronyms might have to be removed from axis titles, individual data sets might need to be separated if they are layered into a single figure, or perhaps a section of the graph that describes phenomena outside the scope of the lesson and would have to be removed. Making these kinds of educationally necessary modifications—while maintaining scientific accuracy—often requires access to full original datasets. 
+Using data as it is presented in papers is almost never pedagogically sound at the middle or high school level; much must be changed about the presentation. Jargon and acronyms might have to be removed from axis titles, individual data sets might need to be separated if they are layered into a single figure, or perhaps a section of the graph that describes phenomena outside the scope of the lesson and would have to be removed. Making these kinds of educationally necessary modifications—while maintaining scientific accuracy—often requires access to full original datasets.
 
 Unfortunately, most scientific data is not archived and readily available online. Educators have to contact the study authors and see if they are willing and able to pass it along. Just as with journal articles, this "write to the author" stop-gap is wildly inefficient. Study authors often can't or won't respond to requests for original data for a variety of reasons. Sometimes they are simply out of town and not checking email. Sometimes they want to publish more papers and are afraid of getting scooped. And sometimes, especially with older studies, they actually can't find their data.
 
@@ -35,5 +37,3 @@ I talked to [Sandra Porter](http://scienceblogs.com/digitalbio/), who I met at t
 >The raw data was useful for us because we needed to know what raw data looks like so we could work out analysis problems in advance.  These types of data files are not likely to be available from many places since these raw data are usually processed and analyzed through many pipeline steps before they get submitted to a database.
 
 There are many worthy reasons to support the open science movement, but the argument for science education holds its own among them. It has never been easier to bring real scientific data into classrooms, and the benefits to young scientists-in-training are clear. It would be a shame for all of that educational potential to languish on old hard drives. 
-
-

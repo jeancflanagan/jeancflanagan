@@ -505,6 +505,10 @@ figure img {
   text-align: center;
 }
 
+.page figcaption p {
+  margin: 0;
+}
+
 .page .right img,
 .page .left img {
   width: 150%; /* Just in case the image pixel width is too small. */
