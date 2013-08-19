@@ -7,6 +7,8 @@ require 'stringex'
 # Assumes that ImageOptim and ImageOptim-CLI are installed
 
 ssh_user       = "jcflanagan@jeancflanagan.com"
+s3_for_images  = true
+
 local_images   = "_images" # typically called "_images"
 local_site     = "_site" # typically called "_site"
 remote_images  = "webapps/static"
@@ -15,16 +17,14 @@ remote_site    = "webapps/dev"
 rsync_delete   = true
 include_images = "--include='*.png' --include='*.jpg' --include='*/' --exclude='*'"
 
-## "rake new_writing" to generate a new post with "Writing" front matter
+## "rake new_post" to generate a new post with front matter
 ### borrowed most of the code from Octopress https://github.com/imathis/octopress/blob/master/Rakefile
-
 task :new_post do
   title = get_stdin("Enter a title for your post: ")
   if title == ""
     title = "New Post"
   end
   filename = "_posts/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.md"
-  puts "Creating new post: #{filename}"
   photo = get_stdin("Making a photo post? y or n? ")
   if photo == "y"
     open(filename, 'w') do |post|
@@ -63,6 +63,7 @@ task :new_post do
       post.puts "---"
     end
   end
+  puts "Created new post: #{filename}"
 end
 
 ## "rake optimize" to optimize a folder of images in ImageOptim-CLI
@@ -75,8 +76,13 @@ end
 ## "rake load" to load images in the local image directory to your server
 desc "deploy Jekyll images to remote server via rsync"
 task :load do
-  system "s3_website push --site #{local_images}"
-  puts "## Deployed images to S3 ##"
+  if "#{s3_for_images}"
+    system "s3_website push --site #{local_images}"
+    puts "## Deployed images to S3 ##"
+  else
+    system "rsync -avze ssh #{include_images} #{local_images}/ #{ssh_user}:#{remote_images}/"
+    puts "## Deploying images via rsync ##"
+  end
 end
 
 ## "rake deploy" to deploy _site and _images to your server
