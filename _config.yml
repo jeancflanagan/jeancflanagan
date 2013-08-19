@@ -9,7 +9,7 @@ image_url: http://static.oliverpattison.org
 pygments: true
 layouts: ./_layouts
 plugins: ./_plugins
-exclude: ['Rakefile']
+exclude: ['Rakefile', 's3_website.yml']
 
 permalink: /:year/:title/
 markdown: kramdown
