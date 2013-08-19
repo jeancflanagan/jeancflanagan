@@ -15,7 +15,6 @@ image_alt:
   - 'Lone tree in sillhouette'
   - 'Two alternate styles of cladograms that communicate the same thing'
   - 'Dynamic Evolutionary Map example, a spatial graph of the relatedness of hawk, eagle and vulture species'
-  - 'Three different tree shapes in the OneZoom Tree of Life Explorer'
 image_caption:
   - 'Lone tree. Photo by [Daveybot on Flickr (CC-BY-NC-SA)](http://www.flickr.com/photos/davemorris/96442418/in/faves-jeancflanagan/).'
   - 'Two styles of cladogram depicting identical relationships. Branches can rotate around nodes without altering the meaning of the diagram. Image by Alexei Kouprianov (CC-BY-SA).'
@@ -25,7 +24,7 @@ image_caption:
 
 Evolution education is entering an exciting time: scientists are working on the [Open Tree of Life](http://blog.opentreeoflife.org/project-summary/ "The Open Tree of Life - Project Summary")  the first comprehensive tree charting the evolutionary relationships of all named species -- and many U.S. classrooms are preparing for state adoption of the [Next Generation Science Standards](http://www.nextgenscience.org/next-generation-science-standards "Next Generation Science Standards") (NGSS), in which evolution and common ancestry are central. However, in order to capitalize on these developments, students will need to become competent in the surprisingly tricky skill of "tree thinking".
 
-{% figure_img page.image[0] page.image_alt[0] page.image_caption[0] %}
+{% figure_img 0 caption %}
 
 Trees are one of the most powerful metaphors in art and science. For biologists, the "tree of life" stands for both the unity and diversity of life. But are students and non-scientists accurately interpreting its branches? As I've [discussed here](http://blogs.plos.org/scied/2013/03/18/communicating-about-evolution-the-danger-of-shortcuts/ "Communicating about evolution: the danger of shortcuts") before, misconceptions about the mechanism of natural selection -- often referred to as microevolution --  are rampant. However, understanding macroevolution -- the big picture of biological evolution, including the common ancestry of life and the relationships among groups of living things -- may be even more difficult. 
 
@@ -33,7 +32,7 @@ Trees are one of the most powerful metaphors in art and science. For biologists,
 
 Science education researchers have been documenting students' troubles with trees for many years. Textbooks, museum exhibits, and other learning resources are filled with a variety of tree-inspired diagrams that often represent different types of information from each other. Different diagrams may show different levels of taxa (for example, species, genera, or orders). Some may be oriented horizontally and others vertically. And they may or may not include shared traits, shared ancestors, or time. Some researchers have argued that diagrams that are not cladograms -- which use a simple branching system to depict clades, or groups that share a common ancestor --  are less useful and [only serve to confuse](http://evolution.berkeley.edu/UToL/catley_novick08.pdf "Catley & Novick - Seeing the Wood for the Trees"). Yet cladograms themselves are notoriously easy to misinterpret. 
 
-{% figure_img left page.image[1] page.image_alt[1] page.image_caption[1] %}
+{% figure_img left 1 caption %}
 
 Common misinterpretations of cladograms result from reading from top to bottom (horizontally oriented cladograms) or from left to right (vertically oriented ones) and inferring either increase in "complexity" (likely reinforced by highly problematic "[march of progress](http://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Human_evolution_scheme.svg/500px-Human_evolution_scheme.svg.png "Human evolution - march of progress")" diagrams) or passage of time. Similarly, instead of following the nodes back to a most recent common ancestor, many people focus on the tips (the parts marked with taxa names) -  and infer that spatial closeness implies a closer evolutionary relationship. 
 
@@ -56,7 +55,7 @@ I met [Sonia Stephens](http://terpsinoe.wordpress.com/my-cv/ "Sonia Stephens - C
 
 In her [paper](http://link.springer.com/article/10.1007/s12052-012-0457-3/fulltext.html "From Tree to Map: Using Cognitive Learning Theory to Suggest Alternative Ways to Visualize Macroevolution") in *Evolution: Education & Outreach*, Sonia explains that the map is essentially a top-down cross-section of a phylogenetic tree. Multiple cross-sections, which animate in sequence, represent different points in time. Taxa appear as dots whose relative spatial distances are determined by phylogenetic relatedness. When reading a cladogram, the intuitive impulse to infer relatedness from spatial distance between branch tips inevitably leads to error. The DEM works with this intuition, rather than against it. 
 
-{% figure_img page.image[2] page.image_alt[2] page.image_caption[2] %}
+{% figure_img 2 caption %}
 
 When I asked her about what people would need to understand in order to use the map, she said:
 
@@ -66,7 +65,7 @@ The DEM is free to use (under creative commons license CC-BY-NC-SA) and Sonia is
 
 Another digital innovation on evolutionary tree diagrams, the amazing [OneZoom Tree of Life Explorer](http://www.onezoom.org/ "OneZoom Tree of Life Explorer"),  will be visualizing the Open Tree of Life. As detailed in an [article](http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.1001406 "OneZoom: A Fractal Explorer for the Tree of Life") on the PLOS community pages, OneZoom's tree breaks the static, paper-bound mold in many ways -- and it includes three different fractal shape options, which may prevent some misinterpretation. However, unlike the DEM all versions retain the branching metaphor.
 
-{% figure_img page.image[3] page.image_alt[3] page.image_caption[3] %}
+{% figure_img 3 caption %}
 
 The flexibility of digital visualization has the potential to overcome many of the obstacles to "tree thinking." I look forward to seeing research evaluating the affordances of these new tools and the development of appropriate educational supports. 
 

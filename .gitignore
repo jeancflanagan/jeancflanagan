@@ -1,5 +1,6 @@
-_site/
-_images/
-pkg/
-test/
-.DS_store
+_images
+_includes/head-analytics.html
+_site
+.DS_Store
+Rakefile
+s3_website.yml
