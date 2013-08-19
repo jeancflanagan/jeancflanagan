@@ -3,12 +3,13 @@ tagline: science education specialist and writer
 author:
   name: Jean C. Flanagan
   email: jeancflanagan@gmail.com
-url: http://jeancflanagan.com/
-image_url: http://static.oliverpattison.org/
+url: http://jeancflanagan.com
+image_url: https://s3.amazonaws.com/temporary.static.jeancflanagan
 
 pygments: true
 layouts: ./_layouts
 plugins: ./_plugins
+exclude: ['Rakefile', 's3_website.yml']
 
 permalink: /:year/:title/
 markdown: kramdown

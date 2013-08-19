@@ -22,7 +22,7 @@ Experts who do understand evolution by natural selection often use shortcuts and
 
 I’ll attempt to outline some of the major misconceptions and learning difficulties related to the mechanism of natural selection and discuss some common ways of talking about evolutionary processes that can reinforce these misconceptions.
 
-{% figure_img right page.image[0] page.image_alt[0] page.image_caption[0] %}
+{% figure_img right 0 caption %}
 
 ## Fitness and “survival of the fittest”
 
