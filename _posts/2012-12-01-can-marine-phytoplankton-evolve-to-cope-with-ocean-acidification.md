@@ -21,7 +21,7 @@ The fate of certain organisms will have an outsized impact on the world’s ecos
 
 The coccoliths themselves have their own ecological significance. When these calcium carbonate plates sink toward the ocean floor, they can [push organic particles down](http://www.int-res.com/abstracts/meps/v126/p247-265/) with them, impacting the amount of organic matter that reaches the deep sea. Though individuals are only visible with a microscope, when conditions are right algal blooms can occur that can be seen from space because the coccoliths reflect light and change the seas to a beautiful milky blue.
 
-{% figure_img page.image[0] page.image_alt[0] page.image_caption[0] %}
+{% figure_img 0 caption %}
 
 Previous short-term studies have shown slower growth rates and lower levels of calcium carbonate production for *E. huxleyi* exposed to acidic (high carbon dioxide) conditions. Lead author [Kai Lohbeck](http://www.geomar.de/en/mitarbeiter/fb3/ev/klohbeck/) and his colleagues wanted to see if natural selection under acidic conditions could result in adaptations that would partially or fully restore growth and a calcification levels to normal.  Adapting to increasing ocean acidification is a race against time, but fortunately phytoplankton have very short generation times. 
 

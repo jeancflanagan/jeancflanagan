@@ -20,7 +20,7 @@ Science students can benefit greatly from educational materials that expose them
 
 However, barriers exist that prevent educators from effectively using much of the data that scientists produce. As a reader of PLOS blogs, you are likely familiar with the [open access](http://en.wikipedia.org/wiki/Open_access) movement in scholarly publishing. But even access to journal articles, though valuable, is often not sufficient for educators' purposes. Data in journal articles are usually in the form of a few graphs. These graphs are typically frozen in PDFs as part of a paper that conveys the authors' interpretation of the results in the context of their particular study. And the data presentation choices were made with one audience in mind: experts in the field.
 
-{% figure_img right page.image[0] page.image_alt[0] page.image_caption[0] %}
+{% figure_img right 0 caption %}
 
 Using data as it is presented in papers is almost never pedagogically sound at the middle or high school level; much must be changed about the presentation. Jargon and acronyms might have to be removed from axis titles, individual data sets might need to be separated if they are layered into a single figure, or perhaps a section of the graph that describes phenomena outside the scope of the lesson and would have to be removed. Making these kinds of educationally necessary modifications—while maintaining scientific accuracy—often requires access to full original datasets.
 
