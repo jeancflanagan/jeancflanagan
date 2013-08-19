@@ -18,3 +18,5 @@ image_caption:
   - 'This is another caption.'
   - 'This is yet another caption.'
 ---
+
+{% include photoset-loop.html %}

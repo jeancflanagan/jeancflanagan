@@ -3,12 +3,8 @@ layout: fundamental
 ---
 <article class="foreground photoset" role="main">
   <section class="photos">
-    {% for image in page.image %}
-    <figure>
-      <img src="{{ page.image[forloop.index0] }}" alt="{{ page.image_alt[forloop.index0] }}">
-    </figure>
-    <figcaption>{{ page.image_caption[forloop.index0] }}</figcaption>
-    {% endfor %}
+    {% include photoset-loop.html %}
+    {{ content }}
   </section>
   {% include photoset-nav.html %}
 </article>
