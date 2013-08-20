@@ -2,5 +2,3 @@ _images
 _includes/head-analytics.html
 _site
 .DS_Store
-Rakefile
-s3_website.yml

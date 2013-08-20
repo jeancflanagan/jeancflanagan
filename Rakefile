@@ -3,8 +3,8 @@ require 'stringex'
 ## Rsync config ##
 
 # Assumes that ssh is already set up on the server.
-# Assumes that S3 local environmental variables are set up.
-# Assumes that ImageOptim and ImageOptim-CLI are installed
+# Assumes that S3_website gem is configured.
+# Assumes that ImageOptim and ImageOptim-CLI are installed.
 
 ssh_user       = "jcflanagan@jeancflanagan.com"
 s3_for_images  = true
@@ -31,18 +31,17 @@ task :new_post do
       post.puts "---"
       post.puts "layout: photoset"
       post.puts "category: photo"
-      post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
+      post.puts "title: \'#{title.gsub(/&/,'&amp;')}\'"
       post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
       post.puts "location: \'\'"
       post.puts "excert_image: "
       post.puts "excerpt: \'\'"
-      post.puts "source: "
       post.puts "image:"
       post.puts "  - "
       post.puts "image_alt:"
-      post.puts "  -  \'\'"
+      post.puts "  - \'\'"
       post.puts "image_caption:"
-      post.puts "  -  \'\'"
+      post.puts "  - \'\'"
       post.puts "---"
     end
   else
@@ -50,16 +49,17 @@ task :new_post do
       post.puts "---"
       post.puts "layout: writing"
       post.puts "category: writing"
-      post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
+      post.puts "title: \'#{title.gsub(/&/,'&amp;')}\'"
       post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
       post.puts "excerpt: \'\'"
       post.puts "source: "
+      post.puts "sourceurl: "
       post.puts "image:"
       post.puts "  - "
       post.puts "image_alt:"
-      post.puts "  -  \'\'"
+      post.puts "  - \'\'"
       post.puts "image_caption:"
-      post.puts "  -  \'\'"
+      post.puts "  - \'\'"
       post.puts "---"
     end
   end
@@ -76,7 +76,7 @@ end
 ## "rake load" to load images in the local image directory to your server
 desc "deploy Jekyll images to remote server via rsync"
 task :load do
-  if "#{s3_for_images}"
+  if s3_for_images
     system "s3_website push --site #{local_images}"
     puts "## Deployed images to S3 ##"
   else
