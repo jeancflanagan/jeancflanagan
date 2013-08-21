@@ -14,12 +14,11 @@ local_site     = "_site" # typically called "_site"
 remote_images  = "webapps/static"
 remote_site    = "webapps/dev"
 
-rsync_delete   = true
 include_images = "--include='*.png' --include='*.jpg' --include='*/' --exclude='*'"
 
-## "rake new_post" to generate a new post with front matter
+## "rake post" to generate a new post with front matter
 ### borrowed most of the code from Octopress https://github.com/imathis/octopress/blob/master/Rakefile
-task :new_post do
+task :post do
   title = get_stdin("Enter a title for your post: ")
   if title == ""
     title = "New Post"
@@ -88,7 +87,7 @@ end
 ## "rake deploy" to deploy _site and _images to your server
 desc "deploy Jekyll _site and _images to remote server via rsync"
 task :deploy => :load do
-  system "rsync -avze ssh #{"--delete" unless rsync_delete == false} #{local_site}/ #{ssh_user}:#{remote_site}/"
+  system "rsync -avze ssh --delete #{local_site}/ #{ssh_user}:#{remote_site}/"
   puts "## Deployed site via rsync ##"
 end
 
