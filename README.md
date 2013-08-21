@@ -45,9 +45,10 @@ The *content* of this site (in _posts directory) is licensed under CC-BY [(Creat
 
 - Ruby (tested on 1.9.3p194)
 - Ruby Environment Manager - RVM (tested on >1.21.11)
-- Jekyll (tested on >1.1.0) and installed dependencies
-- ImageOptim (for rakefile)
-- ImageOptim-CLI (for rakefile)
+- [Jekyll](https://github.com/mojombo/jekyll) (tested on >1.1.0) and installed dependencies
+- [S3_website](https://github.com/laurilehmijoki/s3_website) (tested on >v1.3.2)
+- [ImageOptim](http://imageoptim.com/) (for rakefile)
+- [ImageOptim-CLI](https://github.com/JamieMason/ImageOptim-CLI) (for rakefile)
 
 ### Notes:
 
