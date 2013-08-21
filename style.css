@@ -12,7 +12,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
   vertical-align: baseline;
 }
 
-/* following four adapted from HTML5 Boilerplate */
+/* following adapted from CSS Normalize */
 article,
 aside,
 details,
@@ -30,6 +30,7 @@ summary {
 
 html,
 body {
+  font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -48,12 +49,37 @@ textarea {
   font-family: sans-serif;
 }
 
+b,
+strong {
+  font-weight: bold;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace;
+  font-size: 1em;
+}
 
 /* Box-sizing borrowed from Paul Irish */
 * { 
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+/* Custom resets */
+body {
+  height: 100%;
+  margin: 0 auto;
+  max-width: 100%; /* Responsive resizing */
+}
+
+dfn,
+em,
+i {
+  font-style: italic;
 }
 
 /***! END Resets ***/
@@ -67,12 +93,6 @@ html {
   font: normal 400 1rem/1 Calluna, Georgia, serif;
 }
 
-body {
-  height: 100%;
-  margin: 0 auto;
-  max-width: 100%; /* Responsive resizing */
-}
-
 .background {
   background: hsla(218, 2%, 32%, 1);
 }
@@ -84,12 +104,14 @@ body {
 a,
 a:visited,
 .excerpt-writing h1 {
+  background: transparent;
   color: hsla(138, 39%, 54%, 1);
 }
 
 a:hover,
 a:focus {
   color: hsla(37, 75%, 55%, 1);
+  outline: 0;
 }
 
 h1 {
