@@ -3,8 +3,10 @@ s3_secret: <%= ENV['S3_SECRET'] %>
 s3_bucket: temporary.static.jeancflanagan
 
 max_age:
-  "*.css": 6000
-  "*": 300
+  "*.css": 2419200
+  "*.js": 2419200
+  "*.jpg": 2419200
+  "*.png": 2419200
 
 gzip:
   - .html
