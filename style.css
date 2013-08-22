@@ -171,7 +171,7 @@ hr {
 /** Site header **/
 .banner {
   background: hsla(138, 10%, 98%, 1);
-  box-shadow: hsla(218, 2%, 10%, .5) 0 -1px 10px 1px;
+  box-shadow: hsla(218, 2%, 10%, .75) 0 -.0625em .625em .0625em;
   margin: 0;
   padding: 3.5em 0 0 0;
   text-align: center;
@@ -213,7 +213,7 @@ hr {
 /** Navigation (responsive, small screen) **/
 .site-nav {
   background: hsla(138, 10%, 98%, 1);
-  box-shadow: hsla(218, 2%, 10%, .5) 0 -1px 10px 1px;
+  box-shadow: hsla(218, 2%, 10%, .75) 0 -.0625em .625em .0625em;
   font: normal 400 1em/1.5 'open-sans', 'Open Sans', Calibri, sans-serif;
   padding: 1em 0 .5em;
   text-align: center;
@@ -359,7 +359,7 @@ hr {
 .excerpt,
 .photoset {
   border-bottom: hsla(138, 39%, 54%, 1) 6px solid;
-  box-shadow: hsla(218, 2%, 10%, .5) 0 -1px 10px 1px;
+  box-shadow: hsla(218, 2%, 10%, .75) 0 -.0625em .625em .0625em;
   line-height: 1.375;
 }
 
@@ -462,7 +462,7 @@ hr {
 .excerpt-photo:hover,
 .excerpt-writing:focus,
 .excerpt-photo:focus {
-  box-shadow: hsla(37, 75%, 55%, 1) 0 10px 0 0;
+  box-shadow: hsla(37, 75%, 55%, 1) 0 .625em 0 0;
 }
 
 .excerpt-writing:hover h1,
@@ -484,7 +484,7 @@ hr {
 .more {
   background: hsla(138, 39%, 54%, .25);
   font-family: 'open-sans', 'Open Sans', Calibri, sans-serif;
-  padding: 1em;
+  padding: .75em 1em;
   text-align: center;
   text-decoration: none;
 }
@@ -755,6 +755,10 @@ figure img {
     padding: .5em 1.5em;
   }
 
+  .site-info {
+    box-shadow: hsla(218, 2%, 10%, .75) 0 -.0625em .625em .0625em;
+  }
+
 }
 
 @media screen and (min-width: 54em) {
@@ -822,28 +826,6 @@ figure img {
 @media screen and (min-width: 64em) {
   /* i.e. 1024px */
 
-  .page {
-    font-size: 1.5em; /* i.e. 24px */
-    padding: 0 3.5em 3em;
-  }
-
-  .page figure {
-    margin: 1em -3.5em;
-  }
-
-  .page figcaption {
-    font-size: .833333333em; /* not magic - 20px/24px */
-    padding: .6em .6em 1em;
-  }
-
-  .page .right {
-    margin: .5em -3.5em .5em 1.5em;
-  }
-
-  .page .left {
-    margin: .5em 1.5em .5em -3.5em;
-  }
-
   /* Becomes 3 columns for the first time here. */
   .excerpt-index {
     max-width: 63em;
@@ -892,8 +874,8 @@ figure img {
 
 }
 
-@media screen and (min-width: 95em) {
-  /* i.e. 1520px */
+@media screen and (min-width: 92em) {
+  /* i.e. 1472px */
 
   .excerpt-index,
   .site-info {
@@ -905,11 +887,25 @@ figure img {
   }
 
   .page {
-    font-size: 1.5625em; /* i.e. 25px */
+    font-size: 1.5em; /* i.e. 24px */
+    padding: 0 3.5em 3em;
+  }
+
+  .page figure {
+    margin: 1em -3.5em;
   }
 
   .page figcaption {
-    font-size: .8em;
+    font-size: .833333333em; /* not magic - 20px/24px */
+    padding: .6em .6em 1em;
+  }
+
+  .page .right {
+    margin: .5em -3.5em .5em 1.5em;
+  }
+
+  .page .left {
+    margin: .5em 1.5em .5em -3.5em;
   }
 
   .site-nav {
