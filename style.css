@@ -209,6 +209,7 @@ hr {
 .top-menu a:focus {
   background: hsla(37, 75%, 55%, .25);
   border-left: hsla(37, 75%, 55%, 1) 6px solid;
+  box-shadow: -3px 0 0 0 hsla(37, 75%, 55%, 1);
 }
 
 /** Navigation (responsive, small screen) **/
@@ -272,6 +273,7 @@ hr {
 .back-top a:focus {
   background: hsla(37, 75%, 55%, .25);
   border-left: hsla(37, 75%, 55%, 1) 6px solid;
+  box-shadow: -3px 0 0 0 hsla(37, 75%, 55%, 1);
 }
 
 /** Site footer **/
