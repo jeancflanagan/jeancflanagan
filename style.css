@@ -759,7 +759,7 @@ figure img {
     margin: 0 .5em;
   }
 
-  .site-nav .active {
+  .site-nav li.active {
     border-bottom: none;
   }
 
