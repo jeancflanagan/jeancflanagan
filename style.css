@@ -230,22 +230,16 @@ hr {
   border-bottom: hsla(138, 39%, 54%, .5) 1px solid;
 }
 
-.site-nav li:last-child {
+.site-nav li:last-child,
+.site-nav li.active {
   border-bottom: hsla(138, 0%, 54%, .3) 1px solid;
 }
 
-.site-nav li:last-child a {
+.site-nav li:last-child a,
+.site-nav li.active a {
   background: hsla(138, 0%, 54%, .25);
   border-left: hsla(138, 0%, 54%, 1) 6px solid;
-}
-
-.site-nav li a:hover,
-.site-nav li a:focus,
-.site-nav li:last-child a:hover,
-.site-nav li:last-child a:focus {
-  background: hsla(37, 75%, 55%, .25);
-  border-left: hsla(37, 75%, 55%, 1) 6px solid;
-  color: hsla(37, 75%, 55%, 1);
+  color: hsla(138, 16%, 10%, 1);
 }
 
 .site-nav li a {
@@ -256,18 +250,14 @@ hr {
   text-decoration: none;
 }
 
-.site-nav .active {
-  border-bottom: hsla(200, 39%, 54%, .3) 1px solid;
-}
-
-.site-nav .active a {
-  background: hsla(200, 39%, 54%, .25);
-  border-left: hsla(200, 39%, 54%, 1) 6px solid;
-  color: hsla(200, 39%, 40%, 1);
-}
-
-.site-nav li:last-child a {
-  color: hsla(138, 16%, 10%, 1);
+.site-nav li a:hover,
+.site-nav li a:focus,
+.site-nav li:last-child a:hover,
+.site-nav li:last-child a:focus {
+  background: hsla(37, 75%, 55%, .25);
+  border-left: hsla(37, 75%, 55%, 1) 6px solid;
+  box-shadow: -3px 0 0 0 hsla(37, 75%, 55%, 1);
+  color: hsla(37, 75%, 55%, 1);
 }
 
 .site-nav li:last-child:hover,
