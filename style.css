@@ -763,10 +763,6 @@ figure img {
     border-bottom: none;
   }
 
-  .site-nav li:last-child {
-    display: none;
-  }
-
   .site-nav li a {
     padding: .5em 1.5em;
   }
