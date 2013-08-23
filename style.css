@@ -541,9 +541,18 @@ figure img {
   margin: 0;
 }
 
+.page figure.narrow {
+  margin: 1em auto;
+  width: 75%;
+}
+
 .page .right img,
 .page .left img {
   width: 150%; /* Just in case the image pixel width is too small. */
+}
+
+.page .narrow img {
+  width: 100%;
 }
 
 /* Photoset-specific figure styles */
@@ -648,14 +657,24 @@ figure img {
     width: 50%;
   }
 
-  .page .right {
+  .page .right,
+  .page .right.narrow {
     float: right;
     margin: .5em -2em .5em 1.5em;
   }
 
-  .page .left {
+  .page .left,
+  .page .left.narrow {
     float: left;
     margin: .5em 1.5em .5em -2em;
+  }
+
+  .page figure.narrow {
+    width: auto;
+  }
+
+  .page .narrow img {
+    width: 150%;
   }
 
   .site-info {
@@ -842,11 +861,13 @@ figure img {
     width: 400px;
   }
 
-  .page .right {
+  .page .right,
+  .page .right.narrow {
     margin: .5em -3.2em .5em 1.5em;
   }
 
-  .page .left {
+  .page .left,
+  .page .left.narrow {
     margin: .5em 1.5em .5em -3.2em;
   }
 
