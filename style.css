@@ -275,7 +275,8 @@ hr {
 }
 
 .site-info p {
-  font-size: .875em;
+  font-size: .75em;
+  line-height: 1.675;
   margin: 0 .25em;
 }
 
