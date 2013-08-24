@@ -143,9 +143,9 @@ ul {
 
 blockquote {
   border-left: hsla(138, 39%, 54%, .25) 1em solid;
-  color: hsla(0, 0%, 50%, 1); /* TODO: test this against the color palette for the site */
+  color: hsla(138, 4%, 45%, 1);
   margin: 1em 0;
-  padding: 0em 1em;
+  padding: 0 1em;
 }
 
 sup:before {
@@ -334,6 +334,7 @@ hr {
   position: relative;
   top: 50%;
   -ms-transition: -ms-transform 250ms ease-in-out;
+  -o-transition: -o-transform 250ms ease-in-out;
   -moz-transition: -moz-transform 250ms ease-in-out;
   -webkit-transition: -webkit-transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out;
@@ -351,7 +352,8 @@ a:focus .ellipsis:before {
 .ellipsis:hover,
 .ellipsis:focus {
   -ms-transform: scale(1.2);
-  -moz-transform: scale (1.2);
+  -o-transform: scale(1.2);
+  -moz-transform: scale(1.2);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
@@ -609,7 +611,7 @@ figure img {
   }
 
   .banner {
-    padding: 2.5em 0 0;
+    padding: 3em 0 0;
   }
 
   .page {
