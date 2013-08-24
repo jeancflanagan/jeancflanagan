@@ -830,7 +830,7 @@ figure img {
   }
 
   .photoset footer {
-    font-size: 1.375em; /* so the photo post-nav can keep up */
+    font-size: 1.375em; /* so the photo footer can keep up */
     padding: 0 2em 3em;
   }
 
