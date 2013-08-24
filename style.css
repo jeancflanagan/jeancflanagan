@@ -189,20 +189,30 @@ hr {
   padding: 0 0 1em 0;
 }
 
-/* Banner responsive navigation */
-.top-menu a {
+/* Responsive navigation (top and bottom) */
+.top-menu a,
+.back-top a {
   background: hsla(138, 39%, 54%, .25);
   border-left: hsla(138, 39%, 54%, 1) 6px solid;
   font-family: 'open-sans', 'Open Sans', Calibri, sans-serif;
-  padding: 1em;
+  padding: .75em 1em;
   position: absolute;
   right: 0;
   text-decoration: none;
+}
+
+.top-menu a {
   top: .5em;
 }
 
+.back-top a {
+  bottom: .5em;
+}
+
 .top-menu a:hover,
-.top-menu a:focus {
+.top-menu a:focus,
+.back-top a:hover,
+.back-top a:focus {
   background: hsla(37, 75%, 55%, .25);
   border-left: hsla(37, 75%, 55%, 1) 6px solid;
   box-shadow: -3px 0 0 0 hsla(37, 75%, 55%, 1);
@@ -252,24 +262,6 @@ hr {
   border-left: hsla(37, 75%, 55%, 1) 6px solid;
   box-shadow: -3px 0 0 0 hsla(37, 75%, 55%, 1);
   color: hsla(37, 75%, 55%, 1);
-}
-
-.back-top a {
-  background: hsla(138, 39%, 54%, .25);
-  border-left: hsla(138, 39%, 54%, 1) 6px solid;
-  bottom: .5em;
-  font-family: 'open-sans', 'Open Sans', Calibri, sans-serif;
-  padding: .75em 1em;
-  position: absolute;
-  right: 0;
-  text-decoration: none;
-}
-
-.back-top a:hover,
-.back-top a:focus {
-  background: hsla(37, 75%, 55%, .25);
-  border-left: hsla(37, 75%, 55%, 1) 6px solid;
-  box-shadow: -3px 0 0 0 hsla(37, 75%, 55%, 1);
 }
 
 /** Site footer **/
@@ -604,7 +596,7 @@ figure img {
   .banner,
   .page,
   .photoset footer,
-  .site-nav
+  .site-nav,
   .site-info {
     font-size: 1.125em;
   }
