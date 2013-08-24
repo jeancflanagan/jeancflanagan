@@ -76,7 +76,6 @@ body {
   height: 100%;
   margin: 0 auto;
   max-width: 100%; /* Responsive resizing */
-  position: relative; /* allows for absolute positioning */
 }
 
 dfn,
@@ -278,7 +277,8 @@ hr {
   clear: both;
   font: normal 400 1em/1.5 'open-sans', 'Open Sans', Calibri, sans-serif;
   margin: 0 auto;
-  padding: 2em 0 5em;
+  padding: 2em 0 6em;
+  position: relative;
   text-align: center;
 }
 
@@ -604,8 +604,7 @@ figure img {
   .banner,
   .page,
   .photoset footer,
-  .site-nav,
-  .back-top,
+  .site-nav
   .site-info {
     font-size: 1.125em;
   }
@@ -637,10 +636,6 @@ figure img {
 
   .excerpt {
     max-width: 25em;
-  }
-
-  .site-info {
-    padding: 2em 0 6em;
   }
 
 }
@@ -692,8 +687,7 @@ figure img {
   .banner,
   .page,
   .photoset footer,
-  .site-nav,
-  .back-top {
+  .site-nav {
     font-size: 1.25em; /* i.e. 20px */
   }
 
