@@ -259,7 +259,7 @@ hr {
   border-left: hsla(138, 39%, 54%, 1) 6px solid;
   bottom: .5em;
   font-family: 'open-sans', 'Open Sans', Calibri, sans-serif;
-  padding: 1em;
+  padding: .75em 1em;
   position: absolute;
   right: 0;
   text-decoration: none;
@@ -687,7 +687,8 @@ figure img {
   .banner,
   .page,
   .photoset footer,
-  .site-nav {
+  .site-nav,
+  .site-info {
     font-size: 1.25em; /* i.e. 20px */
   }
 
@@ -784,12 +785,13 @@ figure img {
     border-bottom: none;
   }
 
-  .site-nav li a {
-    padding: .5em 1.5em;
+  .site-nav li a,
+  .back-top a {
+    padding: .5em 1.25em;
   }
 
   .back-top a {
-    bottom: 1.5em;
+    bottom: 2em;
   }
 
   .site-info {
@@ -896,6 +898,11 @@ figure img {
     top: 0;
   }
 
+  .site-nav li a,
+  .back-top a {
+    padding: .5em 1.5em;
+  }
+
 }
 
 @media screen and (min-width: 80em) {
@@ -909,8 +916,7 @@ figure img {
     font-size: 1.25em;
   }
 
-  .excerpt-index,
-  .site-info {
+  .excerpt-index {
     font-size: 1.125em;
   }
 
@@ -919,8 +925,7 @@ figure img {
 @media screen and (min-width: 92em) {
   /* i.e. 1472px */
 
-  .excerpt-index,
-  .site-info {
+  .excerpt-index {
     font-size: 1.25em;
   }
 
