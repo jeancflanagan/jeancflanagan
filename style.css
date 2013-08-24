@@ -284,6 +284,7 @@ hr {
 .excerpt-index {
   list-style: none;
   margin: .25em auto 1em;
+  min-height: 24em;
   overflow: hidden;
   padding: 0;
 }
