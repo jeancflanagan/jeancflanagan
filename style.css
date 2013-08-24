@@ -1,5 +1,4 @@
 /*** Resets ***/
-
 /* following adapted from HTML5 Reset */
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small,
@@ -89,7 +88,6 @@ i {
 /***! END Resets ***/
 
 /*** Basic structure and formatting ***/
-
 html {
   background: hsla(138, 10%, 98%, 1);
   color: hsla(138, 16%, 10%, 1);
@@ -168,7 +166,6 @@ hr {
 /*** END Basic structure and formatting ***/
 
 /*** Component styles ***/
-
 /** Site header **/
 .banner {
   background: hsla(138, 10%, 98%, 1);
@@ -293,13 +290,12 @@ hr {
 /** Container for post excerpts (an index) **/
 .excerpt-index {
   list-style: none;
-  margin: .5em auto 1em;
+  margin: .25em auto 1em;
   overflow: hidden;
   padding: 0;
 }
 
 /** Home index link to archive (continuation of index) **/
-
 .archive-link {
   margin: .5em 0 1.25em;
 }
@@ -343,12 +339,12 @@ hr {
   transition: transform 250ms ease-in-out;
 }
 
-.archive-link a:hover .ellipsis,
-.archive-link a:focus .ellipsis,
-.archive-link a:hover .ellipsis:after,
-.archive-link a:focus .ellipsis:after,
-.archive-link a:hover .ellipsis:before,
-.archive-link a:focus .ellipsis:before {
+a:hover .ellipsis,
+a:focus .ellipsis,
+a:hover .ellipsis:after,
+a:focus .ellipsis:after,
+a:hover .ellipsis:before,
+a:focus .ellipsis:before {
   background: hsla(37, 75%, 55%, 1);
 }
 
@@ -372,7 +368,7 @@ hr {
 
 .page,
 .photoset {
-  margin: 1em auto;
+  margin: 1.25em auto;
 }
 
 /* Page-specific */
@@ -478,13 +474,13 @@ hr {
 }
 
 /* Next/Previous navigation */
-.post-nav {
+.page footer,
+.photoset footer {
   height: 2.5em;
   margin: 2em 0 0;
 }
 
-.photoset .post-nav {
-  margin: 2em 0 0;
+.photoset footer {
   padding: 0 1em;
 }
 
@@ -605,7 +601,7 @@ figure img {
 
   .banner,
   .page,
-  .photoset .post-nav,
+  .photoset footer,
   .site-nav,
   .back-top,
   .site-info {
@@ -633,7 +629,7 @@ figure img {
     padding: 0 0 2.5em;
   }
 
-  .photoset .post-nav {
+  .photoset footer {
     padding: 0 2em;
   }
 
@@ -693,7 +689,7 @@ figure img {
 
   .banner,
   .page,
-  .photoset .post-nav,
+  .photoset footer,
   .site-nav,
   .back-top {
     font-size: 1.25em; /* i.e. 20px */
@@ -827,11 +823,11 @@ figure img {
   }
 
   .photoset {
-    margin-top: 1.5em;
+    margin-top: 1.75em;
     padding: 0 0 3em;
   }
 
-  .photoset .post-nav {
+  .photoset footer {
     font-size: 1.375em; /* so the photo post-nav can keep up */
     padding: 0 2em 3em;
   }
