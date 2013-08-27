@@ -88,17 +88,21 @@ i {
 
 /*** Basic structure and formatting ***/
 html {
+  background: #f9fafa;
   background: hsla(138, 10%, 98%, 1);
+  color: #151e18;
   color: hsla(138, 16%, 10%, 1);
   font: normal 400 16px/1 Calluna, Georgia, serif;
   font: normal 400 1rem/1 Calluna, Georgia, serif;
 }
 
 .background {
+  background: #505153;
   background: hsla(218, 2%, 32%, 1);
 }
 
 .foreground {
+  background: #f9fafa;
   background: hsla(138, 10%, 98%, 1);
 }
 
@@ -106,11 +110,13 @@ a,
 a:visited,
 .excerpt-writing h1 {
   background: transparent;
+  color: #5cb777;
   color: hsla(138, 39%, 54%, 1);
 }
 
 a:hover,
 a:focus {
+  color: #e2a036;
   color: hsla(37, 75%, 55%, 1);
   outline: 0;
 }
@@ -126,7 +132,6 @@ h2 {
 }
 
 h3 {
-  color: hsla(138, 16%, 18%, 1);
   font: normal 400 1.125em/1.33333333 'open-sans', 'Open Sans', Calibri, sans-serif;
   margin: 0;
 }
@@ -141,7 +146,9 @@ ul {
 }
 
 blockquote {
-  border-left: hsla(138, 39%, 54%, .25) 1em solid;
+  border-left: solid 1em #dcefe2;
+  border-left: solid 1em hsla(138, 39%, 54%, .25);
+  color: #6e7771;
   color: hsla(138, 4%, 45%, 1);
   margin: 1em 0;
   padding: 0 1em;
@@ -158,6 +165,7 @@ sup:after {
 hr {
   border-style: solid;
   border-width: 1px;
+  color: #5cb777;
   color: hsla(138, 39%, 54%, 1);
   margin: 1em;
 }
@@ -167,8 +175,8 @@ hr {
 /*** Component styles ***/
 /** Site header **/
 .banner {
-  background: hsla(138, 10%, 98%, 1);
-  box-shadow: hsla(218, 2%, 10%, .75) 0 -.0625em .625em .0625em;
+  box-shadow: 0 -.0625em .625em .0625em #202022;
+  box-shadow: 0 -.0625em .625em .0625em hsla(218, 2%, 10%, .75);
   margin: 0;
   padding: 3.5em 0 0 0;
   text-align: center;
@@ -192,8 +200,10 @@ hr {
 /* Responsive navigation (top and bottom) */
 .top-menu a,
 .back-top a {
+  background: #dcefe2;
   background: hsla(138, 39%, 54%, .25);
-  border-left: hsla(138, 39%, 54%, 1) 6px solid;
+  border-left: solid 6px #5cb777;
+  border-left: solid 6px hsla(138, 39%, 54%, 1);
   font-family: 'open-sans', 'Open Sans', Calibri, sans-serif;
   padding: .75em 1em;
   position: absolute;
@@ -213,15 +223,18 @@ hr {
 .top-menu a:focus,
 .back-top a:hover,
 .back-top a:focus {
+  background: #f5dfbc;
   background: hsla(37, 75%, 55%, .25);
-  border-left: hsla(37, 75%, 55%, 1) 6px solid;
+  border-left: solid 6px #e2a036;
+  border-left: solid 6px hsla(37, 75%, 55%, 1);
+  box-shadow: -3px 0 0 0 #e2a036;
   box-shadow: -3px 0 0 0 hsla(37, 75%, 55%, 1);
 }
 
 /** Navigation (responsive, small screen) **/
 .site-nav {
-  background: hsla(138, 10%, 98%, 1);
-  box-shadow: hsla(218, 2%, 10%, .75) 0 -.0625em .625em .0625em;
+  box-shadow: 0 -.0625em .625em .0625em #202022;
+  box-shadow: 0 -.0625em .625em .0625em hsla(218, 2%, 10%, .75);
   font: normal 400 1em/1.5 'open-sans', 'Open Sans', Calibri, sans-serif;
   padding: 1em 0 .5em;
   text-align: center;
@@ -235,22 +248,14 @@ hr {
 }
 
 .site-nav li {
-  border-bottom: hsla(138, 39%, 54%, .5) 1px solid;
-}
-
-.site-nav li.active {
-  border-bottom: hsla(138, 0%, 54%, .3) 1px solid;
-}
-
-.site-nav li.active a {
-  background: hsla(138, 0%, 54%, .25);
-  border-left: hsla(138, 0%, 54%, 1) 6px solid;
-  color: hsla(138, 16%, 10%, 1);
+  border-bottom: solid 1px hsla(138, 39%, 54%, .5);
 }
 
 .site-nav li a {
+  background: #dcefe2;
   background: hsla(138, 39%, 54%, .25);
-  border-left: hsla(138, 39%, 54%, 1) 6px solid;
+  border-left: solid 6px #5cb777;
+  border-left: solid 6px hsla(138, 39%, 54%, 1);
   display: block;
   padding: .75em 1.5em;
   text-decoration: none;
@@ -258,10 +263,28 @@ hr {
 
 .site-nav li a:hover,
 .site-nav li a:focus {
+  background: #f5dfbc;
   background: hsla(37, 75%, 55%, .25);
-  border-left: hsla(37, 75%, 55%, 1) 6px solid;
+  border-left: solid 6px #e2a036;
+  border-left: solid 6px hsla(37, 75%, 55%, 1);
+  box-shadow: -3px 0 0 0 #e2a036;
   box-shadow: -3px 0 0 0 hsla(37, 75%, 55%, 1);
+  color: #e2a036;
   color: hsla(37, 75%, 55%, 1);
+}
+
+.site-nav li.active {
+  border-bottom: solid 1px #bebfc1;
+  border-bottom: solid 1px hsla(218, 2%, 10%, .25);
+}
+
+.site-nav li.active a {
+  background: #e5e6e5;
+  background: hsla(138, 2%, 54%, .25);
+  border-left: solid 6px #878c89;
+  border-left: solid 6px hsla(138, 2%, 54%, 1);
+  color: #151e18;
+  color: hsla(138, 16%, 10%, 1);
 }
 
 /** Site footer **/
@@ -315,11 +338,13 @@ hr {
 .ellipsis,
 .ellipsis:after,
 .ellipsis:before {
+  background: #5cb777;
   background: hsla(138, 39%, 54%, 1);
   border-radius: 100%;
+  box-shadow: 0 -.0625em .25em .0625em #bebfc1;
+  box-shadow: 0 -.0625em .25em .0625em hsla(218, 2%, 10%, .25);
   height: 1em;
   width: 1em;
-  box-shadow: hsla(218, 2%, 10%, .25) 0 -.0625em .25em .0625em;
 }
 
 .ellipsis {
@@ -340,6 +365,7 @@ a:hover .ellipsis:after,
 a:focus .ellipsis:after,
 a:hover .ellipsis:before,
 a:focus .ellipsis:before {
+  background: #e2a036;
   background: hsla(37, 75%, 55%, 1);
 }
 
@@ -357,8 +383,10 @@ a:focus .ellipsis:before {
 .page,
 .excerpt,
 .photoset {
-  border-bottom: hsla(138, 39%, 54%, 1) 6px solid;
-  box-shadow: hsla(218, 2%, 10%, .75) 0 -.0625em .625em .0625em;
+  border-bottom: solid 6px #5cb777;
+  border-bottom: solid 6px hsla(138, 39%, 54%, 1);
+  box-shadow: 0 -.0625em .625em .0625em #202022;
+  box-shadow: 0 -.0625em .625em .0625em hsla(218, 2%, 10%, .75);
   line-height: 1.375;
 }
 
@@ -427,6 +455,7 @@ a:focus .ellipsis:before {
 
 .excerpt-writing,
 .excerpt-photo {
+  color: #151e18;
   color: hsla(138, 16%, 10%, 1); /* get rid of that default link color */
   min-height: 12em;
 }
@@ -461,11 +490,13 @@ a:focus .ellipsis:before {
 .excerpt-photo:hover,
 .excerpt-writing:focus,
 .excerpt-photo:focus {
-  box-shadow: hsla(37, 75%, 55%, 1) 0 .625em 0 0;
+  box-shadow: 0 .625em 0 0 #e2a036;
+  box-shadow: 0 .625em 0 0 hsla(37, 75%, 55%, 1);
 }
 
 .excerpt-writing:hover h1,
 .excerpt-writing:focus h1 {
+  color: #e2a036;
   color: hsla(37, 75%, 55%, 1);
 }
 
@@ -481,6 +512,7 @@ a:focus .ellipsis:before {
 }
 
 .more {
+  background: #dcefe2;
   background: hsla(138, 39%, 54%, .25);
   font-family: 'open-sans', 'Open Sans', Calibri, sans-serif;
   padding: .75em 1em;
@@ -490,6 +522,7 @@ a:focus .ellipsis:before {
 
 .more:hover,
 .more:focus {
+  background: #f5dfbc;
   background: hsla(37, 75%, 55%, .25);
 }
 
@@ -519,6 +552,7 @@ figure img {
 
 /* Page-specific figure styles */
 .page figure {
+  background: #dcefe2;
   background: hsla(138, 39%, 54%, .25);
   margin: 1em -1em;
 }
@@ -789,7 +823,8 @@ figure img {
   }
 
   .site-info {
-    box-shadow: hsla(218, 2%, 10%, .75) 0 -.0625em .625em .0625em;
+    box-shadow: 0 -.0625em .625em .0625em #202022;
+    box-shadow: 0 -.0625em .625em .0625em hsla(218, 2%, 10%, .75);
     padding: 2em 0;
   }
 
