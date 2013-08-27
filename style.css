@@ -9,7 +9,6 @@ figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
   border: 0;
   font-size: 100%;
   margin: 0;
-  outline: 0;
   padding: 0;
   text-decoration: none;
   vertical-align: baseline;
@@ -248,6 +247,7 @@ hr {
 }
 
 .site-nav li {
+  border-bottom: solid 1px #a6d8b5;
   border-bottom: solid 1px hsla(138, 39%, 54%, .5);
 }
 
@@ -273,12 +273,12 @@ hr {
   color: hsla(37, 75%, 55%, 1);
 }
 
-.site-nav li.active {
+.site-nav .active {
   border-bottom: solid 1px #bebfc1;
   border-bottom: solid 1px hsla(218, 2%, 10%, .25);
 }
 
-.site-nav li.active a {
+.site-nav .active a {
   background: #e5e6e5;
   background: hsla(138, 2%, 54%, .25);
   border-left: solid 6px #878c89;
