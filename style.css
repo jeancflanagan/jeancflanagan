@@ -114,7 +114,6 @@ samp {
 
 /* Custom resets */
 body {
-  height: 100%;
   margin: 0 auto;
   max-width: 100%; /* Responsive resizing */
 }
@@ -129,22 +128,23 @@ i {
 
 /*** Basic structure and formatting ***/
 html {
+  background: {{ page.charcoal.hex }};
+  background: {{ page.charcoal.hsl }};
+  font: normal 400 16px/1 Calluna, Georgia, serif;
+  font: normal 400 1rem/1 Calluna, Georgia, serif;
+  height: 100%;
+}
+
+.banner,
+.excerpt,
+.page,
+.photoset,
+.site-nav,
+.site-info {
   background: {{ page.white.hex }};
   background: {{ page.white.hsl }};
   color: {{ page.black.hex }};
   color: {{ page.black.hsl }};
-  font: normal 400 16px/1 Calluna, Georgia, serif;
-  font: normal 400 1rem/1 Calluna, Georgia, serif;
-}
-
-.background {
-  background: {{ page.charcoal.hex }};
-  background: {{ page.charcoal.hsl }};
-}
-
-.foreground {
-  background: {{ page.white.hex }};
-  background: {{ page.white.hsl }};
 }
 
 a,
@@ -347,6 +347,7 @@ hr {
 
 /** Container for post excerpts (an index) **/
 .excerpt-index {
+  background: {{ page.charcoal.hsl }};
   list-style: none;
   margin: .25em auto 1em;
   min-height: 24em;
