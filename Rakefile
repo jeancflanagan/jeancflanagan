@@ -33,7 +33,7 @@ task :post do
       post.puts "title: \'#{title.gsub(/&/,'&amp;')}\'"
       post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
       post.puts "location: \'\'"
-      post.puts "excert_image: "
+      post.puts "excerpt_image: "
       post.puts "excerpt: \'\'"
       post.puts "image:"
       post.puts "  - "
@@ -42,6 +42,7 @@ task :post do
       post.puts "image_caption:"
       post.puts "  - \'\'"
       post.puts "---"
+      post.puts "{% include photoset-loop.html %}"
     end
   else
     open(filename, 'w') do |post|
