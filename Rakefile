@@ -34,7 +34,7 @@ task :post do
       post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
       post.puts "location: \'\'"
       post.puts "excerpt_image: "
-      post.puts "excerpt: \'\'"
+      post.puts "period: \'\'"
       post.puts "image:"
       post.puts "  - "
       post.puts "image_alt:"
