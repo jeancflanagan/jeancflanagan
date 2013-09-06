@@ -21,23 +21,23 @@ slateshadow:
   hsl: 'hsla(138, 2%, 54%, 1)'
   hex: '#878c89'
 green:
-  hsl: 'hsla(138, 39%, 54%, 1)' 
-  hex: '#5cb777'
+  hsl: 'hsla(138, 40%, 50%, 1)' 
+  hex: '#4cb36b'
 greenlight1:
-  hsl: 'hsla(138, 39%, 54%, .5)'
-  hex: '#a6d8b5'
+  hsl: 'hsla(138, 40%, 75%, 1)'
+  hex: '#a6d9b5'
 greenlight2:
-  hsl: 'hsla(138, 39%, 54%, .25)'
-  hex: '#dcefe2'
+  hsl: 'hsla(138, 40%, 90%, 1)'
+  hex: '#dbf0e1'
 graygreen:
   hsl: 'hsla(138, 4%, 45%, 1)' 
   hex: '#6e7771'
-orange:
-  hsl: 'hsla(37, 75%, 55%, 1)'
-  hex: '#e2a036'
-orangelight:
-  hsl: 'hsla(37, 75%, 55%, .25)'
-  hex: '#f5dfbc'
+golden:
+  hsl: 'hsla(52, 90%, 47%, 1)'
+  hex: '#e4c70c'
+goldenlight:
+  hsl: 'hsla(52, 45%, 92%, 1)'
+  hex: '#f4f1e1'
 ---
 
 /*** Resets ***/
@@ -156,8 +156,8 @@ a:visited {
 
 a:hover,
 a:focus {
-  color: {{ page.orange.hex }};
-  color: {{ page.orange.hsl }};
+  color: {{ page.golden.hex }};
+  color: {{ page.golden.hsl }};
   outline: 0;
 }
 
@@ -263,12 +263,12 @@ hr {
 .top-menu a:focus,
 .back-top a:hover,
 .back-top a:focus {
-  background: {{ page.orangelight.hex }};
-  background: {{ page.orangelight.hsl }};
-  border-left: solid 6px {{ page.orange.hex }};
-  border-left: solid 6px {{ page.orange.hsl }};
-  box-shadow: -3px 0 0 0 {{ page.orange.hex }};
-  box-shadow: -3px 0 0 0 {{ page.orange.hsl }};
+  background: {{ page.goldenlight.hex }};
+  background: {{ page.goldenlight.hsl }};
+  border-left: solid 6px {{ page.golden.hex }};
+  border-left: solid 6px {{ page.golden.hsl }};
+  box-shadow: -3px 0 0 0 {{ page.golden.hex }};
+  box-shadow: -3px 0 0 0 {{ page.golden.hsl }};
 }
 
 /** Navigation (responsive, small screen) **/
@@ -304,14 +304,14 @@ hr {
 
 .site-nav li a:hover,
 .site-nav li a:focus {
-  background: {{ page.orangelight.hex }};
-  background: {{ page.orangelight.hsl }};
-  border-left: solid 6px {{ page.orange.hex }};
-  border-left: solid 6px {{ page.orange.hsl }};
-  box-shadow: -3px 0 0 0 {{ page.orange.hex }};
-  box-shadow: -3px 0 0 0 {{ page.orange.hsl }};
-  color: {{ page.orange.hex }};
-  color: {{ page.orange.hsl }};
+  background: {{ page.goldenlight.hex }};
+  background: {{ page.goldenlight.hsl }};
+  border-left: solid 6px {{ page.golden.hex }};
+  border-left: solid 6px {{ page.golden.hsl }};
+  box-shadow: -3px 0 0 0 {{ page.golden.hex }};
+  box-shadow: -3px 0 0 0 {{ page.golden.hsl }};
+  color: {{ page.golden.hex }};
+  color: {{ page.golden.hsl }};
 }
 
 .site-nav .active {
@@ -407,8 +407,8 @@ a:hover .ellipsis:after,
 a:focus .ellipsis:after,
 a:hover .ellipsis:before,
 a:focus .ellipsis:before {
-  background: {{ page.orange.hex }};
-  background: {{ page.orange.hsl }};
+  background: {{ page.golden.hex }};
+  background: {{ page.golden.hsl }};
 }
 
 .ellipsis:hover,
@@ -537,16 +537,16 @@ a:focus .ellipsis:before {
 .excerpt-photo:hover,
 .excerpt-writing:focus,
 .excerpt-photo:focus {
-  box-shadow: 0 .625em 0 0 {{ page.orange.hex }};
-  box-shadow: 0 .625em 0 0 {{ page.orange.hsl }};
+  box-shadow: 0 .625em 0 0 {{ page.golden.hex }};
+  box-shadow: 0 .625em 0 0 {{ page.golden.hsl }};
 }
 
 .excerpt-writing:hover h1,
 .excerpt-writing:focus h1,
 .excerpt-photo:hover h1,
 .excerpt-photo:focus h1 {
-  color: {{ page.orange.hex }};
-  color: {{ page.orange.hsl }};
+  color: {{ page.golden.hex }};
+  color: {{ page.golden.hsl }};
 }
 
 /* Next/Previous navigation */
@@ -571,8 +571,8 @@ a:focus .ellipsis:before {
 
 .more:hover,
 .more:focus {
-  background: {{ page.orangelight.hex }};
-  background: {{ page.orangelight.hsl }};
+  background: {{ page.goldenlight.hex }};
+  background: {{ page.goldenlight.hsl }};
 }
 
 .next {
