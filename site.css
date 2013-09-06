@@ -33,11 +33,11 @@ graygreen:
   hsl: 'hsla(138, 4%, 45%, 1)' 
   hex: '#6e7771'
 golden:
-  hsl: 'hsla(50, 90%, 50%, 1)'
-  hex: '#f2cc0d'
+  hsl: 'hsla(52, 90%, 47%, 1)'
+  hex: '#e4c70c'
 goldenlight:
-  hsl: 'hsla(50, 45%, 94%, 1)'
-  hex: '#f7f4e9'
+  hsl: 'hsla(52, 45%, 92%, 1)'
+  hex: '#f4f1e1'
 ---
 
 /*** Resets ***/
