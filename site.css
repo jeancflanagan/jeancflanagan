@@ -148,8 +148,7 @@ html {
 }
 
 a,
-a:visited,
-.excerpt-writing h1 {
+a:visited {
   background: transparent;
   color: {{ page.green.hex }};
   color: {{ page.green.hsl }};
@@ -507,16 +506,21 @@ a:focus .ellipsis:before {
   padding: .75em;
 }
 
-.excerpt-writing h1 {
+.excerpt-writing h1,
+.excerpt-photo h1 {
+  color: {{ page.green.hex }};
+  color: {{ page.green.hsl }};
   font: normal 400 1.25em 'open-sans', 'Open Sans', Calibri, sans-serif;
+}
+
+.excerpt-photo h1 {
+  font-size: 1em;
+  padding: 0 1em .2em;
+  text-align: right;
 }
 
 .excerpt-writing p {
   margin: 1em 0;
-}
-
-.excerpt-photo p {
-  margin: 1em 1em;
 }
 
 .excerpt-writing footer,
@@ -526,7 +530,7 @@ a:focus .ellipsis:before {
 }
 
 .excerpt-photo footer {
-  padding: 1em;
+  padding: 0 1em .5em;
 }
 
 .excerpt-writing:hover,
@@ -538,7 +542,9 @@ a:focus .ellipsis:before {
 }
 
 .excerpt-writing:hover h1,
-.excerpt-writing:focus h1 {
+.excerpt-writing:focus h1,
+.excerpt-photo:hover h1,
+.excerpt-photo:focus h1 {
   color: {{ page.orange.hex }};
   color: {{ page.orange.hsl }};
 }
