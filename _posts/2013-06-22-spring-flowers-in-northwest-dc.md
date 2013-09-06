@@ -17,10 +17,10 @@ image_alt:
   - 'White flowers in Lanier Heights'
   - 'Blue flowers in Lanier Heights'
 image_caption:
-  - ''
-  - ''
-  - ''
-  - ''
+  - 'A single tulip. Near Georgetown.'
+  - 'Tulips in Dupont Circle.'
+  - 'A raised garden on a hill in Lanier Heights.'
+  - 'Another eye-level garden in Lanier Heights.'
 ---
 
 {% include photoset-loop.html %}
