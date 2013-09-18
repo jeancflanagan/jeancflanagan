@@ -1,8 +1,8 @@
 <footer>
-{% if page.next.url and page.next.categories contains 'photo' %}
-  <a class="more next" href="{{page.next.url}}" title="Later photoset: {{page.next.title}}">Next</a>
+{% if page.next.url %}
+  <a class="more next" href="{{page.next.url}}" title="Later article: {{page.next.title}}">Next</a>
 {% endif %}
-{% if page.previous.url and page.previous.categories contains 'photo' %}
-  <a class="more previous" href="{{page.previous.url}}" title="Earlier photoset: {{page.previous.title}}">Previous</a>
+{% if page.previous.url %}
+  <a class="more previous" href="{{page.previous.url}}" title="Earlier article: {{page.previous.title}}">Previous</a>
 {% endif %}
 </footer>
