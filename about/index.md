@@ -5,16 +5,15 @@ title: About
 
 I’m a researcher, writer, and editor, living and working in Washington, DC. I work in the field of science education, focusing on K-12 biology curriculum and assessment. I’m into ecology, zoology, and evolution, but I’m probably most interested in the intersections of science and society.
 
-I recently started a new position as a Project Editor at the Smithsonian Science Education Center ([SSEC](http://www.ssec.si.edu/)). Before that, I was a Research Associate at the American Association for the Advancement of Science ([AAAS](http://www.aaas.org)) Project 2061, where I spent nearly five years contributing to research in science education. I’ve also been a regular contributor to the team blog [Sci-Ed](http://blogs.plos.org/scied) on the Public Library of Science (PLOS) blog network. I'm currently available for a bit of freelance writing and editing (but not too much--I've got full time job). I occasionally get time to take some [photos](http://jeancflanagan.com/photos).  
+I recently started a new position as a Project Editor at the Smithsonian Science Education Center ([SSEC](http://www.ssec.si.edu/)). Before that, I was a Research Associate at the American Association for the Advancement of Science ([AAAS](http://www.aaas.org)) Project 2061, where I spent nearly five years contributing to research in science education. I’ve also been a regular contributor to the team blog [Sci-Ed](http://blogs.plos.org/scied) on the Public Library of Science (PLOS) blog network. I'm currently available for a bit of freelance writing and editing (but not too much—I've got full time job). I occasionally get time to take some [photos](http://jeancflanagan.com/photos).  
 
 ## Connect
-(social media buttons)
+[social media buttons]
 
 ## About this site
 This site serves as my online portfolio and includes an archive of my writing from around the web. I include my self-published writing here along with articles that have appeared elsewhere. 
 
-The site is the result of a collaboration with my partner, [Oliver Pattison](http://olivermak.es), who took the lead on design and development. It runs on [Jekyll](http://jekyllrb.com/), a static site generator. A minimalist, responsive, content-first design philosophy guided the project. (It should work equally well on phones, tablets, laptops, and desktops of various sizes!) Check out Oliver's [website](http://olivermak.es) and the [GitHub repository](https://github.com/opattison/jeancflanagan) for more on the development process. 
-
+The site is the result of a collaboration with my partner, [Oliver Pattison](http://oliverpattison.org), who worked on design and development. It runs on [Jekyll](http://jekyllrb.com/), a static site generator. A minimalist, responsive, content-first design philosophy guided the project. (It should work equally well on phones, tablets, laptops, and desktops of various sizes!) Check out Oliver's [website](http://oliverpattison.org) and the [GitHub repository](https://github.com/opattison/jeancflanagan) for more on the development process. 
 
 ## Disclaimer
 Views expressed here are my own and are not intended to represent those of any of my employers, past or present. 
