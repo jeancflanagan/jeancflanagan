@@ -3,9 +3,9 @@ layout: page
 title: About
 ---
 
-I’m a researcher, writer, and editor, living and working in Washington, DC. I work in the field of science education, focusing on K-12 biology curriculum and assessment. I’m into ecology, zoology, and evolution, but I’m probably most interested in the intersections of science and society.
+I live in Washington, DC and work in the field of science education as a researcher, developer, writer, and editor, focusing on K-12 biology curriculum and assessment. I also enjoy writing about a wide range of topics for broader audiences. Even more than breaking research news, I’m interested in the intersections of science and other fields like education, communication, policy, art, technology, history, and philosophy.
 
-I recently started a new position as a Project Editor at the Smithsonian Science Education Center ([SSEC](http://www.ssec.si.edu/)). Before that, I was a Research Associate at the American Association for the Advancement of Science ([AAAS](http://www.aaas.org)) Project 2061, where I spent nearly five years contributing to research in science education. I’ve also been a regular contributor to the team blog [Sci-Ed](http://blogs.plos.org/scied) on the Public Library of Science (PLOS) blog network. I'm currently available for a bit of freelance writing and editing (but not too much—I've got full time job). I occasionally get time to take some [photos](http://jeancflanagan.com/photos).  
+I recently started a new position as a Project Editor at the Smithsonian Science Education Center ([SSEC](http://www.ssec.si.edu/)). Before that, I was a Research Associate at the American Association for the Advancement of Science ([AAAS](http://www.aaas.org)) Project 2061, where I spent nearly five years contributing to research in science education. I also founded and have been a regular contributor to the team blog [Sci-Ed](http://blogs.plos.org/scied) on the Public Library of Science (PLOS) blog network. I occasionally get time to take some [photos](http://jeancflanagan.com/photos).  
 
 ## Connect
 [social media buttons]
@@ -26,4 +26,4 @@ Views expressed here are my own and are not intended to represent those of any o
 
 - Photos are by Jean Flanagan (unless otherwise attributed) and are licensed [CC-BY](http://creativecommons.org/licenses/by/3.0/deed.en_US) (Creative Commons Attribution 3.0 License)
 
-- The site design is copyrighted by Oliver Pattison and Jean Flanagan, all rights reserved.
+- The site design is by Oliver Pattison and Jean Flanagan, all rights reserved.
