@@ -3,25 +3,27 @@ layout: page
 title: About
 ---
 
-I’m a science education researcher and writer living in Washington, DC. I’m currently a Research Associate at AAAS Project 2061, where I’ve been since 2009. My research and development focus is on curriculum materials and assessments for K-12 biology education. I also founded and write for the team blog [Sci-Ed](http://blogs.plos.org/scied) on the PLOS network.
+I live in Washington, DC and work in the field of science education as a researcher, developer, writer, and editor, focusing on K-12 biology curriculum and assessment. I also enjoy writing about a wide range of topics for broader audiences. Even more than breaking research news, I’m interested in the intersections of science and other fields like education, communication, policy, art, technology, history, and philosophy.
 
-My interests include school-based and free-choice science education, science communication, open science, scholarly communication, the nature of science, ethics, evolution, ecology, zoology, animal cognition, paleobiology, biodiversity, and conservation. I especially love the places where science intersects with the arts, humanities, and social sciences. 
-
-While my schedule is quite full, I have some limited availability for freelance writing and editing. Contact me with possible opportunities at: jeancflanagan at gmail.
-
-Views expressed here are my own and do not represent my employer(s).
+I recently started a new position as a Project Editor at the Smithsonian Science Education Center ([SSEC](http://www.ssec.si.edu/)). Before that, I was a Research Associate at the American Association for the Advancement of Science ([AAAS](http://www.aaas.org)) Project 2061, where I spent nearly five years contributing to research in science education. I also founded and have been a regular contributor to the team blog [Sci-Ed](http://blogs.plos.org/scied) on the Public Library of Science (PLOS) blog network. I occasionally get time to take some [photos](http://jeancflanagan.com/photos).  
 
 ## Connect
+[social media buttons]
 
-- [Twitter](https://twitter.com/jeancflanagan)
-- [Google+](https://plus.google.com/110091158982110640683/posts)
+## About this site
+This site serves as my online portfolio and includes an archive of my writing from around the web. I include my self-published writing here along with articles that have appeared elsewhere. 
 
-## Licensing
+The site is the result of a collaboration with my partner, [Oliver Pattison](http://oliverpattison.org), who worked on design and development. It runs on [Jekyll](http://jekyllrb.com/), a static site generator. A minimalist, responsive, content-first design philosophy guided the project. (It should work equally well on phones, tablets, laptops, and desktops of various sizes!) Check out Oliver's [website](http://oliverpattison.org) and the [GitHub repository](https://github.com/opattison/jeancflanagan) for more on the development process. 
 
-All written content is by Jean Flanagan. 
+## Disclaimer
+Views expressed here are my own and are not intended to represent those of any of my employers, past or present. 
 
-Articles published exclusively on this website are licensed [CC-BY](http://creativecommons.org/licenses/by/3.0/deed.en_US) (Creative Commons Attribution 3.0 License) by Jean Flanagan. 
+## Copyright & Licensing 
 
-Articles that were originally published elsewhere (whether archived here in full or represented by snippets) are subject to the copyright specified by those media. 
+- Articles published exclusively on this website are licensed [CC-BY](http://creativecommons.org/licenses/by/3.0/deed.en_US) (Creative Commons Attribution 3.0 License) by Jean Flanagan.
 
-Photos are by Jean Flanagan (unless otherwise attributed) and are licensed [CC-BY](http://creativecommons.org/licenses/by/3.0/deed.en_US) (Creative Commons Attribution 3.0 License)
+- Articles that were originally published elsewhere (whether archived here in full or represented by snippets) are subject to the copyright specified by those media.
+
+- Photos are by Jean Flanagan (unless otherwise attributed) and are licensed [CC-BY](http://creativecommons.org/licenses/by/3.0/deed.en_US) (Creative Commons Attribution 3.0 License)
+
+- The site design is by Oliver Pattison and Jean Flanagan, all rights reserved.
