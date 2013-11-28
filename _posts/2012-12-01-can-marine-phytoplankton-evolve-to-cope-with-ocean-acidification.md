@@ -29,7 +29,7 @@ The researchers took advantage of this and ran a year-long experiment that allow
 
 The selection conditions were: ambient (the control, which is our current level of carbon dioxide), medium (projected carbon dioxide levels for early next century), and high (higher than any projected carbon dioxide levels). At the end of the year-long experiment, the researchers tested all three “evolved” populations in their selection condition and in the control condition. Algae grown in the control condition were tested in all three conditions.
 
-##Adaptations for acidification
+## Adaptations for acidification
 
 Not surprisingly, increased carbon dioxide conditions led to slower growth rates and calcium carbonate production than ambient conditions for all populations, even algae from the medium and high selection conditions. However, when tested in the acidic conditions, algae from the higher acidity selection conditions had significantly higher growth rates than those from ambient selection conditions, showing that natural selection had led to adaptations that partially restored growth rate. 
 
