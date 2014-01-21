@@ -503,7 +503,7 @@ a:focus .ellipsis:before {
 }
 
 .excerpt-writing {
-  padding: .75em;
+  padding: .75em 1em;
 }
 
 .excerpt-writing h1,
@@ -514,9 +514,7 @@ a:focus .ellipsis:before {
 }
 
 .excerpt-photo h1 {
-  font-size: 1em;
-  padding: 0 1em .2em;
-  text-align: right;
+  line-height: 1.4;
 }
 
 .excerpt-writing p {
@@ -530,7 +528,7 @@ a:focus .ellipsis:before {
 }
 
 .excerpt-photo footer {
-  padding: 0 1em .5em;
+  padding: .5em 1em;
 }
 
 .excerpt-writing:hover,
@@ -720,6 +718,10 @@ figure img {
 @media screen and (min-width: 38em) {
   /* i.e. 608px */
 
+  .excerpt-index {
+    font-size: 1.125em;
+  }
+
   /* Responsive image layout and sizes for posts */
   .page .right, 
   .page .left {
@@ -789,6 +791,7 @@ figure img {
 
   /* becomes 2 columns for the first time here */
   .excerpt-index {
+    font-size: 1em;
     max-width: 42em;
   }
 
@@ -909,18 +912,7 @@ figure img {
   }
 
   .excerpt-index {
-    max-width: 52em;
-  }
-
-  .excerpt,
-  .archive-link {
-    width: 25em;
-  }
-
-  .excerpt-writing,
-  .excerpt-photo,
-  .archive-link {
-    min-height: 15.5em;
+    font-size: 1.125em;
   }
 
   .archive-link a {
@@ -948,18 +940,8 @@ figure img {
 @media screen and (min-width: 64em) {
   /* i.e. 1024px */
 
-  /* Becomes 3 columns for the first time here. */
   .excerpt-index {
-    max-width: 63em;
-  }
-
-  .excerpt {
-    width: 20em;
-  }
-
-  .excerpt-writing,
-  .excerpt-photo {
-    min-height: 17.5em;
+    font-size: 1.1875em;
   }
 
   .archive-link {
@@ -994,18 +976,22 @@ figure img {
     font-size: 1.25em;
   }
 
+}
+
+
+@media screen and (min-width: 85em) {
+  /* i.e. 1360px */
+
+  /* Becomes 4 columns for the first time here. */
   .excerpt-index {
-    font-size: 1.125em;
+    font-size: 1em;
+    max-width: 84em;
   }
 
 }
 
 @media screen and (min-width: 92em) {
   /* i.e. 1472px */
-
-  .excerpt-index {
-    font-size: 1.25em;
-  }
 
   .banner {
     font-size: 1.5em;
