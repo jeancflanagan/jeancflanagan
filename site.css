@@ -355,7 +355,7 @@ hr {
 /** Home index link to archive (continuation of index) **/
 .archive-link {
   font: normal 400 1em/1.375 'open-sans', 'Open Sans', Calibri, sans-serif;
-  margin: 0 auto 1em;
+  margin: 0 auto 2em;
   text-align: center;
   width: 10em;
 }
@@ -366,7 +366,7 @@ hr {
   box-shadow: 0 -.0625em .625em .0625em {{ page.grayshadow2.hex }};
   box-shadow: 0 -.0625em .625em .0625em {{ page.grayshadow2.hsl }};
   text-decoration: none;
-  padding: 1em;
+  padding: .5em 1em;
 }
 
 /** Posts, pages, galleries and excerpts **/
