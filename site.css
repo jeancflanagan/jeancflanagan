@@ -149,7 +149,6 @@ html {
 
 a,
 a:visited {
-  background: transparent;
   color: {{ page.green.hex }};
   color: {{ page.green.hsl }};
 }
@@ -348,76 +347,26 @@ hr {
 .excerpt-index {
   background: {{ page.charcoal.hsl }};
   list-style: none;
-  margin: .25em auto 1em;
-  min-height: 24em;
+  margin: .25em auto;
   overflow: hidden;
   padding: 0;
 }
 
 /** Home index link to archive (continuation of index) **/
 .archive-link {
-  margin: .5em 0 1.25em;
+  font: normal 400 1em/1.375 'open-sans', 'Open Sans', Calibri, sans-serif;
+  margin: 0 auto 2em;
+  text-align: center;
+  width: 10em;
 }
 
 .archive-link a {
-  display: block;
-  margin: 0 6em;
-  padding: .5em;
-}
-
-.ellipsis:after {
-  content: "";
-  left: 2em;
-  position: absolute;
-}
-
-.ellipsis:before {
-  content: "";
-  left: -2em;
-  position: absolute;
-}
-
-.ellipsis,
-.ellipsis:after,
-.ellipsis:before {
-  background: {{ page.green.hex }};
-  background: {{ page.green.hsl }};
-  border-radius: 100%;
-  box-shadow: 0 -.0625em .25em .0625em {{ page.grayshadow2.hex }};
-  box-shadow: 0 -.0625em .25em .0625em {{ page.grayshadow2.hsl }};
-  height: 1em;
-  width: 1em;
-}
-
-.ellipsis {
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  top: 50%;
-  -ms-transition: -ms-transform 250ms ease-in-out;
-  -o-transition: -o-transform 250ms ease-in-out;
-  -moz-transition: -moz-transform 250ms ease-in-out;
-  -webkit-transition: -webkit-transform 250ms ease-in-out;
-  transition: transform 250ms ease-in-out;
-}
-
-a:hover .ellipsis,
-a:focus .ellipsis,
-a:hover .ellipsis:after,
-a:focus .ellipsis:after,
-a:hover .ellipsis:before,
-a:focus .ellipsis:before {
-  background: {{ page.golden.hex }};
-  background: {{ page.golden.hsl }};
-}
-
-.ellipsis:hover,
-.ellipsis:focus {
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  background: {{ page.white.hex }};
+  background: {{ page.white.hsl }};
+  box-shadow: 0 -.0625em .625em .0625em {{ page.grayshadow2.hex }};
+  box-shadow: 0 -.0625em .625em .0625em {{ page.grayshadow2.hsl }};
+  text-decoration: none;
+  padding: .5em 1em;
 }
 
 /** Posts, pages, galleries and excerpts **/
@@ -503,20 +452,18 @@ a:focus .ellipsis:before {
 }
 
 .excerpt-writing {
-  padding: .75em;
+  padding: .75em 1em;
 }
 
 .excerpt-writing h1,
 .excerpt-photo h1 {
   color: {{ page.green.hex }};
   color: {{ page.green.hsl }};
-  font: normal 400 1.25em 'open-sans', 'Open Sans', Calibri, sans-serif;
+  font: normal 400 1.25em/1.4 'open-sans', 'Open Sans', Calibri, sans-serif;
 }
 
 .excerpt-photo h1 {
-  font-size: 1em;
-  padding: 0 1em .2em;
-  text-align: right;
+  line-height: 1.4;
 }
 
 .excerpt-writing p {
@@ -530,7 +477,7 @@ a:focus .ellipsis:before {
 }
 
 .excerpt-photo footer {
-  padding: 0 1em .5em;
+  padding: .5em 1em;
 }
 
 .excerpt-writing:hover,
@@ -720,6 +667,10 @@ figure img {
 @media screen and (min-width: 38em) {
   /* i.e. 608px */
 
+  .excerpt-index {
+    font-size: 1.125em;
+  }
+
   /* Responsive image layout and sizes for posts */
   .page .right, 
   .page .left {
@@ -789,6 +740,7 @@ figure img {
 
   /* becomes 2 columns for the first time here */
   .excerpt-index {
+    font-size: 1em;
     max-width: 42em;
   }
 
@@ -796,26 +748,15 @@ figure img {
     margin: 1em auto;
   }
 
-  .excerpt,
-  .archive-link {
+  .excerpt {
     float: left;
     margin: .5em;
     width: 20em;
   }
 
-  .archive-link {
-    margin-bottom: 1.5em;
-  }
-
   .excerpt-writing,
-  .excerpt-photo,
-  .archive-link {
+  .excerpt-photo {
     min-height: 17.5em;
-  }
-
-  .archive-link a {
-    margin: 7.5em 5em;
-    padding: 1em;
   }
 
 }
@@ -908,23 +849,9 @@ figure img {
     padding: 0 2em 3em;
   }
 
-  .excerpt-index {
-    max-width: 52em;
-  }
-
-  .excerpt,
+  .excerpt-index,
   .archive-link {
-    width: 25em;
-  }
-
-  .excerpt-writing,
-  .excerpt-photo,
-  .archive-link {
-    min-height: 15.5em;
-  }
-
-  .archive-link a {
-    margin: 6.5em 6em;
+    font-size: 1.125em;
   }
 
   .page .right, 
@@ -948,32 +875,9 @@ figure img {
 @media screen and (min-width: 64em) {
   /* i.e. 1024px */
 
-  /* Becomes 3 columns for the first time here. */
-  .excerpt-index {
-    max-width: 63em;
-  }
-
-  .excerpt {
-    width: 20em;
-  }
-
-  .excerpt-writing,
-  .excerpt-photo {
-    min-height: 17.5em;
-  }
-
+  .excerpt-index,
   .archive-link {
-    margin: 0 auto .25em;
-    min-height: 3em;
-    width: 63em;
-  }
-
-  .archive-link a {
-    margin: 0 25em;
-  }
-
-  .ellipsis {
-    top: 0;
+    font-size: 1.1875em;
   }
 
   .site-nav li a,
@@ -994,22 +898,22 @@ figure img {
     font-size: 1.25em;
   }
 
-  .excerpt-index {
-    font-size: 1.125em;
+}
+
+@media screen and (min-width: 85em) {
+  /* i.e. 1360px */
+
+  /* Becomes 4 columns for the first time here. */
+  .excerpt-index,
+  .archive-link {
+    font-size: 1em;
+    max-width: 84em;
   }
 
 }
 
 @media screen and (min-width: 92em) {
   /* i.e. 1472px */
-
-  .excerpt-index {
-    font-size: 1.25em;
-  }
-
-  .banner {
-    font-size: 1.5em;
-  }
 
   .page {
     font-size: 1.5em; /* i.e. 24px */
@@ -1031,6 +935,20 @@ figure img {
 
   .page .left {
     margin: .5em 1.5em .5em -3.5em;
+  }
+
+}
+
+@media screen and (min-width: 100em) {
+  /* i.e. 1600px */
+
+  .banner {
+    font-size: 1.5em;
+  }
+
+  .excerpt-index,
+  .archive-link {
+    font-size: 1.125em;
   }
 
   .site-nav {

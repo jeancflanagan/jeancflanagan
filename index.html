@@ -4,12 +4,14 @@ title: Home
 ---
 
 <ul class="excerpt-index">
-  {% for post in site.categories.writing limit:3 %}
+  {% for post in site.categories.writing limit:4 %}
   {% include excerpt-writing.html %}
   {% endfor %}
-  {% include writing-archive-link.html %}
-  {% for post in site.categories.photo limit:3 %}
+</ul>
+{% include writing-archive-link.html %}
+<ul class="excerpt-index">
+  {% for post in site.categories.photo limit:4 %}
   {% include excerpt-photo.html %}
   {% endfor %}
-  {% include photoset-archive-link.html %}
 </ul>
+{% include photoset-archive-link.html %}
