@@ -38,6 +38,12 @@ golden:
 goldenlight:
   hsl: 'hsla(52, 45%, 92%, 1)'
   hex: '#f4f1e1'
+blue:
+  hsl: 'hsla(190, 40%, 50%, 1)'
+  hex: '#4da1b3'
+bluelight:
+  hsl: 'hsla(190, 40%, 75%, 1)'
+  hex: '#a6d0d9'
 ---
 
 /*** Resets ***/
@@ -207,6 +213,11 @@ hr {
   color: {{ page.green.hex }};
   color: {{ page.green.hsl }};
   margin: 1em;
+}
+
+small {
+  font-size: .875em;
+  font-style: italic;
 }
 
 /*** END Basic structure and formatting ***/
@@ -586,6 +597,16 @@ figure img {
   font-size: .875em;
   margin: 1em 1em 1.5em;
   text-align: center;
+}
+
+#error-404 figure {
+  background: {{ page.bluelight.hex }};
+  background: {{ page.bluelight.hsl }};
+  margin-top: 0;
+}
+
+#error-404 img {
+  padding: 1em;
 }
 
 /*** END Component styles ***/
