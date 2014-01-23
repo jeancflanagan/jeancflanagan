@@ -39,7 +39,7 @@ The *content* of this site (in _posts directory) is licensed under CC-BY [(Creat
 #### Broadly
 
 - OS X (not tested in Linux, but most of this should work)
-- SSH authentication for a web server
+- Amazon S3 for hosting
 
 #### Specifically
 
@@ -53,7 +53,6 @@ The *content* of this site (in _posts directory) is licensed under CC-BY [(Creat
 ### Notes:
 
 - Remote moved 2013-07-12 to GitHub
-- Remote added 2013-07-11 at Webfaction Domain
 - First commit to Git 2013-07-08
 - First code on 2013-06-17
 - Initial concept and first sketches 2013-05-27
