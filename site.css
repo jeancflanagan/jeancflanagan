@@ -609,8 +609,8 @@ figure img {
 
 #error-404 img {
   padding: 1em;
-  -webkit-animation: floating 15s ease infinite forwards;
-  animation: floating 15s ease infinite forwards;
+  -webkit-animation: floating 18s ease infinite forwards;
+  animation: floating 18s ease infinite forwards;
 }
 
 /*** END Component styles ***/
@@ -988,7 +988,7 @@ figure img {
 
 @-webkit-keyframes blueshift {0% {background-color: hsla(190, 40%, 50%, 1); } 50% {background-color: hsla(190, 40%, 75%, 1); } 100% {background-color: hsla(190, 40%, 50%, 1); } }
 @keyframes blueshift {0% {background-color: hsla(190, 40%, 50%, 1); } 50% {background-color: hsla(190, 40%, 75%, 1); } 100% {background-color: hsla(190, 40%, 50%, 1); } }
-@-webkit-keyframes floating {0% {-webkit-transform: translate(0); transform: translate(0); } 10% {-webkit-transform: translate(-.25em, 0); transform: translate(-.25em, 0); } 25% {-webkit-transform: translate(.75em, .5em); transform: translate(.75em, .5em); } 50% {-webkit-transform: translate(0, 1em); transform: translate(0, 1em); } 75% {-webkit-transform: translate(-1em, 0); transform: translate(-1em, 0); } 90% {-webkit-transform: translate(0, -.5em); transform: translate(0, -.5em); } 100% {-webkit-transform: translate(0); transform: translate(0); } }
-@keyframes floating {0% {transform: translate(0); } 10% {transform: translate(-.25em, 0); } 25% {transform: translate(.75em, .5em); } 50% {transform: translate(0, 1em); } 75% {transform: translate(-1em, 0); } 90% {transform: translate(0, -.5em); } 100% {transform: translate(0); } }
+@-webkit-keyframes floating {0% {-webkit-transform: translate(0); transform: translate(0); } 10% {-webkit-transform: translate(-.75em, 0); transform: translate(-.75em, 0); } 25% {-webkit-transform: translate(.5em, .5em); transform: translate(.5em, .5em); } 50% {-webkit-transform: translate(0, -.5em); transform: translate(0, -.5em); } 75% {-webkit-transform: translate(-1em, 0); transform: translate(-1em, 0); } 90% {-webkit-transform: translate(-.5em, -.5em); transform: translate(-.5em, -.5em); } 100% {-webkit-transform: translate(0); transform: translate(0); } }
+@keyframes floating {0% {transform: translate(0); } 10% {transform: translate(-.75em, 0); } 25% {transform: translate(.5em, .5em); } 50% {transform: translate(0, -.5em); } 75% {transform: translate(-1em, 0); } 90% {transform: translate(-.5em, -.5em); } 100% {transform: translate(0); } }
 
 /*** END Animations ***/
