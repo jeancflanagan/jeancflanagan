@@ -38,6 +38,12 @@ golden:
 goldenlight:
   hsl: 'hsla(52, 45%, 92%, 1)'
   hex: '#f4f1e1'
+blue:
+  hsl: 'hsla(190, 40%, 50%, 1)'
+  hex: '#4da1b3'
+bluelight:
+  hsl: 'hsla(190, 40%, 75%, 1)'
+  hex: '#a6d0d9'
 ---
 
 /*** Resets ***/
@@ -207,6 +213,11 @@ hr {
   color: {{ page.green.hex }};
   color: {{ page.green.hsl }};
   margin: 1em;
+}
+
+small {
+  font-size: .875em;
+  font-style: italic;
 }
 
 /*** END Basic structure and formatting ***/
@@ -588,6 +599,20 @@ figure img {
   text-align: center;
 }
 
+#error-404 figure {
+  background: {{ page.bluelight.hex }};
+  background: {{ page.bluelight.hsl }};
+  margin-top: 0;
+  -webkit-animation: blueshift 10s ease-in-out infinite forwards;
+  animation: blueshift 10s ease-in-out infinite forwards;
+}
+
+#error-404 img {
+  padding: 1em;
+  -webkit-animation: floating 18s ease infinite forwards;
+  animation: floating 18s ease infinite forwards;
+}
+
 /*** END Component styles ***/
 
 /*** Media queries ***/
@@ -958,3 +983,12 @@ figure img {
 }
 
 /*** END Media queries ***/
+
+/*** Animations ***/
+
+@-webkit-keyframes blueshift {0% {background-color: hsla(190, 40%, 50%, 1); } 50% {background-color: hsla(190, 40%, 75%, 1); } 100% {background-color: hsla(190, 40%, 50%, 1); } }
+@keyframes blueshift {0% {background-color: hsla(190, 40%, 50%, 1); } 50% {background-color: hsla(190, 40%, 75%, 1); } 100% {background-color: hsla(190, 40%, 50%, 1); } }
+@-webkit-keyframes floating {0% {-webkit-transform: translate(0); transform: translate(0); } 10% {-webkit-transform: translate(-.75em, 0); transform: translate(-.75em, 0); } 25% {-webkit-transform: translate(.5em, .5em); transform: translate(.5em, .5em); } 50% {-webkit-transform: translate(0, -.5em); transform: translate(0, -.5em); } 75% {-webkit-transform: translate(-1em, 0); transform: translate(-1em, 0); } 90% {-webkit-transform: translate(-.5em, -.5em); transform: translate(-.5em, -.5em); } 100% {-webkit-transform: translate(0); transform: translate(0); } }
+@keyframes floating {0% {transform: translate(0); } 10% {transform: translate(-.75em, 0); } 25% {transform: translate(.5em, .5em); } 50% {transform: translate(0, -.5em); } 75% {transform: translate(-1em, 0); } 90% {transform: translate(-.5em, -.5em); } 100% {transform: translate(0); } }
+
+/*** END Animations ***/
