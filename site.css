@@ -365,8 +365,8 @@ small {
 
 /** Home index link to archive (continuation of index) **/
 .archive-link {
-  font: normal 400 1em/1.375 'open-sans', 'Open Sans', Calibri, sans-serif;
-  margin: 0 auto 2em;
+  font: normal 400 1.25em/1.33333333 'open-sans', 'Open Sans', Calibri, sans-serif;
+  margin: 1em auto 2em;
   text-align: center;
   width: 10em;
 }
@@ -643,8 +643,7 @@ figure img {
 
 }
 
-@media screen and (min-width: 30em) {
-  /* i.e. 480px */
+@media screen and (min-width: 25em) {
 
   h1 {
     font: normal 400 1.5em/1.25 'open-sans', 'Open Sans', Calibri, sans-serif;
@@ -661,6 +660,15 @@ figure img {
   .banner {
     padding: 3em 0 0;
   }
+
+  .excerpt {
+    max-width: 25em;
+  }
+  
+}
+
+@media screen and (min-width: 30em) {
+  /* i.e. 480px */
 
   .page {
     padding: 0 2em 2.5em;
@@ -681,10 +689,6 @@ figure img {
 
   .photoset footer {
     padding: 0 2em;
-  }
-
-  .excerpt {
-    max-width: 25em;
   }
 
 }
