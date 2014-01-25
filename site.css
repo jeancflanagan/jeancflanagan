@@ -167,12 +167,12 @@ a:focus {
 }
 
 h1 {
-  font: normal 400 1.5em/1.33333333 'open-sans', 'Open Sans', Calibri, sans-serif;
+  font: normal 400 1.375em/1.25 'open-sans', 'Open Sans', Calibri, sans-serif;
   margin: 0;
 }
 
 h2 {
-  font: normal 400 1.25em/1.4 'open-sans', 'Open Sans', Calibri, sans-serif;
+  font: normal 400 1.25em/1.25 'open-sans', 'Open Sans', Calibri, sans-serif;
   margin: 0;
 }
 
@@ -470,11 +470,7 @@ small {
 .excerpt-photo h1 {
   color: {{ page.green.hex }};
   color: {{ page.green.hsl }};
-  font: normal 400 1.25em/1.4 'open-sans', 'Open Sans', Calibri, sans-serif;
-}
-
-.excerpt-photo h1 {
-  line-height: 1.4;
+  font: normal 400 1.25em/1.25 'open-sans', 'Open Sans', Calibri, sans-serif;
 }
 
 .excerpt-writing p {
@@ -649,6 +645,10 @@ figure img {
 
 @media screen and (min-width: 30em) {
   /* i.e. 480px */
+
+  h1 {
+    font: normal 400 1.5em/1.25 'open-sans', 'Open Sans', Calibri, sans-serif;
+  }
 
   .banner,
   .page,
