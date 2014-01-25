@@ -6,6 +6,7 @@ author:
 url: http://jeancflanagan.com
 image_url: https://s3.amazonaws.com/temporary.static.jeancflanagan
 photoset_url: https://s3.amazonaws.com/temporary.static.jeancflanagan/photosets
+siteimage_url: https://s3.amazonaws.com/temporary.static.jeancflanagan/site
 
 pygments: true
 layouts: ./_layouts
