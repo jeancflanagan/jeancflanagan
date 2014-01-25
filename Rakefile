@@ -1,12 +1,10 @@
 require 'stringex'
 
-## Rsync config ##
+## Website deploying config ##
 
-# Assumes that ssh is already set up on the server.
 # Assumes that S3_website gem is configured.
 # Assumes that ImageOptim and ImageOptim-CLI are installed.
 
-ssh_user       = "jcflanagan@jeancflanagan.com"
 s3_for_images  = true
 
 local_images   = "_images" # typically called "_images"
@@ -73,23 +71,18 @@ task :optimize do
   puts "## Images optimized ##"
 end
 
-## "rake load" to load images in the local image directory to your server
-desc "deploy Jekyll images to remote server via rsync"
+## "rake load" to load images in the local image directory to the server
+desc "deploy Jekyll images to remote server via s3_website"
 task :load do
-  if s3_for_images
-    system "s3_website push --site #{local_images}"
+    system "s3_website push --site #{local_images} --config_dir #{local_images}"
     puts "## Deployed images to S3 ##"
-  else
-    system "rsync -avze ssh #{include_images} #{local_images}/ #{ssh_user}:#{remote_images}/"
-    puts "## Deploying images via rsync ##"
-  end
 end
 
-## "rake deploy" to deploy _site and _images to your server
-desc "deploy Jekyll _site and _images to remote server via rsync"
+## "rake deploy" to deploy _site to the server
+desc "deploy Jekyll _site and _images to remote servers via s3_website"
 task :deploy => :load do
-  system "rsync -avze ssh --delete #{local_site}/ #{ssh_user}:#{remote_site}/"
-  puts "## Deployed site via rsync ##"
+  system "s3_website push --site #{local_site}"
+  puts "## Deployed site to S3 ##"
 end
 
 
