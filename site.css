@@ -200,11 +200,11 @@ blockquote {
 }
 
 sup:before {
-  content: "[ ";
+  content: "[\2009"; /* thin space \2009 */
 }
 
 sup:after {
-  content: " ]";
+  content: "\2009]";
 }
 
 hr {
