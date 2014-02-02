@@ -19,10 +19,10 @@ image_alt:
   - 'Twilight Park'
   - 'Wood frog'
 image_caption:
-  - 'Painted lady butterfly (*Vanessa cardui*)'
+  - 'Painted lady butterfly (<i>Vanessa cardui</i>)'
   - 'Mushrooms in moss'
   - 'The top of Kaaterskill falls'
   - 'Twilight Park on the mountainside'
-  - 'Wood frog (*Lithobates sylvaticus*)'
+  - 'Wood frog (<i>Lithobates sylvaticus</i>)'
 ---
 {% include photoset-loop.html %}
