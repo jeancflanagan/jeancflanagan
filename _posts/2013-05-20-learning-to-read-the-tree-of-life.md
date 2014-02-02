@@ -16,9 +16,9 @@ image_alt:
   - 'Two alternate styles of cladograms that communicate the same thing'
   - 'Dynamic Evolutionary Map example, a spatial graph of the relatedness of hawk, eagle and vulture species'
 image_caption:
-  - 'Lone tree. Photo by [Daveybot on Flickr (CC-BY-NC-SA)](http://www.flickr.com/photos/davemorris/96442418/in/faves-jeancflanagan/).'
-  - 'Two styles of cladogram depicting identical relationships. Branches can rotate around nodes without altering the meaning of the diagram. Image by Alexei Kouprianov (CC-BY-SA).'
-  - 'The Dynamic Evolutionary Map showing the present day. Visualization by Sonia Stephens (CC-BY-NC-SA).'
+  - 'Lone tree. Photo by [Daveybot on Flickr (CC BY-NC-SA)](http://www.flickr.com/photos/davemorris/96442418/in/faves-jeancflanagan/).'
+  - 'Two styles of cladogram depicting identical relationships. Branches can rotate around nodes without altering the meaning of the diagram. Image by Alexei Kouprianov (CC BY-SA).'
+  - 'The Dynamic Evolutionary Map showing the present day. Visualization by Sonia Stephens (CC BY-NC-SA).'
   - 'Users can toggle between three different tree shapes in the OneZoom Tree of Life Explorer. (Rosindell & Harmon 2012).'
 ---
 
@@ -61,9 +61,9 @@ When I asked her about what people would need to understand in order to use the 
 
 > I assumed a basic knowledge of biology, having seen (though not necessarily knowing all the nuances of) phylogenetic trees, and familiarity with at least some terminology, e.g. evolution, genes, species, etc. In order to integrate the DEM into a classroom setting, you'd want to provide more context for these concepts.
 
-The DEM is free to use (under creative commons license CC-BY-NC-SA) and Sonia is always interested to hear from possible collaborators. 
+The DEM is free to use (under creative commons license CC BY-NC-SA) and Sonia is always interested to hear from possible collaborators. 
 
-Another digital innovation on evolutionary tree diagrams, the amazing [OneZoom Tree of Life Explorer](http://www.onezoom.org/ "OneZoom Tree of Life Explorer"),  will be visualizing the Open Tree of Life. As detailed in an [article](http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.1001406 "OneZoom: A Fractal Explorer for the Tree of Life") on the PLOS community pages, OneZoom's tree breaks the static, paper-bound mold in many ways -- and it includes three different fractal shape options, which may prevent some misinterpretation. However, unlike the DEM all versions retain the branching metaphor.
+Another digital innovation on evolutionary tree diagrams, the amazing [OneZoom Tree of Life Explorer](http://www.onezoom.org/ "OneZoom Tree of Life Explorer"), will be visualizing the Open Tree of Life. As detailed in an [article](http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.1001406 "OneZoom: A Fractal Explorer for the Tree of Life") on the PLOS community pages, OneZoom's tree breaks the static, paper-bound mold in many ways—and it includes three different fractal shape options, which may prevent some misinterpretation. However, unlike the DEM all versions retain the branching metaphor.
 
 {% figure_img 3 caption %}
 
