@@ -13,13 +13,22 @@ I occasionally get time to take some [photos](/photos/).  I started learning on 
 
 ## Connect
 
-Connect with me on [Twitter,](https://twitter.com/jeancflanagan) [Google+](https://plus.google.com/+JeanFlanagan/posts), and [LinkedIn](http://www.linkedin.com/pub/jean-flanagan/b/746/37a). 
+Connect with me on [Twitter,](https://twitter.com/jeancflanagan) [Google+](https://plus.google.com/+JeanFlanagan/posts), and [LinkedIn](http://www.linkedin.com/pub/jean-flanagan/b/746/37a).
+
+## Subscribe
+
+There are three Atom feeds available for the site (RSS equivalent for any feed reader).
+
+- [All content feed](/subscribe/full.xml)
+- [Only photo content feed](/subscribe/photos.xml)
+- [Only writing content feed](/subscribe/writing.xml)
 
 ## About this site
 
-The site is the result of a collaboration with my partner, [Oliver Pattison](http://oliverpattison.org), who was primarily responsible for its design and development. It runs on [Jekyll](http://jekyllrb.com/), a static site generator. A minimalist, responsive, content-first design philosophy guided the project. (It should work equally well on phones, tablets, laptops, and desktops of various sizes!) Check out [Oliver's website](http://oliverpattison.org) and [the GitHub repository for this site](https://github.com/opattison/jeancflanagan) for more on the design process. 
+The site is the result of a collaboration with my partner, [Oliver Pattison](http://oliverpattison.org), who was primarily responsible for its design and development. It runs on [Jekyll](http://jekyllrb.com/), a static site generator. A minimalist, responsive, content-first design philosophy guided the project. (It should work equally well on phones, tablets, laptops, and desktops of various sizes!) Check out [Oliver's website](http://oliverpattison.org) and [the GitHub repository for this site](https://github.com/opattison/jeancflanagan) for more on the design process.
 
 ## Disclaimer
+
 Views expressed here are my own and are not intended to represent those of any of my employers, past or present.
 
 ## Copyright
