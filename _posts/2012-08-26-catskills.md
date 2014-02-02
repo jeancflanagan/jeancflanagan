@@ -13,8 +13,16 @@ image:
   - 2012-08-26-twilight-park-houses.jpg
   - 2012-08-26-wood-frog.jpg
 image_alt:
-  - ''
+  - 'Painted lady butterfly'
+  - 'Mushrooms in moss'
+  - 'Kaaterskill falls'
+  - 'Twilight Park'
+  - 'Wood frog'
 image_caption:
-  - ''
+  - 'Painted lady butterfly (*Vanessa cardui*)'
+  - 'Mushrooms in moss'
+  - 'The top of Kaaterskill falls'
+  - 'Twilight Park on the mountainside'
+  - 'Wood frog (*Lithobates sylvaticus*)'
 ---
 {% include photoset-loop.html %}
