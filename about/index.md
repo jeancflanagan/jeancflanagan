@@ -5,6 +5,8 @@ title: About
 
 I work in the field of science education as a researcher, reviewer, writer, and editor, focusing on K-12 biology curriculum materials and assessments aligned to national standards. I also enjoy writing about a wide range of topics for broader audiences. I’m especially interested in the intersections of science and other fields like education, policy, art, technology, history, and philosophy.
 
+<img class="right narrow" src="{{ site.siteimage_url }}/2012-09-16-jean-flanagan-portrait.jpg">
+
 I’m currently a Project Editor in Curriculum and Communication at the Smithsonian Science Education Center ([SSEC](http://www.ssec.si.edu/)). Before that, I was a Research Associate at the American Association for the Advancement of Science ([AAAS](http://www.aaas.org)) Project 2061, where I spent about five years contributing to research in science education. I also founded and wrote for the team blog [Sci-Ed](http://blogs.plos.org/scied) on the Public Library of Science (PLOS) blog network.
 
 ## Photography

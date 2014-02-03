@@ -14,7 +14,7 @@ image:
   - 2012-11-04-orange-leaves-blue-sky.jpg
 image_alt:
   - 'Orange maple leaf, Mount Pleasant'
-  - 'Speckled maples leaves, Mount Pleasant'
+  - 'Speckled maple leaves, Mount Pleasant'
   - 'Fountain, Meridian Hill Park'
   - 'Orange maple leaves, Mount Pleasant'
   - 'Orange leaves, blue sky, Mount Pleasant'
