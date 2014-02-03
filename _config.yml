@@ -5,9 +5,9 @@ author:
   email: jeancflanagan@gmail.com
 url: http://jeancflanagan.com
 subscribe_url: http://jeancflanagan.com/subscribe
-image_url: https://s3.amazonaws.com/temporary.static.jeancflanagan
-photoset_url: https://s3.amazonaws.com/temporary.static.jeancflanagan/photosets
-siteimage_url: https://s3.amazonaws.com/temporary.static.jeancflanagan/site
+image_url: https://s3.amazonaws.com/static.jeancflanagan.com
+photoset_url: https://s3.amazonaws.com/static.jeancflanagan.com/photosets
+siteimage_url: https://s3.amazonaws.com/static.jeancflanagan.com/site
 
 pygments: true
 layouts: ./_layouts
