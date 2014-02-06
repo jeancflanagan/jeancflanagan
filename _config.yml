@@ -5,9 +5,10 @@ author:
   email: jeancflanagan@gmail.com
 url: http://jeancflanagan.com
 subscribe_url: http://jeancflanagan.com/subscribe
-image_url: https://s3.amazonaws.com/static.jeancflanagan.com
-photoset_url: https://s3.amazonaws.com/static.jeancflanagan.com/photosets
-siteimage_url: https://s3.amazonaws.com/static.jeancflanagan.com/site
+image_url: https://s3.amazonaws.com/static.jeancflanagan.com/images
+photoset_url: https://s3.amazonaws.com/static.jeancflanagan.com/images/photosets
+siteimage_url: https://s3.amazonaws.com/static.jeancflanagan.com/images/site
+scripts_url: https://s3.amazonaws.com/static.jeancflanagan.com/scripts
 
 pygments: true
 layouts: ./_layouts
