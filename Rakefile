@@ -7,10 +7,8 @@ require 'stringex'
 
 s3_for_images  = true
 
-local_images   = "_images" # typically called "_images"
+local_images   = "_static" # typically called "_images"
 local_site     = "_site" # typically called "_site"
-remote_images  = "webapps/static"
-remote_site    = "webapps/dev"
 
 include_images = "--include='*.png' --include='*.jpg' --include='*/' --exclude='*'"
 
