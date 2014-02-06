@@ -212,7 +212,7 @@ sup:after {
 
 hr {
   border-style: solid;
-  border-width: 1px;
+  border-width: 2px;
   color: {{ page.green.hex }};
   color: {{ page.green.hsl }};
   margin: 1em;
