@@ -134,11 +134,14 @@ i {
 
 /*** Basic structure and formatting ***/
 html {
-  background: {{ page.charcoal.hex }};
-  background: {{ page.charcoal.hsl }};
   font: normal 400 16px/1 Calluna, Georgia, serif;
   font: normal 400 1rem/1 Calluna, Georgia, serif;
   height: 100%;
+}
+
+.background {
+  background: {{ page.charcoal.hex }};
+  background: {{ page.charcoal.hsl }};
 }
 
 .banner,
