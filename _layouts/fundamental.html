@@ -1,6 +1,24 @@
 <!doctype html>
 <html lang="en">
-{% include head.html %}
+<head>
+  <meta charset="utf-8">
+  {% if page.title != 'Home' %}<title>{{ page.title }} &ndash; {{ site.title }}</title>{% endif %}
+  {% if page.title == 'Home' %}<title>{{ site.title }} &ndash; Home</title>{% endif %}
+
+  <!-- via Cloud Four -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+{% include head-styles.html %}
+
+{% include head-icons.html %}
+
+{% include head-subscribe.html %}
+
+{% include head-scripts.html %}
+
+{% include head-fonts.html %}
+
+</head>
 <body>
   <section class="background">
     {% include site-header.html %}
