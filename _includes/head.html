@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8">
-  {% if page.title != 'Home' %}<title>{{ page.title }} &ndash; Jean C. Flanagan</title>{% endif %}
-  {% if page.title == 'Home' %}<title>Jean C. Flanagan &ndash; Personal website</title>{% endif %}
+  {% if page.title != 'Home' %}<title>{{ page.title }} &ndash; {{ site.title }}</title>{% endif %}
+  {% if page.title == 'Home' %}<title>{{ site.title }} &ndash; Home</title>{% endif %}
 
   <!-- via Cloud Four -->
   <meta name="viewport" content="width=device-width,initial-scale=1">
