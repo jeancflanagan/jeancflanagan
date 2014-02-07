@@ -27,7 +27,7 @@ There are three Atom feeds available for the site (RSS equivalent for any feed r
 
 ## About this site
 
-The site is the result of a collaboration with my partner, [Oliver Pattison](http://oliverpattison.org), who was primarily responsible for its design and development. It runs on [Jekyll](http://jekyllrb.com/), a static site generator. A minimalist, responsive, content-first design philosophy guided the project. (It should work equally well on phones, tablets, laptops, and desktops of various sizes!) Check out [Oliver's website](http://oliverpattison.org) and [the GitHub repository for this site](https://github.com/opattison/jeancflanagan) for more on the design process.
+The site is the result of a collaboration with my partner, [Oliver Pattison](http://oliverpattison.org), who was primarily responsible for its design and development. It runs on [Jekyll](http://jekyllrb.com/), a static site generator. A minimalist, responsive, content-first design philosophy guided the project. (It should work equally well on phones, tablets, laptops, and desktops of various sizes!) Check out [Oliver's website](http://oliverpattison.org) and <a href="https://github.com/opattison/jeancflanagan" rel="source">the GitHub repository for this site</a> for more on the design process.
 
 ## Disclaimer
 
@@ -35,10 +35,10 @@ Views expressed here are my own and are not intended to represent those of any o
 
 ## Copyright
 
-- Articles published exclusively on this website are licensed [CC BY-NC](http://creativecommons.org/licenses/by-nc/4.0/) (Creative Commons Attribution NonCommercial 4.0 License) by Jean Flanagan.
+- Articles published exclusively on this website are licensed <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license">CC BY-NC (Creative Commons Attribution NonCommercial 4.0 License)</a> by Jean Flanagan.
 
 - Articles that were originally published elsewhere (whether archived here in full or represented by snippets) are subject to the copyright specified by those publishers.
 
-- Photos are by Jean Flanagan (unless otherwise attributed) and are licensed [CC BY-NC](http://creativecommons.org/licenses/by-nc/4.0/) (Creative Commons Attribution NonCommercial 4.0 License)
+- Photos are by Jean Flanagan (unless otherwise attributed) and are licensed <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license">CC BY-NC (Creative Commons Attribution NonCommercial 4.0 License)</a>.
 
 - The site design is by Oliver Pattison and Jean Flanagan, all rights reserved.
