@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+
 ---
 
 I work in the field of science education as a researcher, reviewer, writer, and editor, focusing on K-12 biology curriculum materials and assessments aligned to national standards. I also enjoy writing about a wide range of topics for broader audiences. I’m especially interested in the intersections of science and other fields like education, policy, art, technology, history, and philosophy.
@@ -24,6 +25,10 @@ There are three Atom feeds available for the site (RSS equivalent for any feed r
 - [All content feed](/subscribe/full.xml)
 - [Only photo content feed](/subscribe/photos.xml)
 - [Only writing content feed](/subscribe/writing.xml)
+
+If you use Feedly, you can <a href="http://feedly.com/index.html#subscription/feed/{{ site.subscribe_url }}/full.xml">subscribe to the site feed with that service easily</a>.
+
+- - -
 
 ## About this site
 
