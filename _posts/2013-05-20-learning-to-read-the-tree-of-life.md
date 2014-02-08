@@ -20,6 +20,7 @@ image_caption:
   - 'Two styles of cladogram depicting identical relationships. Branches can rotate around nodes without altering the meaning of the diagram. Image by Alexei Kouprianov (CC BY-SA).'
   - 'The Dynamic Evolutionary Map showing the present day. Visualization by Sonia Stephens (CC BY-NC-SA).'
   - 'Users can toggle between three different tree shapes in the OneZoom Tree of Life Explorer. (Rosindell & Harmon 2012).'
+  
 ---
 
 Evolution education is entering an exciting time: scientists are working on the [Open Tree of Life](http://blog.opentreeoflife.org/project-summary/ "The Open Tree of Life - Project Summary")  the first comprehensive tree charting the evolutionary relationships of all named species—and many U.S. classrooms are preparing for state adoption of the [Next Generation Science Standards](http://www.nextgenscience.org/next-generation-science-standards "Next Generation Science Standards") (NGSS), in which evolution and common ancestry are central. However, in order to capitalize on these developments, students will need to become competent in the surprisingly tricky skill of "tree thinking."

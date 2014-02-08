@@ -12,6 +12,7 @@ image_alt:
   - 'Sather Tower, U.C. Berkeley'
 image_caption:
   - 'An ivory tower of sorts: Sather Tower, U.C. Berkeley. Photo by [Bernt Rostad on Flickr](http://www.flickr.com/photos/brostad/2878353059/)'
+  
 ---
 
 Science education researchers and science teachers have much to offer each other. In an ideal world, knowledge would flow freely between researchers and educators. Unfortunately, research and practice tend to exist in parallel universes. As long as this divide persists, classrooms will rarely benefit from research findings, and research studies will rarely be rooted in the realities of the classroom. If we care about science education, we have to face the research-practice divide.

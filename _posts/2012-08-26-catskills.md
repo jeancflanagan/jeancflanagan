@@ -24,5 +24,7 @@ image_caption:
   - 'The top of Kaaterskill falls'
   - 'Twilight Park on the mountainside'
   - 'Wood frog (<i>Lithobates sylvaticus</i>)'
+
 ---
+
 {% include photoset-loop.html %}

@@ -12,6 +12,7 @@ image_alt:
   - 'Jean’s rock and mineral collection'
 image_caption:
   - 'A few representatives from my childhood rock and mineral collection. Photo by Jean Flanagan.'
+  
 ---
 
 Collecting and polishing rocks and minerals, hunting for shells and fossils, gardening, birding, keeping freshwater and marine aquariums—this was how I spent my childhood: hopping from one hobby to the next, all centered around the natural (or semi-natural) world. My interest in science and nature started before I can remember—it just always seemed to be there. I'm sure my parents had something to do with it, my dad being an aerospace engineer, and my mom a student of botany and horticulture and a sort of unofficial lifelong naturalist. But while they supported my hobbies (often with a great deal of time, effort, and patience), these activities were all primarily driven by my own interests and inclinations. They weren't things I was pushed to do. Over the years I cycled through paleontologist, veterinarian, science teacher, ecologist and marine biologist as my career goal of choice, but it was always a given in my mind that I would go to college, study biology, and end up in some sort of science-related career. The career I was set on pursuing in any given year usually matched whichever hobby I was currently most engaged with.

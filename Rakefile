@@ -37,7 +37,9 @@ task :post do
       post.puts "  - \'\'"
       post.puts "image_caption:"
       post.puts "  - \'\'"
+      post.puts ""
       post.puts "---"
+      post.puts ""
       post.puts "{% include photoset-loop.html %}"
     end
   else
@@ -56,7 +58,9 @@ task :post do
       post.puts "  - \'\'"
       post.puts "image_caption:"
       post.puts "  - \'\'"
+      post.puts ""
       post.puts "---"
+      post.puts ""
     end
   end
   puts "Created new post: #{filename}"

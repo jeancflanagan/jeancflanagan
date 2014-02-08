@@ -24,5 +24,6 @@ image_caption:
   - 'Fountain, Meridian Hill Park'
   - 'Orange maple leaves, Mount Pleasant'
   - 'Orange leaves, blue sky, Mount Pleasant'
+
 ---
 {% include photoset-loop.html %}
