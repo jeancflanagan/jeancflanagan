@@ -12,6 +12,7 @@ image_alt:
   - 'NGSS rope with three strands representing practices, crosscutting concepts, and core ideas'
 image_caption:
   - 'NGSS performance expectations blend practices, crosscutting concepts, and core ideas. Image by the Smithsonian Science Education Center (SSEC).'
+  
 ---
 
 As states adopt the [Next Generation Science Standards](http://www.nextgenscience.org/next-generation-science-standards) (NGSS), everyone is wondering about what the assessments will look like. This is not because everyone is suddenly fascinated with the finer points of educational measurement, but because assessment is often known as the “tail that wags the dog” of education; it has a disproportionately large impact on curriculum, instruction, and outcomes. Effective assessment will be one of the most important aspects of successful implementation for states adopting the NGSS. However, the NGSS are designed to be different from previous standards, and creating well-aligned assessments will require much new thinking, research, and development. 

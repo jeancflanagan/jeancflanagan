@@ -12,6 +12,7 @@ image_alt:
   - 'Open data graphic'
 image_caption: 
   - 'Open Data. Image by [Colleen Simon for opensource.com on Flickr (CC BY-SA)](http://www.flickr.com/photos/opensourceway/5538036200/in/faves-jeancflanagan/).'
+  
 ---
 
 [Open data](https://p2pu.org/en/courses/5/content/13/) is the idea that scientific data should be freely available to all, without restrictions, in searchable online repositories. The open data movement is gaining momentum in the scientific community because of its [promise](http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.1001195) to enable more frequent replication of studies and to accelerate the pace of research. But the advantages for science education are just as compelling. 

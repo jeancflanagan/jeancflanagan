@@ -7,10 +7,8 @@ require 'stringex'
 
 s3_for_images  = true
 
-local_images   = "_images" # typically called "_images"
+local_images   = "_static" # typically called "_images"
 local_site     = "_site" # typically called "_site"
-remote_images  = "webapps/static"
-remote_site    = "webapps/dev"
 
 include_images = "--include='*.png' --include='*.jpg' --include='*/' --exclude='*'"
 
@@ -39,7 +37,9 @@ task :post do
       post.puts "  - \'\'"
       post.puts "image_caption:"
       post.puts "  - \'\'"
+      post.puts ""
       post.puts "---"
+      post.puts ""
       post.puts "{% include photoset-loop.html %}"
     end
   else
@@ -58,7 +58,9 @@ task :post do
       post.puts "  - \'\'"
       post.puts "image_caption:"
       post.puts "  - \'\'"
+      post.puts ""
       post.puts "---"
+      post.puts ""
     end
   end
   puts "Created new post: #{filename}"

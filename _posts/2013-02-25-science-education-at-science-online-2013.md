@@ -12,6 +12,7 @@ image_alt:
   - 'Science Online 2013 name badge.'
 image_caption:
   - 'Science Online 2013 name badge. (PLOS sponsored the lanyards for everyone.) Photo by Jean Flanagan.'
+  
 ---
 
 This was my first [Science Online](http://scienceonline.com/scienceonline2013/) conference, and it was a refreshingly collaborative experience. Research scientists, high school teachers, museum educators, education researchers, science writers, psychologists, and social scientists all came together with no pretensions for a shared purpose: to share ideas on how to better educate and communicate with the public about science.

@@ -1,5 +1,5 @@
 _images
 _static
-_includes/head-analytics.html
 _site
 .DS_Store
+Gemfile.lock

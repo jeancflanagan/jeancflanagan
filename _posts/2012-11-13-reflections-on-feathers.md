@@ -9,6 +9,7 @@ image:
   - 2012-11-13-thor-hanson-feathers-book-cover.jpg
 image_alt:
   - 'Thor Hanson Feathers book cover'
+  
 ---
 
 As a lifelong casual bird watcher, the title *Feathers* drew me in right away. I grew up in and around an Audubon-designated bird sanctuary, and as I flipped through the book I started to think about how feathers might account for how birds had captured my attention. The brilliant colors, the beauty of flight, and the fascinating behaviors of birds are all best considered through the lens of feathers. In *Feathers*, Thor Hanson takes a seemingly narrow topic and surprises readers with all the directions it can lead. While the focus is the evolutionary biology of feathers, the book touches on fashion, aircraft, the down industry, pens, and the aviaries of the Aztecs.

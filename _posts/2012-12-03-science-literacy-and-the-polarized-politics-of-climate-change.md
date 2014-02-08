@@ -12,6 +12,7 @@ image_alt:
   - 'Lone polar bear on sea ice'
 image_caption:
   - 'Lone polar bear on sea ice. Photo by [fruchtzwerg’s world on Flickr](http://www.flickr.com/photos/78500427@N02/8900036455/in/photolist-eyt1Lp).'
+  
 ---
 
 One of the major goals of science education is for all citizens to have some basic level of science literacy. The rationale is that a basic understanding of science is necessary in order to participate in a modern democratic society, where we must often grapple with policy decisions that deal with socioscientific issues, and where scientific evidence can be a major deciding factor in policy.

@@ -21,6 +21,7 @@ image_caption:
   - 'Tulips in Dupont Circle.'
   - 'A raised garden on a hill in Lanier Heights.'
   - 'Another eye-level garden in Lanier Heights.'
+  
 ---
 
 {% include photoset-loop.html %}
