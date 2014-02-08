@@ -301,6 +301,11 @@ small {
   position: relative;
 }
 
+/* photoset-specific */
+.photoset {
+  padding: 0 0 32px;
+}
+
 /** Container for post excerpts (an index) **/
 .excerpt-index {
   background: {{ site.charcoal.hex }};
@@ -329,7 +334,6 @@ small {
 .excerpt {
   list-style: none;
   margin: 16px auto;
-  padding: 16px;
 }
 
 .excerpt a {
@@ -341,6 +345,10 @@ small {
 .excerpt-photo {
   color: {{ site.black.hex }}; /* get rid of that default link color */
   min-height: 160px;
+}
+
+.excerpt-writing {
+  padding: 16px;
 }
 
 .excerpt-writing h1,
@@ -357,6 +365,11 @@ small {
 .excerpt-photo footer {
   font: normal 400 14px Calibri, sans-serif;
   text-align: right;
+}
+
+.excerpt-photo footer {
+  line-height: 1.5;
+  padding: 16px;
 }
 
 /* Next/Previous navigation */
@@ -406,16 +419,17 @@ figure img,
 .page img {
   display: block;
   margin: 0 auto;
+  width: 100%;
 }
 
 /* Page-specific figure styles */
 .page figure {
-  background: {{ site.greenlight2.hsl }};
-  margin: 16px -16px;
+  background: {{ site.greenlight2.hex }};
+  margin: 16px -64px;
 }
 
 .page figcaption {
-  font: normal 400 12px/1.5 'open-sans', 'Open Sans', Calibri, sans-serif;
+  font: normal 400 12px/1.5 Calibri, sans-serif;
   padding: 8px 16px 12px;
   text-align: center;
 }
@@ -427,11 +441,6 @@ figure img,
 .page .narrow {
   margin: 16px auto;
   width: 75%;
-}
-
-.page .right img,
-.page .left img {
-  width: 150%; /* Just in case the image pixel width is too small. */
 }
 
 /* Photoset-specific figure styles */
