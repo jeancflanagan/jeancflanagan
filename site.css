@@ -1,52 +1,9 @@
 ---
-white: 
-  hsl: 'hsla(138, 10%, 98%, 1)'
-  hex: '#f9fafa'
-black:
-  hsl: 'hsla(138, 16%, 10%, 1)'
-  hex: '#151e18'
-charcoal:
-  hsl: 'hsla(218, 2%, 32%, 1)'
-  hex: '#505153'
-grayshadow1:
-  hsl: 'hsla(218, 2%, 10%, .75)'
-  hex: '#202022'
-grayshadow2: 
-  hsl: 'hsla(218, 2%, 10%, .25)'
-  hex: '#bebfc1'
-slate:
-  hsl: 'hsla(138, 2%, 54%, .25)'
-  hex: '#e5e6e5'
-slateshadow:
-  hsl: 'hsla(138, 2%, 54%, 1)'
-  hex: '#878c89'
-green:
-  hsl: 'hsla(138, 40%, 50%, 1)' 
-  hex: '#4cb36b'
-greenlight1:
-  hsl: 'hsla(138, 40%, 75%, 1)'
-  hex: '#a6d9b5'
-greenlight2:
-  hsl: 'hsla(138, 40%, 90%, 1)'
-  hex: '#dbf0e1'
-graygreen:
-  hsl: 'hsla(138, 4%, 45%, 1)' 
-  hex: '#6e7771'
-golden:
-  hsl: 'hsla(52, 90%, 47%, 1)'
-  hex: '#e4c70c'
-goldenlight:
-  hsl: 'hsla(52, 45%, 92%, 1)'
-  hex: '#f4f1e1'
-blue:
-  hsl: 'hsla(190, 40%, 50%, 1)'
-  hex: '#4da1b3'
-bluelight:
-  hsl: 'hsla(190, 40%, 75%, 1)'
-  hex: '#a6d0d9'
+# colors configured in _config.yml
+
 ---
 
-/*** Resets ***/
+/*** Normalization ***/
 /* following adapted from HTML5 Reset */
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small,
@@ -130,7 +87,7 @@ i {
   font-style: italic;
 }
 
-/***! END Resets ***/
+/***! END Normalization ***/
 
 /*** Basic structure and formatting ***/
 html {
@@ -139,9 +96,8 @@ html {
   height: 100%;
 }
 
-.background {
-  background: {{ page.charcoal.hex }};
-  background: {{ page.charcoal.hsl }};
+body {
+  background: {{ site.charcoal.hsl }};
 }
 
 .banner,
@@ -150,23 +106,23 @@ html {
 .photoset,
 .site-nav,
 .site-info {
-  background: {{ page.white.hex }};
-  background: {{ page.white.hsl }};
-  color: {{ page.black.hex }};
-  color: {{ page.black.hsl }};
+  background: {{ site.white.hsl }};
+  color: {{ site.black.hsl }};
 }
 
 a,
 a:visited {
-  color: {{ page.green.hex }};
-  color: {{ page.green.hsl }};
+  color: {{ site.green.hsl }};
 }
 
 a:hover,
 a:focus {
-  color: {{ page.golden.hex }};
-  color: {{ page.golden.hsl }};
-  outline: 0;
+  color: {{ site.golden.hsl }};
+}
+
+a:focus {
+  outline: solid .0625em {{ site.golden.hsl }};
+
 }
 
 h1 {
@@ -194,10 +150,8 @@ ul {
 }
 
 blockquote {
-  border-left: solid 1em {{ page.greenlight2.hex }};
-  border-left: solid 1em {{ page.greenlight2.hsl }};
-  color: {{ page.graygreen.hex }};
-  color: {{ page.graygreen.hsl }};
+  border-left: solid 1em {{ site.greenlight2.hsl }};
+  color: {{ site.graygreen.hsl }};
   margin: 1em 0;
   padding: 0 1em;
 }
@@ -213,8 +167,7 @@ sup:after {
 hr {
   border-style: solid;
   border-width: 2px;
-  color: {{ page.green.hex }};
-  color: {{ page.green.hsl }};
+  color: {{ site.green.hsl }};
   margin: 1em;
 }
 
@@ -228,8 +181,7 @@ small {
 /*** Component styles ***/
 /** Site header **/
 .banner {
-  box-shadow: 0 -.0625em .625em .0625em {{ page.grayshadow1.hex }};
-  box-shadow: 0 -.0625em .625em .0625em {{ page.grayshadow1.hsl }};
+  box-shadow: 0 -.0625em .625em .0625em {{ site.grayshadow1.hsl }};
   margin: 0;
   padding: 3.5em 0 0 0;
   text-align: center;
@@ -242,7 +194,7 @@ small {
 /* Banner headings */
 .banner h1 {
   font: normal 600 2em/1.25 Calluna, Georgia, serif;
-  padding: .4em 0 .1em;
+  padding: .375em 0 .125em;
 }
 
 .banner h2 {
@@ -253,10 +205,8 @@ small {
 /* Responsive navigation (top and bottom) */
 .top-menu a,
 .back-top a {
-  background: {{ page.greenlight2.hex }};
-  background: {{ page.greenlight2.hsl }};
-  border-left: solid 6px {{ page.green.hex }};
-  border-left: solid 6px {{ page.green.hsl }};
+  background: {{ site.greenlight2.hsl }};
+  border-left: solid 6px {{ site.green.hsl }};
   font-family: 'open-sans', 'Open Sans', Calibri, sans-serif;
   padding: .75em 1em;
   position: absolute;
@@ -276,18 +226,14 @@ small {
 .top-menu a:focus,
 .back-top a:hover,
 .back-top a:focus {
-  background: {{ page.goldenlight.hex }};
-  background: {{ page.goldenlight.hsl }};
-  border-left: solid 6px {{ page.golden.hex }};
-  border-left: solid 6px {{ page.golden.hsl }};
-  box-shadow: -3px 0 0 0 {{ page.golden.hex }};
-  box-shadow: -3px 0 0 0 {{ page.golden.hsl }};
+  background: {{ site.goldenlight.hsl }};
+  border-left: solid 6px {{ site.golden.hsl }};
+  box-shadow: -3px 0 0 0 {{ site.golden.hsl }};
 }
 
 /** Navigation (responsive, small screen) **/
 .site-nav {
-  box-shadow: 0 -.0625em .625em .0625em {{ page.grayshadow1.hex }};
-  box-shadow: 0 -.0625em .625em .0625em {{ page.grayshadow1.hsl }};
+  box-shadow: 0 -.0625em .625em .0625em {{ site.grayshadow1.hsl }};
   font: normal 400 1em/1.5 'open-sans', 'Open Sans', Calibri, sans-serif;
   padding: 1em 0 .5em;
   text-align: center;
@@ -301,15 +247,12 @@ small {
 }
 
 .site-nav li {
-  border-bottom: solid 1px {{ page.greenlight1.hex }};
-  border-bottom: solid 1px {{ page.greenlight1.hsl }};
+  border-bottom: solid .0625em {{ site.greenlight1.hsl }};
 }
 
 .site-nav li a {
-  background: {{ page.greenlight2.hex }};
-  background: {{ page.greenlight2.hsl }};
-  border-left: solid 6px {{ page.green.hex }};
-  border-left: solid 6px {{ page.green.hsl }};
+  background: {{ site.greenlight2.hsl }};
+  border-left: solid .375em {{ site.green.hsl }};
   display: block;
   padding: .75em 1.5em;
   text-decoration: none;
@@ -317,28 +260,20 @@ small {
 
 .site-nav li a:hover,
 .site-nav li a:focus {
-  background: {{ page.goldenlight.hex }};
-  background: {{ page.goldenlight.hsl }};
-  border-left: solid 6px {{ page.golden.hex }};
-  border-left: solid 6px {{ page.golden.hsl }};
-  box-shadow: -3px 0 0 0 {{ page.golden.hex }};
-  box-shadow: -3px 0 0 0 {{ page.golden.hsl }};
-  color: {{ page.golden.hex }};
-  color: {{ page.golden.hsl }};
+  background: {{ site.goldenlight.hsl }};
+  border-left: solid .375em {{ site.golden.hsl }};
+  box-shadow: -.1875em 0 0 0 {{ site.golden.hsl }};
+  color: {{ site.golden.hsl }};
 }
 
 .site-nav .active {
-  border-bottom: solid 1px {{ page.grayshadow2.hex }};
-  border-bottom: solid 1px {{ page.grayshadow2.hsl }};
+  border-bottom: solid .0625em {{ site.grayshadow2.hsl }};
 }
 
 .site-nav .active a {
-  background: {{ page.slate.hex }};
-  background: {{ page.slate.hsl }};
-  border-left: solid 6px {{ page.slateshadow.hex }};
-  border-left: solid 6px {{ page.slateshadow.hsl }};
-  color: {{ page.black.hex }};
-  color: {{ page.black.hsl }};
+  background: {{ site.slate.hsl }};
+  border-left: solid .375em {{ site.slateshadow.hsl }};
+  color: {{ site.black.hsl }};
 }
 
 /** Site footer **/
@@ -359,7 +294,7 @@ small {
 
 /** Container for post excerpts (an index) **/
 .excerpt-index {
-  background: {{ page.charcoal.hsl }};
+  background: {{ site.charcoal.hsl }};
   list-style: none;
   margin: .25em auto;
   overflow: hidden;
@@ -375,10 +310,8 @@ small {
 }
 
 .archive-link a {
-  background: {{ page.white.hex }};
-  background: {{ page.white.hsl }};
-  box-shadow: 0 -.0625em .625em .0625em {{ page.grayshadow2.hex }};
-  box-shadow: 0 -.0625em .625em .0625em {{ page.grayshadow2.hsl }};
+  background: {{ site.white.hsl }};
+  box-shadow: 0 -.0625em .625em .0625em {{ site.grayshadow2.hsl }};
   text-decoration: none;
   padding: .5em 1em;
 }
@@ -388,10 +321,8 @@ small {
 .page,
 .excerpt,
 .photoset {
-  border-bottom: solid 6px {{ page.green.hex }};
-  border-bottom: solid 6px {{ page.green.hsl }};
-  box-shadow: 0 -.0625em .625em .0625em {{ page.grayshadow1.hex }};
-  box-shadow: 0 -.0625em .625em .0625em {{ page.grayshadow1.hsl }};
+  border-bottom: solid .375em {{ site.green.hsl }};
+  box-shadow: 0 -.0625em .625em .0625em {{ site.grayshadow1.hsl }};
   line-height: 1.375;
 }
 
@@ -460,8 +391,7 @@ small {
 
 .excerpt-writing,
 .excerpt-photo {
-  color: {{ page.black.hex }};
-  color: {{ page.black.hsl }}; /* get rid of that default link color */
+  color: {{ site.black.hsl }}; /* get rid of that default link color */
   min-height: 12em;
 }
 
@@ -471,8 +401,7 @@ small {
 
 .excerpt-writing h1,
 .excerpt-photo h1 {
-  color: {{ page.green.hex }};
-  color: {{ page.green.hsl }};
+  color: {{ site.green.hsl }};
   font: normal 400 1.25em/1.25 'open-sans', 'Open Sans', Calibri, sans-serif;
 }
 
@@ -494,16 +423,14 @@ small {
 .excerpt-photo:hover,
 .excerpt-writing:focus,
 .excerpt-photo:focus {
-  box-shadow: 0 .625em 0 0 {{ page.golden.hex }};
-  box-shadow: 0 .625em 0 0 {{ page.golden.hsl }};
+  box-shadow: 0 .625em 0 0 {{ site.golden.hsl }};
 }
 
 .excerpt-writing:hover h1,
 .excerpt-writing:focus h1,
 .excerpt-photo:hover h1,
 .excerpt-photo:focus h1 {
-  color: {{ page.golden.hex }};
-  color: {{ page.golden.hsl }};
+  color: {{ site.golden.hsl }};
 }
 
 /* Next/Previous navigation */
@@ -518,8 +445,7 @@ small {
 }
 
 .more {
-  background: {{ page.greenlight2.hex }};
-  background: {{ page.greenlight2.hsl }};
+  background: {{ site.greenlight2.hsl }};
   font-family: 'open-sans', 'Open Sans', Calibri, sans-serif;
   padding: .75em 1em;
   text-align: center;
@@ -528,8 +454,7 @@ small {
 
 .more:hover,
 .more:focus {
-  background: {{ page.goldenlight.hex }};
-  background: {{ page.goldenlight.hsl }};
+  background: {{ site.goldenlight.hsl }};
 }
 
 .next {
@@ -559,8 +484,7 @@ figure img,
 
 /* Page-specific figure styles */
 .page figure {
-  background: {{ page.greenlight2.hex }};
-  background: {{ page.greenlight2.hsl }};
+  background: {{ site.greenlight2.hsl }};
   margin: 1em -1em;
 }
 
@@ -595,9 +519,10 @@ figure img,
   text-align: center;
 }
 
+/* 404 image */
+
 #error-404 figure {
-  background: {{ page.bluelight.hex }};
-  background: {{ page.bluelight.hsl }};
+  background: {{ site.bluelight.hsl }};
   margin-top: 0;
   -webkit-animation: blueshift 10s ease-in-out infinite forwards;
   animation: blueshift 10s ease-in-out infinite forwards;
@@ -842,8 +767,7 @@ figure img,
   }
 
   .site-info {
-    box-shadow: 0 -.0625em .625em .0625em {{ page.grayshadow1.hex }};
-    box-shadow: 0 -.0625em .625em .0625em {{ page.grayshadow1.hsl }};
+    box-shadow: 0 -.0625em .625em .0625em {{ site.grayshadow1.hsl }};
     padding: 2em 0;
   }
 

@@ -1,0 +1,459 @@
+---
+# colors configured in _config.yml
+
+---
+
+/*** Normalization ***/
+/* following adapted from HTML5 Reset */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small,
+strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label,
+legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside,
+figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+  background: transparent;
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  vertical-align: baseline;
+}
+
+/* following adapted from CSS Normalize */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+html,
+body {
+  -ms-text-size-adjust: 100%;
+}
+
+img,
+object,
+embed {
+  max-width: 100%;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace;
+  font-size: 16px;
+}
+
+/* Box-sizing borrowed from Paul Irish */
+* {
+  box-sizing: border-box;
+}
+
+/* Custom */
+
+dfn,
+em,
+i {
+  font-style: italic;
+}
+
+/***! END Normalization ***/
+
+html {
+  background: {{ site.charcoal.hex }};
+  font: normal 400 16px/1 Georgia, serif;
+  height: 100%;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.background {
+  background: {{ site.charcoal.hex }};
+}
+
+.banner,
+.excerpt,
+.page,
+.photoset,
+.site-nav,
+.site-info {
+  background-color: {{ site.white.hex }};
+  color: {{ site.black.hex }};
+  display: block;
+}
+
+a,
+a:visited {
+  color: {{ site.green.hex }};
+}
+
+a:hover,
+a:focus {
+  color: {{ site.golden.hex }};
+  outline: 0;
+}
+
+h1 {
+  font: normal 400 22px/1.25 Calibri, sans-serif;
+  margin: 0;
+}
+
+h2 {
+  font: normal 400 20px/1.25 Calibri, sans-serif;
+  margin: 0;
+}
+
+h3 {
+  font: normal 400 18px/1.33333333 Calibri, sans-serif;
+  margin: 0;
+}
+
+h4 {
+  font: normal 600 16px/1.5 Georgia, serif;
+  margin: 0;
+}
+
+ul {
+  list-style-type: square;
+}
+
+blockquote {
+  border-left: solid 16px {{ site.greenlight2.hex }};
+  color: {{ site.graygreen.hex }};
+  margin: 16px 0;
+  padding: 0 16px;
+}
+
+sup:before {
+  content: "[\2009"; /* thin space \2009 */
+}
+
+sup:after {
+  content: "\2009]";
+}
+
+hr {
+  border-style: solid;
+  border-width: 2px;
+  color: {{ site.green.hex }};
+  margin: 16px;
+}
+
+small {
+  font-size: 14px;
+  font-style: italic;
+}
+
+/*** END Basic structure and formatting ***/
+
+/*** Component styles ***/
+/** Site header **/
+.banner {
+  height: 120px;
+  padding-bottom: 44px;
+  text-align: center;
+}
+
+.banner a {
+  text-decoration: none;
+}
+
+.top-menu,
+.back-top {
+  display: none;
+}
+
+/* Banner headings */
+.banner h1 {
+  font: normal 600 32px/1.25 Georgia, serif;
+  padding: 8px 0 4px;
+}
+
+.banner h2 {
+  font: normal 400 16px/1 Georgia, serif;
+  padding: 0 0 16px 0;
+}
+
+/* Navigation */
+
+.site-nav {
+  font: normal 400 16px/1.5 Calibri, sans-serif;
+  left: 50%; /* this hack centers the nav */
+  margin-left: -320px; /* this hack also centers the nav */
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  top: 80px;
+  width: 640px;
+}
+
+.site-nav ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.site-nav li {
+  display: inline;
+  margin: 0 8px;
+}
+
+/** Site footer **/
+.site-info {
+  clear: both;
+  font: normal 400 16px/1.5 Calibri, sans-serif;
+  margin: 0 auto;
+  padding: 24px 0 48px;
+  position: relative;
+  text-align: center;
+}
+
+.site-info p {
+  font-size: 14px;
+  line-height: 1.675;
+  margin: 0 4px;
+}
+
+/** Posts, pages, galleries and excerpts **/
+/* Shared page/photoset/excerpt styles */
+.page,
+.excerpt,
+.photoset {
+  border-bottom: solid 6px {{ site.green.hex }};
+  line-height: 1.375;
+}
+
+.page,
+.photoset {
+  margin: 20px auto;
+  width: 752px;
+}
+
+/* Page-specific */
+.page {
+  font-size: 20px;
+  padding: 0 64px 48px;
+}
+
+.page header {
+  padding: 16px 0;
+  text-align: center;
+}
+
+.page header h1 {
+  font-size: 24px;
+  margin: 0 0 6px;
+}
+
+.page header h2 {
+  font-size: 16px;
+}
+
+.page p {
+  margin: 12px 0 18px;
+}
+
+.page ul,
+.page ol {
+  margin: 12px 0 12px 32px;
+  padding: 0;
+}
+
+.page h2 {
+  font-size: 24px;
+}
+
+.footnotes {
+  margin: 24px 24px 24px 0;
+}
+
+.reversefootnote {
+  float: right;
+  left: 24px;
+  position: relative;
+}
+
+/* photoset-specific */
+.photoset {
+  padding: 0 0 32px;
+}
+
+/** Container for post excerpts (an index) **/
+.excerpt-index {
+  background: {{ site.charcoal.hex }};
+  list-style: none;
+  margin: 4px auto;
+  overflow: hidden;
+  padding: 0 16px;
+  width: 512px;
+}
+
+/** Home index link to archive (continuation of index) **/
+.archive-link {
+  font: normal 400 20px/1.33333333 Calibri, sans-serif;
+  margin: 16px auto 24px;
+  text-align: center;
+  width: 180px;
+}
+
+.archive-link a {
+  background: {{ site.white.hex }};
+  text-decoration: none;
+  padding: 12px 16px;
+}
+
+/* Excerpt-specific */
+.excerpt {
+  list-style: none;
+  margin: 16px auto;
+}
+
+.excerpt a {
+  color: {{ site.black.hex }}; /* get rid of that default link color */
+  text-decoration: none;
+}
+
+.excerpt-writing,
+.excerpt-photo {
+  color: {{ site.black.hex }}; /* get rid of that default link color */
+  min-height: 160px;
+}
+
+.excerpt-writing {
+  padding: 16px;
+}
+
+.excerpt-writing h1,
+.excerpt-photo h1 {
+  color: {{ site.green.hex }};
+  font: normal 400 20px/1.25 Calibri, sans-serif;
+}
+
+.excerpt-writing p {
+  margin: 16px 0;
+}
+
+.excerpt-writing footer,
+.excerpt-photo footer {
+  font: normal 400 14px Calibri, sans-serif;
+  text-align: right;
+}
+
+.excerpt-photo footer {
+  line-height: 1.5;
+  padding: 16px;
+}
+
+/* Next/Previous navigation */
+.page footer,
+.photoset footer {
+  height: 40px;
+  margin: 32px 0 0;
+}
+
+.photoset footer {
+  padding: 0 16px;
+}
+
+.more {
+  background: {{ site.greenlight2.hex }};
+  font-family: 'open-sans', 'Open Sans', Calibri, sans-serif;
+  padding: 12px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.more:hover,
+.more:focus {
+  background: {{ site.goldenlight.hex }};
+}
+
+.next {
+  float: left;
+}
+
+.next:before {
+  content: "← ";
+}
+
+.previous {
+  float: right;
+}
+
+.previous:after {
+  content: " →";
+}
+
+/** Images **/
+
+/* General figure styles */
+figure img,
+.page img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Page-specific figure styles */
+.page figure {
+  background: {{ site.greenlight2.hex }};
+  margin: 16px -64px;
+}
+
+.page figcaption {
+  font: normal 400 12px/1.5 Calibri, sans-serif;
+  padding: 8px 16px 12px;
+  text-align: center;
+}
+
+.page figcaption p {
+  margin: 0;
+}
+
+.page .narrow {
+  margin: 16px auto;
+  width: 75%;
+}
+
+/* Photoset-specific figure styles */
+.photoset figure {
+  margin: 16px 0;  
+}
+
+.photoset figcaption {
+  font-size: 14px;
+  margin: 16px 16px 20px;
+  text-align: center;
+}
+
+/* 404 image */
+
+#error-404 figure {
+  background: {{ site.bluelight.hex }};
+  margin-top: 0;
+}
