@@ -212,7 +212,7 @@ sup:after {
 
 hr {
   border-style: solid;
-  border-width: 1px;
+  border-width: 2px;
   color: {{ page.green.hex }};
   color: {{ page.green.hsl }};
   margin: 1em;
@@ -551,7 +551,8 @@ small {
 /** Images **/
 
 /* General figure styles */
-figure img {
+figure img,
+.page img {
   display: block;
   margin: 0 auto;
 }
@@ -573,7 +574,7 @@ figure img {
   margin: 0;
 }
 
-.page figure.narrow {
+.page .narrow {
   margin: 1em auto;
   width: 75%;
 }
@@ -581,10 +582,6 @@ figure img {
 .page .right img,
 .page .left img {
   width: 150%; /* Just in case the image pixel width is too small. */
-}
-
-.page .narrow img {
-  width: 100%;
 }
 
 /* Photoset-specific figure styles */
@@ -722,7 +719,7 @@ figure img {
     margin: .5em 1.5em .5em -2em;
   }
 
-  .page figure.narrow {
+  .page .narrow {
     width: auto;
   }
 
