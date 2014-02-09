@@ -1,6 +1,6 @@
-# Website for Jean C. Flanagan
+# Website for [Jean Flanagan](http://jeancflanagan.com)
 
-Jean is a science education specialist and writer. The site is designed with a content-first approach – particularly focused on readability.
+Jean is a science education specialist and writer. [The site](http://jeancflanagan.com) is designed with a content-first approach – particularly focused on readability.
 
 This is a collaborative project created by Oliver Pattison and Jean Flanagan. Design, concept and structure are primarily by Oliver, while content is all Jean's. The site is built using (hopefully) modern, standards-compliant HTML and CSS, as a static Jekyll site.
 
@@ -32,7 +32,8 @@ The *content* of this site (in _posts directory) is licensed under CC BY-NC [(Cr
 - On smaller screens, navigation is handled using a [footer-anchor pattern](http://codepen.io/opattison/pen/FbJmf).
 - We limited use of plugins and JavaScript except where absolutely required.
 - There are no fancy responsive image tricks; just ~1.5-2x scaled images (known as the "compressive images" solution) with heavy optimization. Optimization includes lowering JPEG quality more than you normally might, while retaining larger heights and widths for images on the site, often full-width. Why? There will not be enough images to justify a JavaScript or `<picture>` solution. Most images will be relatively small in file size, and larger feature images will be worth the size/performance trade-off on high resolution screens. More and more browsers will be working in a pixel-multiplied environment of 1.5x or greater in the future, and almost all mobile devices already do.
-- Automated image optimization is a part of the build process, using Rake and ImageOptim. 
+- Automated image optimization is a part of the build process, using Rake and ImageOptim.
+- Old Internet Explorer compatibility is handled in a separate style sheet and [HTML5shiv](https://github.com/aFarkas/html5shiv) to handle HTML5 compatibility, for better or worse. We went back and forth on serving IE 8 and older simply optimized default styles, serving no styles at all, and then back to working for an hour or so on a custom stylesheet. For a small-screen-based site, it made less sense to optimize that sort of layout for IE in an existing stylesheet, but also did not make any sense to leave it behind entirely. Being future-friendly requires being at least a little bit past-friendly as well.
 
 ### Requirements
 
@@ -52,6 +53,7 @@ The *content* of this site (in _posts directory) is licensed under CC BY-NC [(Cr
 
 ### Notes:
 
+- [Launched](http://jeancflanagan.com) 2014-02-08
 - Remote moved 2013-07-12 to GitHub
 - First commit to Git 2013-07-08
 - First code on 2013-06-17
