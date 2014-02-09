@@ -122,7 +122,6 @@ a:focus {
 
 a:focus {
   outline: solid .0625em {{ site.golden.hsl }};
-
 }
 
 h1 {
@@ -316,6 +315,10 @@ small {
   padding: .5em 1em;
 }
 
+.archive-link a:focus {
+  outline: solid .125em {{ site.golden.hsl }};
+}
+
 /** Posts, pages, galleries and excerpts **/
 /* Shared page/photoset/excerpt styles */
 .page,
@@ -386,6 +389,7 @@ small {
 }
 
 .excerpt a {
+  display: block;
   text-decoration: none;
 }
 
@@ -419,18 +423,22 @@ small {
   padding: .5em 1em;
 }
 
-.excerpt-writing:hover,
-.excerpt-photo:hover,
-.excerpt-writing:focus,
-.excerpt-photo:focus {
+a:hover .excerpt-writing,
+a:focus .excerpt-writing,
+a:hover .excerpt-photo,
+a:focus .excerpt-photo {
   box-shadow: 0 .625em 0 0 {{ site.golden.hsl }};
 }
 
-.excerpt-writing:hover h1,
-.excerpt-writing:focus h1,
-.excerpt-photo:hover h1,
-.excerpt-photo:focus h1 {
+a:hover .excerpt-writing h1,
+a:focus .excerpt-writing h1,
+a:hover .excerpt-photo h1,
+a:focus excerpt-photo h1 {
   color: {{ site.golden.hsl }};
+}
+
+.excerpt a:focus {
+  outline: solid .125em {{ site.golden.hsl }};
 }
 
 /* Next/Previous navigation */
@@ -779,12 +787,12 @@ figure img,
   .page {
     font-size: 1.375em; /* i.e. 22px */
     max-width: 40em;
-    padding: 0 3.2em 3em;
+    padding: 0 3em 3em;
     margin-top: 1.09090909em; /* i.e. 24px */
   }
 
   .page figure {
-    margin: 1em -3.2em;
+    margin: 1em -3em;
   }
 
   .page figcaption {
@@ -815,12 +823,12 @@ figure img,
 
   .page .right,
   .page .right.narrow {
-    margin: .5em -3.2em .5em 1.5em;
+    margin: .5em -3em .5em 1.5em;
   }
 
   .page .left,
   .page .left.narrow {
-    margin: .5em 1.5em .5em -3.2em;
+    margin: .5em 1.5em .5em -3em;
   }
 
 }
@@ -882,13 +890,16 @@ figure img,
     padding: .6em .6em 1em;
   }
 
-  .page .right {
+  .page .right,
+  .page .right.narrow {
     margin: .5em -3.5em .5em 1.5em;
   }
 
-  .page .left {
+  .page .left,
+  .page .left.narrow {
     margin: .5em 1.5em .5em -3.5em;
   }
+
 
 }
 
