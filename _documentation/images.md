@@ -58,7 +58,9 @@ The target sizes outlined here are rough and idealized, rather than being hard r
 
 #### About pixel scaling
 
-Image sizes are somewhat targeted towards smaller screens which may have pixel multiplying behaviors. A current example is Apple's "Retina" scaling, where one pixel is doubled horizontally and vertically, with the viewport calculated the same size (320px wide on an iPhone) but the screen rendered at a higher density (640px wide on the same screen). Modern Android and Windows devices use other similar calculations at mutpliers like 1.25x, 1.5x, 2x and 3x. In some of these cases, images served at higher pixel/viewport ratios may benefit from being oversized. In some cases, an image may look fuzzy or bad if it is only 1x sized (1x PNGs are a key example). Photos are on a sliding scale here, but tend to look better (with diminishing returns) as the pixel density of the source is increased, but *only* on screens that support pixel multiplying. Screens that do not take advantage of this sort of image scaling only pay a penalty in larger file size, with no apparent increase in image quality.
+Image sizes are somewhat targeted towards smaller screens which may have pixel multiplying behaviors. A current example is Apple's "Retina" scaling, where one pixel is doubled horizontally and vertically, with the viewport calculated the same size (320px wide on an iPhone) but the screen rendered at a higher density (640px wide on the same screen). Modern Android and Windows devices use other similar calculations at mutpliers like 1.25x, 1.5x, 2x and 3x. Therefore, a higher PPI (pixels-per-inch) ratio for the device allows for a more pixel-dense interface *in software*, without changing the scaling of the interface relative to similar-sized devices.
+
+In some of these cases, images served at higher pixel/viewport ratios may benefit from being oversized. In some cases, an image may look fuzzy or bad if it is only 1x sized (1x PNGs are a key example). Photos are on a sliding scale here, but tend to look better (with diminishing returns) as the pixel density of the source is increased, but *only* on screens that support pixel multiplying. Screens that do not take advantage of this sort of image scaling only pay a penalty in larger file size, with no apparent increase in image quality.
 
 ### Organizing photos
 
@@ -68,3 +70,23 @@ Image sizes are somewhat targeted towards smaller screens which may have pixel m
 - Photoset images are stored in the /photosets directory in the static directory.
 - Other photos (like the About page portrait) are stored in the root of the static folder.
 - Add "-featured" to the end of smaller-sized featured photos for excerpts.
+
+### Loading photos
+
+Photos are loaded to a static server run on Amazon S3.
+
+- In the terminal in the repo directory, run `rake optimize` to run the entire _static folder through imageoptim. Alternately, run the folder through the standalone imageoptim app.
+- In the terminal, run `rake load` to load the photos on to the static server.
+
+### Adding photos to posts
+
+Once the photos are loaded, add the photos to the front matter of a post. The front matter contains all of the attributes for an image (except for class attributes for layout) so that an image can be inserted using a custom liquid filter.
+
+- Add the file names to the front matter for each writing post or photoset post.
+- For each image, add a corresponding line in the front matter for an alt tag (`image_alt` array). This is the `alt=""` HTML attribute for the image.
+- For each image, optionally add a corresponding line in the front matter for a caption (`image_caption` array). This is the `<figcaption>` HTML element.
+- To insert an image into a writing post, add the liquid tag `{% figure_img %}` adding other variables as necessary. The syntax is {% figure_img class 0 caption %}` which can be broken down to:
+  - `class` – possible values are `right`, `left` and `narrow`. `narrow` can be added to `right` or `left` to constrain the width of the image
+  - `0` – possible values are index numbers starting at 0. The first image in the array is 0, followed by 1 and so on. Pick the image number by its position in the front matter array. This index number will assign the inline image `src` as well as the alt and caption values.
+  - `caption` – this is an optional value. If you enter nothing here, there will be no caption, while entering caption will insert the caption from the array.
+- Photo posts will automatically generate their content from the array using the Liquid loop code `{% include photoset-loop.html %}` (which is included automatically in every photoset post generated through the command `rake post`).
