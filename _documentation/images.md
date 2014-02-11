@@ -31,17 +31,16 @@ For writing posts, aim for even higher compression for JPEGs since the photos ar
 
 #### When to use different formats
 
-- Use PNG when the image is predominantly made up of simple colors or large areas of flat colors. Logos are a good example of this, as are simple graphics or graphics generated from vectors.
-- Use JPEG when the image is photographic or exceedingly complex and variable in color. JPEG formats are highly compressed but images with flat areas (like a sky) or hard edges (such as typography on a flat background) will show compression artifacts more acutely. In these cases, increase the compression quality.
-- Use SVG when the image needs to be infinitely sharp at any zoom level or pixel density. Logos and icons are a good use case for SVG. SVG support is a bit more limited in browsers, but is approaching universal support in modern browsers. SVG may weigh more than equivalent PNG files.
+- Use **PNG** when the image is predominantly made up of simple colors or large areas of flat colors. Logos are a good example of this, as are simple graphics or graphics generated from vectors.
+- Use **JPEG** when the image is photographic or exceedingly complex and variable in color. JPEG formats are highly compressed but images with flat areas (like a sky) or hard edges (such as typography on a flat background) will show compression artifacts more acutely. In these cases, increase the compression quality.
+- Use **SVG** when the image needs to be infinitely sharp at any zoom level or pixel density. Logos and icons are a good use case for SVG. SVG support is a bit more limited in browsers, but is approaching universal support in modern browsers. SVG may weigh more than equivalent PNG files.
 
 #### Other details for image formats
 
 - Use **progressive** JPEGs for better loading behavior and sometimes smaller files.
 - Watch out for artifacts on plain backgrounds in compressed JPEGs. These artifacts are typically blotches of color compressed together, or odd aliasing and noise around hard edges.
 - There is no practical reason to serve JPEG images at *over ~80 quality*. The size tradeoff isn't worth it and the image quality improvement is generally not apparent.
-- Use **interlaced** PNGs for better loading behavior.
-- Aim for 8-bit PNG rather than 24-bit PNG.
+- Aim for 8-bit PNG rather than 24-bit PNG. Adjust the number of colors for a PNG image based on the number of colors in the original image. Be careful not to limit the number of colors too much.
 - You can use transparency for PNG, but be sure that the page context supports it. In general, do not use tranparency on any `figure` elements (where most images on the site are enclosed).
 - For "embed color profile" don't worry much about it, but your preference for your *photos* is SRGB if anything.
 
@@ -80,11 +79,11 @@ Photos are loaded to a static server run on Amazon S3.
 
 ### Adding photos to posts
 
-Once the photos are loaded, add the photos to the front matter of a post. The front matter contains all of the attributes for an image (except for class attributes for layout) so that an image can be inserted using a custom liquid filter.
+Once the photos are loaded, add the photos to the front matter of a post. The front matter contains all of the attributes for an image (except for class attributes for layout) so that an image can be inserted using a custom Liquid filter.
 
 - Add the file names to the front matter for each writing post or photoset post.
 - For each image, add a corresponding line in the front matter for an alt tag (`image_alt` array). This is the `alt=""` HTML attribute for the image.
-- For each image, optionally add a corresponding line in the front matter for a caption (`image_caption` array). This is the `<figcaption>` HTML element.
+- For each image, *optionally* add a corresponding line in the front matter for a caption (`image_caption` array). This is the `<figcaption>` HTML element.
 - To insert an image into a writing post, add the liquid tag `{% figure_img %}` adding other variables as necessary. The syntax is {% figure_img class 0 caption %}` which can be broken down to:
   - `class` – possible values are `right`, `left` and `narrow`. `narrow` can be added to `right` or `left` to constrain the width of the image
   - `0` – possible values are index numbers starting at 0. The first image in the array is 0, followed by 1 and so on. Pick the image number by its position in the front matter array. This index number will assign the inline image `src` as well as the alt and caption values.
