@@ -303,6 +303,11 @@ small {
   padding: 0 0 32px;
 }
 
+.photos p {
+  background: {{ site.slate.hex }};
+  padding: 16px 32px;
+}
+
 /** Container for post excerpts (an index) **/
 .excerpt-index {
   background: {{ site.charcoal.hex }};

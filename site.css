@@ -383,6 +383,11 @@ small {
   margin: 0 0 2em;
 }
 
+.photos p {
+  background: {{ site.slate.hsl }};
+  padding: 1em 1.5em;
+}
+
 /* Excerpt-specific */
 .excerpt {
   margin: 1em auto;
@@ -584,6 +589,7 @@ figure img,
 
   .banner,
   .page,
+  .photos,
   .photoset footer,
   .site-nav,
   .site-info {
@@ -676,6 +682,7 @@ figure img,
 
   .banner,
   .page,
+  .photos,
   .photoset footer,
   .site-nav,
   .site-info {
@@ -696,7 +703,6 @@ figure img,
   }
 
   .photoset figcaption {
-    font-size: 1em;
     margin: 1em 2em 2em;
   }
 
@@ -719,6 +725,15 @@ figure img,
   .excerpt-writing,
   .excerpt-photo {
     min-height: 17.5em;
+  }
+
+}
+
+@media screen and (min-width: 48em) {
+  /* i.e. 768px */
+
+  .photos p {
+    padding: 2em 3em;
   }
 
 }
@@ -855,8 +870,8 @@ figure img,
     max-width: 64em;
   }
 
-  .photoset figcaption {
-    font-size: 1.25em;
+  .photos p {
+    padding: 2em 6em;
   }
 
 }
