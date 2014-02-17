@@ -384,8 +384,8 @@ small {
 }
 
 .photos p {
-  margin: 1em 0;
-  padding: 0 1.5em;
+  background: {{ site.slate.hsl }};
+  padding: 1em 1.5em;
 }
 
 /* Excerpt-specific */
@@ -733,7 +733,7 @@ figure img,
   /* i.e. 768px */
 
   .photos p {
-    padding: 0 3em;
+    padding: 2em 3em;
   }
 
 }
@@ -871,7 +871,7 @@ figure img,
   }
 
   .photos p {
-    padding: 0 6em;
+    padding: 2em 6em;
   }
 
 }

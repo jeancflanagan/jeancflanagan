@@ -304,8 +304,8 @@ small {
 }
 
 .photos p {
-  margin: 16px 0;
-  padding: 0 32px;
+  background: {{ site.slate.hex }};
+  padding: 16px 32px;
 }
 
 /** Container for post excerpts (an index) **/
