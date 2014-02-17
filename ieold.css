@@ -303,6 +303,11 @@ small {
   padding: 0 0 32px;
 }
 
+.photos p {
+  margin: 16px 0;
+  padding: 0 32px;
+}
+
 /** Container for post excerpts (an index) **/
 .excerpt-index {
   background: {{ site.charcoal.hex }};
