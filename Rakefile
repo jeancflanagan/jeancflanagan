@@ -5,8 +5,6 @@ require 'stringex'
 # Assumes that S3_website gem is configured.
 # Assumes that ImageOptim and ImageOptim-CLI are installed.
 
-s3_for_images  = true
-
 local_images   = "_static" # typically called "_images"
 local_site     = "_site" # typically called "_site"
 
@@ -40,7 +38,6 @@ task :post do
       post.puts ""
       post.puts "---"
       post.puts ""
-      post.puts "{% include photoset-loop.html %}"
     end
   else
     open(filename, 'w') do |post|
