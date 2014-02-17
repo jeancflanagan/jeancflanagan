@@ -21,4 +21,3 @@ image_caption:
 
 ---
 
-{% include photoset-loop.html %}

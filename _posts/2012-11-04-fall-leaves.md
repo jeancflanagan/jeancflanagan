@@ -26,4 +26,4 @@ image_caption:
   - 'Orange leaves, blue sky, Mount Pleasant'
 
 ---
-{% include photoset-loop.html %}
+

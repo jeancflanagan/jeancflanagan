@@ -3,7 +3,7 @@ layout: photoset
 category: photo
 title: 'Snow on the National Mall'
 date: 2011-01-12 12:07
-location: ''
+location: 'Washington DC'
 excerpt_image: 2011-01-12-man-and-dog-in-snow-national-mall-featured.jpg
 period: 'January 2011'
 image:
@@ -20,6 +20,4 @@ image_caption:
   - 'Twisting elm branches with snow'
 
 ---
-
-{% include photoset-loop.html %}
 
