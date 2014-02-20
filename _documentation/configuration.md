@@ -30,27 +30,27 @@ The entire site in a single directory. Version control of the files in the repos
 
 ### Markdown
 
-Markdown is a minimal plain text writing format that can be converted directly into HTML. Most of the content for this site is written in Markdown. Note: you don't have to use Markdown for a Jekyll site, but it can help!
+[Markdown](http://daringfireball.net/projects/markdown/) is a minimal plain text writing format that can be converted directly into HTML. Most of the content for this site is written in Markdown. Note: you don't have to use Markdown for a Jekyll site, but it can help!
 
 ### Ruby
 
-Ruby is a programming language that runs Jekyll. Ruby is *required* to be installed to run Jekyll. All of the plugins for this site are written in Ruby, but nothing else in the repository needs to be. Jekyll and Ruby do all the heavy lifting to build the site.
+[Ruby](https://www.ruby-lang.org/en/) is a programming language that runs Jekyll. Ruby is *required* to be installed to run Jekyll. All of the plugins for this site are written in Ruby, but nothing else in the repository needs to be. Jekyll and Ruby do all the heavy lifting to build the site.
 
 ### Liquid
 
-Liquid is a templating engine built into Jekyll that allows for helpful features like conditional content and HTML templating. This site's design leans very heavily on Liquid templating.
+[Liquid](http://liquidmarkup.org) is a templating engine built into Jekyll that allows for helpful features like conditional content and HTML templating. This site's design leans very heavily on Liquid templating.
 
 ### YAML
 
-YAML is a data format that can be embedded in most Jekyll files (such as Markdown or HTML documents), while also globally configuring the Jekyll site in the `_config.yml` file. YAML can holds metadata in the front matter of these files, which can be used to determine things like the published date, title and template layout of a post (default Jekyll configuration) or more advanced information like excerpt metadata for that post (custom Jekyll configuration).
+[YAML](http://www.yaml.org) is a data format that can be embedded in most Jekyll files (such as Markdown or HTML documents), while also globally configuring the Jekyll site in the `_config.yml` file. YAML can holds metadata in the front matter of these files, which can be used to determine things like the published date, title and template layout of a post (default Jekyll configuration) or more advanced information like excerpt metadata for that post (custom Jekyll configuration).
 
 ### Rake/Rakefile
 
-[Rake](http://rake.rubyforge.org) is a tool written in Ruby that builds things to your specification. A Rakefile is written which contains the commands (written in Ruby) which are executed when called from the command line. An example of this would be using the command `rake post` to generate a blank post from a template. You can deploy the site with `rake deploy`.
+[Rake](http://rake.rubyforge.org) is a tool written in Ruby that builds things to your specification. A Rakefile is written which contains the commands (written in Ruby) which are executed when called from the command line. An example of this would be using the command `rake post` to generate a blank post from a template.
 
 ### Amazon S3
 
-Amazon's Simple Storage Service (S3) hosts every file on the site. S3 is relatively inexpensive, highly scalable storage that can also serve static websites via HTTP. This site is deployed to two S3 "buckets" (piles of files) which are immediately available publicly on the web. One bucket hosts the main site and the other hosts other static content like images. `s3_website` (used in the Terminal directly or via a Rake command) deploys the site to S3.
+[Amazon's Simple Storage Service (S3)](http://aws.amazon.com/s3/) hosts every file on the site. S3 is relatively inexpensive, highly scalable storage that can also serve static websites via HTTP. This site is deployed to two S3 "buckets" (piles of files) which are immediately available publicly on the web. One bucket hosts the main site and the other hosts other static content like images. `s3_website` (used in the Terminal directly or via a Rake command) deploys the site to S3.
 
 - - -
 
@@ -58,17 +58,29 @@ Amazon's Simple Storage Service (S3) hosts every file on the site. S3 is relativ
 
 ~
 
-## Layout
+## How Liquid includes work
 
 ~
+
+- - -
 
 ## Style
 
-~
+The `site.css` file styles the entire site (styles for older browsers like Internet Explorer 7 and 8 are handled by an analagous `ieold.css` file). 
+
+The CSS for the site is the key to the responsive behavior of the site, with default styles defining layout and typography for small screens first. This is known as "mobile-first" CSS, and it was designed "content-first". Media queries are CSS rules that ask a client browser about the size of its viewport and serve conditional styles based on that query. Larger screens are assigned wider horizontal media queries, which provide different styles that overwrite some of the default "small screen" styles.
+
+Any CSS selectors that are rewritten or reworked should take media queries into consideration, as small changes can have dramatic or unpredictable effects on how the site is rendered.
+
+Older browsers (like IE7 and IE8) *do not* support media queries, modern CSS, nor some HTML5 elements, which is why they are conditionally served a more minimal "non-responsive stylesheet.
+
+### Typography
+
+[Adobe Typekit](https://typekit.com) serves fonts for the site. The site is set in Calluna (serif) and Open Sans.
 
 ### Color
 
-~
+The colors for the site's CSS are stored in the `_config.yml` site config. [HSL](http://hslpicker.com) and [hex](http://en.wikipedia.org/wiki/Web_colors#Hex_triplet) colors are stored in YAML, and then inserted in every color declaration in the CSS files for the site.
 
 ## Creating new posts
 
