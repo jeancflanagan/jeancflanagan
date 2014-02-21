@@ -938,6 +938,68 @@ figure img,
 
 /*** END Media queries ***/
 
+/*** Print styles ***/
+
+@media print {
+
+  * {
+    box-shadow: none !important;
+  }
+
+  nav,
+  .banner,
+  .more {
+    display: none !important;
+  }
+
+  a {
+    color: {{ site.charcoal.hex }} !important;
+  }
+
+  blockquote,
+  .excerpt-writing h1,
+  .excerpt-photo h1 {
+    color: {{ site.black.hex }} !important;
+  }
+
+  .excerpt {
+    border: solid 1px {{ site.grayshadow2.hex }};
+    border-bottom: solid 6px {{ site.green.hex }};
+    margin: 16px auto;
+    width: 320px;
+  }
+
+  .excerpt-photo img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  img {
+    margin: 0 auto;
+    max-width: 75%;
+  }
+
+  .right img,
+  .left img,
+  .narrow img {
+    margin: 0 auto;
+    max-width: 50%;
+  }
+
+  .page {
+    padding-bottom: 0;
+  }
+
+  .page footer,
+  .site-info {
+    margin: 0;
+    padding: 0;
+  }
+
+}
+
+/*** END Print styles ***/
+
 /*** Animations ***/
 
 @-webkit-keyframes blueshift {0% {background-color: hsla(190, 40%, 50%, 1); } 50% {background-color: hsla(190, 40%, 75%, 1); } 100% {background-color: hsla(190, 40%, 50%, 1); } }
