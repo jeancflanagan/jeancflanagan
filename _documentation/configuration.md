@@ -56,25 +56,68 @@ The entire site in a single directory. Version control of the files in the repos
 
 ## How metadata in Jekyll works
 
-Metadata is referred to in nearly any Markdown or HTML file with **YAML front matter**, a form of metadata for that page which is stored in protected blocks (typically with `---` opening and closing that code block). Whatever lies in between the markers is treated by Jekyll as YAML *instead of being treated as the native file format such as HTML*. Here is an example of how it works:
+Metadata is referred to in nearly any Markdown or HTML file with **YAML front matter**, a form of metadata for that page which is stored in protected blocks (typically with `---` opening and closing that code block). Whatever lies in between the markers is treated by Jekyll as YAML *instead of being treated as the native file format such as HTML*. YAML has **keys** and **values** that look like this: `title: 'Can marine phytoplankton evolve to cope with ocean acidification?'` The key is on the left and the value is on the right. Here is an example of how it works:
 
 ### Metadata with Liquid variables
 
-To select the title for a particular page, we can set the HTML for a page like this: `<title>{{ page.title }}</title>`. This Liquid variable inserts the `title` for the parent `page`. `title` is a YAML metadata key, and `page` refers to the type of layout. In this case, the value asigned to `page.title` is returned to the generated HTML document.
+To select the title for a particular page, we can set the HTML for a page like this: `<title>{{ page.title }}</title>`. This Liquid output variable inserts the `title` for the parent `page`. `title` is a YAML metadata **key**, and `page` refers to the type of layout. In this case, the **value** asigned to `page.title` is returned to the generated HTML document.
 
 [Read more on Jekyll's YAML front matter](http://jekyllrb.com/docs/frontmatter/).
+
+- - -
 
 ## How Liquid includes work
 
 This is how the navigation is inserted into the `fundamental.html` file (the main layout called by all other layouts in the `_layouts` directory):
 
-`{% include site-nav.html %}`
+`{% include site-nav.html %}` (this is a Liquid **tag** and does not resolve to text)
 
 By asking Liquid to **include** the `site-nav.html` file, we are pulling that file from the `_includes` folder in the Jekyll repository. This will take whatever HTML code is stored in that file and insert it into the `fundamental.html` file. By adding multiple includes and layouts together, we can generate a full HTML document, built out of condtional and template-driven content.
 
 ## How Liquid content works
 
-All that needs to be done to insert Markdown or raw HTML into a document is to insert `{{ content }}`. This takes whatever content is included (perhaps a raw file from `_posts` or instead a parent layout.) Here's the trick: calling a parent layout in the YAML front matter (like `layout: fundamental.html`) will include that parent layout *as well as* any other layout or include code that make up that layout.
+`{{ your text here }}` (this is Liquid **output markup** and may resolve to text)
+
+All that needs to be done to insert Markdown or raw HTML into a Jekyll document is to insert `{{ content }}`. This takes whatever content is included (perhaps a raw file from `_posts` or instead a parent layout.) Here's the trick: calling a parent layout in the YAML front matter (like `layout: fundamental.html`) will include that parent layout *as well as* any other layout or include code that make up that layout.
+
+## How Liquid layout works
+
+Here is what goes into the layout for a standard writing post (starting backwards from the layout file):
+
+**The layout file `writing.html` pulls in:**
+
+- `writing-meta.html`
+- `{{ content }}` (from the post Markdown file)
+- `post-nav.html`
+
+**And pulls from:**
+
+- `fundamental.html` (*another **parent** layout*)
+
+**Which pulls in:**
+
+- `{{ page.title }}` (pulled from the page metadata itself)
+- HTML head matter:
+  - `head-styles.html`
+  - `head-icons.html`
+  - `head-subscribe.html`
+  - `head-scripts.html`
+  - `head-fonts.html`
+  - `head-analytics.html`
+- HTML body matter:
+  - `site-header.html`
+  - `site-nav.html`
+  - `site-footer.html`
+
+I will stop digging here (one layer deep), not that it gets *that* much deeper than this, but it does get slightly more complex. The important part to understand is that if you find out what a page layout is made of and which other Liquid layouts and includes it depends on, you can find out exactly what elements are needed to construct similar layouts. In general, the `fundamental.html` layout is the core of the site and can be used for any sort of page. Other layouts should call this layout.
+
+**Note: a Jekyll site will fail to build if it a layout or include is called with a tag and there is no file that matches that name.**
+
+### Why organize a Jekyll site this way?
+
+Modularity. By being able to reuse or conditionally use a layout or include file, we can control the output of the Jekyll site more cleanly and without rewriting code. Let's say we don't want Google Analytics tracking on a page. Or let's say we have to create a custom layout that requires different navigation. In these cases, the only customization necessary is creating a new layout or adjusting an include rule. If we need to add code, we create a new include module to be included wherever it is needed. If we want that new feature on every page on the site, we place that include in the `fundamental.html` file and it is available *on every page* when we build the site. If we want a certain feature only on a single page type, we can restrict its presence to only that page type by modifying that page's layout.
+
+Other forms of page-specific content or features can be expressed with conditional Liquid tags and loops, but that is a different approach that can be used alongside and within includes and layouts.
 
 [Read much more on Jekyll templating](http://jekyllrb.com/docs/templates/).
 
@@ -84,23 +127,36 @@ All that needs to be done to insert Markdown or raw HTML into a document is to i
 
 The site is written in semantic and structured HTML, adhering as closely as possible to [HTML5 specification](http://www.w3.org/TR/html5/) ([see also the WHATWG living standard](http://www.whatwg.org/specs/web-apps/current-work/multipage/). Some of the HTML is generated by Kramdown, a Markdown processor that Jekyll uses.
 
+- - -
+
 ## Style
 
-The `site.css` file styles the entire site (styles for older browsers like Internet Explorer 7 and 8 are handled by an analagous `ieold.css` file). 
-
-The CSS for the site is the key to the responsive behavior of the site, with default styles defining layout and typography for small screens first. This is known as "mobile-first" CSS, and it was designed "content-first". Media queries are CSS rules that ask a client browser about the size of its viewport and serve conditional styles based on that query. Larger screens are assigned wider horizontal media queries, which provide different styles that overwrite some of the default "small screen" styles.
+The CSS for the site is the key to the responsive behavior of the site, with default styles defining layout and typography for small screens first. This is known as "mobile-first" CSS, and it was designed "content-first" (with layout and other styles built around existing content blocks). Media queries are CSS rules that ask a client browser about the size of its viewport and serve conditional styles based on that query. Larger screens are assigned wider horizontal media queries, which provide different styles that overwrite some of the default "small screen" styles.
 
 Any CSS selectors that are rewritten or reworked should take media queries into consideration, as small changes can have dramatic or unpredictable effects on how the site is rendered.
 
-Older browsers (like IE7 and IE8) *do not* support media queries, modern CSS, nor some HTML5 elements, which is why they are conditionally served a more minimal "non-responsive stylesheet.
+For ease of navigation, the CSS file is organized by section, with comments blocking out tiers of organization. These comment blocks are styled like headings in reverse, with `/*** ***/` being the top, first level and `/* */` being the third level. First level style blocks are noted at beginning *and* ending points, containing second and third level blocks. The main sections are:
+
+1. Normalization
+1. Basic structure and formatting
+1. Component styles
+1. Media queries
+1. Print styles
+1. Animations
+
+Older browsers (like IE7 and IE8) *do not* support media queries, modern CSS, nor some HTML5 elements, which is why they are conditionally served a [more minimal "non-responsive" stylesheet](https://github.com/opattison/jeancflanagan/blob/master/ieold.css).
 
 ### Typography
 
-[Adobe Typekit](https://typekit.com) serves fonts for the site. The site is set in Calluna (serif) and Open Sans.
+[Adobe Typekit](https://typekit.com) serves fonts for the site. The site is set in Calluna (serif) and Open Sans. An include file called `head-fonts.html` stores the standard Typekit JavaScript. If fonts need to be adjusted or changed, this code will need to be swapped out using the Typekit administration panel.
 
 ### Color
 
-The colors for the site's CSS are stored in the `_config.yml` site config. [HSL](http://hslpicker.com) and [hex](http://en.wikipedia.org/wiki/Web_colors#Hex_triplet) colors are stored in YAML, and then inserted in every color declaration in the CSS files for the site.
+The colors for the site's CSS are stored in the `_config.yml` site config. [HSL](http://hslpicker.com) and [hex](http://en.wikipedia.org/wiki/Web_colors#Hex_triplet) colors are stored in YAML, and then inserted in every color declaration in the CSS files for the site. Color declarations are written like this `{{ site.color.colorspace }}`.
+
+For example:
+
+`{{ site.green.hsl }}` generates the _site CSS color `hsla(138, 40%, 50%, 1)`
 
 - - -
 
@@ -125,3 +181,11 @@ I created a workflow in Alfred that makes it easier to run common command line t
 `rake post` (starting to type the command and then tabbing will auto-complete) + `jeancflanagan` (the repo folder)
 
 For the recipe to work by default, it requires that any repo it is supposed to work with is included in a directory called `repos` stored within the main user directory.
+
+- - -
+
+## Common problems
+
+- **Jekyll site fails to build.** Don't commit anything to Git. Take a look at what has changed since the last Git commit, using diffs. Roll back if necessary. Look for problems such as missing files, particularly the layouts and includes that are used to build the site. Sometimes doing something novel or problematic with a post will cause the entire site to fail to build. Fix the post by comparing it with content from a known working post. *If one thing fails on a Jekyll site configuration, the site may not build at all, but it is often something really small and easy to fix.*
+
+- **Ruby doesn't work in Terminal.** Jekyll will not work without Ruby. Check what version you have by entering the command `ruby -v` or `rvm current` (it should be 1.9.3 or later). Try `rvm list` to see other installed versions of Ruby (if any), making sure that the default and current settings look correct.
