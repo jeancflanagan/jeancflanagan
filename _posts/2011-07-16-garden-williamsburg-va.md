@@ -7,15 +7,12 @@ location: 'Williamsburg, VA'
 excerpt_image: 2011-07-16-white-hibiscus-bokeh-williamsburg-va-featured.jpg
 period: 'July 2011'
 image:
-  - 2011-07-16-white-hibiscus-bokeh-williamsburg-va.jpg
-  - 2011-07-16-purple-hibiscus-backlit-williamsburg-va.jpg
-
-image_alt:
-  - 'White hibiscus, green garden'
-  - 'Backlit purple hibiscus'
-image_caption:
-  - 'White hibiscus, green garden'
-  - 'Backlit purple hibiscus'
+  - url: 2011-07-16-white-hibiscus-bokeh-williamsburg-va.jpg
+    caption: 'White hibiscus, green garden'
+    alt: 'White hibiscus, green garden'
+  - url: 2011-07-16-purple-hibiscus-backlit-williamsburg-va.jpg
+    caption: 'Backlit purple hibiscus'
+    alt: 'Backlit purple hibiscus'
 
 ---
 

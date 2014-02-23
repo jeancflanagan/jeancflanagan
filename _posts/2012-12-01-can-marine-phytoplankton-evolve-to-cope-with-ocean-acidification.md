@@ -6,12 +6,10 @@ date: 2012-12-01 10:01
 excerpt: 'New evidence suggests that an important marine alga could quickly evolve adaptations to ocean acidification.'
 source: here
 image:
-  - 2012-12-01-e-huxleyi-small-and-large-2.jpg
-image_alt:
-  - 'E. huxlyei under SEM microscope vs. bloom in Barents Sea from space' 
-image_caption:
-  - 'E. huxlyei is both tiny and gigantic. Left: one individual under an SEM microscope (photo by Alison R. Taylor). Right: a bloom in the Barents Sea from space (photo from NASA).'
-  
+  - url: 2012-12-01-e-huxleyi-small-and-large-2.jpg
+    caption: 'E. huxlyei is both tiny and gigantic. Left: one individual under an SEM microscope (photo by Alison R. Taylor). Right: a bloom in the Barents Sea from space (photo from NASA).'
+    alt: 'E.huxlyei under SEM microscope vs. bloom in Barents Sea from space' 
+
 ---
 
 One of the most pressing questions in evolutionary biology is whether or not species will be able to evolve in response to global climate change and its associated effects such as [ocean acidification](http://www.pmel.noaa.gov/co2/story/What+is+Ocean+Acidification%3F). A [paper](http://www.nature.com/ngeo/journal/v5/n5/abs/ngeo1441.html) published earlier this year in *Nature Geoscience* provides experimental evidence that one of the ocean’s most important species, *Emiliania huxleyi*, is capable of quickly adapting to increased levels of acidification through natural selection.

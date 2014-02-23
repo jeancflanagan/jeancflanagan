@@ -6,9 +6,8 @@ date: 2012-11-13 10:01
 excerpt: 'Thor Hanson’s book *Feathers* is a compelling read, touching on the biology, history, and culture of feathers.'
 source: here
 image:
-  - 2012-11-13-thor-hanson-feathers-book-cover.jpg
-image_alt:
-  - 'Thor Hanson Feathers book cover'
+  - url: 2012-11-13-thor-hanson-feathers-book-cover.jpg
+    alt: 'Thor Hanson Feathers book cover'
   
 ---
 
