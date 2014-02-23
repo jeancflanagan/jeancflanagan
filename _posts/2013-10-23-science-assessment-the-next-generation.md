@@ -7,11 +7,9 @@ excerpt: 'Effective assessment will be one of the most important aspects of succ
 source: Smithsonian STEMVisions
 sourceurl: http://www.ssec.si.edu/blog/science-assessment-the-next-generation#.Ut6X2mQo62w
 image:
-  - 2013-10-23-NGSS-blended-knowledge-rope-SSEC.png
-image_alt:
-  - 'NGSS rope with three strands representing practices, crosscutting concepts, and core ideas'
-image_caption:
-  - 'NGSS performance expectations blend practices, crosscutting concepts, and core ideas. Image by the Smithsonian Science Education Center (SSEC).'
+  - url: 2013-10-23-NGSS-blended-knowledge-rope-SSEC.png
+    caption: 'NGSS performance expectations blend practices, crosscutting concepts, and core ideas. Image by the Smithsonian Science Education Center (SSEC).'
+    alt: 'NGSS rope with three strands representing practices, crosscutting concepts, and core ideas'
   
 ---
 

@@ -7,19 +7,19 @@ excerpt: 'For biologists, the "tree of life" stands for both the unity and diver
 source: PLOS Sci-Ed
 sourceurl: http://blogs.plos.org/scied/2013/01/14/facing-the-research-practice-divide-in-science-education/
 image: 
-  - 2013-05-20-lone-tree-daveybot-cc-by-nc-sa.jpg
-  - 2013-05-20-1000px-identical-cladograms-alexei-kouprianov-cc-by-sa.png
-  - 2013-05-20-dynamic-evolutionary-map-vultures-vultures-sonia-stephens-cc-by-nc-sa.jpg
-  - 2013-05-20-rosindell-harmon-2012-onezoom-fractal-tree-of-life-3-fractal-forms.jpg
-image_alt:
-  - 'Lone tree in sillhouette'
-  - 'Two alternate styles of cladograms that communicate the same thing'
-  - 'Dynamic Evolutionary Map example, a spatial graph of the relatedness of hawk, eagle and vulture species'
-image_caption:
-  - 'Lone tree. Photo by [Daveybot on Flickr (CC BY-NC-SA)](http://www.flickr.com/photos/davemorris/96442418/in/faves-jeancflanagan/).'
-  - 'Two styles of cladogram depicting identical relationships. Branches can rotate around nodes without altering the meaning of the diagram. Image by Alexei Kouprianov (CC BY-SA).'
-  - 'The Dynamic Evolutionary Map showing the present day. Visualization by Sonia Stephens (CC BY-NC-SA).'
-  - 'Users can toggle between three different tree shapes in the OneZoom Tree of Life Explorer. (Rosindell & Harmon 2012).'
+  - url: 2013-05-20-lone-tree-daveybot-cc-by-nc-sa.jpg
+    caption: 'Lone tree. Photo by [Daveybot on Flickr (CC BY-NC-SA)](http://www.flickr.com/photos/davemorris/96442418/in/faves-jeancflanagan/).'
+    alt: 'Lone tree in sillhouette'
+  - url: 2013-05-20-1000px-identical-cladograms-alexei-kouprianov-cc-by-sa.png
+    caption: 'Two styles of cladogram depicting identical relationships. Branches can rotate around nodes without altering the meaning of the diagram. Image by Alexei Kouprianov (CC BY-SA).'
+    alt: 'Two alternate styles of cladograms that communicate the same thing'
+  - url: 2013-05-20-dynamic-evolutionary-map-vultures-vultures-sonia-stephens-cc-by-nc-sa.jpg
+    caption: 'The Dynamic Evolutionary Map showing the present day. Visualization by Sonia Stephens (CC BY-NC-SA).'
+    alt: 'Dynamic Evolutionary Map example, a spatial graph of the relatedness of hawk, eagle and vulture species'
+  - url: 2013-05-20-rosindell-harmon-2012-onezoom-fractal-tree-of-life-3-fractal-forms.jpg
+    caption: 'Users can toggle between three different tree shapes in the OneZoom Tree of Life Explorer. (Rosindell & Harmon 2012).'
+    alt: 'Example of three different tree shapes in OneZoom Tree of Life Explorer'
+    
   
 ---
 

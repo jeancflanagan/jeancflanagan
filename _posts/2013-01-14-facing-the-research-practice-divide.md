@@ -7,11 +7,9 @@ excerpt: 'Unfortunately, science education research and practice tend to exist i
 source: PLOS Sci-Ed
 sourceurl: http://blogs.plos.org/scied/2013/01/14/facing-the-research-practice-divide-in-science-education/
 image: 
-  - 2013-01-14-sather-tower-uc-berkeley-brostad-flickr.jpg
-image_alt:
-  - 'Sather Tower, U.C. Berkeley'
-image_caption:
-  - 'An ivory tower of sorts: Sather Tower, U.C. Berkeley. Photo by [Bernt Rostad on Flickr](http://www.flickr.com/photos/brostad/2878353059/)'
+  - url: 2013-01-14-sather-tower-uc-berkeley-brostad-flickr.jpg
+    caption: 'An ivory tower of sorts: Sather Tower, U.C. Berkeley. Photo by [Bernt Rostad on Flickr](http://www.flickr.com/photos/brostad/2878353059/)'
+    alt: 'Sather Tower, U.C. Berkeley'
   
 ---
 

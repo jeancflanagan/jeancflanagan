@@ -7,11 +7,9 @@ excerpt: 'If increasing science knowledge can increase climate change denial, ho
 source: PLOS Sci-Ed
 sourceurl: http://blogs.plos.org/scied/2012/12/03/science-literacy-and-the-polarized-politics-of-climate-change/
 image: 
-  - 2012-12-03-lone-polar-bear-on-sea-ice-fruchtzwergs-world-on-flickr.jpg
-image_alt:
-  - 'Lone polar bear on sea ice'
-image_caption:
-  - 'Lone polar bear on sea ice. Photo by [fruchtzwerg’s world on Flickr](http://www.flickr.com/photos/78500427@N02/8900036455/in/photolist-eyt1Lp).'
+  - url: 2012-12-03-lone-polar-bear-on-sea-ice-fruchtzwergs-world-on-flickr.jpg
+    caption: 'Lone polar bear on sea ice. Photo by [fruchtzwerg’s world on Flickr](http://www.flickr.com/photos/78500427@N02/8900036455/in/photolist-eyt1Lp).'
+    alt: 'Lone polar bear on sea ice'
   
 ---
 

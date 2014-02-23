@@ -7,11 +7,9 @@ excerpt: 'Many scientists report hobbies as being influential to their career pl
 source: PLOS Sci-Ed
 sourceurl: http://blogs.plos.org/scied/2013/04/22/hobbies-idle-pastimes-or-keys-to-science-engagement/
 image:
-  - 2013-04-22-gems-cc-jean-flanagan.jpg
-image_alt:
-  - 'Jean’s rock and mineral collection'
-image_caption:
-  - 'A few representatives from my childhood rock and mineral collection. Photo by Jean Flanagan.'
+  - url: 2013-04-22-gems-cc-jean-flanagan.jpg
+    caption: 'A few representatives from my childhood rock and mineral collection. Photo by Jean Flanagan.'
+    alt: 'Jean’s rock and mineral collection'
   
 ---
 

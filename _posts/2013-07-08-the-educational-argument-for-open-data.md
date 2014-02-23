@@ -7,11 +7,9 @@ excerpt: 'Science students can benefit greatly from educational materials that e
 source: PLOS Sci-Ed
 sourceurl: http://blogs.plos.org/scied/2013/07/08/open-data-for-science-education/
 image: 
-  - 2013-07-08-open-data-opensourceway-cc-by-sa.png
-image_alt: 
-  - 'Open data graphic'
-image_caption: 
-  - 'Open Data. Image by [Colleen Simon for opensource.com on Flickr (CC BY-SA)](http://www.flickr.com/photos/opensourceway/5538036200/in/faves-jeancflanagan/).'
+  - url: 2013-07-08-open-data-opensourceway-cc-by-sa.png
+    caption: 'Open Data. Image by [Colleen Simon for opensource.com on Flickr (CC BY-SA)](http://www.flickr.com/photos/opensourceway/5538036200/in/faves-jeancflanagan/).'
+    alt: 'Open data graphic'
   
 ---
 
