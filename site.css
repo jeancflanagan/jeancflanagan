@@ -383,7 +383,7 @@ small {
   margin: 0 0 2em;
 }
 
-.photos p {
+.photo-notes p {
   background: {{ site.slate.hsl }};
   padding: 1em 1.5em;
 }
@@ -501,9 +501,14 @@ figure img,
   margin: 1em -1em;
 }
 
-.page figcaption {
+.photoset figure {
+  margin: 1em 0;  
+}
+
+.page figcaption,
+.photoset figcaption {
   font: normal 400 .75em/1.5 'open-sans', 'Open Sans', Calibri, sans-serif;
-  padding: .5em 1em .75em;
+  padding: 1em;
   text-align: center;
 }
 
@@ -519,17 +524,6 @@ figure img,
 .page .right img,
 .page .left img {
   width: 150%; /* Just in case the image pixel width is too small. */
-}
-
-/* Photoset-specific figure styles */
-.photoset figure {
-  margin: 1em 0;  
-}
-
-.photoset figcaption {
-  font-size: .875em;
-  margin: 1em 1em 1.5em;
-  text-align: center;
 }
 
 /* 404 image */
@@ -582,6 +576,7 @@ figure img,
 }
 
 @media screen and (min-width: 25em) {
+  /* i.e. 400px */
 
   h1 {
     font: normal 400 1.5em/1.25 'open-sans', 'Open Sans', Calibri, sans-serif;
@@ -589,7 +584,7 @@ figure img,
 
   .banner,
   .page,
-  .photos,
+  .photo-notes,
   .photoset footer,
   .site-nav,
   .site-info {
@@ -598,6 +593,10 @@ figure img,
 
   .banner {
     padding: 3em 0 0;
+  }
+
+  .photoset figcaption {
+    font-size: .875em;
   }
 
   .excerpt {
@@ -619,7 +618,7 @@ figure img,
 
   .page figcaption {
     font-size: .833333333em; /* not magic - 15px/18px */
-    padding: .6em 1em 1em;
+    padding: 1em;
   }
 
   .photoset {
@@ -682,7 +681,7 @@ figure img,
 
   .banner,
   .page,
-  .photos,
+  .photo-notes,
   .photoset footer,
   .site-nav,
   .site-info {
@@ -695,15 +694,15 @@ figure img,
 
   .page figcaption {
     font-size: .8em; /* i.e. 16px */
-    padding: .6875em .75em 1em;
+    padding: 1em .75em;
+  }
+
+  .photoset figcaption {
+    font-size: 1em;
   }
 
   blockquote {
     margin: 1em;
-  }
-
-  .photoset figcaption {
-    margin: 1em 2em 2em;
   }
 
   /* becomes 2 columns for the first time here */
@@ -732,7 +731,7 @@ figure img,
 @media screen and (min-width: 48em) {
   /* i.e. 768px */
 
-  .photos p {
+  .photo-notes p {
     padding: 2em 3em;
   }
 
@@ -870,7 +869,11 @@ figure img,
     max-width: 64em;
   }
 
-  .photos p {
+  .photoset figcaption {
+    font-size: 1.125em;
+  }
+
+  .photo-notes p {
     padding: 2em 6em;
   }
 
