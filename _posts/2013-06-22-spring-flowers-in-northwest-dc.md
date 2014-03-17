@@ -4,7 +4,7 @@ category: photo
 title: 'Spring Flowers in Northwest DC'
 date: 2013-06-22 4:01
 location: 'DC'
-excerpt_image: 2013-06-22-georgetown-single-orange-tulip-featured.jpg
+excerpt_image: 2013-06-22-georgetown-single-orange-tulip.jpg
 period: 'June 2013'
 image:
   - url: 2013-06-22-georgetown-single-orange-tulip.jpg

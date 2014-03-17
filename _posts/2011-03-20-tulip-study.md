@@ -4,7 +4,7 @@ category: photo
 title: 'Tulip Study'
 date: 2011-03-20 12:46
 location: 'Washington DC'
-excerpt_image: 2011-03-20-downturned-tulip-dupont-farmers-market-featured.jpg
+excerpt_image: 2011-03-20-downturned-tulip-dupont-farmers-market.jpg
 period: 'March 2011'
 image:
   - url: 2011-03-20-downturned-tulip-dupont-farmers-market.jpg
