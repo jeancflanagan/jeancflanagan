@@ -24,7 +24,7 @@ image:
     alt: 'Mixed-breed rescue dog Clinton'
     coordinates: ''   
   - url: 2014-06-07-cdr-quincy.jpg
-    caption: 'Qunicy'
+    caption: 'Quincy'
     alt: 'Lab mix rescue dog Quincy'
     coordinates: ''   
   - url: 2014-07-27-blue-sleeping.jpg
