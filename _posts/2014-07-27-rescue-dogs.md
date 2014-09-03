@@ -2,7 +2,7 @@
 layout: photoset
 category: photo
 title: 'Rescue Dogs'
-date: 2014-09-02 21:10
+date: 2014-07-27 21:10
 location: 'Washington, DC'
 excerpt_image: 2014-04-05-cdr-debbie.jpg
 period: 'Spring-Summer 2014'
