@@ -18,15 +18,15 @@ I started getting into [photography](/photos/) in 2010 with a [Nikon D3000](http
 
 ## Connect
 
-Connect with me on [Twitter,](https://twitter.com/jeancflanagan) [Flickr](https://www.flickr.com/photos/jeancflanagan/), and [LinkedIn](https://www.linkedin.com/in/jeancflanagan).
+Connect with me on [Twitter](https://twitter.com/jeancflanagan){:rel="me"}, [Flickr](https://www.flickr.com/photos/jeancflanagan/){:rel="me"}, and [LinkedIn](https://www.linkedin.com/in/jeancflanagan){:rel="me"}.
 
 ## Subscribe
 
 There are three Atom (RSS equivalent) feeds available for the site:
 
-- [All content feed](/subscribe/full.xml)
-- [Only photo content feed](/subscribe/photos.xml)
-- [Only writing content feed](/subscribe/writing.xml)
+- [All content feed](/subscribe/full.xml){:rel="alternate"}
+- [Only photo content feed](/subscribe/photos.xml){:rel="alternate"}
+- [Only writing content feed](/subscribe/writing.xml){:rel="alternate"}
 
 If you use Feedly, you can <a href="http://feedly.com/index.html#subscription/feed/{{ site.subscribe_url }}/full.xml">subscribe with that service easily</a>.
 
