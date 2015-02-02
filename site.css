@@ -91,7 +91,6 @@ i {
 
 /*** Basic structure and formatting ***/
 html {
-  font: normal 300 16px/1.4375 Seravek, Calibri, sans-serif;
   font: normal 300 1rem/1.4375 Seravek, Calibri, sans-serif;
   height: 100%;
 }
@@ -600,10 +599,6 @@ figure img,
     padding: 3em 0 0;
   }
 
-  .photoset figcaption {
-    font-size: .875em;
-  }
-
   .excerpt {
     max-width: 25em;
   }
@@ -614,16 +609,11 @@ figure img,
   /* i.e. 480px */
 
   .page {
-    padding: 0 2em 2.5em;
+    padding: 0 2em 2em;
   }
 
   .page figure {
     margin: 1em -2em;
-  }
-
-  .page figcaption {
-    font-size: .833333333em; /* not magic - 15px/18px */
-    padding: 1em;
   }
 
   .photoset {
@@ -634,6 +624,16 @@ figure img,
     padding: 0 2em;
   }
 
+}
+
+@media screen and (min-width: 35em) {
+  .page {
+    padding: 0 3em 3em;
+  }
+
+  .page figure {
+    margin: 1em -3em;
+  }
 }
 
 @media screen and (min-width: 38em) {
@@ -694,16 +694,11 @@ figure img,
   }
 
   .page {
-    max-width: 36em;
-  }
-
-  .page figcaption {
-    font-size: .8em; /* i.e. 16px */
-    padding: 1em .75em;
+    max-width: 40em;
   }
 
   .photoset figcaption {
-    font-size: 1em;
+    font-size: .875em;
   }
 
   blockquote {
@@ -796,42 +791,16 @@ figure img,
   .site-info {
     box-shadow: 0 -.0625em .625em .0625em {{ site.grayshadow1.hsl }};
     padding: 2em 0;
-  }
-
-}
-
-@media screen and (min-width: 54em) {
-  /* i.e. 864px */
+  }  
 
   .page {
-    font-size: 1.375em; /* i.e. 22px */
     max-width: 40em;
-    padding: 0 3em 3em;
-    margin-top: 1.09090909em; /* i.e. 24px */
+    padding: 0 4em 4em;
+    margin-top: 1em;
   }
 
   .page figure {
-    margin: 1em -3em;
-  }
-
-  .page figcaption {
-    font-size: .818181818em; /* i.e. 18px */
-    padding: .666666667em .666666667em 1em;
-  }
-
-  .photoset {
-    margin-top: 1.75em;
-    padding: 0 0 3em;
-  }
-
-  .photoset footer {
-    font-size: 1.375em; /* so the photo footer can keep up */
-    padding: 0 2em 3em;
-  }
-
-  .excerpt-index,
-  .archive-link {
-    font-size: 1.125em;
+    margin: 1em -4em;
   }
 
   .page .right, 
@@ -848,6 +817,26 @@ figure img,
   .page .left,
   .page .left.narrow {
     margin: .5em 1.5em .5em -3em;
+  }
+
+}
+
+@media screen and (min-width: 54em) {
+  /* i.e. 864px */
+
+  .photoset {
+    margin-top: 1.75em;
+    padding: 0 0 3em;
+  }
+
+  .photoset footer {
+    font-size: 1.375em; /* so the photo footer can keep up */
+    padding: 0 2em 3em;
+  }
+
+  .excerpt-index,
+  .archive-link {
+    font-size: 1.125em;
   }
 
 }
@@ -875,7 +864,7 @@ figure img,
   }
 
   .photoset figcaption {
-    font-size: 1.125em;
+    font-size: 1em;
   }
 
   .photo-notes p {
@@ -887,42 +876,16 @@ figure img,
 @media screen and (min-width: 85em) {
   /* i.e. 1360px */
 
+  .page {
+    font-size: 1.375em; /* i.e. 22px */
+  }
+
   /* Becomes 4 columns for the first time here. */
   .excerpt-index,
   .archive-link {
     font-size: 1em;
     max-width: 84em;
   }
-
-}
-
-@media screen and (min-width: 92em) {
-  /* i.e. 1472px */
-
-  .page {
-    font-size: 1.5em; /* i.e. 24px */
-    padding: 0 3.5em 3em;
-  }
-
-  .page figure {
-    margin: 1em -3.5em;
-  }
-
-  .page figcaption {
-    font-size: .833333333em; /* not magic - 20px/24px */
-    padding: .6em .6em 1em;
-  }
-
-  .page .right,
-  .page .right.narrow {
-    margin: .5em -3.5em .5em 1.5em;
-  }
-
-  .page .left,
-  .page .left.narrow {
-    margin: .5em 1.5em .5em -3.5em;
-  }
-
 
 }
 
