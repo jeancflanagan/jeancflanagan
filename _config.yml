@@ -12,7 +12,6 @@ excerpt_image_url: http://static.jeancflanagan.com/images/photosets/450
 siteimage_url: http://static.jeancflanagan.com/images/site
 scripts_url: http://static.jeancflanagan.com/scripts
 
-pygments: true
 layouts: ./_layouts
 plugins: ./_plugins
 exclude: ['Rakefile', 's3_website.yml', 'Gemfile', 'Gemfile.lock', '.gitignore']
