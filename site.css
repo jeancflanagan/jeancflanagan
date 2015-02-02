@@ -57,7 +57,7 @@ textarea {
 
 b,
 strong {
-  font-weight: bold;
+  font-weight: 400;
 }
 
 code,
@@ -91,8 +91,8 @@ i {
 
 /*** Basic structure and formatting ***/
 html {
-  font: normal 400 16px/1 Calluna, Georgia, serif;
-  font: normal 400 1rem/1 Calluna, Georgia, serif;
+  font: normal 300 16px/1.4375 Seravek, Calibri, sans-serif;
+  font: normal 300 1rem/1.4375 Seravek, Calibri, sans-serif;
   height: 100%;
 }
 
@@ -124,24 +124,33 @@ a:focus {
   outline: solid .0625em {{ site.golden.hsl }};
 }
 
-h1 {
-  font: normal 400 1.375em/1.25 'open-sans', 'Open Sans', Calibri, sans-serif;
+h1,
+h2,
+h3,
+h4 {
+  font-family: Seravek, Calibri, sans-serif;
+  font-weight: 300;
   margin: 0;
+}
+
+h1 {
+  font-size: 1.5em;
+  line-height: 1.125;
 }
 
 h2 {
-  font: normal 400 1.25em/1.25 'open-sans', 'Open Sans', Calibri, sans-serif;
-  margin: 0;
+  font-size: 1.375em;
+  line-height: 1.125;
 }
 
 h3 {
-  font: normal 400 1.125em/1.33333333 'open-sans', 'Open Sans', Calibri, sans-serif;
-  margin: 0;
+  font-size: 1.25em;
+  line-height: 1.25;
 }
 
 h4 {
-  font: normal 600 1em/1.5 Calluna, Georgia, serif;
-  margin: 0;
+  font-size: 1.125em;
+  line-height: 1.25;
 }
 
 ul {
@@ -192,12 +201,12 @@ small {
 
 /* Banner headings */
 .banner h1 {
-  font: normal 600 2em/1.25 Calluna, Georgia, serif;
+  font-size: 2em;
   padding: .375em 0 .125em;
 }
 
 .banner h2 {
-  font: normal 400 1em/1 Calluna, Georgia, serif;
+  font-size: 1em;
   padding: 0 0 1em 0;
 }
 
@@ -206,7 +215,7 @@ small {
 .back-top a {
   background: {{ site.greenlight2.hsl }};
   border-left: solid 6px {{ site.green.hsl }};
-  font-family: 'open-sans', 'Open Sans', Calibri, sans-serif;
+  font-family: Seravek, Calibri, sans-serif;
   padding: .75em 1em;
   position: absolute;
   right: 0;
@@ -233,7 +242,7 @@ small {
 /** Navigation (responsive, small screen) **/
 .site-nav {
   box-shadow: 0 -.0625em .625em .0625em {{ site.grayshadow1.hsl }};
-  font: normal 400 1em/1.5 'open-sans', 'Open Sans', Calibri, sans-serif;
+  font: normal 300 1em/1.5 Seravek, Calibri, sans-serif;
   padding: 1em 0 .5em;
   text-align: center;
 }
@@ -278,7 +287,7 @@ small {
 /** Site footer **/
 .site-info {
   clear: both;
-  font: normal 400 1em/1.5 'open-sans', 'Open Sans', Calibri, sans-serif;
+  font: normal 300 1em/1.5 Seravek, Calibri, sans-serif;
   margin: 0 auto;
   padding: 2em 0 6em;
   position: relative;
@@ -302,7 +311,7 @@ small {
 
 /** Home index link to archive (continuation of index) **/
 .archive-link {
-  font: normal 400 1.25em/1.33333333 'open-sans', 'Open Sans', Calibri, sans-serif;
+  font: normal 300 1.25em/1.33333333 Seravek, Calibri, sans-serif;
   margin: 1em auto 2em;
   text-align: center;
   width: 10em;
@@ -411,7 +420,7 @@ small {
 .excerpt-writing h1,
 .excerpt-photo h1 {
   color: {{ site.green.hsl }};
-  font: normal 400 1.25em/1.25 'open-sans', 'Open Sans', Calibri, sans-serif;
+  font-size: 1.25em;
 }
 
 .excerpt-writing p {
@@ -420,7 +429,7 @@ small {
 
 .excerpt-writing footer,
 .excerpt-photo footer {
-  font: normal 400 .875em 'open-sans', 'Open Sans', Calibri, sans-serif;
+  font-size: .875em;
   text-align: right;
 }
 
@@ -459,7 +468,7 @@ a:focus excerpt-photo h1 {
 
 .more {
   background: {{ site.greenlight2.hsl }};
-  font-family: 'open-sans', 'Open Sans', Calibri, sans-serif;
+  font-family: Seravek, Calibri, sans-serif;
   padding: .75em 1em;
   text-align: center;
   text-decoration: none;
@@ -507,7 +516,7 @@ figure img,
 
 .page figcaption,
 .photoset figcaption {
-  font: normal 400 .75em/1.5 'open-sans', 'Open Sans', Calibri, sans-serif;
+  font: normal 300 .75em/1.5 Seravek, Calibri, sans-serif;
   padding: 1em;
   text-align: center;
 }
@@ -577,10 +586,6 @@ figure img,
 
 @media screen and (min-width: 25em) {
   /* i.e. 400px */
-
-  h1 {
-    font: normal 400 1.5em/1.25 'open-sans', 'Open Sans', Calibri, sans-serif;
-  }
 
   .banner,
   .page,
