@@ -533,7 +533,7 @@ figure img,
 }
 
 .page figcaption {
-  font-size: .625em;
+  font-size: .75em;
   font-weight: 400;
 }
 
@@ -801,6 +801,11 @@ figure img,
 
   .page figure {
     margin: 1em -4em;
+  }
+
+  .page figcaption {
+    font-size: .625em;
+    font-weight: 400;
   }
 
   .page .right, 
