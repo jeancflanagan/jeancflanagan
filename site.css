@@ -39,6 +39,7 @@ html,
 body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  height: 100%;
 }
 
 img,
@@ -91,8 +92,10 @@ i {
 
 /*** Basic structure and formatting ***/
 html {
-  font: normal 300 1rem/1.4375 'seravek-web', Seravek, Calibri, sans-serif;
-  height: 100%;
+  font-weight: 300;
+  font-size: 1rem;
+  font-family: Seravek, 'seravek-web', 'Open Sans', Calibri, sans-serif;
+  line-height: 1.4375;
      -moz-font-feature-settings: "liga", "dlig"; 
       -ms-font-feature-settings: "liga", "dlig";
        -o-font-feature-settings: "liga", "dlig";
@@ -207,6 +210,7 @@ small {
 /* Banner headings */
 .banner h1 {
   font-size: 2em;
+  letter-spacing: -.0125em;
   padding: .375em 0 .125em;
 }
 
