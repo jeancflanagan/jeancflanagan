@@ -535,6 +535,10 @@ figure img,
   margin: 0;
 }
 
+.page figcaption a:hover {
+  border-bottom: none;
+}
+
 .page .narrow {
   margin: 1em auto;
   width: 75%;
