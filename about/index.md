@@ -8,7 +8,7 @@ I work in the field of science education as a researcher, reviewer, writer, and 
 
 <img class="right narrow" src="{{ site.siteimage_url }}/2012-09-16-jean-flanagan-portrait.jpg">
 
-I’m currently a Project Editor in Curriculum and Communication at the [Smithsonian Science Education Center](http://www.ssec.si.edu/) (SSEC), where I’m working on the development of NGSS-aligned resources and animated professional development videos for teachers.
+I’m currently a Science Education Research Specialist at the [Smithsonian Science Education Center](http://www.ssec.si.edu/) (SSEC), where I’m working on the development of NGSS-aligned resources and animated professional development videos for teachers.
 
 Before that, I was a Research Associate at the [American Association for the Advancement of Science](http://www.aaas.org) (AAAS) Project 2061, where I spent about five years contributing to research in science education. I also founded and wrote for the team blog [Sci-Ed](http://blogs.plos.org/scied) on the Public Library of Science (PLOS) blog network.
 
