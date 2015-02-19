@@ -241,7 +241,8 @@ small {
 /** Navigation (responsive, small screen) **/
 .site-nav {
   box-shadow: 0 -.0625em .625em .0625em {{ site.grayshadow1.hsl }};
-  font: normal 300 1em/1.5 Seravek, Calibri, sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
   padding: 1em 0 .5em;
   text-align: center;
 }
@@ -285,7 +286,8 @@ small {
 /** Site footer **/
 .site-info {
   clear: both;
-  font: normal 300 1em/1.5 Seravek, Calibri, sans-serif;
+  color: {{ site.charcoal.hsl }};
+  font-weight: 400;
   margin: 0 auto;
   padding: 2em 0 6em;
   position: relative;
@@ -309,7 +311,7 @@ small {
 
 /** Home index link to archive (continuation of index) **/
 .archive-link {
-  font: normal 300 1.25em/1.33333333 Seravek, Calibri, sans-serif;
+  font-size: 1.25em;
   margin: 1em auto 2em;
   text-align: center;
   width: 10em;
