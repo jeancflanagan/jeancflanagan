@@ -112,6 +112,7 @@ body {
 a,
 a:visited {
   color: {{ site.green.hsl }};
+  text-decoration: none;
 }
 
 a:hover,
@@ -194,10 +195,6 @@ small {
   text-align: center;
 }
 
-.banner a {
-  text-decoration: none;
-}
-
 /* Banner headings */
 .banner h1 {
   font-size: 2em;
@@ -218,7 +215,6 @@ small {
   padding: .75em 1em;
   position: absolute;
   right: 0;
-  text-decoration: none;
 }
 
 .top-menu a {
@@ -262,7 +258,6 @@ small {
   border-left: solid .375em {{ site.green.hsl }};
   display: block;
   padding: .75em 1.5em;
-  text-decoration: none;
 }
 
 .site-nav li a:hover,
@@ -319,7 +314,6 @@ small {
 .archive-link a {
   background: {{ site.white.hsl }};
   box-shadow: 0 -.0625em .625em .0625em {{ site.grayshadow2.hsl }};
-  text-decoration: none;
   padding: .5em 1em;
 }
 
@@ -365,6 +359,15 @@ small {
   margin: .5em 0 .75em;
 }
 
+.page p a {
+  border-bottom: 1px solid {{ site.greenlight2.hsl }};
+}
+
+.page p a:hover,
+.page p a:focus {
+  border-bottom: 1px solid {{ site.goldenlight.hsl }};
+}
+
 .page ul,
 .page ol {
   margin: .75em 0 .75em 2em;
@@ -403,7 +406,6 @@ small {
 
 .excerpt a {
   display: block;
-  text-decoration: none;
 }
 
 .excerpt-writing,
@@ -470,7 +472,6 @@ a:focus excerpt-photo h1 {
   font-family: Seravek, Calibri, sans-serif;
   padding: .75em 1em;
   text-align: center;
-  text-decoration: none;
 }
 
 .more:hover,
