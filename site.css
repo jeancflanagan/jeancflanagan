@@ -191,7 +191,7 @@ small {
 .banner {
   box-shadow: 0 -.0625em .625em .0625em {{ site.grayshadow1.hsl }};
   margin: 0;
-  padding: 3.5em 0 0 0;
+  padding: 3.5em 0 1em;
   text-align: center;
 }
 
@@ -202,8 +202,8 @@ small {
 }
 
 .banner h2 {
-  font-size: 1em;
-  padding: 0 0 1em 0;
+  font-size: .875em;
+  font-weight: 400;
 }
 
 /* Responsive navigation (top and bottom) */
@@ -339,24 +339,15 @@ small {
 /* Page-specific */
 .page {
   max-width: 42em;
-  padding: 0 1em 2em;
+  padding: 1em 1em 2em;
 }
 
-.page header {
-  padding: 1em 0;
+.page h1 {
   text-align: center;
 }
 
-.page header h1 {
-  margin: 0 0 .25em;
-}
-
-.page header h2 {
-  font-size: .8em;
-}
-
 .page p {
-  margin: .5em 0 .75em;
+  margin: .75em 0 0;
 }
 
 .page p a {
@@ -372,6 +363,13 @@ small {
 .page ol {
   margin: .75em 0 .75em 2em;
   padding: 0;
+}
+
+.writing-meta {
+  font-size: .75em;
+  font-weight: 400;
+  margin: .5em;
+  text-align: center;
 }
 
 .footnotes {
@@ -521,7 +519,8 @@ figure img,
 }
 
 .page figcaption {
-  font-size: .75em;
+  font-size: .625em;
+  font-weight: 400;
 }
 
 .photoset figcaption {
@@ -582,7 +581,7 @@ figure img,
   /* i.e. 352px */
 
   .page {
-    padding: 0 1.5em 3em;
+    padding: 1.5em 1.5em 3em;
   }
 
   .page figure {
@@ -604,7 +603,7 @@ figure img,
   }
 
   .banner {
-    padding: 3em 0 0;
+    padding: 3em 0 1em;
   }
 
   .excerpt {
@@ -617,7 +616,7 @@ figure img,
   /* i.e. 480px */
 
   .page {
-    padding: 0 2em 2em;
+    padding: 1.5em 2em 2em;
   }
 
   .page figure {
@@ -636,7 +635,7 @@ figure img,
 
 @media screen and (min-width: 35em) {
   .page {
-    padding: 0 3em 3em;
+    padding: 1.5em 3em 3em;
   }
 
   .page figure {
@@ -693,7 +692,7 @@ figure img,
 
   .banner {
     height: 8em;
-    padding: 1em 0 0 0;
+    padding: 1em 0;
   }
 
   .banner,
@@ -803,7 +802,7 @@ figure img,
 
   .page {
     max-width: 40em;
-    padding: 0 4em 4em;
+    padding: 2em 4em 4em;
     margin-top: 1em;
   }
 
