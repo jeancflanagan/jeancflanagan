@@ -516,9 +516,16 @@ figure img,
 
 .page figcaption,
 .photoset figcaption {
-  font: normal 300 .75em/1.5 Seravek, Calibri, sans-serif;
   padding: 1em;
   text-align: center;
+}
+
+.page figcaption {
+  font-size: .75em;
+}
+
+.photoset figcaption {
+  font-size: .875em;
 }
 
 .page figcaption p {
@@ -635,6 +642,10 @@ figure img,
   .page figure {
     margin: 1em -3em;
   }
+
+  .photoset figcaption {
+    font-size: 1em;
+  }
 }
 
 @media screen and (min-width: 38em) {
@@ -696,10 +707,6 @@ figure img,
 
   .page {
     max-width: 40em;
-  }
-
-  .photoset figcaption {
-    font-size: .875em;
   }
 
   blockquote {
@@ -862,10 +869,6 @@ figure img,
 
   .photoset {
     max-width: 64em;
-  }
-
-  .photoset figcaption {
-    font-size: 1em;
   }
 
   .photo-notes p {
