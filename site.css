@@ -91,7 +91,7 @@ i {
 
 /*** Basic structure and formatting ***/
 html {
-  font: normal 300 1rem/1.4375 Seravek, Calibri, sans-serif;
+  font: normal 300 1rem/1.4375 'seravek-web', Seravek, Calibri, sans-serif;
   height: 100%;
      -moz-font-feature-settings: "liga", "dlig"; 
       -ms-font-feature-settings: "liga", "dlig";
@@ -135,7 +135,6 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: Seravek, Calibri, sans-serif;
   font-weight: 300;
   margin: 1em 0 0;
 }
@@ -222,7 +221,6 @@ small {
 .back-top a {
   background: {{ site.greenlight2.hsl }};
   border-left: solid 6px {{ site.green.hsl }};
-  font-family: Seravek, Calibri, sans-serif;
   padding: .75em 1em;
   position: absolute;
   right: 0;
@@ -480,7 +478,6 @@ a:focus excerpt-photo h1 {
 
 .more {
   background: {{ site.greenlight2.hsl }};
-  font-family: Seravek, Calibri, sans-serif;
   padding: .75em 1em;
   text-align: center;
 }
