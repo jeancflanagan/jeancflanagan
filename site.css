@@ -130,12 +130,13 @@ h3,
 h4 {
   font-family: Seravek, Calibri, sans-serif;
   font-weight: 300;
-  margin: 0;
+  margin: 1em 0 0;
 }
 
 h1 {
   font-size: 1.5em;
   line-height: 1.125;
+  margin: 0;
 }
 
 h2 {
@@ -145,11 +146,13 @@ h2 {
 
 h3 {
   font-size: 1.25em;
+  font-style: italic;
   line-height: 1.25;
 }
 
 h4 {
   font-size: 1.125em;
+  font-weight: 400;
   line-height: 1.25;
 }
 
@@ -204,6 +207,7 @@ small {
 .banner h2 {
   font-size: .875em;
   font-weight: 400;
+  margin: 0;
 }
 
 /* Responsive navigation (top and bottom) */
