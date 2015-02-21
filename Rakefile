@@ -8,8 +8,6 @@ require 'stringex'
 local_images   = "_static" # typically called "_images"
 local_site     = "_site" # typically called "_site"
 
-include_images = "--include='*.png' --include='*.jpg' --include='*/' --exclude='*'"
-
 ## "rake post" to generate a new post with front matter
 ### borrowed most of the code from Octopress https://github.com/imathis/octopress/blob/master/Rakefile
 task :post do
@@ -77,6 +75,7 @@ end
 ## "rake deploy" to deploy _site to the server
 desc "deploy Jekyll _site and _images to remote servers via s3_website"
 task :deploy => :load do
+  system "jekyll build"
   system "s3_website push --site #{local_site}"
   puts "## Deployed site to S3 ##"
 end
