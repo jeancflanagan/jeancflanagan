@@ -1,9 +1,8 @@
 require 'stringex'
+require 's3_website'
+require 'image_optim'
 
 ## Website deploying config ##
-
-# Assumes that S3_website gem is configured.
-# Assumes that ImageOptim and ImageOptim-CLI are installed.
 
 local_images   = "_static" # typically called "_images"
 local_site     = "_site" # typically called "_site"
@@ -61,14 +60,14 @@ end
 ## "rake optimize" to optimize a folder of images in ImageOptim-CLI
 desc "run a folder of images through ImageOptim-CLI"
 task :optimize do
-  system "imageoptim -d #{local_images}/"
+  system "image_optim #{local_images} -r"
   puts "## Images optimized ##"
 end
 
 ## "rake load" to load images in the local image directory to the server
 desc "deploy Jekyll images to remote server via s3_website"
 task :load do
-    system "s3_website push --site #{local_images} --config_dir #{local_images}"
+    system "s3_website push --site #{local_images} --config-dir #{local_images}"
     puts "## Deployed images to S3 ##"
 end
 
