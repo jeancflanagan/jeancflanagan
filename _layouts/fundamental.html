@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  {% if page.title != 'Home' %}<title>{{ page.title }} &ndash; {{ site.title }}</title>{% endif %}
+  {% if page.title != 'Home' %}<title>{{ page.title | strip_html }} &ndash; {{ site.title }}</title>{% endif %}
   {% if page.title == 'Home' %}<title>{{ site.title }}</title>{% endif %}
 
 {% include head-description.html %}
