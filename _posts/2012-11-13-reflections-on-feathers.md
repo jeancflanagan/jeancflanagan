@@ -1,7 +1,7 @@
 ---
 layout: writing
 category: writing
-title: 'Reflections on Feathers: the Evolution of a Natural Miracle'
+title: 'Reflections on <cite>Feathers: the Evolution of a Natural Miracle</cite>'
 date: 2012-11-13 10:01
 excerpt: 'Thor Hanson’s book <cite>Feathers</cite> is a compelling read, touching on the biology, history, and culture of feathers.'
 source: here
