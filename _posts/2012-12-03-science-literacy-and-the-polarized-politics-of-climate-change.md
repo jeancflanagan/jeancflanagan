@@ -4,7 +4,7 @@ category: writing
 title: 'Science literacy and the polarized politics of climate change'
 date: 2012-12-03 10:01
 excerpt: 'If increasing science knowledge can increase climate change denial, how can educators respond?'
-source: PLOS Sci-Ed
+source: <cite>PLOS Sci-Ed</cite>
 sourceurl: http://blogs.plos.org/scied/2012/12/03/science-literacy-and-the-polarized-politics-of-climate-change/
 image: 
   - url: 2012-12-03-lone-polar-bear-on-sea-ice-fruchtzwergs-world-on-flickr.jpg

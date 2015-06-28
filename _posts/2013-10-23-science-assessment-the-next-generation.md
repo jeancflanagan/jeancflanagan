@@ -4,7 +4,7 @@ category: writing
 title: 'Science assessment: the next generation'
 date: 2013-10-23 10:47
 excerpt: 'Effective assessment will be one of the most important aspects of successful implementation for states adopting the NGSS. How can we develop assessment tasks that accurately measure blended knowledge?'
-source: Smithsonian STEMVisions
+source: <cite>Smithsonian STEMvisions</cite>
 sourceurl: http://www.ssec.si.edu/blog/science-assessment-the-next-generation
 image:
   - url: 2013-10-23-NGSS-blended-knowledge-rope-SSEC.png
