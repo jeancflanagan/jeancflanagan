@@ -12,6 +12,8 @@ excerpt_image_url: http://static.jeancflanagan.com/images/photosets/450
 siteimage_url: http://static.jeancflanagan.com/images/site
 scripts_url: http://static.jeancflanagan.com/scripts
 
+meta_description: "Personal website and portfolio for Jean Flanagan, a science education specialist."
+
 layouts: ./_layouts
 plugins: ./_plugins
 exclude: ['Rakefile', 's3_website.yml', 'Gemfile', 'Gemfile.lock', '.gitignore']
@@ -21,7 +23,7 @@ markdown: kramdown
 
 # Colors for the site
 
-white: 
+white:
   hsl: 'hsla(138, 10%, 98%, 1)'
   hex: '#f9fafa'
 black:
@@ -33,7 +35,7 @@ charcoal:
 grayshadow1:
   hsl: 'hsla(218, 2%, 10%, .75)'
   hex: '#202022'
-grayshadow2: 
+grayshadow2:
   hsl: 'hsla(218, 2%, 10%, .25)'
   hex: '#bebfc1'
 slate:
@@ -43,7 +45,7 @@ slateshadow:
   hsl: 'hsla(138, 2%, 54%, 1)'
   hex: '#878c89'
 green:
-  hsl: 'hsla(138, 40%, 50%, 1)' 
+  hsl: 'hsla(138, 40%, 50%, 1)'
   hex: '#4cb36b'
 greenlight1:
   hsl: 'hsla(138, 40%, 75%, 1)'
@@ -52,7 +54,7 @@ greenlight2:
   hsl: 'hsla(138, 40%, 90%, 1)'
   hex: '#dbf0e1'
 graygreen:
-  hsl: 'hsla(138, 4%, 45%, 1)' 
+  hsl: 'hsla(138, 4%, 45%, 1)'
   hex: '#6e7771'
 golden:
   hsl: 'hsla(52, 90%, 47%, 1)'
