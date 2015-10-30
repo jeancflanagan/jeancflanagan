@@ -1,1 +1,11 @@
   {% if page.excerpt %}<meta name="description" content="{{ page.excerpt }}">{% else %}<meta name="description" content="{{ site.meta_description }}">{% endif %}
+
+  <meta name="twitter:site" content="@jeancflanagan">
+  {% if page.category == 'photo' %}<meta name="twitter:card" content="photo">{% endif %}
+  {% if page.category != 'photo' %}<meta name="twitter:card" content="summary">{% endif %}
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{ site.url }}{{ page.id }}/">
+  <meta property="og:title" content="{{ page.title | strip_html }} – {{ site.title }}">
+  {% if page.image[0].url %}<meta property="og:image" content="{{ site.image_url }}/{{ page.image[0].url }}">{% else %}<meta property="og:image" content="{{ site.siteimage_url }}/2012-09-16-jean-flanagan-portrait.jpg">{% endif %}
+  {% if page.excerpt %}<meta property="og:description" content="{{ page.excerpt }}">{% else %}<meta property="og:description" content="{{ site.meta_description }}">{% endif %}
