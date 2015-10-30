@@ -1,1 +1,1 @@
-  <meta name="description" content="{{ site.meta_description }}">
+  {% if page.excerpt %}<meta name="description" content="{{ page.excerpt }}">{% else %}<meta name="description" content="{{ site.meta_description }}">{% endif %}
