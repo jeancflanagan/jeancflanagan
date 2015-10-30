@@ -3,7 +3,7 @@ layout: writing
 category: writing
 title: '<cite>Good Thinking!</cite> A new approach to professional development for science educators'
 date: 2015-06-28 14:24
-excerpt: 'The story behind my work with the Smithsonian Science Education Center and FableVision studios to develop an animated video series on the science of teaching science.'
+description: 'The story behind my work with the Smithsonian Science Education Center and FableVision studios to develop an animated video series on the science of teaching science.'
 source: <i>Smithsonian STEMvisions</i>
 sourceurl: http://www.ssec.si.edu/blog/good-thinking-a-new-approach-to-professional-development#.VZA7yBNViko
 image:

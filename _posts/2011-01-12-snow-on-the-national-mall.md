@@ -4,7 +4,7 @@ category: photo
 title: 'Snow on the National Mall'
 date: 2011-01-12 12:07
 location: 'Washington DC'
-excerpt_image: 2011-01-12-man-and-dog-in-snow-national-mall.jpg
+summary_image: 2011-01-12-man-and-dog-in-snow-national-mall.jpg
 period: 'January 2011'
 image:
   - url: 2011-01-12-man-and-dog-in-snow-national-mall.jpg

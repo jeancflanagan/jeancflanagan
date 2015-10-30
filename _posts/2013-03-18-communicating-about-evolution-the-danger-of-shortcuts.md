@@ -3,7 +3,7 @@ layout: writing
 category: writing
 title: 'Communicating about evolution: the danger of shortcuts'
 date: 2013-03-18 10:01
-excerpt: 'Experts who understand evolution often use shortcuts to talk about it. However, these same shortcuts can reinforce and even cause many misconceptions.'
+description: 'Experts who understand evolution often use shortcuts to talk about it. However, these same shortcuts can reinforce and even cause many misconceptions.'
 source: <cite>PLOS Sci-Ed</cite>
 sourceurl: http://blogs.plos.org/scied/2013/03/18/communicating-about-evolution-the-danger-of-shortcuts/
 image: 

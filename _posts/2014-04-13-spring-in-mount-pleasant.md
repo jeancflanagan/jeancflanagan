@@ -4,7 +4,7 @@ category: photo
 title: 'Spring in Mount Pleasant'
 date: 2014-04-13 21:11
 location: 'Mount Pleasant, DC'
-excerpt_image: 2014-04-13-grape-hyacinth.jpg
+summary_image: 2014-04-13-grape-hyacinth.jpg
 period: 'April 2014'
 image:
   - url: 2014-04-13-grape-hyacinth.jpg

@@ -4,7 +4,7 @@ category: photo
 title: 'Sapphie by Boundary Bridge'
 date: 2015-10-11 21:30
 location: 'Washington DC'
-excerpt_image: 2015-10-10-balance-Fuji-Superia-800-.jpg
+summary_image: 2015-10-10-balance-Fuji-Superia-800-.jpg
 period: 'October 2015'
 image:
   - url: 2015-10-10-sapphie-Fuji-Superia-800-.jpg
