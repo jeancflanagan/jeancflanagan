@@ -4,7 +4,7 @@ category: photo
 title: 'Boundary Bridge Trails'
 date: 2015-10-11 21:08
 location: 'Washington, DC'
-excerpt_image: 2015-10-10-backlit-beech-Fuji-Neopan-1600-.jpg
+summary_image: 2015-10-10-backlit-beech-Fuji-Neopan-1600-.jpg
 period: 'October 2015'
 image:
   - url: 2015-10-10-backlit-beech-Fuji-Neopan-1600-.jpg

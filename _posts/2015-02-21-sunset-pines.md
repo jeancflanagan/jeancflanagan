@@ -4,7 +4,7 @@ category: photo
 title: 'Sunset Pines'
 date: 2015-02-21 18:03
 location: 'Southeastern Virginia'
-excerpt_image: 2014-12-25-pine-shadows.jpg
+summary_image: 2014-12-25-pine-shadows.jpg
 period: 'December 2014'
 image:
   - url: 2014-12-25-pine-shadows.jpg

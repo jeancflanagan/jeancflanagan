@@ -4,7 +4,7 @@ category: photo
 title: 'Tulip Study'
 date: 2015-03-08 19:36
 location: 'Washington DC'
-excerpt_image: 2015-03-08-pink-tulips.jpg
+summary_image: 2015-03-08-pink-tulips.jpg
 period: 'March 2015'
 image:
   - url: 2015-03-08-tulips-in-window.jpg

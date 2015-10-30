@@ -4,7 +4,7 @@ category: photo
 title: 'Early Spring Snow'
 date: 2014-03-17 19:52
 location: 'Lanier Heights, DC'
-excerpt_image: 2014-03-17-icicles.jpg
+summary_image: 2014-03-17-icicles.jpg
 period: 'March 2014'
 image:
   - url: 2014-03-17-icicles.jpg

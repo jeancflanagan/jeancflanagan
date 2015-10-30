@@ -4,7 +4,7 @@ category: photo
 title: 'Summer Flora'
 date: 2014-06-28 22:19
 location: 'Washington, DC'
-excerpt_image: 2014-06-15-leaf-teeth.jpg
+summary_image: 2014-06-15-leaf-teeth.jpg
 period: 'June 2014'
 image:
   - url: 2014-06-28-crepe-myrtle-hanging-down.jpg

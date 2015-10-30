@@ -24,7 +24,7 @@ task :post do
       post.puts "title: \'#{title.gsub(/&/,'&amp;')}\'"
       post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
       post.puts "location: \'\'"
-      post.puts "excerpt_image: "
+      post.puts "image: "
       post.puts "period: \'\'"
       post.puts "image:"
       post.puts "  - url: "

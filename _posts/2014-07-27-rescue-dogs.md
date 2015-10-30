@@ -4,7 +4,7 @@ category: photo
 title: 'Rescue Dogs'
 date: 2014-07-27 21:10
 location: 'Washington, DC'
-excerpt_image: 2014-04-05-cdr-debbie.jpg
+summary_image: 2014-04-05-cdr-debbie.jpg
 period: 'Spring-Summer 2014'
 image:
   - url: 2014-04-05-cdr-debbie.jpg
