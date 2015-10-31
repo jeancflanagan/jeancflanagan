@@ -70,7 +70,7 @@ samp {
 }
 
 /* Box-sizing borrowed from Paul Irish */
-* { 
+* {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -96,7 +96,7 @@ html {
   font-size: 1rem;
   font-family: Seravek, 'seravek-web', 'Open Sans', Calibri, sans-serif;
   line-height: 1.4375;
-     -moz-font-feature-settings: "liga", "dlig"; 
+     -moz-font-feature-settings: "liga", "dlig";
       -ms-font-feature-settings: "liga", "dlig";
        -o-font-feature-settings: "liga", "dlig";
   -webkit-font-feature-settings: "liga", "dlig";
@@ -365,12 +365,15 @@ small {
   margin: .75em 0 0;
 }
 
-.page p a {
+.page p a,
+.page li a {
   border-bottom: 1px solid {{ site.greenlight2.hsl }};
 }
 
 .page p a:hover,
-.page p a:focus {
+.page p a:focus,
+.page li a:hover,
+.page li a:focus {
   border-bottom: 1px solid {{ site.goldenlight.hsl }};
 }
 
@@ -523,7 +526,7 @@ figure img,
 }
 
 .photoset figure {
-  margin: 1em 0;  
+  margin: 1em 0;
 }
 
 .page figcaption,
@@ -658,7 +661,7 @@ figure img,
     font-size: 1.125em;
   }
 
-  .page .right, 
+  .page .right,
   .page .left {
     max-width: 320px;
     width: 50%;
@@ -791,7 +794,7 @@ figure img,
   .site-info {
     box-shadow: 0 -.0625em .625em .0625em {{ site.grayshadow1.hsl }};
     padding: 2em 0;
-  }  
+  }
 
   .page {
     max-width: 40em;
@@ -808,7 +811,7 @@ figure img,
     font-weight: 400;
   }
 
-  .page .right, 
+  .page .right,
   .page .left {
     max-width: 400px;
     width: 400px;
