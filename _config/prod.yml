@@ -6,17 +6,21 @@ author:
 domain: jeancflanagan.com
 url: http://jeancflanagan.com
 subscribe_url: http://jeancflanagan.com/subscribe
-image_url: http://static.jeancflanagan.com/images
-photoset_url: http://static.jeancflanagan.com/images/photosets
-summary_image_url: http://static.jeancflanagan.com/images/photosets/450
-siteimage_url: http://static.jeancflanagan.com/images/site
-scripts_url: http://static.jeancflanagan.com/scripts
+image_url: /images
+photoset_url: /images/photosets
+summary_image_url: /images/photosets/450
+siteimage_url: /images/site
+scripts_url: /scripts
 
 meta_description: "Personal website and portfolio for Jean Flanagan, a science education specialist."
 
 layouts: ./_layouts
 plugins: ./_plugins
-exclude: ['Rakefile', 's3_website.yml', 'Gemfile', 'Gemfile.lock', '.gitignore']
+exclude:
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
 
 permalink: /:year/:title/
 markdown: kramdown
