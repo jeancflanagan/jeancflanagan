@@ -1,6 +1,8 @@
 require 'stringex'
 require 's3_website'
-require 'image_optim'
+require 'envyable'
+
+Envyable.load('./_config/env.yml')
 
 ## Website deploying config ##
 
@@ -57,26 +59,20 @@ task :post do
   puts "Created new post: #{filename}"
 end
 
-## "rake optimize" to optimize a folder of images in ImageOptim-CLI
-desc "run a folder of images through ImageOptim-CLI"
-task :optimize do
-  system "image_optim #{local_images} -r"
-  puts "## Images optimized ##"
-end
-
-## "rake load" to load images in the local image directory to the server
-desc "deploy Jekyll images to remote server via s3_website"
-task :load do
-    system "s3_website push --site #{local_images} --config-dir #{local_images}"
-    puts "## Deployed images to S3 ##"
+## "rake deploy" to deploy _site to the server
+desc "deploy Jekyll _site to development S3 via s3_website"
+task :dev do
+  system "bundle exec jekyll build --config _config/prod.yml,_config/dev.yml"
+  system "s3_website push --config-dir _config"
+  puts "## Deployed site to S3 development ##"
 end
 
 ## "rake deploy" to deploy _site to the server
-desc "deploy Jekyll _site and _images to remote servers via s3_website"
-task :deploy => :load do
-  system "jekyll build"
-  system "s3_website push --site #{local_site}"
-  puts "## Deployed site to S3 ##"
+desc "deploy Jekyll _site to production S3 via s3_website"
+task :prod do
+  system "bundle exec jekyll build --config _config/prod.yml"
+  system "DEPLOY=production s3_website push --config-dir _config"
+  puts "## Deployed site to S3 production ##"
 end
 
 
