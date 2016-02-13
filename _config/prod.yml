@@ -16,6 +16,8 @@ meta_description: "Personal website and portfolio for Jean Flanagan, a science e
 
 layouts: ./_layouts
 plugins: ./_plugins
+include:
+  - _pages
 exclude:
   - Rakefile
   - Gemfile

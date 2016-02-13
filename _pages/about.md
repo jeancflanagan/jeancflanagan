@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+permalink: /about/
 
 ---
 
@@ -14,7 +15,7 @@ Before that, I was a Research Associate at the [American Association for the Adv
 
 ## Photography
 
-I started getting into [photography](/photos/) in 2010 with a [Nikon D3000](http://en.wikipedia.org/wiki/Nikon_D3000) DSLR. My main camera is now a [Fujifilm X-E2](http://www.fujifilmusa.com/products/digital_cameras/x/fujifilm_x_e2/) (mirrorless) with a [35mm prime lens](http://www.fujifilmusa.com/products/digital_cameras/x/fujinon_lens_xf35mmf14_r/).  I also have a [Fujifilm HS20 EXR](http://www.fujifilm.com/support/digital_cameras/specifications/s/finepix_hs20exr/) super-zoom, which is handy for occasional wildlife shots. I use Adobe Lightroom for processing. Most of my images feature the urban flora and fauna I find in Northwest DC neighborhoods and parks. 
+I started getting into [photography](/photos/) in 2010 with a [Nikon D3000](http://en.wikipedia.org/wiki/Nikon_D3000) DSLR. My main camera is now a [Fujifilm X-E2](http://www.fujifilmusa.com/products/digital_cameras/x/fujifilm_x_e2/) (mirrorless) with a [35mm prime lens](http://www.fujifilmusa.com/products/digital_cameras/x/fujinon_lens_xf35mmf14_r/).  I also have a [Fujifilm HS20 EXR](http://www.fujifilm.com/support/digital_cameras/specifications/s/finepix_hs20exr/) super-zoom, which is handy for occasional wildlife shots. I use Adobe Lightroom for processing. Most of my images feature the urban flora and fauna I find in Northwest DC neighborhoods and parks.
 
 ## Connect
 
@@ -34,7 +35,7 @@ If you use Feedly, you can <a href="http://feedly.com/index.html#subscription/fe
 
 ## About this site
 
-The site is the result of a collaboration with my partner, [Oliver Pattison](http://olivermak.es), who was primarily responsible for its design and development. It runs on [Jekyll](http://jekyllrb.com/), a static site generator. 
+The site is the result of a collaboration with my partner, [Oliver Pattison](http://olivermak.es), who was primarily responsible for its design and development. It runs on [Jekyll](http://jekyllrb.com/), a static site generator.
 
 A minimalist, responsive, content-first design philosophy guided the project. (It should work equally well on phones, tablets, laptops, and desktops of various sizes!) Check out [Oliver's website](http://olivermak.es) and <a href="https://github.com/opattison/jeancflanagan" rel="source">the GitHub repository for this site</a> for more on the design process.
 
@@ -46,6 +47,6 @@ Views expressed here are my own and are not intended to represent those of any o
 
 - All content published *exclusively* on this website is licensed <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license">CC BY-NC</a> (Creative Commons Attribution NonCommercial 4.0 License) by Jean Flanagan.
 
-- Content that was originally published elsewhere (whether archived here in full or represented by a snippet) is subject to the copyright specified by those publishers. 
+- Content that was originally published elsewhere (whether archived here in full or represented by a snippet) is subject to the copyright specified by those publishers.
 
 - The site design is by Oliver Pattison and Jean Flanagan, all rights reserved.
