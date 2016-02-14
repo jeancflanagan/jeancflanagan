@@ -7,23 +7,23 @@ location: 'Washington, DC'
 summary_image: 2014-06-15-leaf-teeth.jpg
 period: 'June 2014'
 image:
-  - url: 2014-06-28-crepe-myrtle-hanging-down.jpg
+  - url: /photos/2014-06-28-crepe-myrtle-hanging-down.jpg
     caption: 'Crepe myrtle (*Lagerstroemia indica*)'
     alt: 'White crepe myrtle tree blossoms'
     coordinates: ''  
-  - url: 2014-06-15-serviceberry.jpg
+  - url: /photos/2014-06-15-serviceberry.jpg
     caption: 'Serviceberry (*Amelanchier sp.*)'
     alt: 'Berries of a Serviceberry tree'
     coordinates: ''
-  - url: 2014-06-15-leaf-teeth.jpg
+  - url: /photos/2014-06-15-leaf-teeth.jpg
     caption: 'Leaf teeth'
     alt: 'Leaf edge close up'
     coordinates: '' 
-  - url: 2014-06-28-crepe-myrtle-single-cluster.jpg
+  - url: /photos/2014-06-28-crepe-myrtle-single-cluster.jpg
     caption: 'Single cluster of crepe myrtle (*Lagerstroemia indica*) blossoms'
     alt: 'Single white blossom cluster of a crepe myrtle tree'
     coordinates: '' 
-  - url: 2014-06-28-crepe-myrtle-sunlight.jpg
+  - url: /photos/2014-06-28-crepe-myrtle-sunlight.jpg
     caption: 'Crepe myrtle (*Lagerstroemia indica*) branches in sunlight'
     alt: 'Blooming crepe myrtle branches in sunlight'
     coordinates: ''     

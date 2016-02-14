@@ -59,18 +59,24 @@ task :post do
   puts "Created new post: #{filename}"
 end
 
-## "rake deploy" to deploy _site to the server
+## "$ rake serve"
+desc "serve Jekyll _site serve locally"
+task :serve do
+  system "bundle exec jekyll serve --config _config/prod.yml,_config/dev.yml"
+end
+
+## "$ rake deploy"
 desc "deploy Jekyll _site to development S3 via s3_website"
 task :dev do
-  system "bundle exec jekyll build --config _config/prod.yml,_config/dev.yml"
+  system "JEKYLL_ENV=production bundle exec jekyll build --config _config/prod.yml,_config/dev.yml"
   system "s3_website push --config-dir _config"
   puts "## Deployed site to S3 development ##"
 end
 
-## "rake deploy" to deploy _site to the server
+## "$ rake deploy"
 desc "deploy Jekyll _site to production S3 via s3_website"
 task :prod do
-  system "bundle exec jekyll build --config _config/prod.yml"
+  system "JEKYLL_ENV=production bundle exec jekyll build --config _config/prod.yml"
   system "DEPLOY=production s3_website push --config-dir _config"
   puts "## Deployed site to S3 production ##"
 end

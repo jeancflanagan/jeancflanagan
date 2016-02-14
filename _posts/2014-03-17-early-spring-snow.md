@@ -7,13 +7,13 @@ location: 'Lanier Heights, DC'
 summary_image: 2014-03-17-icicles.jpg
 period: 'March 2014'
 image:
-  - url: 2014-03-17-icicles.jpg
+  - url: /photos/2014-03-17-icicles.jpg
     caption: 'Icicles in the crevice of a stone wall'
     alt: 'Icicles in the crevice of a stone wall'
-  - url: 2014-03-17-snowy-elm.jpg
+  - url: /photos/2014-03-17-snowy-elm.jpg
     caption: 'A giant elm tree'
     alt: 'A giant elm tree in the snow'
-  - url: 2014-03-17-snowy-footprints.jpg
+  - url: /photos/2014-03-17-snowy-footprints.jpg
     caption: 'Footprints in the snow'
     alt: 'Footprints on a snowy sidewalk'
 
