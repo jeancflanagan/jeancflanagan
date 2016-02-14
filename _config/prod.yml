@@ -27,6 +27,14 @@ exclude:
 permalink: /:year/:title/
 markdown: kramdown
 
+##Gems
+gems:
+  - imgix
+
+## Imgix configuration
+imgix:
+  source: jeancflanagan.imgix.net
+
 # Colors for the site
 
 white:
