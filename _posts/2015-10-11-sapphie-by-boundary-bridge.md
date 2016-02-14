@@ -7,11 +7,11 @@ location: 'Washington DC'
 summary_image: 2015-10-10-balance-Fuji-Superia-800-.jpg
 period: 'October 2015'
 image:
-  - url: 2015-10-10-sapphie-Fuji-Superia-800-.jpg
+  - url: /photos/2015-10-10-sapphie-Fuji-Superia-800-.jpg
     caption: 'Sapphie <br>(VSCO film emulation: Fuji Superia 800-)'
     alt: 'a portrait of Sapphie near an uprooted tree'
     coordinates: ''
-  - url: 2015-10-10-balance-Fuji-Superia-800-.jpg
+  - url: /photos/2015-10-10-balance-Fuji-Superia-800-.jpg
     caption: 'Balance <br>(VSCO film emulation: Fuji Superia 800-)'
     alt: 'a shot through Sapphie’s paws on a log'
     coordinates: ''

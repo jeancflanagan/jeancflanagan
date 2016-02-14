@@ -7,27 +7,27 @@ location: 'Washington, DC'
 summary_image: 2014-04-05-cdr-debbie.jpg
 period: 'Spring-Summer 2014'
 image:
-  - url: 2014-04-05-cdr-debbie.jpg
+  - url: /photos/2014-04-05-cdr-debbie.jpg
     caption: 'Debbie'
     alt: 'Mixed-breed rescue dog Debbie'
     coordinates: ''
-  - url: 2014-04-05-cdr-mason.jpg
+  - url: /photos/2014-04-05-cdr-mason.jpg
     caption: 'Mason'
     alt: 'Mixed-breed rescue dog Mason'
     coordinates: '' 
-  - url: 2014-06-07-cdr-brody.jpg
+  - url: /photos/2014-06-07-cdr-brody.jpg
     caption: 'Brody'
     alt: 'Mixed-breed rescue dog Brody'
     coordinates: '' 
-  - url: 2014-06-07-cdr-clinton.jpg
+  - url: /photos/2014-06-07-cdr-clinton.jpg
     caption: 'Clinton'
     alt: 'Mixed-breed rescue dog Clinton'
     coordinates: ''   
-  - url: 2014-06-07-cdr-quincy.jpg
+  - url: /photos/2014-06-07-cdr-quincy.jpg
     caption: 'Quincy'
     alt: 'Lab mix rescue dog Quincy'
     coordinates: ''   
-  - url: 2014-07-27-blue-sleeping.jpg
+  - url: /photos/2014-07-27-blue-sleeping.jpg
     caption: 'Blue'
     alt: 'Blue-gray lab mix rescue dog Blue'
     coordinates: ''        

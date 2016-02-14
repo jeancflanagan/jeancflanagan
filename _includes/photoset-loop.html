@@ -1,6 +1,6 @@
 {% for image in page.image %}
   <figure>
-    <img src="{{ site.photoset_url }}/{{ page.image[forloop.index0].url }}" alt="{{ page.image[forloop.index0].alt }}">
+    <img src="{{ page.image[forloop.index0].url | imgix_url: w: 1024, q: 60 }}" alt="{{ page.image[forloop.index0].alt }}">
     <figcaption>{{ page.image[forloop.index0].caption | markdownify }}</figcaption>
   </figure>
 {% endfor %}

@@ -7,11 +7,11 @@ location: 'Washington, DC'
 summary_image: 2014-01-19-house-sparrow-looking-up.jpg
 period: 'January 2014'
 image:
-  - url: 2014-01-19-house-sparrow-looking-down.jpg
+  - url: /photos/2014-01-19-house-sparrow-looking-down.jpg
     alt: 'House sparrow looking down'
     caption: 'One of a noisy midwinter crowd of house sparrows (<i>Passer domesticus</i>).'
     coordinates: ''
-  - url: 2014-01-19-house-sparrow-looking-up.jpg
+  - url: /photos/2014-01-19-house-sparrow-looking-up.jpg
     alt: 'House sparrow looking up'
     caption: 'Urban house sparrows are very tame and approachable.'
     coordinates: ''
