@@ -4,7 +4,7 @@ category: photo
 title: 'Garden, Williamsburg, VA'
 date: 2011-07-16 13:02
 location: 'Williamsburg, VA'
-summary_image: 2011-07-16-white-hibiscus-bokeh-williamsburg-va.jpg
+summary_image: /photos/2011-07-16-white-hibiscus-bokeh-williamsburg-va.jpg
 period: 'July 2011'
 image:
   - url: /photos/2011-07-16-white-hibiscus-bokeh-williamsburg-va.jpg
