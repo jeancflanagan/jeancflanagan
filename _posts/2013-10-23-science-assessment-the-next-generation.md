@@ -5,21 +5,21 @@ title: 'Science assessment: the next generation'
 date: 2013-10-23 10:47
 description: 'Effective assessment will be one of the most important aspects of successful implementation for states adopting the NGSS. How can we develop assessment tasks that accurately measure blended knowledge?'
 source: <cite>Smithsonian STEMvisions</cite>
-sourceurl: http://www.ssec.si.edu/blog/science-assessment-the-next-generation
+sourceurl: https://ssec.si.edu/stemvisions-blog/science-assessment-next-generation
 image:
   - url: 2013-10-23-NGSS-blended-knowledge-rope-SSEC.png
     caption: 'NGSS performance expectations blend practices, crosscutting concepts, and core ideas. Image by the Smithsonian Science Education Center (SSEC).'
     alt: 'NGSS rope with three strands representing practices, crosscutting concepts, and core ideas'
-  
+
 ---
 
-As states adopt the [Next Generation Science Standards](http://www.nextgenscience.org/next-generation-science-standards) (NGSS), everyone is wondering about what the assessments will look like. This is not because everyone is suddenly fascinated with the finer points of educational measurement, but because assessment is often known as the “tail that wags the dog” of education; it has a disproportionately large impact on curriculum, instruction, and outcomes. Effective assessment will be one of the most important aspects of successful implementation for states adopting the NGSS. However, the NGSS are designed to be different from previous standards, and creating well-aligned assessments will require much new thinking, research, and development. 
+As states adopt the [Next Generation Science Standards](http://www.nextgenscience.org/next-generation-science-standards) (NGSS), everyone is wondering about what the assessments will look like. This is not because everyone is suddenly fascinated with the finer points of educational measurement, but because assessment is often known as the “tail that wags the dog” of education; it has a disproportionately large impact on curriculum, instruction, and outcomes. Effective assessment will be one of the most important aspects of successful implementation for states adopting the NGSS. However, the NGSS are designed to be different from previous standards, and creating well-aligned assessments will require much new thinking, research, and development.
 
-The NGSS fuse **disciplinary core ideas** (facts and concepts within a discipline), **practices** (skills like argumentation and using models), and **crosscutting concepts** (ideas that apply across all scientific disciplines) into intertwined **performance expectations** (PEs). These PEs can be described as statements of “blended knowledge”. Past assessments have typically only targeted subject-specific facts and concepts. How can we develop assessment tasks that accurately and usefully measure blended knowledge? 
+The NGSS fuse **disciplinary core ideas** (facts and concepts within a discipline), **practices** (skills like argumentation and using models), and **crosscutting concepts** (ideas that apply across all scientific disciplines) into intertwined **performance expectations** (PEs). These PEs can be described as statements of “blended knowledge”. Past assessments have typically only targeted subject-specific facts and concepts. How can we develop assessment tasks that accurately and usefully measure blended knowledge?
 
 {% figure_img right 0 caption %}
 
-[Professor Nancy Songer](http://sitemaker.umich.edu/songer/home) of the University of Michigan’s school of education has been on the cutting edge of research and development work in assessing blended knowledge. She serves on the National Academy of Sciences [Board on Testing and Assessment](http://sites.nationalacademies.org/DBASSE/BOTA/index.htm), has served on advisory panels for the College Board’s [AP Biology redesign](http://www.nytimes.com/2011/01/09/education/edlife/09ap-t.html?pagewanted=all&_r=1&), and has been conducting her own research on assessing blended learning. I recently talked with Professor Songer about some of the questions facing those preparing to implement the NGSS and develop well-aligned curriculum materials and assessments. A condensed, paraphrased summary of our conversation is below. 
+[Professor Nancy Songer](http://sitemaker.umich.edu/songer/home) of the University of Michigan’s school of education has been on the cutting edge of research and development work in assessing blended knowledge. She serves on the National Academy of Sciences [Board on Testing and Assessment](http://sites.nationalacademies.org/DBASSE/BOTA/index.htm), has served on advisory panels for the College Board’s [AP Biology redesign](http://www.nytimes.com/2011/01/09/education/edlife/09ap-t.html?pagewanted=all&_r=1&), and has been conducting her own research on assessing blended learning. I recently talked with Professor Songer about some of the questions facing those preparing to implement the NGSS and develop well-aligned curriculum materials and assessments. A condensed, paraphrased summary of our conversation is below.
 
 ### Considering how new the standards are, where can we look for examples of tasks that require blended knowledge?
 
@@ -31,15 +31,15 @@ Professor Songer worries that there are misconceptions about this among some NGS
 
 > The most important thing for people to know is that **there is not a one-to-one relationship or alignment between a PE and an item**. Most PEs are too complex and have too many parts to be assessed by one item, or even one cluster of items. The PEs must be broken down into manageable pieces. Incidentally, knowing this can also be important for alleviating some of the anxiety people feel about the complexity of the PEs when they are first exploring the NGSS.   
 
-In an [article](http://www.sciencemag.org/content/340/6130/320.abstract) published earlier this year in <cite>Science</cite>, Professor James Pellegrino explained that assessment developers need to decide what evidence is sufficient to conclude that a student has mastered a part of a PE. 
+In an [article](http://www.sciencemag.org/content/340/6130/320.abstract) published earlier this year in <cite>Science</cite>, Professor James Pellegrino explained that assessment developers need to decide what evidence is sufficient to conclude that a student has mastered a part of a PE.
 
 > In essence, the performance expectations found in the NGSS are claims about student proficiency. Claims about the student must be linked to forms of evidence that would support those claims.
 
-Once assessment developers decide on the evidence necessary to make the claims, items should be written to match these explicit evidence statements. 
+Once assessment developers decide on the evidence necessary to make the claims, items should be written to match these explicit evidence statements.
 
 ### What if a student cannot successfully answer an item that requires blended knowledge? How can we determine which aspect(s) of that knowledge the student did not have?
 
-> We’ve had success with **clusters of items** centered around an idea, rather than isolated items. For example, you might need to ask a few basic multiple-choice items about certain crucial facts or graph interpretation skills in addition to a larger task that requires developing a full scientific explanation based on data. 
+> We’ve had success with **clusters of items** centered around an idea, rather than isolated items. For example, you might need to ask a few basic multiple-choice items about certain crucial facts or graph interpretation skills in addition to a larger task that requires developing a full scientific explanation based on data.
 
 ### Can skills like basic graph reading be assessed outside of a particular science context?
 
@@ -51,15 +51,15 @@ Once assessment developers decide on the evidence necessary to make the claims, 
 
 ### Will these assessments take more time (to complete and to score)?
 
-> The knowledge being assessed is more complicated, but that doesn’t necessarily mean that more class time must be spent on assessment. We will have to be more selective about what we assess. Instead of asking about 30 small pieces of knowledge with a multiple choice test, we might have 8-10 questions, mostly targeting blended knowledge. Part of the selection process involves determining **“gatekeeper” ideas** that are absolutely crucial for students to move forward. Scoring, however, will take more time, but **the investment is worth it** to get rich measures of blended knowledge. 
+> The knowledge being assessed is more complicated, but that doesn’t necessarily mean that more class time must be spent on assessment. We will have to be more selective about what we assess. Instead of asking about 30 small pieces of knowledge with a multiple choice test, we might have 8-10 questions, mostly targeting blended knowledge. Part of the selection process involves determining **“gatekeeper” ideas** that are absolutely crucial for students to move forward. Scoring, however, will take more time, but **the investment is worth it** to get rich measures of blended knowledge.
 
 ### What’s next?
 
 Perhaps the most immediate challenge for NGSS-aligned assessment development is a lack of students who have had the opportunity to use curriculum materials that truly build the kind of blended knowledge we want to assess. In his <cite>Science</cite> [article](http://www.sciencemag.org/content/340/6130/320.abstract), Professor Pellegrino noted:
 
->Considerable research and development will be needed to create and evaluate assessment tasks and situations that can provide adequate evidence of the proficiencies implied in the NGSS. This research must be carried out in instructional settings where **students have had an adequate opportunity to construct the integrated knowledge** envisioned by the NGSS. 
+>Considerable research and development will be needed to create and evaluate assessment tasks and situations that can provide adequate evidence of the proficiencies implied in the NGSS. This research must be carried out in instructional settings where **students have had an adequate opportunity to construct the integrated knowledge** envisioned by the NGSS.
 
-More development work must be done to create prototypes for coordinated systems of curriculum materials and assessments before research can move forward. With more materials and students to work with, much more could be learned about how students learn this integrated knowledge and how to measure it. 
+More development work must be done to create prototypes for coordinated systems of curriculum materials and assessments before research can move forward. With more materials and students to work with, much more could be learned about how students learn this integrated knowledge and how to measure it.
 
 ### Related Reading & Resources
 
