@@ -1,7 +1,7 @@
       <li class="excerpt">
         <a href="{{ post.url }}">
           <article class="excerpt-photo">
-            <img src="{{ post.image[0].url | imgix_url: w: 450, h: 300, fit: 'crop', q: 40 }}" alt="{{ post.title }}">
+            <img src="{{ post.summary_image | imgix_url: w: 450, h: 300, fit: 'crop', q: 40 }}" alt="{{ post.title }}" alt="">
             <footer>
               <h1>{{ post.title }}</h1>
               <p>{{ post.period }}</p>

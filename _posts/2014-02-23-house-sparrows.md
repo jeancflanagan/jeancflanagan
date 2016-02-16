@@ -4,7 +4,7 @@ category: photo
 title: 'House Sparrows'
 date: 2014-02-23 18:36
 location: 'Washington, DC'
-summary_image: 2014-01-19-house-sparrow-looking-up.jpg
+summary_image: /photos/2014-01-19-house-sparrow-looking-up.jpg
 period: 'January 2014'
 image:
   - url: /photos/2014-01-19-house-sparrow-looking-down.jpg
