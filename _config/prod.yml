@@ -1,80 +1,83 @@
-title: Jean Flanagan
-tagline: "science education and communication"
+###### !CONFIG replace these defaults
+title: Jekyll Basis
 author:
-  name: Jean Flanagan
-  email: jeancflanagan@gmail.com
-domain: jeancflanagan.com
-url: http://jeancflanagan.com
-subscribe_url: http://jeancflanagan.com/subscribe
-image_url: /images
-siteimage_url: /images/site
-scripts_url: /scripts
+  name: First Last
+  email: 'email@example.com'
+  twitter: '@twitterhandle'
+description: ''
 
-meta_description: "Personal website and portfolio for Jean Flanagan, a science education specialist."
+###### !CONFIG choose content attribution license
+license:
+  short: 'CC BY-NC 4.0'
+  long: 'Creative Commons Attribution-NonCommercial 4.0 International'
 
-include:
-  - _pages
-exclude:
-  - Rakefile
-  - Gemfile
-  - Gemfile.lock
-  - .gitignore
+# Content
 
-permalink: /:year/:title/
-markdown: kramdown
+## Referenced URLs (internal and external links for inline use)
+link:
+###### !CONFIG choose content attribution license
+  attribution: http://creativecommons.org/licenses/by-nc/4.0/
+###### !CONFIG Add other feeds as needed.
+  subscribe:
+    full: /full.xml
 
-##Gems
+## Collections
+
+collections:
+  patterns:
+    output: true
+    permalink: patterns/:path/
+
+# Site configuration
+
+## Gems configuration
 gems:
-  - jekyll/imgix
+  - sass
 
-## Imgix configuration
-imgix:
-  source: jeancflanagan.imgix.net
+## Markdown configuration
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
-# Colors for the site
+###### !CONFIG choose a URL structure for posts
+## Permalink configuration
+permalink: /:year/:month/:title/
 
-white:
-  hsl: 'hsla(138, 10%, 98%, 1)'
-  hex: '#f9fafa'
-black:
-  hsl: 'hsla(138, 16%, 10%, 1)'
-  hex: '#151e18'
-charcoal:
-  hsl: 'hsla(218, 2%, 32%, 1)'
-  hex: '#505153'
-grayshadow1:
-  hsl: 'hsla(218, 2%, 10%, .75)'
-  hex: '#202022'
-grayshadow2:
-  hsl: 'hsla(218, 2%, 10%, .25)'
-  hex: '#bebfc1'
-slate:
-  hsl: 'hsla(138, 2%, 54%, .25)'
-  hex: '#e5e6e5'
-slateshadow:
-  hsl: 'hsla(138, 2%, 54%, 1)'
-  hex: '#878c89'
-green:
-  hsl: 'hsla(138, 40%, 50%, 1)'
-  hex: '#4cb36b'
-greenlight1:
-  hsl: 'hsla(138, 40%, 75%, 1)'
-  hex: '#a6d9b5'
-greenlight2:
-  hsl: 'hsla(138, 40%, 90%, 1)'
-  hex: '#dbf0e1'
-graygreen:
-  hsl: 'hsla(138, 4%, 45%, 1)'
-  hex: '#6e7771'
-golden:
-  hsl: 'hsla(52, 90%, 47%, 1)'
-  hex: '#e4c70c'
-goldenlight:
-  hsl: 'hsla(52, 45%, 92%, 1)'
-  hex: '#f4f1e1'
-blue:
-  hsl: 'hsla(190, 40%, 50%, 1)'
-  hex: '#4da1b3'
-bluelight:
-  hsl: 'hsla(190, 40%, 75%, 1)'
-  hex: '#a6d0d9'
+## Sass configuration
+sass:
+  sass_dir: resources/scss
+  style: compressed
+
+## Project configuration
+include:
+  - _feeds
+  - _pages
+
+exclude:
+  - _config
+  - Gemfile*
+  - node_modules
+  - package.json
+  - resources/js
+
+## Collections
+
+collections:
+  patterns:
+    output: true
+    permalink: patterns/:path/
+
+###### !CONFIG add a domain and URL.
+## Configuration URLs
+domain: 'example.com'
+url: 'http://example.com'
+patterns_url: /patterns
+image_url: /images
+icon_url: /icons
+resources_url: /resources
+
+###### !CONFIG https://www.google.com/webmasters/verification
+## Google site verification
+google_verification: ''

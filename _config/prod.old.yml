@@ -1,0 +1,80 @@
+title: Jean Flanagan
+tagline: "science education and communication"
+author:
+  name: Jean Flanagan
+  email: jeancflanagan@gmail.com
+domain: jeancflanagan.com
+url: http://jeancflanagan.com
+subscribe_url: http://jeancflanagan.com/subscribe
+image_url: /images
+siteimage_url: /images/site
+scripts_url: /scripts
+
+meta_description: "Personal website and portfolio for Jean Flanagan, a science education specialist."
+
+include:
+  - _pages
+exclude:
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+
+permalink: /:year/:title/
+markdown: kramdown
+
+##Gems
+gems:
+  - jekyll/imgix
+
+## Imgix configuration
+imgix:
+  source: jeancflanagan.imgix.net
+
+# Colors for the site
+
+white:
+  hsl: 'hsla(138, 10%, 98%, 1)'
+  hex: '#f9fafa'
+black:
+  hsl: 'hsla(138, 16%, 10%, 1)'
+  hex: '#151e18'
+charcoal:
+  hsl: 'hsla(218, 2%, 32%, 1)'
+  hex: '#505153'
+grayshadow1:
+  hsl: 'hsla(218, 2%, 10%, .75)'
+  hex: '#202022'
+grayshadow2:
+  hsl: 'hsla(218, 2%, 10%, .25)'
+  hex: '#bebfc1'
+slate:
+  hsl: 'hsla(138, 2%, 54%, .25)'
+  hex: '#e5e6e5'
+slateshadow:
+  hsl: 'hsla(138, 2%, 54%, 1)'
+  hex: '#878c89'
+green:
+  hsl: 'hsla(138, 40%, 50%, 1)'
+  hex: '#4cb36b'
+greenlight1:
+  hsl: 'hsla(138, 40%, 75%, 1)'
+  hex: '#a6d9b5'
+greenlight2:
+  hsl: 'hsla(138, 40%, 90%, 1)'
+  hex: '#dbf0e1'
+graygreen:
+  hsl: 'hsla(138, 4%, 45%, 1)'
+  hex: '#6e7771'
+golden:
+  hsl: 'hsla(52, 90%, 47%, 1)'
+  hex: '#e4c70c'
+goldenlight:
+  hsl: 'hsla(52, 45%, 92%, 1)'
+  hex: '#f4f1e1'
+blue:
+  hsl: 'hsla(190, 40%, 50%, 1)'
+  hex: '#4da1b3'
+bluelight:
+  hsl: 'hsla(190, 40%, 75%, 1)'
+  hex: '#a6d0d9'

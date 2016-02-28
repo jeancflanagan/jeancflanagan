@@ -1,14 +1,21 @@
+###### !CONFIG Amazon API keys
 s3_id: <%= ENV['S3_ID'] %>
 s3_secret: <%= ENV['S3_SECRET'] %>
-s3_bucket: <%= ENV['DEPLOY'] == 'production' ? '' : 'dev.' %>jeancflanagan.com
+
+###### !CONFIG Amazon bucket name
+s3_bucket: <%= ENV['DEPLOY'] == 'production' ? '' : 'dev.' %>.example.com
 
 max_age:
   "*.css": 2419200
-  "*.js": 2419200
   "*.jpg": 2419200
+  "*.js": 2419200
   "*.png": 2419200
+  "*.svg": 2419200
 
 gzip:
-  - .html
   - .css
+  - .html
   - .md
+  - .svg
+  - .js
+  

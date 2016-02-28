@@ -1,3 +1,7 @@
-## Imgix configuration
-imgix:
-  source: dev-jeancflanagan.imgix.net
+# Site configuration
+
+###### !CONFIG development serve configuration, if any
+
+## Sass configuration
+sass:
+  style: expanded

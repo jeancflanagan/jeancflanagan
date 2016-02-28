@@ -1,0 +1,17 @@
+html {
+  color: $black;
+}
+
+body {
+  background-color: $white;
+  color: $black;
+}
+
+a {
+  color: $blue;
+}
+
+a:hover,
+a:focus {
+  color: $red;
+}

@@ -1,0 +1,34 @@
+{
+  "name": "jekyll-basis",
+  "description": "NPM development setup for Jekyll Basis",
+  "dependencies": {
+    "npm-run-all": "^1.5.1",
+    "svgo": "^0.6.1",
+    "uglify-js": "~2.6",
+    "watch": "~0.17"
+  },
+  "scripts": {
+    "svg:minify": "svgo -q -f _site/icons _site/images",
+    "js:minify": "uglifyjs resources/js/site.js -o resources/all.min.js --comments",
+    "js:watch": "watch 'npm run js:minify' resources/js/ --wait=2",
+    "jekyll:serve": "bundle exec jekyll serve --config _config/prod.yml,_config/dev.yml",
+    "jekyll:dev": "bundle exec jekyll build --config _config/prod.yml,_config/dev.yml",
+    "jekyll:prod": "bundle exec jekyll build --config _config/prod.yml",
+    "deploy:dev": "s3_website push --config-dir _config",
+    "deploy:prod": "DEPLOY=production s3_website push --config-dir _config",
+    "start": "npm-run-all --parallel js:watch jekyll:serve",
+    "dev": "npm-run-all js:minify jekyll:dev svg:minify deploy:dev",
+    "prod": "npm-run-all js:minify jekyll:prod svg:minify deploy:prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opattison/jekyll-begin.git"
+  },
+  "author": "Oliver Pattison",
+  "license": "UNLICENSED",
+  "private": "true",
+  "bugs": {
+    "url": "https://github.com/opattison/jekyll-begin/issues"
+  },
+  "homepage": "https://github.com/opattison/jekyll-begin#readme"
+}
