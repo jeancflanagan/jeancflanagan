@@ -11,7 +11,6 @@ GEM
       deep_merge (= 1.0.0)
     deep_merge (1.0.0)
     dotenv (1.0.2)
-    envyable (1.0.0)
     execjs (2.6.0)
     ffi (1.9.10)
     imgix (1.0.0)
@@ -43,7 +42,6 @@ GEM
     octopress-autoprefixer (2.0.0)
       autoprefixer-rails
       jekyll (~> 3.0)
-    rake (10.5.0)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
@@ -55,21 +53,17 @@ GEM
       thor (~> 0.18)
     safe_yaml (1.0.4)
     sass (3.4.21)
-    stringex (2.6.0)
     thor (0.19.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  envyable
   jekyll (~> 3.1)
   jekyll-archives
   jekyll-imgix
   octopress-autoprefixer
-  rake
   s3_website
-  stringex
 
 BUNDLED WITH
    1.11.2

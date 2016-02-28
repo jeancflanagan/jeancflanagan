@@ -1,6 +1,6 @@
 {
-  "name": "jekyll-basis",
-  "description": "NPM development setup for Jekyll Basis",
+  "name": "jeancflanagan",
+  "description": "NPM development setup for Jean Flanagan",
   "dependencies": {
     "npm-run-all": "^1.5.1",
     "svgo": "^0.6.1",
@@ -25,7 +25,7 @@
     "url": "git+https://github.com/opattison/jekyll-begin.git"
   },
   "author": "Oliver Pattison",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "private": "true",
   "bugs": {
     "url": "https://github.com/opattison/jekyll-begin/issues"

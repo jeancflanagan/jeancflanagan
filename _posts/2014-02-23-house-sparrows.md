@@ -1,8 +1,9 @@
 ---
-layout: photoset
+layout: post
 category: photo
 title: 'House Sparrows'
 date: 2014-02-23 18:36
+updated: 2016-02-28 00:01
 location: 'Washington, DC'
 summary_image: /photos/2014-01-19-house-sparrow-looking-up.jpg
 period: 'January 2014'
@@ -18,4 +19,4 @@ image:
 
 ---
 
-These were shot with a Fujifilm HS20 EXR super-zoom in the Columbia Heights neighborhood in NW Washington, DC. 
+These were shot with a Fujifilm HS20 EXR super-zoom in the Columbia Heights neighborhood in NW Washington, DC.

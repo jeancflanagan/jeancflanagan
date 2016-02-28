@@ -1,18 +1,10 @@
 ---
-layout: fundamental
+layout: default
 title: Home
 permalink: /
 ---
 
-    <ul class="excerpt-index">
-{% for post in site.categories.writing limit:4 %}
-{% include excerpt-writing.html %}
-{% endfor %}
-    </ul>
-{% include writing-archive-link.html %}
-    <ul class="excerpt-index">
-{% for post in site.categories.photo limit:4 %}
-{% include excerpt-photo.html %}
-{% endfor %}
-   </ul>
-{% include photoset-archive-link.html %}
+  <h1 class="index-title">Jekyll Basis, a minimalist starter site for Jekyll</h1>
+  {% for post in site.posts %}
+  <article class="item">{{ post.date | date_to_string }} – <a href="{{ post.url }}">{{ post.title }}</a></article>
+  {% endfor %}

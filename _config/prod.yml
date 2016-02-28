@@ -1,12 +1,17 @@
-###### !CONFIG replace these defaults
-title: Jekyll Basis
+title: Jean Flanagan
+tagline: "science education and communication"
 author:
-  name: First Last
-  email: 'email@example.com'
-  twitter: '@twitterhandle'
-description: ''
+  name: Jean Flanagan
+  email: jeancflanagan@gmail.com
+  twitter: '@jeancflanagan'
+domain: jeancflanagan.com
+url: http://jeancflanagan.com
 
-###### !CONFIG choose content attribution license
+subscribe_url: http://jeancflanagan.com/subscribe
+image_url: /images
+siteimage_url: /images/site
+scripts_url: /scripts
+
 license:
   short: 'CC BY-NC 4.0'
   long: 'Creative Commons Attribution-NonCommercial 4.0 International'
@@ -15,9 +20,7 @@ license:
 
 ## Referenced URLs (internal and external links for inline use)
 link:
-###### !CONFIG choose content attribution license
   attribution: http://creativecommons.org/licenses/by-nc/4.0/
-###### !CONFIG Add other feeds as needed.
   subscribe:
     full: /full.xml
 

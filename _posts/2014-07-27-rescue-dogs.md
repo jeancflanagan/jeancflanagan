@@ -1,8 +1,9 @@
 ---
-layout: photoset
+layout: post
 category: photo
 title: 'Rescue Dogs'
 date: 2014-07-27 21:10
+updated: 2016-02-28 00:01
 location: 'Washington, DC'
 summary_image: /photos/2014-04-05-cdr-debbie.jpg
 period: 'Spring-Summer 2014'
@@ -14,11 +15,11 @@ image:
   - url: /photos/2014-04-05-cdr-mason.jpg
     caption: 'Mason'
     alt: 'Mixed-breed rescue dog Mason'
-    coordinates: '' 
+    coordinates: ''
   - url: /photos/2014-06-07-cdr-brody.jpg
     caption: 'Brody'
     alt: 'Mixed-breed rescue dog Brody'
-    coordinates: '' 
+    coordinates: ''
   - url: /photos/2014-06-07-cdr-clinton.jpg
     caption: 'Clinton'
     alt: 'Mixed-breed rescue dog Clinton'

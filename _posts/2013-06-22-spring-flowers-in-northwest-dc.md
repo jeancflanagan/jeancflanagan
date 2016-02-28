@@ -1,8 +1,9 @@
 ---
-layout: photoset
+layout: post
 category: photo
 title: 'Spring Flowers in Northwest DC'
 date: 2013-06-22 4:01
+updated: 2016-02-28 00:01
 location: 'DC'
 summary_image: /photos/2013-06-22-georgetown-single-orange-tulip.jpg
 period: 'June 2013'
@@ -19,6 +20,5 @@ image:
   - url: /photos/2013-06-22-lanier-heights-blue-flowers.jpg
     caption: 'Another eye-level garden in Lanier Heights.'
     alt: 'Blue flowers in Lanier Heights'
-  
----
 
+---

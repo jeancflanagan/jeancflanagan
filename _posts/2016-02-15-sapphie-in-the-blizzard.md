@@ -1,8 +1,9 @@
 ---
-layout: photoset
+layout: post
 category: photo
 title: 'Sapphie in the Blizzard'
 date: 2016-02-15 20:58
+updated: 2016-02-28 00:01
 location: 'Washington DC'
 summary_image: /photos/2016-01-23-sapphie-park.jpg
 period: 'January 2016'

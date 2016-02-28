@@ -1,8 +1,9 @@
 ---
-layout: photoset
+layout: post
 category: photo
 title: 'Spring in Mount Pleasant'
 date: 2014-04-13 21:11
+updated: 2016-02-28 00:01
 location: 'Mount Pleasant, DC'
 summary_image: /photos/2014-04-13-grape-hyacinth.jpg
 period: 'April 2014'

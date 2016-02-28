@@ -7,7 +7,3 @@ gem 'octopress-autoprefixer'
 gem 'jekyll-imgix'
 
 gem 's3_website'
-gem 'rake'
-gem 'stringex'
-
-gem 'envyable'
