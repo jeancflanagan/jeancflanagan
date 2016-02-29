@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post.test
 category: photo
 title: 'Sapphie in the Blizzard'
 date: 2016-02-15 20:58
@@ -22,4 +22,15 @@ image:
     coordinates: ''
 
 ---
+<div class="photoset">
+
+<figure class="figure-wide"><img src="{{ page.image[2].url }}" alt="{{ page.image[2].url }}"></figure>
+
+<figure class="figure-grid"><img src="{{ page.image[1].url }}" alt="{{ page.image[1].url }}"></figure>
+
+<figure class="figure-grid"><img src="{{ page.image[0].url }}" alt="{{ page.image[0].url }}"></figure>
+
+</div>
+
+
 This set was processed with the Fuji Neopan 1600- VSCO film emulation (no grain).
