@@ -3,30 +3,11 @@
   color: #fafafa;
 }
 
-
-.content {
-  font-family: gentium basic;
-}
-
-h1 {
-  font-family: fira sans;
-  font-weight: 300;
-  font-size: 2em;
-  padding: 1em;
-
-}
-
-p {
-  padding: 1em;
-}
-
-
 .photoset {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: flex-start;
-
 }
 
 .figure-wide {
@@ -37,4 +18,8 @@ p {
 .figure-grid {
   padding: .5em;
   flex: 0 1 50%;
+}
+
+p {
+  padding: 1em;
 }

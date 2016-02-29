@@ -34,5 +34,21 @@ image:
     coordinates: ''          
 
 ---
+<div class="photoset">
+
+<figure class="figure-wide"><img src="{{ page.image[0].url }}" alt="{{ page.image[0].url }}"></figure>
+
+<figure class="figure-grid"><img src="{{ page.image[1].url }}" alt="{{ page.image[1].url }}"></figure>
+
+<figure class="figure-grid"><img src="{{ page.image[2].url }}" alt="{{ page.image[2].url }}"></figure>
+
+<figure class="figure-wide"><img src="{{ page.image[3].url }}" alt="{{ page.image[3].url }}"></figure>
+
+<figure class="figure-grid"><img src="{{ page.image[4].url }}" alt="{{ page.image[4].url }}"></figure>
+
+<figure class="figure-grid"><img src="{{ page.image[5].url }}" alt="{{ page.image[5].url }}"></figure>
+
+</div>
+
 
 These were shot at a two-day photography workshop held at the [U.S. Botanic Garden](http://www.usbg.gov/) in Washington, DC. The workshop, lead by [Joshua Taylor](http://www.joshuataylorphotography.com/), included the opportunity to shoot throughout the conservatory early in the morning, before the public were let in. After the workshop, I also used this set as my first foray into editing with [VSCO Film](http://vsco.co/film) film emulations.

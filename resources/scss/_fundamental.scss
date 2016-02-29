@@ -10,6 +10,25 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+h1, h2, h3, h4 {
+  font-family: $font-heading;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 2em;
+  padding: 1em;
+}
+
+h2, h3, h4 {
+  font-family: $font-heading;
+  font-size: 1.5em;
+}
+
+p {
+  font-family: $font-body;
+}
+
 ul,
 ol {
   list-style-position: inside;
