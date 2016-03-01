@@ -2,6 +2,9 @@
 layout: post
 category: photo
 title: 'House Sparrows'
+tags:
+  - birds
+  - photography
 date: 2014-02-23 18:36
 updated: 2016-02-28 00:01
 location: 'Washington, DC'

@@ -1,6 +1,12 @@
 ---
 layout: post
 category: writing
+tags:
+  - birds
+  - books
+  - memoir
+  - nonfiction
+  - reading notes
 title: 'Reaction: <cite>H is for Hawk</cite> by Helen MacDonald'
 date: 2015-06-07 18:43
 updated: 2016-02-28 00:01

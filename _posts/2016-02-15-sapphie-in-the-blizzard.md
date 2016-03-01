@@ -1,6 +1,11 @@
 ---
 layout: post.test
 category: photo
+tags:
+  - dogs
+  - photography
+  - Sapphie
+  - snow
 title: 'Sapphie in the Blizzard'
 date: 2016-02-15 20:58
 updated: 2016-02-28 00:01

@@ -1,6 +1,12 @@
 ---
 layout: post
 category: writing
+tags:
+  - diagrams
+  - education
+  - evolution
+  - misconceptions
+  - science
 title: 'Learning to read the tree of life'
 date: 2013-05-20 10:00
 updated: 2016-02-28 00:01

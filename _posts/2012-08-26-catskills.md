@@ -1,6 +1,14 @@
 ---
 layout: post
 category: photo
+tags:
+  - amphibians
+  - butterflies
+  - mountains
+  - mushrooms
+  - photography
+  - trees
+  - waterfalls
 title: 'Catskill Mountains, NY'
 date: 2012-08-26 16:01
 updated: 2016-02-28 00:01

@@ -1,6 +1,11 @@
 ---
 layout: post
 category: photo
+tags:
+  - dogs
+  - photography
+  - snow
+  - trees
 title: 'Snow on the National Mall'
 date: 2011-01-12 12:07
 updated: 2016-02-28 00:01

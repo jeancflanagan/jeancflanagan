@@ -1,6 +1,11 @@
 ---
 layout: post
 category: photo
+tags:
+  - botanical
+  - parks
+  - photography
+  - trees
 title: 'Fall Leaves, Washington, DC'
 date: 2012-11-04 16:14
 updated: 2016-02-28 00:01

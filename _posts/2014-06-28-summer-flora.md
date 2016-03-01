@@ -1,6 +1,12 @@
 ---
 layout: post
 category: photo
+tags:
+  - botanical
+  - flowers
+  - parks
+  - photography
+  - trees
 title: 'Summer Flora'
 date: 2014-06-28 22:19
 updated: 2016-02-28 00:01

@@ -1,6 +1,12 @@
 ---
 layout: post
 category: writing
+tags:
+  - conceptual change
+  - education
+  - misconceptions
+  - professional development
+  - science
 title: '<cite>Good Thinking!</cite> A new approach to professional development for science educators'
 date: 2015-06-28 14:24
 updated: 2016-02-28 00:01

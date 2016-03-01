@@ -2,6 +2,11 @@
 layout: post
 category: photo
 title: 'Spring in Mount Pleasant'
+tags:
+  - botanical
+  - flowers
+  - photography
+  - trees
 date: 2014-04-13 21:11
 updated: 2016-02-28 00:01
 location: 'Mount Pleasant, DC'

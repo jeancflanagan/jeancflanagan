@@ -2,6 +2,10 @@
 layout: post
 category: photo
 title: 'Early Spring Snow'
+tags:
+  - photography
+  - snow
+  - trees
 date: 2014-03-17 19:52
 updated: 2016-02-28 00:01
 location: 'Lanier Heights, DC'

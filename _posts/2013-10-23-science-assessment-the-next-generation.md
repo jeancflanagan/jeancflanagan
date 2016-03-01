@@ -1,6 +1,11 @@
 ---
 layout: post
 category: writing
+tags:
+  - assessment
+  - education
+  - NGSS
+  - science
 title: 'Science assessment: the next generation'
 date: 2013-10-23 10:47
 updated: 2016-02-28 00:01

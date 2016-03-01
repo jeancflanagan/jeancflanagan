@@ -1,6 +1,10 @@
 ---
 layout: post
 category: photo
+tags:
+  - botanical
+  - flowers
+  - photography
 title: 'Garden, Williamsburg, VA'
 date: 2011-07-16 13:02
 updated: 2016-02-28 00:01

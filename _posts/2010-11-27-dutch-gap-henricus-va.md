@@ -1,6 +1,11 @@
 ---
 layout: post
 category: photo
+tags:
+  - botanical
+  - parks
+  - photography
+  - trees
 title: 'Dutch Gap, Henricus, VA'
 date: 2010-11-27 12:32
 updated: 2016-02-28 00:01

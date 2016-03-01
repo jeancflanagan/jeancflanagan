@@ -1,6 +1,10 @@
 ---
 layout: post
 category: photo
+tags:
+  - parks
+  - photography
+  - trees
 title: 'Boundary Bridge Trails'
 date: 2015-10-11 21:08
 updated: 2016-02-28 00:01
