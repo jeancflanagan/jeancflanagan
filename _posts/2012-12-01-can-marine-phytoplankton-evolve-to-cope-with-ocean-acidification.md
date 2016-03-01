@@ -1,6 +1,12 @@
 ---
 layout: post
 category: writing
+tags:
+  - climate change
+  - ecology
+  - evolution
+  - marine science
+  - science
 title: 'Can marine phytoplankton evolve to cope with ocean acidification?'
 date: 2012-12-01 10:01
 updated: 2016-02-28 00:01

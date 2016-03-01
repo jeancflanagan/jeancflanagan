@@ -1,6 +1,11 @@
 ---
 layout: post
 category: writing
+tags:
+  - education
+  - education research
+  - open access
+  - science
 title: 'Facing the research-practice divide in science education'
 date: 2013-01-14 10:00
 updated: 2016-02-28 00:01

@@ -1,6 +1,10 @@
 ---
 layout: post
 category: photo
+tags:
+  - botanical
+  - flowers
+  - photography
 title: 'Spring Flowers in Northwest DC'
 date: 2013-06-22 4:01
 updated: 2016-02-28 00:01

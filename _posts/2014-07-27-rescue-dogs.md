@@ -1,6 +1,10 @@
 ---
 layout: post
 category: photo
+tags:
+  - dogs
+  - 'dog rescue'
+  - photography
 title: 'Rescue Dogs'
 date: 2014-07-27 21:10
 updated: 2016-02-28 00:01

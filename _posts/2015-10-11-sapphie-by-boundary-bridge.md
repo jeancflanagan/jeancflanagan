@@ -1,6 +1,10 @@
 ---
 layout: post
 category: photo
+tags:
+  - dogs
+  - photography
+  - Sapphie
 title: 'Sapphie by Boundary Bridge'
 date: 2015-10-11 21:30
 updated: 2016-02-28 00:01

@@ -2,6 +2,10 @@
 layout: post
 category: photo
 title: 'Tulip Study'
+tags:
+  - botanical
+  - flowers
+  - photography
 date: 2015-03-08 19:36
 updated: 2016-02-28 00:01
 location: 'Washington DC'

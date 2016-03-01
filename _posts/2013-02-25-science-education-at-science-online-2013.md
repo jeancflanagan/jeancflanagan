@@ -1,6 +1,13 @@
 ---
 layout: post
 category: writing
+tags:
+  - conceptual change
+  - education
+  - journalism
+  - misconceptions
+  - science
+  - science communication
 title: 'Science education at Science Online 2013'
 date: 2013-02-25 10:01
 updated: 2016-02-28 00:01

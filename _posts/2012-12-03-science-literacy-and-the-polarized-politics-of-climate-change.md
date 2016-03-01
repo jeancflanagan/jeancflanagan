@@ -1,6 +1,12 @@
 ---
 layout: post
 category: writing
+tags:
+  - climate change
+  - education
+  - science
+  - science communication
+  - social science
 title: 'Science literacy and the polarized politics of climate change'
 date: 2012-12-03 10:01
 updated: 2016-02-28 00:01

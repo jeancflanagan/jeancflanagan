@@ -1,6 +1,10 @@
 ---
 layout: post
 category: photo
+tags:
+  - botanical
+  - flowers
+  - photography
 title: 'Tulip Study'
 date: 2011-03-20 12:46
 updated: 2016-02-28 00:01

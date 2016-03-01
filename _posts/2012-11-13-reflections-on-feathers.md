@@ -1,6 +1,12 @@
 ---
 layout: post
 category: writing
+tags:
+  - birds
+  - books
+  - evolution
+  - reading notes
+  - science
 title: 'Reflections on <cite>Feathers: the Evolution of a Natural Miracle</cite>'
 date: 2012-11-13 10:01
 updated: 2016-02-28 00:01

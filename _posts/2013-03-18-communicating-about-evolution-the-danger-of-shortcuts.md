@@ -1,6 +1,13 @@
 ---
 layout: post
 category: writing
+tags:
+  - conceptual change
+  - education
+  - evolution
+  - misconceptions
+  - science
+  - science communication
 title: 'Communicating about evolution: the danger of shortcuts'
 date: 2013-03-18 10:01
 updated: 2016-02-28 00:01

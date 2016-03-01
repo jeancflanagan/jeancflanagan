@@ -1,6 +1,10 @@
 ---
 layout: post
 category: writing
+tags:
+  - education
+  - informal education
+  - science
 title: 'Hobbies: idle pastimes or keys to science engagement and education?'
 date: 2013-04-22 10:01
 updated: 2016-02-28 00:01

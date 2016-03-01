@@ -1,6 +1,12 @@
 ---
 layout: post
 category: writing
+tags:
+  - data
+  - education
+  - NGSS
+  - open access
+  - science
 title: 'Open data for science education'
 date: 2013-07-08 10:01
 updated: 2016-02-28 00:01

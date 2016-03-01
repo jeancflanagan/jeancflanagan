@@ -2,6 +2,10 @@
 layout: post
 category: photo
 title: 'US Botanic Garden Workshop'
+tags:
+  - botanical
+  - flowers
+  - photography
 date: 2015-05-25 18:09
 updated: 2016-02-28 00:01
 location: ''
