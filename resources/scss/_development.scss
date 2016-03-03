@@ -1,9 +1,7 @@
-.post {
+.photoset {
   background-color: #404345;
   color: #fafafa;
-}
 
-.photoset {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -22,4 +20,20 @@
 
 p {
   padding: 1em;
+}
+
+div.book-info {
+  background-color: $red-orange;
+  color: $white;
+}
+
+
+
+div {
+  padding: 1em;
+}
+
+.content {
+  padding: 1.5em 7em 7em;
+  font-size: 1.05em;
 }

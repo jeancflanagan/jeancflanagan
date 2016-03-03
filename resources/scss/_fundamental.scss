@@ -27,6 +27,17 @@ h2, h3, h4 {
 
 p {
   font-family: $font-body;
+  font-size: 1em;
+}
+
+a {
+  border-bottom: solid 1px $light-red-orange;
+}
+
+blockquote {
+  border-left: solid .25em $red-orange;
+  margin: .5em 0;
+  padding: 0 .5em;
 }
 
 ul,

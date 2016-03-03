@@ -8,10 +8,14 @@ body {
 }
 
 a {
-  color: $light-ivy;
+  color: $red-orange;
 }
 
 a:hover,
 a:focus {
-  color: $ivy;
+  color: $dark-red-orange;
+}
+
+blockquote {
+  color: $darkgray;
 }
