@@ -3,17 +3,17 @@ html {
 }
 
 body {
-  background-color: $white;
+  background-color: $lightgray;
   color: $black;
 }
 
 a {
-  color: $red-orange;
+  color: $main;
 }
 
 a:hover,
 a:focus {
-  color: $dark-red-orange;
+  color: $main-light;
 }
 
 blockquote {

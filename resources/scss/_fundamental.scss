@@ -30,15 +30,10 @@ p {
   font-size: 1em;
 }
 
-a {
-  border-bottom: solid 1px $light-red-orange;
+.content a {
+  border-bottom: solid 1px $main-light;
 }
 
-blockquote {
-  border-left: solid .25em $red-orange;
-  margin: .5em 0;
-  padding: 0 .5em;
-}
 
 ul,
 ol {

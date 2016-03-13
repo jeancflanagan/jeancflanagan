@@ -25,7 +25,9 @@ image:
     alt: 'Gummerson, a character form the Good Thinking series, taking the shape of the words mental model'  
 
 ---
-Findings from science education research rarely make their way into classroom practice. As I’ve [discussed before](http://blogs.plos.org/scied/2013/01/14/facing-the-research-practice-divide-in-science-education/) on the *PLOS Sci-Ed* blog, there are a lot of entrenched barriers that continue to separate these efforts. For one, most science education research is still primarily published in journal articles that are often difficult to access — and always dense, lengthy reads. Additionally, teacher professional development (PD) workshops, often developed in conjunction with researchers and intended to bridge this gap, are costly and time-intensive to implement. While these programs are often important and meaningful experiences, logistics still limit their reach.
+<p class="featured">Findings from science education research rarely make their way into classroom practice.</p>
+
+As I’ve [discussed before](http://blogs.plos.org/scied/2013/01/14/facing-the-research-practice-divide-in-science-education/) on the *PLOS Sci-Ed* blog, there are a lot of entrenched barriers that continue to separate these efforts. For one, most science education research is still primarily published in journal articles that are often difficult to access — and always dense, lengthy reads. Additionally, teacher professional development (PD) workshops, often developed in conjunction with researchers and intended to bridge this gap, are costly and time-intensive to implement. While these programs are often important and meaningful experiences, logistics still limit their reach.
 
 Ever since I first got involved with science education research, I have been increasingly disturbed by this disconnect. That’s why I was incredibly excited when our Associate Director of Curriculum and Communications here at SSEC, Marjee Chmiel, approached me with the preliminary plans for the [_Good Thinking!_](http://www.ssec.si.edu/goodthinking) project.
 
@@ -59,6 +61,8 @@ figure_img right 2 %}
 
 As far as we know, _Good Thinking!_ is the first substantial effort to translate science education research findings from journal articles into an animated format. Our team, and the teachers we’ve worked with so far, are very excited about the result, but we also recognize that this series is an experiment. We look forward to receiving feedback and hope to have the opportunity to refine our process and develop more episodes – the list of important topics and useful findings is always growing!
 
+{% include container/references.html %}
+
 ### References
 
 AAAS Project 2061 Science Assessment. (2011). [http://assessment.aaas.org/](http://assessment.aaas.org/)
@@ -72,5 +76,6 @@ Muller, D. A., Bewes, J., Sharma, M. D., & Reimann, P. (2007). Saying the wrong 
 Schneps, M., & Sadler, P. M. (1989). A private universe [Video]. Santa Monica, CA: Pyramid Film and Video.
 
 Sadler, P. M., Sonnert, G., Coyle, H. P., Cook-Smith, N., & Miller, J. L. (2013). The influence of teachers’ knowledge on student learning in middle school physical science classrooms. _American Educational Research Journal_, 50(5), 1020-1049.
+
 
 [Subscribe to SSEC's YouTube channel](https://www.youtube.com/channel/UC6dyNTnSopdgye2gQBVSNVg) to stay up-to-date!

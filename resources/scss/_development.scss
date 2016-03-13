@@ -1,7 +1,4 @@
 .photoset {
-  background-color: #404345;
-  color: #fafafa;
-
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -23,11 +20,16 @@ p {
 }
 
 div.book-info {
-  background-color: $red-orange;
-  color: $white;
+  background-color: $accent;
+  color: $darkgray;
+  font-family: $font-heading;
 }
 
-
+p.featured {
+  font-size: 1.25em;
+  font-style: italic;
+  color: $accent;
+}
 
 div {
   padding: 1em;
@@ -36,4 +38,27 @@ div {
 .content {
   padding: 1.5em 7em 7em;
   font-size: 1.05em;
+}
+
+blockquote {
+  border-left: solid .25em $accent;
+  font-family: $font-heading;
+  font-style: italic;
+  margin: .5em 0;
+  padding: 0 .5em;
+}
+
+.references {
+  background-color: $accent;
+  color: $white;
+}
+
+.end {
+  background-color: $main;
+  color: $white;
+}
+
+.end a {
+  color: $white;
+  border-bottom: solid 1px $white;
 }
