@@ -1,8 +1,9 @@
 ---
-layout: writing
+layout: post
 category: writing
 title: 'Recipe: Fluffy Waffles'
 date: 2016-02-21 13:38
+updated: 2016-02-21 13:38
 description: 'The key is separating the eggs and beating the whites until they form stiff peaks, then folding into the batter.'
 source: 'Adapted from “the best ever waffles”'
 sourceurl: http://www.food.com/recipe/the-best-ever-waffles-31750  

@@ -26,7 +26,6 @@ h2, h3, h4 {
 }
 
 p {
-  font-family: $font-body;
   font-size: 1em;
 }
 
@@ -93,14 +92,10 @@ li {
   margin-top: .5em;
 }
 
-blockquote {
-  margin: 2em 0 2em -1em;
-  padding-left: 1em;
-}
+
 
 blockquote footer {
   font-size: .8em;
-  margin-top: 1em;
   text-align: right;
 }
 

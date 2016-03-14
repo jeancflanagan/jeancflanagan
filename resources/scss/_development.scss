@@ -41,11 +41,9 @@ div {
 }
 
 blockquote {
-  border-left: solid .25em $accent;
-  font-family: $font-heading;
+  border-left: solid .75em $accent;
   font-style: italic;
-  margin: .5em 0;
-  padding: 0 .5em;
+  margin: 0;
 }
 
 .references {
@@ -54,8 +52,10 @@ blockquote {
 }
 
 .end {
-  background-color: $main;
+  background-color: $darkgray;
   color: $white;
+  margin: 0 0 0 0;
+  padding: 2em;
 }
 
 .end a {
