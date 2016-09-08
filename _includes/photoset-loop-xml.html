@@ -1,6 +1,0 @@
-{% for image in post.image %}
-  &lt;figure&gt;
-    &lt;img src=&quot;{{ post.image[forloop.index0].url | imgix_url: w: 1024, q: 55 | xml_escape }}&quot; alt=&quot;{{ post.image[forloop.index0].alt | xml_escape }}&quot; /&gt;
-    &lt;figcaption&gt;{{ post.image[forloop.index0].caption | markdownify | xml_escape }}&lt;/figcaption&gt;
-  &lt;/figure&gt;
-{% endfor %}

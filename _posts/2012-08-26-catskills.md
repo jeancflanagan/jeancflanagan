@@ -1,5 +1,4 @@
 ---
-layout: photoset
 category: photo
 title: 'Catskill Mountains, NY'
 date: 2012-08-26 16:01
@@ -24,4 +23,3 @@ image:
     alt: 'Wood frog'
 
 ---
-

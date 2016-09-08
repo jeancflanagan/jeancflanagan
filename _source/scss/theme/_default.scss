@@ -1,0 +1,36 @@
+$back: $white;
+$fore: $black;
+$accent: $blue;
+$link: $blue;
+$link--hover: $red;
+
+html {
+  color: $fore;
+}
+
+body {
+  background-color: $back;
+  color: $fore;
+}
+
+a {
+  color: $link;
+}
+
+a:hover,
+a:focus {
+  color: $link--hover;
+}
+
+.details-title {
+  background-color: $black;
+  color: $white;
+
+  path {
+    fill: $white;
+  }
+}
+
+.details-expanded {
+  background-color: $back;
+}

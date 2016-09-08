@@ -1,5 +1,4 @@
 ---
-layout: photoset
 category: photo
 title: 'Sapphie in the Blizzard'
 date: 2016-02-15 20:58

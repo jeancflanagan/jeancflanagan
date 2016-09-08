@@ -1,5 +1,4 @@
 ---
-layout: photoset
 category: photo
 title: 'Snow on the National Mall'
 date: 2011-01-12 12:07

@@ -1,5 +1,4 @@
 ---
-layout: writing
 category: writing
 title: 'Science assessment: the next generation'
 date: 2013-10-23 10:47
@@ -17,7 +16,7 @@ As states adopt the [Next Generation Science Standards](http://www.nextgenscienc
 
 The NGSS fuse **disciplinary core ideas** (facts and concepts within a discipline), **practices** (skills like argumentation and using models), and **crosscutting concepts** (ideas that apply across all scientific disciplines) into intertwined **performance expectations** (PEs). These PEs can be described as statements of “blended knowledge”. Past assessments have typically only targeted subject-specific facts and concepts. How can we develop assessment tasks that accurately and usefully measure blended knowledge?
 
-{% figure_img right 0 caption %}
+<!-- {/% figure_img right 0 caption %} -->
 
 [Professor Nancy Songer](http://sitemaker.umich.edu/songer/home) of the University of Michigan’s school of education has been on the cutting edge of research and development work in assessing blended knowledge. She serves on the National Academy of Sciences [Board on Testing and Assessment](http://sites.nationalacademies.org/DBASSE/BOTA/index.htm), has served on advisory panels for the College Board’s [AP Biology redesign](http://www.nytimes.com/2011/01/09/education/edlife/09ap-t.html?pagewanted=all&_r=1&), and has been conducting her own research on assessing blended learning. I recently talked with Professor Songer about some of the questions facing those preparing to implement the NGSS and develop well-aligned curriculum materials and assessments. A condensed, paraphrased summary of our conversation is below.
 

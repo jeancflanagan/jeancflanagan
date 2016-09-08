@@ -1,5 +1,4 @@
 ---
-layout: photoset
 category: photo
 title: 'Early Spring Snow'
 date: 2014-03-17 19:52

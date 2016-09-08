@@ -1,0 +1,93 @@
+html {
+  font: 400 16px/1.4 $font-body;
+  font: 400 1rem/1.4 $font-body;
+     -moz-font-feature-settings: 'liga', 'dlig';
+      -ms-font-feature-settings: 'liga', 'dlig';
+       -o-font-feature-settings: 'liga', 'dlig';
+  -webkit-font-feature-settings: 'liga', 'dlig';
+          font-feature-settings: 'liga', 'dlig';
+  font-variant-ligatures: common-ligatures;
+  text-rendering: optimizeLegibility;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+  padding: 0;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ul ul,
+ol ol {
+  margin: .5em 1em;
+}
+
+article ol {
+  counter-reset: ordered-list;
+  list-style-type: none;
+}
+
+article ol ol {
+  counter-reset: ordered-list-sub;
+}
+
+article ol ol ol {
+  counter-reset: ordered-list-sub-sub;
+}
+
+article ol li {
+  counter-increment: ordered-list;
+}
+
+article ol ol li {
+  counter-increment: ordered-list-sub;
+}
+
+article ol ol ol li {
+  counter-increment: ordered-list-sub-sub;
+}
+
+article ol li::before {
+  content: counter(ordered-list) ':';
+  font-weight: bolder;
+  margin-right: .25em;
+}
+
+article ol ol li::before {
+  content: counter(ordered-list) '.' counter(ordered-list-sub) ':';
+}
+
+article ol ol ol li::before {
+  content: counter(ordered-list) '.' counter(ordered-list-sub) '.' counter(ordered-list-sub-sub) ':';
+}
+
+li {
+  margin-top: .5em;
+}
+
+blockquote {
+  margin: 2em 0 2em -1em;
+  padding-left: 1em;
+}
+
+blockquote footer {
+  font-size: .8em;
+  margin-top: 1em;
+  text-align: right;
+}
+
+hr {
+  border: 0;
+  height: .2em;
+  margin: 2em 0;
+}
+
+code,
+samp,
+pre {
+  font: 400 .8em/1.5 $font-mono;
+  white-space: pre-wrap;
+}

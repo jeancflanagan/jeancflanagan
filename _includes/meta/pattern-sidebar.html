@@ -1,0 +1,28 @@
+<section class="pattern-sidebar">
+  <ul class="pattern-nav">
+  {% assign items = site.patterns-categories | sort: 'priority', 'last' %}
+  {% for item in items %}
+    <li class="pattern-nav-li">
+    {% include meta/pattern-nav-link.html %}
+    {% assign category = item.slug %}
+    {% assign patterns = site.patterns | where: 'category', category | sort: 'priority', 'last' %}
+      <ul class="pattern-nav--sub {% if item.slug == page.slug %} pattern-nav--sub--active{% endif %}">
+      {% for pattern in patterns %}
+        <li class="pattern-nav-li--sub">
+          {% include meta/pattern-nav-link--sub.html %}
+        </li>
+      {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+
+<ul class="pattern-about">
+  <li class="pattern-about-item">
+    <a class="pattern-about-link" href="/about/">About this site</a>
+  </li>
+  <li class="pattern-about-item">
+    <a class="pattern-about-link" href="/">Back to home</a>
+  </li>
+</ul>

@@ -1,5 +1,4 @@
 ---
-layout: photoset
 category: photo
 title: 'Tulip Study'
 date: 2011-03-20 12:46
@@ -21,4 +20,3 @@ image:
     alt: 'Sunlit tulips'
 
 ---
-

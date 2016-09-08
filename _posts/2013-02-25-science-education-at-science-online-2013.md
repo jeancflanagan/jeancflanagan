@@ -1,23 +1,22 @@
 ---
-layout: writing
 category: writing
 title: 'Science education at Science Online 2013'
 date: 2013-02-25 10:01
 description: 'Highlights from the sessions focussed on science education at the 2013 Science Online conference in Raleigh, NC.'
 source: <cite>PLOS Sci-Ed</cite>
 sourceurl: http://blogs.plos.org/scied/2013/02/25/science-education-at-science-online-2013/
-image: 
+image:
   - url: 2013-02-25-science-online-jean-flanagan.jpg
     caption: 'Science Online 2013 name badge. (PLOS sponsored the lanyards for everyone.) Photo by Jean Flanagan.'
     alt: 'Science Online 2013 name badge.'
-  
+
 ---
 
 This was my first [Science Online](http://scienceonline.com/scienceonline2013/) conference, and it was a refreshingly collaborative experience. Research scientists, high school teachers, museum educators, education researchers, science writers, psychologists, and social scientists all came together with no pretensions for a shared purpose: to share ideas on how to better educate and communicate with the public about science.
 
 The design of the name badges nicely captured the feel of the “unconference” format. The badges emphasized first names and were intentionally devoid of institutional affiliations, creating an open, egalitarian atmosphere. The style of this conference is an example of one way to combat the problems of elitism and distrust that I outlined in my earlier [post on the research-practice divide](http://jeancflanagan.com/2013/facing-the-research-practice-divide/) in science education.
 
-{% figure_img right 0 caption %}
+<!-- {/% figure_img right 0 caption %} -->
 
 There were a few sessions directly focused on science education, and I’ve attempted to capture a few of the highlights from those here. However, many sessions that were more focused on science communication and journalism had implications for education as well, and may serve as inspiration for future posts.
 

@@ -1,5 +1,4 @@
 ---
-layout: photoset
 category: photo
 title: 'Fall Leaves, Washington, DC'
 date: 2012-11-04 16:14
@@ -24,4 +23,3 @@ image:
     alt: 'Orange leaves, blue sky, Mount Pleasant'
 
 ---
-

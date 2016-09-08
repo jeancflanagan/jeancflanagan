@@ -1,5 +1,4 @@
 ---
-layout: photoset
 category: photo
 title: 'Tulip Study'
 date: 2015-03-08 19:36
@@ -18,10 +17,9 @@ image:
   - url: /photos/2015-03-08-pink-tulips.jpg
     caption: 'Pink.'
     alt: 'Close up of pink tulips in a vase'
-    coordinates: '' 
+    coordinates: ''
   - url: /photos/2015-03-08-yellow-tulip.jpg
     caption: 'Yellow.'
     alt: 'Yellow tulip among pink tulips in a vase'
     coordinates: ''   
 ---
-

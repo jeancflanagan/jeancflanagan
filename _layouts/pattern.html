@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+
+<body class="pattern">
+
+  <div class="pattern-container">
+
+    {% include meta/pattern-sidebar.html %}
+
+    <section class="pattern-main" role="main">
+
+        {{ content }}
+
+        {% unless page.category == 'color' or page.category == 'shade' %}
+
+          {% assign category = page.category %}
+          {% assign patterns = site.patterns | where: 'category', category | sort: 'priority', 'last' %}
+
+          {% for pattern in patterns %}
+            {% include meta/pattern--element.html %}
+          {% endfor %}
+
+        {% else %}
+
+          {% assign swatches = site.data.[page.category] %}
+          {% include meta/grid--swatches.html %}
+
+        {% endunless %}
+
+    </section>
+
+  </div>
+
+</body>
+</html>

@@ -1,5 +1,4 @@
 ---
-layout: photoset
 category: photo
 title: 'Garden, Williamsburg, VA'
 date: 2011-07-16 13:02
@@ -15,4 +14,3 @@ image:
     alt: 'Backlit purple hibiscus'
 
 ---
-

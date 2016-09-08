@@ -1,5 +1,4 @@
 ---
-layout: photoset
 category: photo
 title: 'Spring in Mount Pleasant'
 date: 2014-04-13 21:11

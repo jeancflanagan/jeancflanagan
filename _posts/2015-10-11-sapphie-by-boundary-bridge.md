@@ -1,5 +1,4 @@
 ---
-layout: photoset
 category: photo
 title: 'Sapphie by Boundary Bridge'
 date: 2015-10-11 21:30

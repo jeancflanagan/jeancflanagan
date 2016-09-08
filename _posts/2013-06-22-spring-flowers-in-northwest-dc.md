@@ -1,5 +1,4 @@
 ---
-layout: photoset
 category: photo
 title: 'Spring Flowers in Northwest DC'
 date: 2013-06-22 4:01
@@ -19,6 +18,5 @@ image:
   - url: /photos/2013-06-22-lanier-heights-blue-flowers.jpg
     caption: 'Another eye-level garden in Lanier Heights.'
     alt: 'Blue flowers in Lanier Heights'
-  
----
 
+---

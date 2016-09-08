@@ -4,7 +4,7 @@ Jean is a science education specialist and writer. [The site](http://jeancflanag
 
 This is a collaborative project created by Oliver Pattison and Jean Flanagan. Design, concept and structure are primarily by Oliver, while content is all Jean's. The site is built using (hopefully) modern, standards-compliant HTML and CSS, as a static Jekyll site.
 
-The *content* of this site (in _posts directory) is licensed under CC BY-NC [(Creative Commons Attribution 4.0 Unported License)](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US). There is an exception for articles (or snippets linking to articles) that were originally published elsewhere are subject to the copyright specified by those media. All content is authored by Jean Flanagan.
+The *content* of this site (in `_posts` directory) is licensed under CC BY-NC [(Creative Commons Attribution 4.0 Unported License)](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US). There is an exception for articles (or snippets linking to articles) that were originally published elsewhere are subject to the copyright specified by those media. All content is authored by Jean Flanagan.
 
 ### Goals
 

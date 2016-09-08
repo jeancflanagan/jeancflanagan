@@ -1,0 +1,47 @@
+.details {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  list-style: none;
+  margin-top: 1em;
+  width: 100%;
+}
+
+.details-item {
+  margin: 0;
+  width: 100%;
+
+  @media (min-width: 60em) {
+    flex: 0 0 50%;
+  }
+}
+
+.details-title {
+  cursor: pointer;
+  display: flex;
+  font-weight: $weight-regular;
+  padding: 2em 1em;
+  position: relative;
+  text-align: left;
+  touch-action: manipulation;
+  transition: all 160ms;
+  width: 100%;
+
+  .icon {
+    float: left;
+    height: 1em;
+    margin: auto .25em auto 0;
+    width: 1.5em;
+  }
+
+  .arrow {
+    position: absolute;
+    right: 2em;
+    top: 2.25em;
+  }
+}
+
+.details-expanded {
+  margin: 0;
+  padding: 1em;
+}

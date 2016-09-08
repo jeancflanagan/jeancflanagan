@@ -1,13 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 3.1'
-gem 'jekyll-archives'
-
-gem 'octopress-autoprefixer'
-gem 'jekyll-imgix'
+gem 'jekyll', '~> 3.2'
 
 gem 's3_website'
-gem 'rake'
-gem 'stringex'
-
-gem 'envyable'
+gem 'html-proofer'
+gem 'jekyll-imgix'

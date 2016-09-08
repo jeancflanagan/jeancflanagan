@@ -1,5 +1,4 @@
 ---
-layout: photoset
 category: photo
 title: 'Sunset Pines'
 date: 2015-02-21 18:03

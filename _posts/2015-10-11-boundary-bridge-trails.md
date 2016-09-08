@@ -1,5 +1,4 @@
 ---
-layout: photoset
 category: photo
 title: 'Boundary Bridge Trails'
 date: 2015-10-11 21:08

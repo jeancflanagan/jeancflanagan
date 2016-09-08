@@ -1,5 +1,4 @@
 ---
-layout: photoset
 category: photo
 title: 'Summer Flora'
 date: 2014-06-28 22:19
@@ -18,11 +17,11 @@ image:
   - url: /photos/2014-06-15-leaf-teeth.jpg
     caption: 'Leaf teeth'
     alt: 'Leaf edge close up'
-    coordinates: '' 
+    coordinates: ''
   - url: /photos/2014-06-28-crepe-myrtle-single-cluster.jpg
     caption: 'Single cluster of crepe myrtle (*Lagerstroemia indica*) blossoms'
     alt: 'Single white blossom cluster of a crepe myrtle tree'
-    coordinates: '' 
+    coordinates: ''
   - url: /photos/2014-06-28-crepe-myrtle-sunlight.jpg
     caption: 'Crepe myrtle (*Lagerstroemia indica*) branches in sunlight'
     alt: 'Blooming crepe myrtle branches in sunlight'

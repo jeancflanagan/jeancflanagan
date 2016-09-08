@@ -1,5 +1,4 @@
 ---
-layout: writing
 category: writing
 title: 'Reflections on <cite>Feathers: the Evolution of a Natural Miracle</cite>'
 date: 2012-11-13 10:01
@@ -8,12 +7,12 @@ source: here
 image:
   - url: 2012-11-13-thor-hanson-feathers-book-cover.jpg
     alt: 'Thor Hanson Feathers book cover'
-  
+
 ---
 
 As a lifelong casual bird watcher, the title <cite>Feathers</cite> drew me in right away. I grew up in and around an Audubon-designated bird sanctuary, and as I flipped through the book I started to think about how feathers might account for how birds had captured my attention. The brilliant colors, the beauty of flight, and the fascinating behaviors of birds are all best considered through the lens of feathers. In <cite>Feathers</cite>, Thor Hanson takes a seemingly narrow topic and surprises readers with all the directions it can lead. While the focus is the evolutionary biology of feathers, the book touches on fashion, aircraft, the down industry, pens, and the aviaries of the Aztecs.
 
-{% figure_img right narrow 0 %}
+<!-- {/% figure_img right narrow 0 %} -->
 
 [Thor Hanson](http://thorhanson.net/About.html) is a field biologist, a self-descriptor he uses often in the book. While not all readers will immediately appreciate the distinction between "biologist" and "field biologist," I think the subtle difference becomes apparent in his writing. He clearly has many of the hallmarks of the naturalists of an earlier era; he spends an ample amount of time outdoors in direct observation of animals, takes copious field notes, and has an inclination for hands-on exploration of anatomy and physiology. Reading about the University of Vermont’s [field naturalist program](http://www.uvm.edu/~fntrlst/), where he got his master’s, gives you a sense where he’s coming from. Though some of his projects in the “racoon shack”—his outdoor shed/office—might remind you of the pursuits of nature-obsessed ten-year-olds, I think they are illustrative of a different—more approachable—kind of scientist than most readers will be familiar with.
 
