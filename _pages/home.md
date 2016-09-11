@@ -24,13 +24,19 @@ details:
 
 ---
 
-# Jean Flanagan
+<section class="who">
+  <div class="who-heading">
+    <h1 class="who-title">{{ site.author.name }}</h1>
+    <h2 class="who-subtitle">{{ site.author.tagline }}</h2>
+  </div>
+  <div class="who-frame">
+    <img src="/images/site/2012-09-16-jean-flanagan-portrait.jpg">
+  </div>
+</section>
 
-Science education specialist, writer, editor
+{% include block/organization.html %}
 
-[photo of Jean]
-
-## Where I’ve been
+<!--
 
 [Icon - Smithsonian Science Education Center] *Science Education Research Specialist* – 2013-present
 
@@ -38,7 +44,7 @@ Science education specialist, writer, editor
 
 [Icon - AAAS Project 2061] *Research Associate* – 2009-2013
 
-### Projects I’ve Contributed To
+<h2 class="section-title">Projects I’ve Contributed To</h2>
 
 AAAS Assessment
 Toward High School Biology
@@ -46,14 +52,16 @@ PLOS Sci Ed
 Good Thinking!
 STC Curriculum
 
-## What I do
+-->
+
+<h2 class="section-title">What I Do</h2>
 
 {% include block/details.html %}
 
-## Learn more
+<h2 class="section-title">Learn More</h2>
 
-[Button - selected photography]
+<a class="action" href="#">Selected photography</a>
 
-[Button - selected articles]
+<a class="action" href="#">Selected articles</a>
 
-[Button - Email me]
+<a class="action" href="mailto:{{ site.author.email }}">Email me</a>

@@ -1,6 +1,9 @@
 html {
-  font: 400 16px/1.4 $font-body;
-  font: 400 1rem/1.4 $font-body;
+  font-family: $font-body;
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: $weight-regular;
+  line-height: 1.4;
      -moz-font-feature-settings: 'liga', 'dlig';
       -ms-font-feature-settings: 'liga', 'dlig';
        -o-font-feature-settings: 'liga', 'dlig';
@@ -8,6 +11,40 @@ html {
           font-feature-settings: 'liga', 'dlig';
   font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility;
+}
+
+* + p {
+  margin-top: 1em;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: $weight-thin;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: $weight-medium;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-weight: $weight-bold;
+}
+
+h4 {
+  font-size: 1.125em;
+  font-weight: $weight-bold;
+}
+
+h5 {
+  font-size: 1em;
+  font-weight: $weight-bold;
+}
+
+strong,
+b {
+  font-weight: $weight-medium;
 }
 
 ul,
@@ -90,4 +127,9 @@ samp,
 pre {
   font: 400 .8em/1.5 $font-mono;
   white-space: pre-wrap;
+}
+
+blockquote {
+  border-left: .5em solid $lightgray;
+  padding-left: 1em;
 }

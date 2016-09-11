@@ -1,0 +1,24 @@
+.organization-item {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 1em;
+
+  @include min-width(medium) {
+    flex-flow: row nowrap;
+  }
+}
+
+.organization-frame {
+
+  @include min-width(medium) {
+    width: 25%;
+  }
+}
+
+.organization-description {
+  margin-left: 1em;
+
+  @include min-width(medium) {
+    width: 75%;
+  }
+}

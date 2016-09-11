@@ -1,0 +1,12 @@
+.action {
+  display: block;
+  font-weight: $weight-regular;
+  margin: 2em auto 0;
+  padding: 1em 0;
+  text-align: center;
+
+  @include min-width(medium) {
+    margin-left: 0;
+    width: 50%;
+  }
+}

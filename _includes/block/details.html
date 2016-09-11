@@ -1,9 +1,11 @@
-<ul class="details">
-  {% for detail in page.details %}
-    <li class="details-item">
-      <button class="details-title">{{ detail.title }}{% include icon/arrow-down.svg %}</button>
+<section class="block--wide">
+  <ul class="details">
+    {% for detail in page.details %}
+      <li class="details-item">
+        <button class="details-title">{{ detail.title }}{% include icon/arrow-down.svg %}</button>
 
-      <p class="details-expanded">{{ detail.expanded | markdownify | p_escape }}</p>
-    </li>
-  {% endfor %}
-</ul>
+        <p class="details-expanded">{{ detail.expanded | markdownify | p_escape }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+</section>

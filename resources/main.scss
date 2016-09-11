@@ -8,7 +8,11 @@
         'utilities';
 
 @import 'container/home',
-        'block/item',
+        'container/block',
+        'block/action',
+        'block/section-title',
+        'block/who',
+        'block/organization',
         'block/details';
 
 @import 'container/core',

@@ -22,15 +22,40 @@ a:focus {
   color: $link--hover;
 }
 
-.details-title {
-  background-color: $black;
+.action {
+  background-color: $link;
   color: $white;
 
   path {
     fill: $white;
   }
+
+  &:hover,
+  &:focus {
+    background-color: $link--hover;
+    color: $white;
+
+    path {
+      fill: $white;
+    }
+  }
+}
+
+.details {
+  outline: 1px solid $lightgray;
+}
+
+.details-title {
+  background-color: $white;
+  outline: 1px solid $accent;
+  color: $accent;
+
+  path {
+    fill: $accent;
+  }
 }
 
 .details-expanded {
   background-color: $back;
+  outline: 1px solid $lightgray;
 }

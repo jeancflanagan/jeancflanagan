@@ -1,0 +1,28 @@
+.who {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 1em;
+
+  @include min-width(medium) {
+    flex-flow: row nowrap;
+  }
+}
+
+.who-heading {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 75%;
+}
+
+.who-title {
+  font-size: 3em;
+  font-weight: $weight-thin;
+}
+
+.who-subtitle {
+  font-weight: $weight-medium;
+}
+
+.who-frame {
+  width: 25%;
+}

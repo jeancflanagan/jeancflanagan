@@ -22,3 +22,16 @@ $white: c(shade, 95%);
 $blue: c(blue);
 $lightblue: c(blue, 75%);
 $red: c(red);
+
+$widths: (
+  small: 24em,
+  medium: 32em,
+  large: 48em
+);
+
+$container-widths: (
+  small: 22em,
+  medium: 30em,
+  large: 42.5em,
+  max: 60em
+)

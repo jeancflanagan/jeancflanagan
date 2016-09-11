@@ -1,0 +1,7 @@
+.block {
+  @include containder-width(large);
+}
+
+.block--wide {
+  @include containder-width(max);
+}

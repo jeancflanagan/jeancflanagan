@@ -1,1 +1,32 @@
+// Media queries defined in helper/_variables.scss $widths map
+@mixin min-width($width) {
+  $value: map-get($widths, $width);
 
+  @if $value != null {
+    @media (min-width: $value) {
+      @content;
+    }
+  }
+
+  @else {
+    @warn "No value could be retrieved from #{$width}. "
+        + "Define the value in the $widths map in _variables.scss.";
+  }
+}
+
+// Container width limits defined in helper/_variables.scss $container-widths map
+@mixin containder-width($width) {
+  $value: map-get($container-widths, $width);
+
+  @if $value != null {
+    flex: 0 0 $value;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: $value;
+  }
+
+  @else {
+    @warn "No value could be retrieved from #{$width}. "
+        + "Define the value in the $container-widths map in _variables.scss.";
+  }
+}
