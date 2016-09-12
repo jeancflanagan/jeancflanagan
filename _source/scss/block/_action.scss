@@ -1,12 +1,25 @@
 .action {
-  display: block;
-  font-weight: $weight-regular;
-  margin: 2em auto 0;
-  padding: 1em 0;
-  text-align: center;
+  @include action;
 
   @include min-width(medium) {
     margin-left: 0;
     width: 50%;
+  }
+}
+
+.action--end {
+  @include action(0, 1em);
+
+  @include min-width(medium) {
+    margin-left: 50%;
+    width: 50%;
+  }
+
+  text-align: right;
+
+  svg {
+    height: .75em;
+    margin: auto 0;
+    width: 1.75em;
   }
 }

@@ -41,6 +41,55 @@ a:focus {
   }
 }
 
+.action--end {
+  background-color: $white;
+  color: $black;
+
+  &:hover,
+  &:focus {
+    background-color: $link--hover;
+    color: $white;
+
+    path {
+      fill: $white;
+    }
+  }
+}
+
+.elsewhere-action {
+  background: $white;
+  color: $black;
+
+  path {
+    fill: $black;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $black;
+    color: $white;
+
+    path {
+      fill: $white;
+    }
+  }
+}
+
+.elsewhere-action--email {
+  background: $red;
+  color: $white;
+
+  &:hover,
+  &:focus {
+    background-color: $lightgray;
+    color: $black;
+
+    path {
+      fill: $black;
+    }
+  }
+}
+
 .details {
 
 }
@@ -66,4 +115,9 @@ a:focus {
 
 .organization-period {
   color: $lightgray;
+}
+
+.end {
+  background-color: $darkgray;
+  color: $white;
 }

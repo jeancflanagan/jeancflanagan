@@ -30,3 +30,11 @@
         + "Define the value in the $container-widths map in _variables.scss.";
   }
 }
+
+@mixin action($margin: 2em auto 0, $padding: 1em 0) {
+  display: block;
+  font-weight: $weight-regular;
+  margin: $margin;
+  padding: $padding;
+  text-align: center;
+}

@@ -1,13 +1,16 @@
 <footer class="end">
-  <div class="block--wide">
+  <div class="block">
 
-    <a class="action" href="#">Selected photography</a>
+    <div class="block">
+      <a class="action--end" href="#">Selected articles{% include icon/arrow-right.svg %}</a>
+      <a class="action--end" href="#">Selected photography{% include icon/arrow-right.svg %}</a>
+    </div>
 
-    <a class="action" href="#">Selected articles</a>
 
-    <a class="action" href="mailto:{{ site.author.email }}">Email me</a>
-    
-    <a class="action" href="#">Twitter</a>
-    <a class="action" href="#">LinkedIn</a>
+    <div class="elsewhere">
+      <a class="elsewhere-action" href="#">Twitter{% include icon/twitter.svg %}</a>
+      <a class="elsewhere-action" href="#">LinkedIn{% include icon/linkedin.svg %}</a>
+      <a class="elsewhere-action--email" href="mailto:{{ site.author.email }}">Email me</a>
+    </div>
   </div>
 </footer>
