@@ -5,9 +5,19 @@ permalink: /
 organizations:
   - name: Smithsonian Science Education Center
     logo: logo-ssec.svg
-    period: 2013-present
-    role: Science Education Research Specialist
+    period: 2013–present
+    role: 'Science Education Research Specialist'
     summary: 'I’ve worked on Good Thinking!, STC, blog, etc.'
+  - name: Public Library of Science Blog Network
+    logo: logo-plos.svg
+    period: 2012–2013
+    role: 'Managing Editor, Writer: Sci-Ed'
+    summary: ''
+  - name: AAAS
+    logo: logo-aaas.svg
+    period: 2009–2013
+    role: 'Research Associate'
+    summary: ''
 details:
   - title: Education Standards & Assessment
     expanded: |+
@@ -36,12 +46,6 @@ details:
 
 <!--
 
-[Icon - Smithsonian Science Education Center] *Science Education Research Specialist* – 2013-present
-
-[Icon - Public Library of Science Blog Network] *Managing Editor, Writer: Sci-Ed* – 2012-2013
-
-[Icon - AAAS Project 2061] *Research Associate* – 2009-2013
-
 <h2 class="section-title">Projects I’ve Contributed To</h2>
 
 AAAS Assessment
@@ -53,13 +57,3 @@ STC Curriculum
 -->
 
 {% include block/details.html %}
-
-<section class="block more">
-  <h2 class="section-title">Learn More</h2>
-
-  <a class="action" href="#">Selected photography</a>
-
-  <a class="action" href="#">Selected articles</a>
-
-  <a class="action" href="mailto:{{ site.author.email }}">Email me</a>
-</section>
