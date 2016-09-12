@@ -16,8 +16,8 @@ var forEach = function (array, callback, scope) {
 (similar to details/summary progressive disclosure pattern but different markup) */
 var Details = (function () {
 
-  var title = document.querySelectorAll('.details-title');
-  var expanded = document.querySelectorAll('.details-expanded');
+  var title = document.querySelectorAll('.jsDisclose');
+  var expanded = document.querySelectorAll('.jsExpanded');
 
   function toggleActive(element) {
     var classList = element.classList;
@@ -28,7 +28,6 @@ var Details = (function () {
     }
   }
 
-  /* slide items in/out with Velocity */
   function toggleHidden(element) {
     var classList = element.classList;
     if (classList.contains('jsHidden')) {
@@ -50,7 +49,7 @@ var Details = (function () {
   function showDetails() {
     toggleActive(this);
 
-    var titleSibling = this.parentNode.querySelector('.details-expanded');
+    var titleSibling = this.parentNode.querySelector('.jsExpanded');
     toggleHidden(titleSibling);
 
     var buttonArrow = this.querySelector('.arrow--down');

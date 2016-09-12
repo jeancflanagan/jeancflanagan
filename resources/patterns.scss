@@ -147,7 +147,7 @@ $red: #730d0d;
   width: 100%;
 }
 
-.details-title {
+.pattern-title {
   background-color: $blue;
   color: $white;
   position: relative;
@@ -183,12 +183,7 @@ $red: #730d0d;
   }
 }
 
-.pattern-display {
-  padding: 2em;
-  overflow: hidden;
-}
-
-.details-expanded {
+.pattern-expanded {
   background-color: $white;
   padding: 1em;
 
@@ -200,6 +195,11 @@ $red: #730d0d;
     font-family: monospace;
     width: 80%;
   }
+}
+
+.pattern-display {
+  padding: 2em;
+  overflow: hidden;
 }
 
 .grid--swatches {
