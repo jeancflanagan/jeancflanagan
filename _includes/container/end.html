@@ -1,16 +1,22 @@
 <footer class="end">
-  <div class="block">
+  <div class="block--wide">
 
-    <div class="block">
-      <a class="action--end" href="#">Selected articles{% include icon/arrow-right.svg %}</a>
-      <a class="action--end" href="#">Selected photography{% include icon/arrow-right.svg %}</a>
-    </div>
+    <section class="meta">
+      <div class="meta-credits">
+        <p>Views expressed here are my own and are not intended to represent those of any of my employers, past or present.</p>
+        
+      </div>
 
+      <div class="meta-indices">
+        <a class="meta-action" href="#">Selected articles{% include icon/arrow-right.svg %}</a>
+        <a class="meta-action" href="#">Selected photography{% include icon/arrow-right.svg %}</a>
+      </div>
+    </section>
 
-    <div class="elsewhere">
+    <section class="block elsewhere">
       <a class="elsewhere-action" href="#">Twitter{% include icon/twitter.svg %}</a>
       <a class="elsewhere-action" href="#">LinkedIn{% include icon/linkedin.svg %}</a>
       <a class="elsewhere-action--email" href="mailto:{{ site.author.email }}">Email me</a>
-    </div>
+    </section>
   </div>
 </footer>

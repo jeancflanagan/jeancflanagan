@@ -1,0 +1,51 @@
+.meta {
+  display: flex;
+  flex-flow: column nowrap;
+
+  @include min-width(larger) {
+    flex-flow: row nowrap;
+  }
+}
+
+.meta-credits {
+  margin: 1em auto;
+  padding: 0 1em;
+
+  @include min-width(larger) {
+    width: 75%;
+  }
+}
+
+.meta-indices {
+  display: flex;
+  flex-flow: row nowrap;
+
+  @include min-width(medium) {
+    flex-flow: column nowrap;
+    margin-left: 50%;
+    width: 50%;
+  }
+
+  @include min-width(larger) {
+    margin-left: 1em;
+    width: 25%;
+  }
+}
+
+.meta-action {
+  @include action(0, 1em);
+
+  font-weight: $weight-medium;
+  text-align: center;
+  width: 100%;
+
+  svg {
+    height: .75em;
+    margin: auto 0;
+    width: 1.75em;
+  }
+
+  @include min-width(medium) {
+    text-align: right;
+  }
+}

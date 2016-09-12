@@ -41,9 +41,13 @@ a:focus {
   }
 }
 
-.action--end {
+.meta-action {
   background-color: $white;
   color: $black;
+
+  path {
+    fill: $black;
+  }
 
   &:hover,
   &:focus {

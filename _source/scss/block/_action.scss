@@ -6,20 +6,3 @@
     width: 50%;
   }
 }
-
-.action--end {
-  @include action(0, 1em);
-
-  @include min-width(medium) {
-    margin-left: 50%;
-    width: 50%;
-  }
-
-  text-align: right;
-
-  svg {
-    height: .75em;
-    margin: auto 0;
-    width: 1.75em;
-  }
-}
