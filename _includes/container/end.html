@@ -2,9 +2,15 @@
   <div class="block--wide">
 
     <section class="meta">
-      <div class="meta-credits">
-        <p>Views expressed here are my own and are not intended to represent those of any of my employers, past or present.</p>
-        
+      <div class="meta-disclaimer">
+        <p>Disclaimer: Views expressed here are my own and are not intended to represent those of any of my employers, past or present.</p>
+      </div>
+
+      <div class="meta-copyright">
+        <button class="jsDisclose">Content is {{ site.license.short }}. More on copyright and attribution{% include icon/arrow-down.svg %}</button>
+        <div class="meta-attribution jsExpanded">
+          {{ site.license.description | markdownify }}
+        </div>
       </div>
 
       <div class="meta-indices">
@@ -13,7 +19,7 @@
       </div>
     </section>
 
-    <section class="block elsewhere">
+    <section class="elsewhere">
       <a class="elsewhere-action" href="#">Twitter{% include icon/twitter.svg %}</a>
       <a class="elsewhere-action" href="#">LinkedIn{% include icon/linkedin.svg %}</a>
       <a class="elsewhere-action--email" href="mailto:{{ site.author.email }}">Email me</a>

@@ -7,17 +7,17 @@ organizations:
     logo: logo-ssec.svg
     period: 2013–present
     role: 'Science Education Research Specialist'
-    summary: 'I’ve worked on Good Thinking!, STC, blog, etc.'
+    summary: 'I’ve worked on Good Thinking!, STC, blog, and other contributions.'
   - name: Public Library of Science Blog Network
     logo: logo-plos.svg
     period: 2012–2013
     role: 'Managing Editor, Writer: Sci-Ed'
-    summary: ''
+    summary: 'I founded and coordinated a team blog on science education.'
   - name: AAAS
     logo: logo-aaas.svg
     period: 2009–2013
     role: 'Research Associate'
-    summary: ''
+    summary: 'I developed and researched assessments and curriculum materials aligned to national standards for K–12 sciences.'
 details:
   - title: Education Standards & Assessment
     expanded: |+
@@ -43,17 +43,5 @@ details:
 {% include block/who.html %}
 
 {% include block/organization.html %}
-
-<!--
-
-<h2 class="section-title">Projects I’ve Contributed To</h2>
-
-AAAS Assessment
-Toward High School Biology
-PLOS Sci Ed
-Good Thinking!
-STC Curriculum
-
--->
 
 {% include block/details.html %}

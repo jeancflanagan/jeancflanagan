@@ -129,6 +129,10 @@ pre {
   white-space: pre-wrap;
 }
 
+button {
+  font-family: $font-body;
+}
+
 blockquote {
   border-left: .5em solid $lightgray;
   padding-left: 1em;

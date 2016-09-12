@@ -125,3 +125,13 @@ a:focus {
   background-color: $darkgray;
   color: $white;
 }
+
+.meta-copyright {
+  button {
+    color: inherit;
+
+    path {
+      fill: currentColor;
+    }
+  }
+}

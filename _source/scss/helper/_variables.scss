@@ -28,10 +28,11 @@ $widths: (
   small: 24em,
   medium: 32em,
   large: 48em,
-  larger: 60em
+  larger: 62.5em
 );
 
 $container-widths: (
+  min: 30em,
   normal: 45em,
   max: 60em
 )

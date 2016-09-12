@@ -1,33 +1,71 @@
 .meta {
   display: flex;
-  flex-flow: column nowrap;
-
-  @include min-width(larger) {
-    flex-flow: row nowrap;
-  }
+  flex-flow: row wrap;
 }
 
-.meta-credits {
-  margin: 1em auto;
+.meta-disclaimer {
+  margin: auto;
   padding: 0 1em;
 
   @include min-width(larger) {
+    flex: 1 0 75%;
+    margin-top: 0;
+    padding: 0 2em 0 0; // right pad only
     width: 75%;
   }
 }
 
+.meta-copyright {
+  flex: 1 0 50%;
+  margin: 1em auto;
+  padding: 0 1em;
+  width: 50%;
+
+  button {
+    cursor: pointer;
+    font-family: $font-body;
+    font-weight: $weight-regular;
+    text-align: left;
+    touch-action: manipulation;
+
+    .arrow {
+      height: .75em;
+      width: 1.5em;
+    }
+
+    .jsRotated {
+      transform: rotate(180deg) translateY(4px);
+    }
+  }
+
+  @include min-width(larger) {
+    flex: 1 0 75%;
+    margin: -1.5em 0 0;
+    order: 3;
+    padding: 0; // reset
+    width: 75%;
+  }
+}
+
+.meta-attribution {
+  margin-top: .5em;
+}
+
 .meta-indices {
+  @include container-width(min);
+
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
 
   @include min-width(medium) {
-    flex-flow: column nowrap;
+    flex: 0 0 50%;
     margin-left: 50%;
     width: 50%;
   }
 
   @include min-width(larger) {
-    margin-left: 1em;
+    flex: 1 0 25%;
+    margin-left: 0;
     width: 25%;
   }
 }
@@ -38,6 +76,10 @@
   font-weight: $weight-medium;
   text-align: center;
   width: 100%;
+
+  & + .meta-action {
+    margin-top: 1em;
+  }
 
   svg {
     height: .75em;

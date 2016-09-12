@@ -19,6 +19,7 @@
 .details-title {
   cursor: pointer;
   display: flex;
+  font-family: $font-body;
   font-weight: $weight-regular;
   padding: 2em 1em;
   position: relative;
@@ -38,6 +39,10 @@
     position: absolute;
     right: 2em;
     top: 2.25em;
+  }
+
+  .jsRotated {
+    transform: rotate(180deg) translateY(4px);
   }
 }
 
