@@ -1,4 +1,4 @@
-$back: $white;
+$back: $offwhite;
 $fore: $black;
 $accent: $blue;
 $link: $blue;
@@ -42,7 +42,7 @@ a:focus {
 }
 
 .details {
-  outline: 1px solid $lightgray;
+
 }
 
 .details-title {
@@ -56,6 +56,10 @@ a:focus {
 }
 
 .details-expanded {
-  background-color: $back;
-  outline: 1px solid $lightgray;
+  background-color: $white;
+
+}
+
+.organization {
+  background-color: $white;
 }

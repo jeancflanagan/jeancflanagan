@@ -18,6 +18,7 @@ $colors: (
 $black: c(shade);
 $darkgray: c(shade, 25%);
 $lightgray: c(shade, 75%);
+$offwhite: c(shade, 92%);
 $white: c(shade, 95%);
 $blue: c(blue);
 $lightblue: c(blue, 75%);
@@ -30,8 +31,6 @@ $widths: (
 );
 
 $container-widths: (
-  small: 22em,
-  medium: 30em,
-  large: 42.5em,
+  normal: 42.5em,
   max: 60em
 )

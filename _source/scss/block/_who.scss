@@ -1,4 +1,6 @@
 .who {
+  @include container-width(normal);
+
   display: flex;
   flex-flow: column nowrap;
   margin-top: 1em;
@@ -11,7 +13,14 @@
 .who-heading {
   display: flex;
   flex-flow: column nowrap;
-  width: 75%;
+  margin-bottom: 1em;
+  text-align: center;
+
+  @include min-width(medium) {
+    margin-bottom: 0;
+    text-align: left;
+    width: 75%;
+  }
 }
 
 .who-title {
@@ -20,9 +29,20 @@
 }
 
 .who-subtitle {
+  font-size: 1em;
   font-weight: $weight-medium;
 }
 
 .who-frame {
-  width: 25%;
+  margin: 0 auto -5em;
+  width: 50%;
+  width: 10em;
+
+  img {
+    display: block;
+  }
+
+  @include min-width(medium) {
+    flex: 0 0 10em;
+  }
 }

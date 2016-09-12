@@ -1,7 +1,7 @@
 .block {
-  @include containder-width(large);
+  @include container-width(normal);
 }
 
 .block--wide {
-  @include containder-width(max);
+  @include container-width(max);
 }

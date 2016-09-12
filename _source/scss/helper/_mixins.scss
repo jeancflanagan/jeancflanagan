@@ -15,11 +15,11 @@
 }
 
 // Container width limits defined in helper/_variables.scss $container-widths map
-@mixin containder-width($width) {
+@mixin container-width($width) {
   $value: map-get($container-widths, $width);
 
   @if $value != null {
-    flex: 0 0 $value;
+    flex: 0 1 $value;
     margin-right: auto;
     margin-left: auto;
     max-width: $value;

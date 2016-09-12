@@ -2,6 +2,12 @@
 title: Home
 layout: default
 permalink: /
+organizations:
+  - name: Smithsonian Science Education Center
+    logo: logo-ssec.svg
+    period: 2013-present
+    role: Science Education Research Specialist
+    summary: 'I’ve worked on Good Thinking!, STC, blog, etc.'
 details:
   - title: Education Standards & Assessment
     expanded: |+
@@ -24,15 +30,7 @@ details:
 
 ---
 
-<section class="who">
-  <div class="who-heading">
-    <h1 class="who-title">{{ site.author.name }}</h1>
-    <h2 class="who-subtitle">{{ site.author.tagline }}</h2>
-  </div>
-  <div class="who-frame">
-    <img src="/images/site/2012-09-16-jean-flanagan-portrait.jpg">
-  </div>
-</section>
+{% include block/who.html %}
 
 {% include block/organization.html %}
 
@@ -54,14 +52,14 @@ STC Curriculum
 
 -->
 
-<h2 class="section-title">What I Do</h2>
-
 {% include block/details.html %}
 
-<h2 class="section-title">Learn More</h2>
+<section class="block more">
+  <h2 class="section-title">Learn More</h2>
 
-<a class="action" href="#">Selected photography</a>
+  <a class="action" href="#">Selected photography</a>
 
-<a class="action" href="#">Selected articles</a>
+  <a class="action" href="#">Selected articles</a>
 
-<a class="action" href="mailto:{{ site.author.email }}">Email me</a>
+  <a class="action" href="mailto:{{ site.author.email }}">Email me</a>
+</section>

@@ -1,36 +1,17 @@
 <section class="organization">
-  <h2 class="section-title">Where I’ve Been</h2>
-  <div class="organization-item">
-    <div class="organization-frame">
-      <img src="/images/site/logo-ssec.svg">
+  <div class="block">
+    <h2 class="section-title">Where I’ve Been</h2>
+    {% for organization in page.organizations %}
+    <div class="organization-item">
+      <div class="organization-frame">
+        <img src="{{ site.image_url }}/site/{{ organization.logo }}">
+      </div>
+      <div class="organization-description">
+        <h3 class="organization-role">{{ organization.role }}</h3>
+        <h4 class="organization-name">{{ organization.name }} – {{ organization.period }}</h4>
+        <p>{{ organization.summary }}</p>
+      </div>
     </div>
-    <div class="organization-description">
-      <h3 class="organization-role">Science Education Research Specialist</h3>
-      <h4 class="organization-name">Smithsonian Science Education Center – 2013-present</h4>
-      <p>I’ve worked on Good Thinking!, STC, blog, etc.</p>
-    </div>
-    <!-- TODO fill in this description -->
-  </div>
-  <div class="organization-item">
-    <div class="organization-frame">
-      <img src="/images/site/logo-ssec.svg">
-    </div>
-    <div class="organization-description">
-      <h3 class="organization-role">Science Education Research Specialist</h3>
-      <h4 class="organization-name">Smithsonian Science Education Center – 2013-present</h4>
-      <p>I’ve worked on Good Thinking!, STC, blog, etc.</p>
-    </div>
-    <!-- TODO fill in this description -->
-  </div>
-  <div class="organization-item">
-    <div class="organization-frame">
-      <img src="/images/site/logo-ssec.svg">
-    </div>
-    <div class="organization-description">
-      <h3 class="organization-role">Science Education Research Specialist</h3>
-      <h4 class="organization-name">Smithsonian Science Education Center – 2013-present</h4>
-      <p>I’ve worked on Good Thinking!, STC, blog, etc.</p>
-    </div>
-    <!-- TODO fill in this description -->
+    {% endfor %}
   </div>
 </section>
