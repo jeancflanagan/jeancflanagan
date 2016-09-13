@@ -13,13 +13,13 @@ organizations:
     period: 2012–2013
     role: 'Managing Editor, Writer: Sci-Ed'
     summary: 'I founded and coordinated a team blog on science education.'
-  - name: AAAS
+  - name: American Association for the Advancement of Science
     logo: logo-aaas.svg
     period: 2009–2013
     role: 'Research Associate'
     summary: 'I developed and researched assessments and curriculum materials aligned to national standards for K–12 sciences.'
 details:
-  - title: Education Standards & Assessment
+  - title: Standards & Assessment
     expanded: |+
       I’ve developed deep expertise in the Next Generation Science Standards (NGSS) and their parent document, the NRC’s *Framework for K-12 Science Education*. I’m also committed to improving the quality of written and performance-based assessments through careful standards alignment.
   - title: Curriculum Development

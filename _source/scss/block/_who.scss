@@ -34,15 +34,14 @@
 }
 
 .who-frame {
-  margin: 0 auto -5em;
-  width: 50%;
-  width: 10em;
+  margin: 0 auto -6em;
+  width: 12em;
 
   img {
     display: block;
   }
 
   @include min-width(medium) {
-    flex: 0 0 10em;
+    flex: 0 0 12em;
   }
 }

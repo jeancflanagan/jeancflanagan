@@ -1,18 +1,18 @@
 .details {
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-start;
+  justify-content: space-around;
   list-style: none;
-  margin-top: 1em;
-  width: 100%;
+  margin: 1em -.5em;
+  width: calc(100% + 1em);
 }
 
 .details-item {
-  margin: 0;
+  margin: .5em;
   width: 100%;
 
-  @media (min-width: 60em) {
-    flex: 0 0 50%;
+  @include min-width(large) {
+    flex: 1 0 calc(50% - 1em);
   }
 }
 
@@ -20,7 +20,8 @@
   cursor: pointer;
   display: flex;
   font-family: $font-body;
-  font-weight: $weight-regular;
+  font-weight: $weight-bold;
+  outline: 1px solid $black;
   padding: 2em 1em;
   position: relative;
   text-align: left;
@@ -48,5 +49,6 @@
 
 .details-expanded {
   margin: 0;
+  outline: 1px solid $black;
   padding: 1em;
 }

@@ -44,6 +44,7 @@ a:focus {
 .meta-action {
   background-color: $white;
   color: $black;
+  outline-color: $lightgray;
 
   path {
     fill: $black;
@@ -63,6 +64,7 @@ a:focus {
 .elsewhere-action {
   background: $white;
   color: $black;
+  outline-color: $lightgray;
 
   path {
     fill: $black;
@@ -80,16 +82,17 @@ a:focus {
 }
 
 .elsewhere-action--email {
-  background: $red;
-  color: $white;
+  background: $white;
+  color: $black;
+  outline-color: $lightgray;
 
   &:hover,
   &:focus {
-    background-color: $lightgray;
-    color: $black;
+    background-color: $black;
+    color: $white;
 
     path {
-      fill: $black;
+      fill: $white;
     }
   }
 }
@@ -100,17 +103,28 @@ a:focus {
 
 .details-title {
   background-color: $white;
-  outline: 1px solid $accent;
-  color: $accent;
+  color: $link;
+  outline-color: $link;
 
   path {
-    fill: $accent;
+    fill: $link;
+  }
+
+  &:hover,
+  &:focus,
+  &.jsActive {
+    color: $link--hover;
+    outline-color: $link--hover;
+
+    path {
+      fill: $link--hover;
+    }
   }
 }
 
 .details-expanded {
   background-color: $white;
-
+  outline-color: $lightgray;
 }
 
 .organization {

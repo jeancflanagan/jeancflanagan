@@ -14,11 +14,12 @@
 
 .organization-frame {
   margin: auto;
-  padding: 0 1em;
-  width: 50%;
+  padding: 1em 1em .5em;
+  width: 40%;
 
   @include min-width(medium) {
     width: 25%;
+    padding: 0 1em;
   }
 }
 
