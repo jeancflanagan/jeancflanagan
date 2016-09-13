@@ -73,10 +73,10 @@ include:
   - _pages
 
 exclude:
-  - Rakefile
-  - Gemfile
-  - Gemfile.lock
+  - Gemfile*
   - .gitignore
+  - node_modules
+  - package.json
 
 ## Configuration URLs
 domain: jeancflanagan.com
