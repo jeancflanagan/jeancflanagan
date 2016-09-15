@@ -19,6 +19,7 @@
 
   @include min-width(medium) {
     margin-bottom: 0;
+    padding-left: 1em;
     text-align: left;
     width: 75%;
   }
@@ -27,11 +28,13 @@
 .who-title {
   font-size: 3em;
   font-weight: $weight-thin;
+  margin-top: auto;
 }
 
 .who-subtitle {
   font-size: 1em;
   font-weight: $weight-medium;
+  margin-top: .25em;
 }
 
 .who-frame {

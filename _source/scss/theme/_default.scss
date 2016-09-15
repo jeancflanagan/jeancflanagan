@@ -1,4 +1,5 @@
 $back: $offwhite;
+$back--alt: $white;
 $fore: $black;
 $accent: $blue;
 $link: $blue;
@@ -123,12 +124,16 @@ a:focus {
 }
 
 .details-expanded {
-  background-color: $white;
+  background-color: $back--alt;
   outline-color: $lightgray;
 }
 
+.who-heading {
+  background-color: $back--alt;
+}
+
 .organization {
-  background-color: $white;
+  background-color: $back--alt;
 }
 
 .organization-period {
