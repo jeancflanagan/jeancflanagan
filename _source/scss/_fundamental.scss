@@ -19,13 +19,13 @@ html {
 
 h1 {
   font-size: 2em;
-  font-weight: $weight-thin;
+  font-weight: $weight-regular;
   line-height: 1;
 }
 
 h2 {
   font-size: 1.5em;
-  font-weight: $weight-medium;
+  font-weight: $weight-bold;
   line-height: 1.1;
 }
 
@@ -49,7 +49,7 @@ h5 {
 
 strong,
 b {
-  font-weight: $weight-medium;
+  font-weight: $weight-bold;
 }
 
 ul,

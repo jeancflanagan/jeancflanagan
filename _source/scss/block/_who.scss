@@ -27,13 +27,18 @@
 
 .who-title {
   font-size: 3em;
-  font-weight: $weight-thin;
-  margin-top: auto;
+  font-weight: $weight-regular;
+  letter-spacing: -.021em;
+  margin-top: .5em;
+
+  @include min-width(medium) {
+    margin-top: auto;
+  }
 }
 
 .who-subtitle {
   font-size: 1em;
-  font-weight: $weight-medium;
+  font-weight: $weight-regular;
   margin-top: .25em;
 }
 
