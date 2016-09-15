@@ -3,7 +3,10 @@
 
   display: flex;
   flex-flow: row wrap;
+  margin-top: 1em;
   width: calc(100% + 1em);
+
+
 }
 
 .elsewhere-action {
@@ -11,13 +14,9 @@
 
   display: flex;
   justify-content: center;
-  margin: .5em;
+  margin: .5em 0;
   text-align: center;
   width: 100%;
-
-  &:first-of-type {
-    margin-top: 2em;
-  }
 
   svg {
     height: 1em;
@@ -26,8 +25,11 @@
   }
 
   @include min-width(small) {
-    margin-top: 2em;
     flex: 1 0 33%;
+  }
+
+  @include min-width(medium) {
+    margin: .5em;
   }
 }
 
@@ -36,11 +38,15 @@
 
   display: flex;
   justify-content: center;
-  margin: .5em;
+  margin: .5em 0;
   text-align: center;
   width: 100%;
 
   @include min-width(small) {
     flex: 1 1 50%;
+  }
+
+  @include min-width(medium) {
+    margin: .5em;
   }
 }

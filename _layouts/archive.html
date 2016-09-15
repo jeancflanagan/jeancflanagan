@@ -8,7 +8,7 @@
 
   <div class="archive">
 
-    {{ page.title | capitalize }} archive
+    <h2 class="section-title">{{ page.title | capitalize }} archive</h2>
 
     {% for post in page.posts %}
       {% include block/item.html %}

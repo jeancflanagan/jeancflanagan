@@ -88,6 +88,8 @@
   }
 
   @include min-width(medium) {
+    margin-left: .5em;
     text-align: right;
+    width: calc(100% - .5em);
   }
 }
