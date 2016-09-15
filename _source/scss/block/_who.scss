@@ -1,5 +1,5 @@
 .who,
-.who--archive {
+.who--inner {
   @include container-width(normal);
 
   display: flex;
@@ -11,7 +11,8 @@
   }
 }
 
-.who-heading {
+.who-heading,
+.who--inner-heading {
   display: flex;
   flex-flow: column nowrap;
   margin-bottom: 1em;
@@ -23,6 +24,10 @@
     text-align: left;
     width: 75%;
   }
+}
+
+.who--inner-heading {
+  padding: 0;
 }
 
 .who-title {

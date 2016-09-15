@@ -10,7 +10,7 @@
   @include min-width(larger) {
     flex: 1 0 75%;
     margin-top: 0;
-    padding: 0 2em 0 0; // right pad only
+    padding: 0 1em 0 0; // right pad only
     width: 75%;
   }
 }
