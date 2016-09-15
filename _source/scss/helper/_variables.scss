@@ -7,19 +7,19 @@ $weight-bold: 600;
 
 // Built-in example colors processed with color lightness function
 $colors: (
-  shade: #111111,
-  blue: #1476b8,
-  red: #b81f14
+  shade: hsl(198, 26%, 32%),
+  blue: hsl(198, 52%, 32%),
+  green: hsl(145, 75%, 32%),
 );
 
-$black: c(shade);
-$darkgray: c(shade, 25%);
-$lightgray: c(shade, 75%);
-$offwhite: c(shade, 90%);
-$white: c(shade, 95%);
+$black: c(shade, 5%);
+$darkgray: c(shade, 20%);
+$lightgray: c(shade, 88%);
+$offwhite: c(shade, 92%);
+$white: c(shade, 96%);
 $blue: c(blue);
 $lightblue: c(blue, 75%);
-$red: c(red);
+$green: c(green);
 
 $widths: (
   small: 24em,

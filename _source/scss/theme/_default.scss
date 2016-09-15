@@ -3,7 +3,7 @@ $back--alt: $offwhite;
 $fore: $black;
 $accent: $blue;
 $link: $blue;
-$link--hover: $red;
+$link--hover: $green;
 
 html {
   color: $fore;
@@ -73,7 +73,7 @@ a:focus {
 
   &:hover,
   &:focus {
-    background-color: $black;
+    background-color: $link--hover;
     color: $white;
 
     path {
@@ -89,7 +89,7 @@ a:focus {
 
   &:hover,
   &:focus {
-    background-color: $black;
+    background-color: $link--hover;
     color: $white;
 
     path {
@@ -124,6 +124,10 @@ a:focus {
   outline-color: $lightgray;
 }
 
+.home {
+  background-image: linear-gradient(-22.5deg, $offwhite, scale-color($blue, $lightness: 50%));
+}
+
 .who {
   background-color: $back--alt;
 }
@@ -137,12 +141,16 @@ a:focus {
 }
 
 .organization-period {
-  color: $lightgray;
+  color: $darkgray;
 }
 
 .end {
-  background-color: $darkgray;
+  background-image: linear-gradient(-130deg, $darkgray, scale-color($blue, $lightness: -60%));
   color: $white;
+
+  p a {
+    color: $lightblue;
+  }
 }
 
 .meta-copyright {

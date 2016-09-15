@@ -4,9 +4,10 @@
   display: flex;
   flex-flow: row wrap;
   margin-top: 1em;
-  width: calc(100% + 1em);
 
-
+  @include min-width(medium) {
+    width: calc(100% + 1em);
+  }
 }
 
 .elsewhere-action {
