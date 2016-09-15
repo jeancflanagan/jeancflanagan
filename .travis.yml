@@ -13,6 +13,7 @@ install:
 
 script:
   - npm run dev
-  - npm test
+##### TODO enable htmlproofer
+#  - npm test
 ##### TODO enable production deployment
 #  - if [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$TRAVIS_BRANCH" == "master" ]; then npm run prod; fi
