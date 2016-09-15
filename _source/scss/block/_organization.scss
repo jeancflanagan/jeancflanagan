@@ -5,7 +5,7 @@
 .organization-item {
   display: flex;
   flex-flow: column nowrap;
-  margin-top: 1em;
+  margin-top: 2em;
 
   @include min-width(medium) {
     flex-flow: row nowrap;
@@ -17,6 +17,10 @@
   padding: 1em 1em .5em;
   width: 40%;
 
+  img {
+    max-height: 6.25em;
+  }
+
   @include min-width(medium) {
     width: 25%;
     padding: 0 1em;
@@ -25,6 +29,10 @@
 
 .organization-description {
   margin: 0 1em;
+
+  p {
+    margin-top: .5em;
+  }
 
   @include min-width(medium) {
     width: 75%;

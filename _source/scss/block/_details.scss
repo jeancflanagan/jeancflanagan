@@ -21,7 +21,7 @@
   display: flex;
   font-family: $font-body;
   font-weight: $weight-bold;
-  outline: 1px solid $black;
+  outline: 2px solid $black;
   padding: 2em 1em;
   position: relative;
   text-align: left;
@@ -49,6 +49,6 @@
 
 .details-expanded {
   margin: 0;
-  outline: 1px solid $black;
+  outline: 2px solid $black;
   padding: 1em;
 }
