@@ -1,0 +1,12 @@
+.archive {
+  @include container-width(normal);
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  @include min-width(medium) {
+    margin: 0 auto;
+    justify-content: flex-start;
+  }
+}

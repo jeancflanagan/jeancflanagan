@@ -6,15 +6,15 @@
 
   {% include block/who--inner.html %}
 
-  <div class="h-entry post" role="main">
+  <div class="archive">
 
-    <article class="content">
+    {{ page.title | capitalize }} archive
 
-      <h1>{{ page.title }}</h1>
+    {% for post in page.posts %}
+      {% include block/item.html %}
+    {% endfor %}
 
-{{ content }}
-
-    </article>
+    {{ content }}
 
   </div>
 

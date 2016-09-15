@@ -1,4 +1,5 @@
-.who {
+.who,
+.who--archive {
   @include container-width(normal);
 
   display: flex;

@@ -19,6 +19,7 @@ license:
 ## Referenced URLs (internal and external links for inline use)
 link:
   attribution: http://creativecommons.org/licenses/by-nc/4.0/
+  twitter: https://twitter.com/jeancflanagan
 ###### TODO Add other feeds as needed.
   subscribe:
     full: /full.xml
@@ -29,6 +30,7 @@ link:
 gems:
   - sass
   - jekyll/imgix
+  - jekyll-archives
 
 ## Markdown configuration
 markdown: kramdown
@@ -58,6 +60,18 @@ defaults:
     values:
       layout: pattern
       category: patterns
+
+## Jekyll Archives configuration
+jekyll-archives:
+  enabled:
+    - year
+    - categories
+  layouts:
+    year: archive
+    category: archive
+  permalinks:
+    year: '/:year/'
+    category: '/:name/'
 
 ## Sass configuration
 sass:

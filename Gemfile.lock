@@ -40,6 +40,8 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
+    jekyll-archives (2.1.0)
+      jekyll (>= 2.4)
     jekyll-imgix (1.1.0)
       imgix (~> 1.1.0)
     jekyll-sass-converter (1.4.0)
@@ -87,6 +89,7 @@ PLATFORMS
 DEPENDENCIES
   html-proofer
   jekyll (~> 3.2)
+  jekyll-archives
   jekyll-imgix
   s3_website
 
