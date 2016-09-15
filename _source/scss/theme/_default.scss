@@ -1,5 +1,5 @@
-$back: $offwhite;
-$back--alt: $white;
+$back: $white;
+$back--alt: $offwhite;
 $fore: $black;
 $accent: $blue;
 $link: $blue;
@@ -98,12 +98,8 @@ a:focus {
   }
 }
 
-.details {
-
-}
-
 .details-title {
-  background-color: $white;
+  background-color: $back;
   color: $link;
   outline-color: $link;
 
@@ -124,16 +120,20 @@ a:focus {
 }
 
 .details-expanded {
-  background-color: $back--alt;
+  background-color: $back;
   outline-color: $lightgray;
 }
 
-.who-heading {
+.who {
+  background-color: $back--alt;
+}
+
+.skills {
   background-color: $back--alt;
 }
 
 .organization {
-  background-color: $back--alt;
+  background-color: $back;
 }
 
 .organization-period {

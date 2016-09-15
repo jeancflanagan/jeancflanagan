@@ -42,6 +42,6 @@ details:
 
 {% include block/who.html %}
 
-{% include block/organization.html %}
+{% include block/skills.html %}
 
-{% include block/details.html %}
+{% include block/organization.html %}
