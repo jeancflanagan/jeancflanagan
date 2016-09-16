@@ -93,3 +93,12 @@
     width: calc(100% - .5em);
   }
 }
+
+.meta-credit {
+  display: inline-flex;
+}
+
+.meta-logo {
+  align-self: center;
+  margin-left: .25em;
+}

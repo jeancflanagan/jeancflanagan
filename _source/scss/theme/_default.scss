@@ -4,6 +4,8 @@ $fore: $black;
 $accent: $blue;
 $link: $blue;
 $link--hover: $green;
+$link-alt: $skyblue;
+$link-alt--hover: $palegreen;
 
 html {
   color: $fore;
@@ -15,12 +17,16 @@ body {
 }
 
 a {
-  color: $link;
+  color: currentColor;
 }
 
-a:hover,
-a:focus {
-  color: $link--hover;
+p > a {
+  border-bottom-color: $link;
+}
+
+p a:hover,
+p a:focus {
+  border-bottom-color: $link--hover;
 }
 
 .action {
@@ -45,7 +51,7 @@ a:focus {
 .meta-action {
   background-color: $white;
   color: $black;
-  outline-color: $lightgray;
+  outline-color: $link-alt;
 
   path {
     fill: $black;
@@ -55,6 +61,7 @@ a:focus {
   &:focus {
     background-color: $link--hover;
     color: $white;
+    outline-color: $link-alt--hover;
 
     path {
       fill: $white;
@@ -62,35 +69,21 @@ a:focus {
   }
 }
 
-.elsewhere-action {
-  background: $white;
-  color: $black;
-  outline-color: $lightgray;
-
-  path {
-    fill: $black;
-  }
-
-  &:hover,
-  &:focus {
-    background-color: $link--hover;
-    color: $white;
-
-    path {
-      fill: $white;
-    }
-  }
-}
-
+.elsewhere-action,
 .elsewhere-action--email {
   background: $white;
   color: $black;
   outline-color: $lightgray;
 
+  path {
+    fill: $black;
+  }
+
   &:hover,
   &:focus {
     background-color: $link--hover;
     color: $white;
+    outline-color: $link-alt--hover;
 
     path {
       fill: $white;
@@ -125,7 +118,7 @@ a:focus {
 }
 
 .home {
-  background-image: linear-gradient(-22.5deg, $offwhite, scale-color($blue, $lightness: 50%));
+  background-image: linear-gradient(-22.5deg, $offwhite, $skyblue);
 }
 
 .who {
@@ -145,20 +138,44 @@ a:focus {
 }
 
 .end {
-  background-image: linear-gradient(-130deg, $darkgray, scale-color($blue, $lightness: -60%));
+  background-image: linear-gradient(22.5deg, $black, $darkblue);
   color: $white;
 
-  p a {
-    color: $lightblue;
+  p > a {
+    border-bottom-color: $link-alt;
+
+    &:hover,
+    &:focus {
+      border-bottom-color: $link-alt--hover;
+    }
+  }
+}
+
+.meta-credit {
+  border-bottom: none;
+  color: $link-alt;
+
+  &:hover,
+  &:focus {
+    color: $link-alt--hover;
   }
 }
 
 .meta-copyright {
   button {
-    color: inherit;
+    color: $link-alt;
 
     path {
-      fill: currentColor;
+      fill: $link-alt;
+    }
+
+    &:hover,
+    &:focus {
+      color: $link-alt--hover;
+
+      path {
+        fill: $link-alt--hover;
+      }
     }
   }
 }

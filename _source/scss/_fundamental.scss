@@ -13,6 +13,10 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+p > a {
+  border-bottom: 1px solid $black;
+}
+
 * + p {
   margin-top: 1em;
 }
