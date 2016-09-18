@@ -194,3 +194,17 @@ p a:focus {
     }
   }
 }
+
+.item {
+  background-color: $back;
+  outline-color: $lightgray;
+
+  a {
+    color: $link;
+
+    &:hover,
+    &:focus {
+      color: $link--hover;
+    }
+  }
+}

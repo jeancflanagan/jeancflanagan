@@ -2,6 +2,16 @@
   @include container-width(normal);
 
   margin: 1em auto 0;
+  outline: 1px solid $black;
+  padding: 1em;
+
+  @include min-width(large) {
+    padding: 1em 2em;
+  }
+}
+
+.item-title {
+  font-size: 1.25em;
 }
 
 .item-time {
