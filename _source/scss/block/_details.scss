@@ -4,10 +4,15 @@
   justify-content: space-around;
   list-style: none;
   margin-top: 1em;
+  padding: 0 1em;
 
   @include min-width(medium) {
     margin: 1em -.5em 0;
     width: calc(100% + 1em);
+  }
+
+  @include min-width(larger) {
+    padding: 0;
   }
 }
 
@@ -46,8 +51,12 @@
 
   .arrow {
     position: absolute;
-    right: 2em;
+    right: 1.25em;
     top: 2.25em;
+
+    @include min-width(large) {
+      right: 1.5em;
+    }
   }
 
   .jsRotated {

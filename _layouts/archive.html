@@ -4,17 +4,21 @@
 
 <body>
 
-  {% include block/who--inner.html %}
-
   <div class="archive">
 
-    <h2 class="section-title">{{ page.title | capitalize }} archive</h2>
+    {% include block/who--inner.html %}
 
-    {% for post in page.posts %}
-      {% include block/item.html %}
-    {% endfor %}
+    <section class="block items">
 
-    {{ content }}
+      <h2 class="section-title">{{ page.title | capitalize }} archive</h2>
+
+      {% for post in page.posts %}
+        {% include block/item.html %}
+      {% endfor %}
+
+      {{ content }}
+
+    </section>
 
   </div>
 

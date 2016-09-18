@@ -1,9 +1,4 @@
 .archive {
-  @include container-width(normal);
-
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
   margin: 0 auto;
   padding: 0 1em 2em;
 

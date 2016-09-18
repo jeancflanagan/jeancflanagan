@@ -40,8 +40,6 @@ details:
 
 ---
 
-{% include block/who.html %}
-
 {% include block/skills.html %}
 
 {% include block/organization.html %}

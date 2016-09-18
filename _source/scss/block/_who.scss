@@ -13,36 +13,50 @@
   display: flex;
   flex-flow: column nowrap;
   margin-bottom: 1em;
-  padding: 2em 0;
+  padding: 2em 1em;
   text-align: center;
 
   @include min-width(medium) {
     margin-bottom: 0;
-    padding: 0 0 0 2em;
+    padding: 0 1em;
     text-align: left;
     width: 75%;
+  }
+
+  @include min-width(large) {
+    padding: 0 2em;
   }
 }
 
 .who--inner-heading {
-  padding: 0;
+  padding: 2em 0 0;
+  text-align: center;
+  width: 100%;
 }
 
 .who-title {
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: $weight-regular;
-  letter-spacing: -.01em;
   margin: 0;
 
   @include min-width(medium) {
     margin-top: auto;
   }
+
+  @include min-width(large) {
+    font-size: 3em;
+    letter-spacing: -.01em;
+  }
 }
 
 .who-subtitle {
-  font-size: 1em;
+  font-size: .875em;
   font-weight: $weight-regular;
   margin-top: .5em;
+
+  @include min-width(large) {
+    font-size: 1em;
+  }
 }
 
 .who-frame {
