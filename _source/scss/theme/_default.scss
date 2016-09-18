@@ -195,6 +195,15 @@ p a:focus {
   }
 }
 
+.post {
+  background-color: $back--alt;
+}
+
+.content {
+  background-color: $back;
+  outline-color: $lightgray;
+}
+
 .item {
   background-color: $back;
   outline-color: $lightgray;

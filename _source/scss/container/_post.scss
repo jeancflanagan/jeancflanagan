@@ -1,7 +1,4 @@
 .post {
-  @include container-width(normal);
-
   display: flex;
   flex-flow: row wrap;
-  margin: 4em auto;
 }

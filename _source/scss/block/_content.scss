@@ -1,3 +1,17 @@
 /* Main body content */
 .content {
+  @include container-width(normal);
+
+  outline: 1px solid $black;
+  margin: 1em auto;
+  padding: 1em;
+
+  @include min-width(medium) {
+    margin: 2em auto;
+    padding: 2em;
+  }
+
+  @include min-width(large) {
+    padding: 2em 4em;
+  }
 }
