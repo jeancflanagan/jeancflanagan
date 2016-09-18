@@ -2,7 +2,7 @@
 .content {
   @include container-width(normal);
 
-  outline: 1px solid $black;
+  outline: 1px solid lightgray;
   margin: 1em auto;
   padding: 1em;
 

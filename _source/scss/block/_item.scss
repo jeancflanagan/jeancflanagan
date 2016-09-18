@@ -2,7 +2,7 @@
   @include container-width(normal);
 
   margin: 1em auto 0;
-  outline: 1px solid $black;
+  outline: 1px solid lightgray;
   padding: 1em;
 
   @include min-width(large) {

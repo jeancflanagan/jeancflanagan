@@ -13,8 +13,11 @@ html {
   text-rendering: optimizeLegibility;
 }
 
-p > a {
-  border-bottom: 1px solid $black;
+p > a,
+li > a,
+blockquote > a,
+figcaption > a {
+  border-bottom: 1px solid blue;
 }
 
 * + p,
@@ -120,7 +123,8 @@ li {
 }
 
 blockquote {
-  margin: 2em 0 2em -1em;
+  border-left: .5em solid lightgray;
+  margin: 2em 0;
   padding-left: 1em;
 }
 
@@ -147,11 +151,11 @@ button {
   font-family: $font-body;
 }
 
-blockquote {
-  border-left: .5em solid $lightgray;
-  padding-left: 1em;
-}
-
 cite {
   font-style: italic;
+}
+
+figcaption {
+  font-size: .875em;
+  margin-top: .5em
 }

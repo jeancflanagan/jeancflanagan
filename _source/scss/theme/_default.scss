@@ -30,21 +30,29 @@ body {
   }
 }
 
-.archive {
-  background-color: $back--alt;
-}
-
 a {
   color: currentColor;
 }
 
-p > a {
+p > a,
+li > a,
+blockquote > a,
+figcaption > a {
   border-bottom-color: $link;
+
+  &:hover,
+  &:focus {
+    border-bottom-color: $link--hover;
+    color: $link--hover;
+  }
 }
 
-p a:hover,
-p a:focus {
-  border-bottom-color: $link--hover;
+blockquote {
+  border-left-color: $lightgray;
+}
+
+.archive {
+  background-color: $back--alt;
 }
 
 .action {
@@ -162,6 +170,7 @@ p a:focus {
     &:hover,
     &:focus {
       border-bottom-color: $link-alt--hover;
+      color: $link-alt--hover;
     }
   }
 }
@@ -216,4 +225,8 @@ p a:focus {
       color: $link--hover;
     }
   }
+}
+
+.screenshot {
+  outline: $lightgray;
 }

@@ -1,0 +1,36 @@
+.image {
+  margin: 1em auto;
+}
+
+.right,
+.left {
+  @include min-width(large) {
+    width: 50%;
+  }
+}
+
+.right {
+  @include min-width(large) {
+    float: right;
+    margin: 1em -4em .5em 1em;
+  }
+}
+
+.left {
+  @include min-width(large) {
+    float: left;
+    margin: 1em 1em .5em -4em;
+  }
+}
+
+.narrow {
+  width: 75%;
+
+  @include min-width(small) {
+    width: 50%;
+  }
+}
+
+.screenshot {
+  outline: 1px solid lightgray;
+}
