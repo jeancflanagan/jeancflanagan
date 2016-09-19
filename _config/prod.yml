@@ -69,7 +69,7 @@ jekyll-archives:
     category: archive
   permalinks:
     year: '/:year/'
-    category: '/:name/'
+    category: '/archive/:name/'
 
 ## Sass configuration
 sass:

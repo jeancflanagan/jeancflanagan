@@ -10,11 +10,17 @@
 
     <section class="block items">
 
-      <h2 class="section-title">{% if page.type == 'category' %}{{ page.title | capitalize }} archive{% elsif page.type == 'year' %}{{ page.date | date: '%Y' }} archive{% endif %}</h2>
+      <h2 class="section-title">{% if page.type == 'category' %}{{ page.title | capitalize }} archive{% elsif page.type == 'year' %}{{ page.date | date: '%Y' }} archive{% else %}{{ page.title }}{% endif %}</h2>
 
-      {% for post in page.posts %}
-        {% include block/item.html %}
-      {% endfor %}
+      {% if page.type == 'category' or page.type == 'year' %}
+        {% for post in page.posts %}
+          {% include block/item.html %}
+        {% endfor %}
+      {% else %}
+        {% for post in site.posts %}
+          {% include block/item.html %}
+        {% endfor %}
+      {% endif %}
 
       {{ content }}
 
