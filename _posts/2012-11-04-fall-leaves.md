@@ -1,7 +1,6 @@
 ---
-category: photo
 title: 'Fall Leaves, Washington, DC'
-date: 2012-11-04 16:14
+category: photo
 location: 'Washington, DC'
 summary_image: /photos/2012-11-04-yellow-maple-leaf.jpg
 period: 'November 2012'

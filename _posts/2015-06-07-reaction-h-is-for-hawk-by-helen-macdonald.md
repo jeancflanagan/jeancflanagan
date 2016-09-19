@@ -1,7 +1,6 @@
 ---
-category: writing
 title: 'Reaction: <cite>H is for Hawk</cite> by Helen MacDonald'
-date: 2015-06-07 18:43
+category: writing
 description: 'Brief thoughts on a book that weaves memoir, nature writing, and literary analysis into a beautiful coherent whole — one of my favorites.'
 source: here
 sourceurl:

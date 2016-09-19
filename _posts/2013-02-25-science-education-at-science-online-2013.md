@@ -1,7 +1,6 @@
 ---
-category: writing
 title: 'Science education at Science Online 2013'
-date: 2013-02-25 10:01
+category: writing
 description: 'Highlights from the sessions focussed on science education at the 2013 Science Online conference in Raleigh, NC.'
 source: <cite>PLOS Sci-Ed</cite>
 sourceurl: http://blogs.plos.org/scied/2013/02/25/science-education-at-science-online-2013/

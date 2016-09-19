@@ -1,7 +1,6 @@
 ---
-category: photo
 title: 'Sapphie in the Blizzard'
-date: 2016-02-15 20:58
+category: photo
 location: 'Washington DC'
 summary_image: /photos/2016-01-23-sapphie-park.jpg
 period: 'January 2016'
@@ -20,4 +19,5 @@ image:
     coordinates: ''
 
 ---
+
 This set was processed with the Fuji Neopan 1600- VSCO film emulation (no grain).

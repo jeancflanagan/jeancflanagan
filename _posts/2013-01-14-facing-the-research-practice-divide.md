@@ -1,7 +1,8 @@
 ---
-category: writing
 title: 'Facing the research-practice divide in science education'
-date: 2013-01-14 10:00
+category: writing
+option:
+  - featured
 description: 'Unfortunately, science education research and practice tend to exist in parallel universes. If we care about science education, we have to face the research-practice divide.'
 source: <cite>PLOS Sci-Ed</cite>
 sourceurl: http://blogs.plos.org/scied/2013/01/14/facing-the-research-practice-divide-in-science-education/

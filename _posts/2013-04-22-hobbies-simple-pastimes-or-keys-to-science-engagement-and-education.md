@@ -1,6 +1,6 @@
 ---
-category: writing
 title: 'Hobbies: idle pastimes or keys to science engagement and education?'
+category: writing
 date: 2013-04-22 10:01
 description: 'Many scientists report hobbies as being influential to their career plans growing up. What does this mean for science education?'
 source: <cite>PLOS Sci-Ed</cite>

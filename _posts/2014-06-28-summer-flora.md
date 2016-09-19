@@ -1,7 +1,6 @@
 ---
-category: photo
 title: 'Summer Flora'
-date: 2014-06-28 22:19
+category: photo
 location: 'Washington, DC'
 summary_image: /photos/2014-06-15-leaf-teeth.jpg
 period: 'June 2014'

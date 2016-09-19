@@ -1,7 +1,6 @@
 ---
-category: photo
 title: 'Dutch Gap, Henricus, VA'
-date: 2010-11-27 12:32
+category: photo
 location: 'Henricus, VA'
 period: 'November 2010'
 summary_image: /photos/2010-11-27-bright-red-oak-leaves-dutch-gap.jpg

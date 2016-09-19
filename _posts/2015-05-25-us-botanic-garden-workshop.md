@@ -1,8 +1,9 @@
 ---
-category: photo
 title: 'US Botanic Garden Workshop'
-date: 2015-05-25 18:09
-location: ''
+category: photo
+option:
+  - featured
+location: 'US Botanic Garden'
 summary_image: /photos/2015-03-29-bromeliad-interior.jpg
 period: 'April 2015'
 image:

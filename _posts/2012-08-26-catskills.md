@@ -1,7 +1,6 @@
 ---
-category: photo
 title: 'Catskill Mountains, NY'
-date: 2012-08-26 16:01
+category: photo
 location: 'Haines Falls, NY'
 summary_image: /photos/2012-08-26-painted-lady-butterfly.jpg
 period: 'August 2012'
