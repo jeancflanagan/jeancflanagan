@@ -17,13 +17,13 @@
 }
 
 .left {
-  figcaption {
-    margin-left: 1em; // keep away from page edge
-  }
-
   @include min-width(large) {
     float: left;
     margin: 1em 1em .5em -4em;
+
+    figcaption {
+      margin-left: 1em; // keep away from page edge
+    }
   }
 }
 
