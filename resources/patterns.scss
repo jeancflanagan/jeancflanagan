@@ -15,6 +15,13 @@ $white: #ebebeb;
 $blue: #0d5173;
 $red: #730d0d;
 
+body {
+  background-color: transparent; // reset
+  background-image: none; // reset
+  margin: 0; // reset
+  padding: 0; // reset
+}
+
 .pattern-sidebar {
   background-color: $darkgray;
   color: $lightgray;
@@ -54,6 +61,11 @@ $red: #730d0d;
     margin: 0;
     list-style: none;
   }
+}
+
+.pattern-nav-link,
+.pattern-nav-link--sub {
+  border: none; // reset
 }
 
 .pattern-nav-link {
