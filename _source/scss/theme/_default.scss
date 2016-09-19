@@ -79,49 +79,6 @@ figcaption {
   }
 }
 
-.meta-action {
-  background-color: $back;
-  color: $fore;
-  outline-color: $link-alt;
-
-  path {
-    fill: $fore;
-  }
-
-  &:hover,
-  &:focus {
-    background-color: $link--hover;
-    color: $fore--inverse;
-    outline-color: $link-alt--hover;
-
-    path {
-      fill: $fore--inverse;
-    }
-  }
-}
-
-.elsewhere-action,
-.elsewhere-action--email {
-  background: $back;
-  color: $fore;
-  outline-color: $lightgray;
-
-  path {
-    fill: $fore;
-  }
-
-  &:hover,
-  &:focus {
-    background-color: $link--hover;
-    color: $fore--inverse;
-    outline-color: $link-alt--hover;
-
-    path {
-      fill: $fore--inverse;
-    }
-  }
-}
-
 .details-title {
   background-color: $back;
   color: $link;
@@ -205,6 +162,49 @@ figcaption {
       path {
         fill: $link-alt--hover;
       }
+    }
+  }
+}
+
+.meta-action {
+  background-color: $back--alt;
+  color: $fore;
+  outline-color: $link-alt;
+
+  path {
+    fill: $fore;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $link--hover;
+    color: $fore--inverse;
+    outline-color: $link-alt--hover;
+
+    path {
+      fill: $fore--inverse;
+    }
+  }
+}
+
+.elsewhere-action,
+.elsewhere-action--email {
+  background: $back--alt;
+  color: $fore;
+  outline-color: $lightgray;
+
+  path {
+    fill: $fore;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $link--hover;
+    color: $fore--inverse;
+    outline-color: $link-alt--hover;
+
+    path {
+      fill: $fore--inverse;
     }
   }
 }
