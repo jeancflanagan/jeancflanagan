@@ -20,7 +20,8 @@ Experts who do understand evolution by natural selection often use shortcuts and
 
 I’ll attempt to outline some of the major misconceptions and learning difficulties related to the mechanism of natural selection and discuss some common ways of talking about evolutionary processes that can reinforce these misconceptions.
 
-<!-- {/% figure_img right 0 caption %} -->
+{% assign image = page.image[0] %}
+{% include block/image.html class="right" %}
 
 ## Fitness and “survival of the fittest”
 
@@ -36,7 +37,7 @@ Adaptation is nearly ubiquitous as a “vocab” word for elementary-age student
 
 In his review article, Gregory highlights some of the problematic language used to describe adaptation:
 
->Thus, adaptations in any taxon may be described as “innovations,” “inventions,” or “solutions” (sometimes “ingenious” ones, no less). Even the evolution of antibiotic resistance is characterized as a process whereby bacteria “learn” to “outsmart” antibiotics with frustrating regularity.
+> Thus, adaptations in any taxon may be described as “innovations,” “inventions,” or “solutions” (sometimes “ingenious” ones, no less). Even the evolution of antibiotic resistance is characterized as a process whereby bacteria “learn” to “outsmart” antibiotics with frustrating regularity.
 
 Human tendency to anthropomorphize everything from animals to inanimate objects and natural processes is well known, and tough to combat. (See Heider and Simmel’s 1944 [experiment](http://www.all-about-psychology.com/fritz-heider.html) in which people assign intentions, emotions and even genders to [moving geometric shapes](http://www.youtube.com/watch?feature=player_embedded&v=sZBKer6PMtM).) In the context of evolution, anthropomorphic descriptions can lead to the misconception that individual organisms try to modify themselves to better fit the environment and then pass down those acquired traits to their offspring. A shaky understanding of genetics also underpins this idea, but sloppy communications can reinforce it.
 

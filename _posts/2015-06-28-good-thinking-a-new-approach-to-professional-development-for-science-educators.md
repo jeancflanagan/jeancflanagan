@@ -10,8 +10,8 @@ image:
     caption: ''
     alt: 'logo for the Good Thinking video series'
   - url: 2015-06-28-good-thinking-idea-trees.png
-    caption: 'screen shot from the Good Thinking series showing a misconception and a new idea as trees growing'
-    alt: ''
+    caption: ''
+    alt: 'screen shot from the Good Thinking series showing a misconception and a new idea as trees growing'
   - url: 2015-06-28-gummerson-mental-models.gif
     caption: ''
     alt: 'Gummerson, a character form the Good Thinking series, taking the shape of the words mental model'  
@@ -21,7 +21,8 @@ Findings from science education research rarely make their way into classroom pr
 
 Ever since I first got involved with science education research, I have been increasingly disturbed by this disconnect. That’s why I was incredibly excited when our Associate Director of Curriculum and Communications here at SSEC, Marjee Chmiel, approached me with the preliminary plans for the [_Good Thinking!_](http://www.ssec.si.edu/goodthinking) project.
 
-<!-- {/% figure_img right 0 %} -->
+{% assign image = page.image[0] %}
+{% include block/image.html class="right" %}
 
 #### The idea
 
@@ -39,7 +40,8 @@ We contracted with [FableVision](http://www.fablevisionstudios.com/#welcome), a 
 
 Yes, they’re animated. And yes, they’re for teachers! Unfortunately in the current policy climate, teachers have a pretty thankless job. There is always “one more thing” being added to their list of responsibilities, and professional development often means taking time out of their summer, or else struggling to find a substitute. _Good Thinking!_ is meant to be respectful of teachers’ time, and to bring a little bit of humor into their days. But beyond being fun, we think animation can be a surprisingly effective medium.
 
-<!-- {/% figure_img left 1 %} -->
+{% assign image = page.image[1] %}
+{% include block/image.html class="left" %}
 
 #### Animation, narrative, and dialogue
 
@@ -47,7 +49,8 @@ Another inspiration for our work came from the research of Derek Muller, a scien
 
 As Nate mentioned in an earlier [STEMVisions post](http://www.ssec.si.edu/blog/science-videos#.VXsZ8_lVhBc), digital technologies have the potential to move beyond traditional lecture-based approaches. We envisioned animation as an opportunity to visualize something teachers can only dream of — the inside of their students’ brains! (A scary thought perhaps, but one with real pedagogical value.) By using this conceit we can convey research findings on common alternative mental models, and then use narrative — a story about the focal teacher and her students — to work through the finer points of uncovering and addressing them in the classroom. We also use animation to explore scientific phenomena that are too big, small, fast, or slow to demonstrate with live filming, like the causes of the seasons, or the relationship between cells and atoms.
 
-<!-- {/% figure_img right 2 %} -->
+{% assign image = page.image[2] %}
+{% include block/image.html class="right" %}
 
 As far as we know, _Good Thinking!_ is the first substantial effort to translate science education research findings from journal articles into an animated format. Our team, and the teachers we’ve worked with so far, are very excited about the result, but we also recognize that this series is an experiment. We look forward to receiving feedback and hope to have the opportunity to refine our process and develop more episodes – the list of important topics and useful findings is always growing!
 

@@ -14,7 +14,8 @@ image:
 
 No memoir has ever hit as close to home as this one for me. I share with the author a love of animals, natural places, history, science, and literature. But reading the book, it felt as though we shared something even more fundamental.
 
-<!-- {/% figure_img right narrow 0 %} -->
+{% assign image = page.image[0] %}
+{% include block/image.html class="right narrow" %}
 
 I see my childhood mirrored in Helen’s: driven by a need for communion with animals, we both looked to established traditions that brought wild animals into our homes, to live alongside us. While she immersed herself in falconry and I opted for aquariums, the parallels are striking. Unfortunately both practices — especially when approached naively — have some element of subjugation of those animals. However, it also became clear that the daily exercise of stepping into the mind of a creature that is alien, yet somehow familiar (be it a fish or a bird) can eventually strengthen one’s capacity for empathy and can be an incredible salve for the burdens and absurdities of our human society.  
 

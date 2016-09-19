@@ -14,9 +14,10 @@ image:
 
 This was my first [Science Online](http://scienceonline.com/scienceonline2013/) conference, and it was a refreshingly collaborative experience. Research scientists, high school teachers, museum educators, education researchers, science writers, psychologists, and social scientists all came together with no pretensions for a shared purpose: to share ideas on how to better educate and communicate with the public about science.
 
-The design of the name badges nicely captured the feel of the “unconference” format. The badges emphasized first names and were intentionally devoid of institutional affiliations, creating an open, egalitarian atmosphere. The style of this conference is an example of one way to combat the problems of elitism and distrust that I outlined in my earlier [post on the research-practice divide](http://jeancflanagan.com/2013/facing-the-research-practice-divide/) in science education.
+The design of the name badges nicely captured the feel of the “unconference” format. The badges emphasized first names and were intentionally devoid of institutional affiliations, creating an open, egalitarian atmosphere. The style of this conference is an example of one way to combat the problems of elitism and distrust that I outlined in my earlier [post on the research-practice divide](/2013/facing-the-research-practice-divide/) in science education.
 
-<!-- {/% figure_img right 0 caption %} -->
+{% assign image = page.image[0] %}
+{% include block/image.html class="right" %}
 
 There were a few sessions directly focused on science education, and I’ve attempted to capture a few of the highlights from those here. However, many sessions that were more focused on science communication and journalism had implications for education as well, and may serve as inspiration for future posts.
 
@@ -26,7 +27,7 @@ There were a few sessions directly focused on science education, and I’ve atte
 
 Current research and thinking in science communication has shown the deficit model to be ineffective and overly [simplistic](http://pus.sagepub.com/content/13/1/55.abstract). But many scientists, educators, and journalists still default to it, perhaps because it’s so easy: throw some data on a website and your duty to science communication is done. Engaging with specific audiences in culturally sensitive ways takes time and effort. Another reason for the continued prevalence of the deficit model might be that scientists have traditionally been dismissive of social science, and therefore aren’t likely to read science communication and education journals. Compounding this effect, many in higher education were trained to teach through TA positions and observation of their professors with little or no exposure to the findings of education and communication research. Additionally, although most science research grants require dissemination and broader impacts statements, perhaps agencies haven’t taken a strong enough stance on requiring them to be effective and meaningful.
 
-What will it take to kill deficit model thinking? Changes in science training and grants might take time, but more communication between social scientists and scientists could spark the transition. Dan Kahan’s cultural cognition research, which I [wrote about for Sci-Ed](http://localhost:4000/2012/science-literacy-and-the-polarized-politics-of-climate-change/) earlier, was mentioned here and throughout the conference. Perhaps at Science Online 2014 scientists could be paired with social scientists (based on an interests and expertise survey) and start work on a small science communication project.
+What will it take to kill deficit model thinking? Changes in science training and grants might take time, but more communication between social scientists and scientists could spark the transition. Dan Kahan’s cultural cognition research, which I [wrote about for Sci-Ed](/2012/science-literacy-and-the-polarized-politics-of-climate-change/) earlier, was mentioned here and throughout the conference. Perhaps at Science Online 2014 scientists could be paired with social scientists (based on an interests and expertise survey) and start work on a small science communication project.
 
 ## Formal science education, informal science education, and science writing
 

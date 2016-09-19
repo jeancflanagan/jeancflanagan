@@ -20,23 +20,24 @@ When we talk about research and practice, we’re talking about academics and te
 
 Of course, some people have been both K-12 teachers and academics in their careers. To get this perspective on the issue I reached out to a colleague, Assistant Professor of Science Education [Ron Gray](http://rongray.net/) (Northern Arizona University). Ron has been a middle school science teacher, a teacher of science teachers, and is now a science education academic. When I asked him about the experience of transitioning from teacher to academic, he recalled:
 
->I don’t believe I had seen a single primary research document in education before earning my doctorate.
+> I don’t believe I had seen a single primary research document in education before earning my doctorate.
 
 Most K-12 science teachers are fairly disconnected from the research world once they leave universities and enter schools. They lack university library access, yet currently many of the best journals in the field, such as the *[Journal of Research in Science Teaching](http://onlinelibrary.wiley.com/journal/10.1002/%28ISSN%291098-2736)*, *Science Education*, and the *International Journal of Science Education* are not [open access](http://en.wikipedia.org/wiki/Open_access), and require a per-article fee to read. So how does research reach most teachers? I talked to a few science teachers to find out where they encounter science education research studies. Many used science and education pages on Facebook, one got papers sent from an administrator, and some read practitioner journals. Many science teachers are members of the [National Science Teacher’s Association](http://www.nsta.org/) (NSTA), which publishes practitioner journals and holds national and area conferences where teachers can hear about research findings. NSTA plays an invaluable role in working to connect research and practice. However, for perspective, NSTA has about [55,000 members](http://www.nsta.org/about/olpa/faq.aspx), most but not all of which are practicing science teachers, but there are currently about [two million](http://www.nsta.org/about/olpa/faq.aspx) practicing science teachers in the U.S.
 
 The disconnect also stems from unfortunate misperceptions of professors by teachers and vice versa. Both groups often discount each other’s knowledge bases and workloads. Professors can harbor elitist attitudes about teachers, discounting the value of practical classroom experience in determining what works in education. Teachers frequently claim that professors suffer from “Ivory Tower Syndrome”—the assumption here is that professors live cushy lives, sheltered from the realities of schools, and therefore can’t produce knowledge that is useful in today’s classrooms. A high school teacher quoted by Gore and Gitlin explained:
 
->A lot of what researchers think is based on the past and they are out of touch. And so we call it the Ivory Tower. Welcome to our world.
+> A lot of what researchers think is based on the past and they are out of touch. And so we call it the Ivory Tower. Welcome to our world.
 
 When I asked high school science teacher Laurie Almeida how she perceived the credibility of science education research, she responded:
 
->Somewhat credible. I work at a difficult school, so I feel that some of the research is way too out of touch with the reality of my school.
+> Somewhat credible. I work at a difficult school, so I feel that some of the research is way too out of touch with the reality of my school.
 
-<!-- {/% figure_img right narrow 0 caption %} -->
+{% assign image = page.image[0] %}
+{% include block/image.html class="right narrow" %}
 
 There is sometimes truth to the ivory tower criticisms; Gore and Gitlin noted that in some academic circles, the more closely research is associated with practice, the more devalued it is. Furthermore, science education research is far from perfect. Small-scale studies with limited applicability are published more frequently in science education than they are the natural sciences. This trend hasn’t escaped notice from teachers either. When I asked about the perceived credibility of science education research among teachers, science teacher Toni Taylor told me:
 
->Too often I see "research" that includes only a small sample population which makes me question the validity of the research... sometimes I feel like science education simply tries to reinvent the wheel.
+> Too often I see “research” that includes only a small sample population which makes me question the validity of the research … sometimes I feel like science education simply tries to reinvent the wheel.
 
 However, a lot of the mistrust between the two groups is based on their misunderstanding of each other’s professions. Teachers do not always appreciate that many researchers are often in the classroom regularly, conducting classroom-based studies and collecting data. This “back of the class” view can be highly illuminating, and is a valid way to have knowledge of classrooms. Some researchers got their start as K-12 teachers. And higher education is certainly not immune from classroom management issues or over-filled schedules. Professors have stress—just ask the [#realForbesProfessors](https://twitter.com/search?q=%23realforbesprofessors&src=typd) (this hashtag exploded on Twitter following the publication of a [*Forbes* article](http://www.forbes.com/sites/susanadams/2013/01/03/the-least-stressful-jobs-of-2013/) claiming that professors have one of the least stressful jobs). Similarly, researchers can forget that experienced teachers have a wealth of knowledge about the specific interactions of classroom context, pedagogy, and subject matter.
 
@@ -44,7 +45,7 @@ However, a lot of the mistrust between the two groups is based on their misunder
 
 My conversation with Professor Ron Gray about what academics can do to better connect with teachers aligned well with calls in the literature for more researcher-teacher partnerships. He said:
 
->The best way would be to get back in the classroom but the tenure process just doesn’t let that happen.
+> The best way would be to get back in the classroom but the tenure process just doesn’t let that happen.
 
 His response highlights the rigidity of teacher and researcher career paths. Even a former teacher who switched to the researcher path can’t switch back again without ultimately losing “traction” in both careers. Perhaps we should question the wisdom of entrenching people interested in science education in one narrowly-defined career trajectory or another. Instead, career advancement could reward the accumulation of diverse but synergistic experiences. Science education is a multidisciplinary endeavor, involving science, social science, and communication skills—why shouldn’t its career options reflect this?
 

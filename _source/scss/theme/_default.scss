@@ -3,6 +3,7 @@ $back--alt: $offwhite;
 $back--inverse: $black;
 $fore: $black;
 $fore--inverse: $white;
+$for--alt: $darkgray;
 $accent: $blue;
 $link: $blue;
 $link--hover: $green;
@@ -49,6 +50,10 @@ figcaption > a {
 
 blockquote {
   border-left-color: $lightgray;
+}
+
+figcaption {
+  color: $darkgray;
 }
 
 .archive {
