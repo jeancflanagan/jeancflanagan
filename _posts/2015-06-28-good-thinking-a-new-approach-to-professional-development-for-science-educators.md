@@ -4,16 +4,16 @@ category: writing
 option:
   - featured
 description: 'The story behind my work with the Smithsonian Science Education Center and FableVision studios to develop an animated video series on the science of teaching science.'
-source: <i>Smithsonian STEMvisions</i>
+source: '<i>Smithsonian STEMvisions</i>'
 sourceurl: https://ssec.si.edu/stemvisions-blog/good-thinking-new-approach-professional-development-science-educators
 image:
-  - url: 2015-06-28-good-thinking-opener-logo.png
+  - src: 2015-06-28-good-thinking-opener-logo.png
     caption: ''
     alt: 'logo for the Good Thinking video series'
-  - url: 2015-06-28-good-thinking-idea-trees.png
+  - src: 2015-06-28-good-thinking-idea-trees.png
     caption: ''
     alt: 'screen shot from the Good Thinking series showing a misconception and a new idea as trees growing'
-  - url: 2015-06-28-gummerson-mental-models.gif
+  - src: 2015-06-28-gummerson-mental-models.gif
     caption: ''
     alt: 'Gummerson, a character form the Good Thinking series, taking the shape of the words mental model'  
 

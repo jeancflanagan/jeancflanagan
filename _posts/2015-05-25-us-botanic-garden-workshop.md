@@ -1,36 +1,18 @@
 ---
 title: 'US Botanic Garden Workshop'
 category: photo
+layout: photoset
 option:
   - featured
 location: 'US Botanic Garden'
-summary_image: /photos/2015-03-29-bromeliad-interior.jpg
 period: 'April 2015'
-image:
-  - url: /photos/2015-03-29-bromeliad-interior.jpg
-    caption: 'Interior, bromeliad'
-    alt: 'close up of the center of a bromeliad plant'
-    coordinates: ''
-  - url: /photos/2015-03-29-fern-tendril.jpg
-    caption: 'Fern curl'
-    alt: ''
-    coordinates: ''
-  - url: /photos/2015-03-29-foliage.jpg
-    caption: 'Foliage'
-    alt: ''
-    coordinates: ''
-  - url: /photos/2015-03-29-curved-fern-leaf.jpg
-    caption: 'Fern curve'
-    alt: ''
-    coordinates: ''
-  - url: /photos/2015-03-28-white-stars.jpg
-    caption: 'Tiny white flowers'
-    alt: ''
-    coordinates: ''
-  - url: /photos/2015-03-28-geranium-madernese-close.jpg
-    caption: '*Geranium madernese*'
-    alt: ''
-    coordinates: ''          
+photo:
+  - 2015-03-29-bromeliad-interior
+  - 2015-03-29-fern-tendril
+  - 2015-03-29-foliage
+  - 2015-03-29-curved-fern-leaf
+  - 2015-03-28-white-stars
+  - 2015-03-28-geranium-madernese-close         
 
 ---
 

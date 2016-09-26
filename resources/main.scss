@@ -10,6 +10,7 @@
 @import 'container/block',
         'container/home',
         'container/archive',
+        'container/featured',
         'block/action',
         'block/section-title',
         'block/who',
@@ -19,6 +20,7 @@
         'block/item';
 
 @import 'container/post',
+        'container/photoset',
         'block/content',
         'block/image';
 

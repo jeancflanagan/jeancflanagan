@@ -4,7 +4,7 @@ category: writing
 description: 'Thor Hanson’s book <cite>Feathers</cite> is a compelling read, touching on the biology, history, and culture of feathers.'
 source: here
 image:
-  - url: 2012-11-13-thor-hanson-feathers-book-cover.jpg
+  - src: 2012-11-13-thor-hanson-feathers-book-cover.jpg
     alt: 'Thor Hanson Feathers book cover'
 
 ---

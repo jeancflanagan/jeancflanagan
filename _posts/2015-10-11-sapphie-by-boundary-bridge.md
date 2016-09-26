@@ -1,19 +1,15 @@
 ---
 title: 'Sapphie by Boundary Bridge'
 category: photo
+layout: photoset
 option:
   - featured
-location: 'Washington DC'
-summary_image: /photos/2015-10-10-balance-Fuji-Superia-800-.jpg
+location: 'Washington, DC'
 period: 'October 2015'
-image:
-  - url: /photos/2015-10-10-sapphie-Fuji-Superia-800-.jpg
-    caption: 'Sapphie <br>(VSCO film emulation: Fuji Superia 800-)'
-    alt: 'a portrait of Sapphie near an uprooted tree'
-    coordinates: ''
-  - url: /photos/2015-10-10-balance-Fuji-Superia-800-.jpg
-    caption: 'Balance <br>(VSCO film emulation: Fuji Superia 800-)'
-    alt: 'a shot through Sapphie’s paws on a log'
-    coordinates: ''
+featured_photo: 1
+photo:
+  - 2015-10-10-sapphie-Fuji-Superia-800-
+  - 2015-10-10-balance-Fuji-Superia-800-
+
 ---
-A ramble around the trails near Boundary Bridge in north Rock Creek Park, on the one-year anniversary of when [Oliver](http://olivermak.es) and I adopted [Sapphie](/2014/sapphie/).
+A ramble around the trails near Boundary Bridge in north Rock Creek Park, on the one-year anniversary of when [Oliver](https://olivermak.es) and I adopted [Sapphie](/2014/sapphie/).

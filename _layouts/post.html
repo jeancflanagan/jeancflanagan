@@ -12,6 +12,8 @@
 
       <h2>{{ page.title }}</h2>
 
+      {% if page.source %}<p class="content-meta">Published on {% if page.source != 'here' %}<a href="{{ page.sourceurl }}">{{ page.source }}</a><br>{% endif %}<time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %d, %Y" }}</time></p>{% endif %}
+
 {{ content }}
 
     </article>

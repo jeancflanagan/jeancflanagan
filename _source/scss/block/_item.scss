@@ -10,6 +10,30 @@
   }
 }
 
+.item--featured {
+  @include container-width(max);
+
+  margin: 1em auto 0;
+  outline: 1px solid lightgray;
+  padding: 1em 1em 2em;
+
+  @include min-width(large) {
+    flex: 0 0 calc(50% - 1em);
+  }
+}
+
+.item--featured-image {
+  // background-url set inline in _includes/block/item--featured.html
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 10em;
+  margin: -1em -1em 1em;
+
+  @include min-width(large) {
+    height: 15em;
+  }
+}
+
 .item-title {
   font-size: 1.25em;
 }

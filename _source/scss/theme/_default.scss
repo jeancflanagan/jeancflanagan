@@ -3,7 +3,7 @@ $back--alt: $offwhite;
 $back--inverse: $black;
 $fore: $black;
 $fore--inverse: $white;
-$for--alt: $darkgray;
+$fore--alt: $darkgray;
 $accent: $blue;
 $link: $blue;
 $link--hover: $green;
@@ -54,6 +54,10 @@ blockquote {
 
 figcaption {
   color: $darkgray;
+}
+
+hr {
+  background-color: $accent;
 }
 
 .archive {
@@ -209,7 +213,8 @@ figcaption {
   }
 }
 
-.post {
+.post,
+.photoset {
   background-color: $back--alt;
 }
 
@@ -218,7 +223,12 @@ figcaption {
   outline-color: $lightgray;
 }
 
-.item {
+.content-meta {
+  color: $fore--alt;
+}
+
+.item,
+.item--featured {
   background-color: $back;
   outline-color: $lightgray;
 

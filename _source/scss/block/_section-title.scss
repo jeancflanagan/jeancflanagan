@@ -1,5 +1,7 @@
 .section-title {
+  font-feature-settings: 'smcp';
   font-size: 1.5em;
+  font-weight: $weight-regular;
   margin-top: 1em;
   text-align: center;
   width: 100%;

@@ -47,6 +47,8 @@ collections:
   patterns-categories:
     output: true
     permalink: patterns/:path/
+  photos:
+    output: false
 
 defaults:
   - scope:
@@ -95,5 +97,6 @@ domain: jeancflanagan.com
 url: http://jeancflanagan.com
 patterns_url: /patterns
 image_url: /images
+photo_url: /photos
 icon_url: /icons
 resources_url: /resources

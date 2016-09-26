@@ -4,7 +4,7 @@ category: writing
 description: 'New evidence suggests that an important marine alga could quickly evolve adaptations to ocean acidification.'
 source: here
 image:
-  - url: 2012-12-01-e-huxleyi-small-and-large-2.jpg
+  - src: 2012-12-01-e-huxleyi-small-and-large-2.jpg
     caption: 'E. huxlyei is both tiny and gigantic. Left: one individual under an SEM microscope (photo by Alison R. Taylor). Right: a bloom in the Barents Sea from space (photo from NASA).'
     alt: 'E.huxlyei under SEM microscope vs. bloom in Barents Sea from space'
 

@@ -5,7 +5,7 @@ description: 'Brief thoughts on a book that weaves memoir, nature writing, and l
 source: here
 sourceurl:
 image:
-  - url: 2015-06-07-h-is-for-hawk-cover.jpg
+  - src: 2015-06-07-h-is-for-hawk-cover.jpg
     caption: ''
     alt: 'Cover of the book *H is for Hawk* by Helen MacDonald'
 

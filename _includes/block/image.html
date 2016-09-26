@@ -1,6 +1,6 @@
 <figure class="image {% if include.class %}{{ include.class }}{% endif %}">
   <img
-    src="{{ site.image_url }}/{{ image.url }}"
+    src="{{ site.image_url }}/{{ image.src }}"
     alt="{{ image.alt }}">
   {% if image.caption %}
   <figcaption>{{ image.caption | markdownify }}</figcaption>

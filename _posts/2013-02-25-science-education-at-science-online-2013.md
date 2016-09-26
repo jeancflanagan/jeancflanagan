@@ -5,7 +5,7 @@ description: 'Highlights from the sessions focussed on science education at the 
 source: <cite>PLOS Sci-Ed</cite>
 sourceurl: http://blogs.plos.org/scied/2013/02/25/science-education-at-science-online-2013/
 image:
-  - url: 2013-02-25-science-online-jean-flanagan.jpg
+  - src: 2013-02-25-science-online-jean-flanagan.jpg
     caption: 'Science Online 2013 name badge. (PLOS sponsored the lanyards for everyone.) Photo by Jean Flanagan.'
     alt: 'Science Online 2013 name badge.'
 

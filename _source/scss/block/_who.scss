@@ -8,6 +8,10 @@
   }
 }
 
+.who--inner {
+  padding-bottom: 1em;
+}
+
 .who-heading,
 .who--inner-heading {
   display: flex;
@@ -45,7 +49,7 @@
 
   @include min-width(large) {
     font-size: 3em;
-    letter-spacing: -.01em;
+    letter-spacing: -.025em;
   }
 }
 
@@ -53,9 +57,11 @@
   font-size: .875em;
   font-weight: $weight-regular;
   margin-top: .5em;
+  letter-spacing: -.01em;
 
   @include min-width(large) {
     font-size: 1em;
+    letter-spacing: -.02em;
   }
 }
 

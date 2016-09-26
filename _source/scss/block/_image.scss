@@ -2,6 +2,25 @@
   margin: 1em auto;
 }
 
+.image--photo {
+  margin: 2em auto 1em;
+
+  &:first-of-type {
+    margin-top: 1em;
+  }
+
+  figcaption {
+    margin-left: 1em; // keep away from page edge
+  }
+
+  @include min-width(larger) {
+
+    figcaption {
+      margin-left: 0; // reset
+    }
+  }
+}
+
 .right,
 .left {
   @include min-width(large) {

@@ -7,7 +7,7 @@ description: 'Effective assessment will be one of the most important aspects of 
 source: <cite>Smithsonian STEMvisions</cite>
 sourceurl: https://ssec.si.edu/stemvisions-blog/science-assessment-next-generation
 image:
-  - url: 2013-10-23-NGSS-blended-knowledge-rope-SSEC.png
+  - src: 2013-10-23-NGSS-blended-knowledge-rope-SSEC.png
     caption: 'NGSS performance expectations blend practices, crosscutting concepts, and core ideas. Image by the Smithsonian Science Education Center (SSEC).'
     alt: 'NGSS rope with three strands representing practices, crosscutting concepts, and core ideas'
 

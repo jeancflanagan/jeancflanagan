@@ -1,19 +1,13 @@
 ---
 title: 'Early Spring Snow'
 category: photo
+layout: photoset
 location: 'Lanier Heights, DC'
-summary_image: /photos/2014-03-17-icicles.jpg
 period: 'March 2014'
-image:
-  - url: /photos/2014-03-17-icicles.jpg
-    caption: 'Icicles in the crevice of a stone wall'
-    alt: 'Icicles in the crevice of a stone wall'
-  - url: /photos/2014-03-17-snowy-elm.jpg
-    caption: 'A giant elm tree'
-    alt: 'A giant elm tree in the snow'
-  - url: /photos/2014-03-17-snowy-footprints.jpg
-    caption: 'Footprints in the snow'
-    alt: 'Footprints on a snowy sidewalk'
+photo:
+  - 2014-03-17-icicles
+  - 2014-03-17-snowy-elm
+  - 2014-03-17-snowy-footprints
 
 ---
 

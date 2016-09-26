@@ -7,7 +7,7 @@ description: 'Experts who understand evolution often use shortcuts to talk about
 source: <cite>PLOS Sci-Ed</cite>
 sourceurl: http://blogs.plos.org/scied/2013/03/18/communicating-about-evolution-the-danger-of-shortcuts/
 image:
-  - url: 2013-03-18-darwins-finches-charles-darwin-us-public-domain.jpg
+  - src: 2013-03-18-darwins-finches-charles-darwin-us-public-domain.jpg
     caption: 'Darwin’s finches or Galapagos finches. Charles Darwin, 1845. U.S. public domain.'
     alt: 'Darwin’s finches or Galapagos finches'
 

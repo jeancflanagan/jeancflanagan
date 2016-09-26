@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+
+  {% include block/who--inner.html %}
+
+  <div class="h-entry photoset" role="main">
+
+
+      <div class="block--wide">
+        <h2>{{ page.title }}</h2>
+
+        {% for photo in page.photo %}
+          {% include block/image--photo.html %}
+        {% endfor %}
+
+      </div>
+
+      <div class="block">
+        {{ content }}
+      </div>
+
+  </div>
+
+  {% include container/end.html %}
+
+</body>
+</html>
