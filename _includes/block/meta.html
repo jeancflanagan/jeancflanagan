@@ -1,0 +1,33 @@
+<div class="block">
+  <section class="meta">
+    <div class="meta-social">
+      <a class="meta-link" href="{{ site.link.twitter }}">{% include icon/twitter.svg %}Twitter</a>
+      <a class="meta-link" href="{{ site.link.linkedin }}">{% include icon/linkedin.svg %}LinkedIn</a>
+      <a class="meta-link" href="{{ site.link.subscribe.full }}">{% include icon/rss.svg %}Subscribe via RSS</a>
+    </div>
+
+    <div class="meta-indices">
+      <a class="meta-index" href="/writing/">Selected articles{% include icon/arrow-right.svg %}</a>
+      <a class="meta-index" href="/photo/">Selected photography{% include icon/arrow-right.svg %}</a>
+    </div>
+
+    <div class="meta-disclaimer">
+      <p>Disclaimer: Views expressed here are my own and are not intended to represent those of any of my employers, past or present.</p>
+      <p>Content is licensed {{ site.license.short }}.</p>
+
+      <div class="meta-copyright">
+        <button class="jsDisclose"> More on copyright{% include icon/arrow-down.svg %}</button>
+        <div class="meta-attribution jsExpanded">
+          {{ site.license.description | markdownify }}
+        </div>
+      </div>
+
+      <p>Designed and developed by <a class="meta-credit" href="https://olivermak.es">Oliver Pattison {% include icon/oliver.svg %}</a></p>
+    </div>
+
+
+
+    <div class="meta-disclaimer">
+    </div>
+  </section>
+</div>

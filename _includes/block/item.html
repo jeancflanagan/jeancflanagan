@@ -1,4 +1,14 @@
 <article class="item">
+  {% if post.category == 'photo' %}
+    {% if post.featured_photo %}
+    {% assign count = post.featured_photo %}
+    {% assign photo = post.photo[count] %}
+    {% else %}
+    {% assign photo = post.photo[0] %}
+    {% endif %}
+  {% include helper/photo-from-collection.liquid %}
+  <div class="item-image" style="background-image: url({{ site.photo_url }}/{{ image.src | imgix_url: w: 720, q: 50 }})"></div>
+  {% endif %}
   <div class="item-description">
     <h2 class="item-title"><a href="{{ post.url }}">{{ post.title | markdownify | p_escape }}</a></h2>
     {% if post.source %}

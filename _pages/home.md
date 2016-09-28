@@ -43,3 +43,7 @@ details:
 {% include block/skills.html %}
 
 {% include block/organization.html %}
+
+<div class="block">
+  <a class="action--center" href="mailto:{{ site.author.email }}">Email me</a>
+</div>

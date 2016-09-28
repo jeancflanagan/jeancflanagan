@@ -64,9 +64,11 @@ hr {
   background-color: $back--alt;
 }
 
-.action {
+.action,
+.action--center {
   background-color: $link;
   color: $fore--inverse;
+  outline-color: $link-alt;
 
   path {
     fill: $fore--inverse;
@@ -76,11 +78,16 @@ hr {
   &:focus {
     background-color: $link--hover;
     color: $fore--inverse;
+    outline-color: $link-alt--hover;
 
     path {
       fill: $fore--inverse;
     }
   }
+}
+
+.section-title {
+  color: $fore--alt;
 }
 
 .details-title {
@@ -170,6 +177,23 @@ hr {
   }
 }
 
+.meta-link {
+  color: $link-alt;
+
+  path {
+    fill: $link-alt;
+  }
+
+  &:hover,
+  &:focus {
+    color: $link-alt--hover;
+
+    path {
+      fill: $link-alt--hover;
+    }
+  }
+}
+
 .meta-action {
   background-color: $back--alt;
   color: $fore;
@@ -181,34 +205,33 @@ hr {
 
   &:hover,
   &:focus {
-    background-color: $link--hover;
-    color: $fore--inverse;
-    outline-color: $link-alt--hover;
+    background-color: $link-alt--hover;
+    color: $fore;
+    outline-color: $link--hover;
 
     path {
-      fill: $fore--inverse;
+      fill: $fore;
     }
   }
 }
 
-.elsewhere-action,
-.elsewhere-action--email {
-  background: $back--alt;
-  color: $fore;
-  outline-color: $lightgray;
+.meta-index {
+  background-color: transparent;
+  color: $link-alt;
+  outline-color: $link-alt;
 
   path {
-    fill: $fore;
+    fill: $link-alt;
   }
 
   &:hover,
   &:focus {
-    background-color: $link--hover;
-    color: $fore--inverse;
-    outline-color: $link-alt--hover;
+    background-color: $link-alt--hover;
+    color: $fore;
+    outline-color: $link--hover;
 
     path {
-      fill: $fore--inverse;
+      fill: $fore;
     }
   }
 }

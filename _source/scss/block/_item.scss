@@ -1,12 +1,14 @@
 .item {
   @include container-width(normal);
 
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
   margin: 1em auto 0;
   outline: 1px solid lightgray;
-  padding: 1em;
 
-  @include min-width(large) {
-    padding: 1em 2em;
+  @include min-width(medium) {
+    flex-flow: row wrap;
   }
 }
 
@@ -15,22 +17,42 @@
 
   margin: 1em auto 0;
   outline: 1px solid lightgray;
-  padding: 1em 1em 2em;
 
   @include min-width(large) {
     flex: 0 0 calc(50% - 1em);
   }
 }
 
+.item-image {
+  // background-url set inline in _includes/block/item--featured.html
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 5em;
+  width: 100%;
+
+  @include min-width(medium) {
+    height: auto;
+    order: 2;
+    width: 25%;
+  }
+}
+
 .item--featured-image {
   // background-url set inline in _includes/block/item--featured.html
-  background-size: cover;
   background-position: 50% 50%;
+  background-size: cover;
   height: 10em;
-  margin: -1em -1em 1em;
 
   @include min-width(large) {
     height: 15em;
+  }
+}
+
+.item-description {
+  padding: 1em;
+
+  @include min-width(large) {
+    padding: 1em 2em;
   }
 }
 

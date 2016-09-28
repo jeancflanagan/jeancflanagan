@@ -3,23 +3,66 @@
   flex-flow: row wrap;
 }
 
-.meta-disclaimer {
-  margin: auto;
-  padding: 0 1em;
+.meta-social {
+  display: flex;
+  flex-flow: column wrap;
+  flex: 1 0 50%;
+}
 
-  @include min-width(larger) {
-    flex: 1 0 75%;
-    margin-top: 0;
-    padding: 0 1em 0 0; // right pad only
-    width: 75%;
+.meta-link {
+  display: flex;
+  line-height: 1; // align to baseline for svg images
+  margin: 1em auto 0;
+  width: 100%;
+
+  svg {
+    height: 1em;
+    margin: auto .125em auto 0;
+    width: 1.5em;
   }
 }
 
+.meta-indices {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 1em auto 0;
+  flex: 1 0 100%;
+
+  @include min-width(medium) {
+    flex: 1 0 50%;
+    width: 50%;
+  }
+}
+
+.meta-index {
+  @include action(0, 1em);
+
+  font-weight: $weight-regular;
+  text-align: center;
+  width: 100%;
+
+  & + .meta-index {
+    margin-top: 1em;
+  }
+
+  svg {
+    height: .75em;
+    margin: auto 0;
+    width: 1.75em;
+  }
+
+  @include min-width(medium) {
+    text-align: right;
+  }
+}
+
+.meta-disclaimer {
+  margin: 2em auto 0;
+}
+
 .meta-copyright {
-  flex: 1 0 50%;
   margin: 1em auto;
-  padding: 0 1em;
-  width: 50%;
+  flex: 1 0 100%;
 
   button {
     cursor: pointer;
@@ -37,64 +80,10 @@
       transform: rotate(180deg) translateY(4px);
     }
   }
-
-  @include min-width(larger) {
-    flex: 1 0 75%;
-    margin: -1.5em 0 0;
-    order: 3;
-    padding: 0; // reset
-    width: 75%;
-  }
 }
 
 .meta-attribution {
   margin-top: .5em;
-}
-
-.meta-indices {
-  @include container-width(min);
-
-  display: flex;
-  flex-flow: column nowrap;
-  padding: 0 1em;
-
-  @include min-width(medium) {
-    flex: 0 0 50%;
-    margin-left: 50%;
-    padding: 0 1em 0 0;
-    width: 50%;
-  }
-
-  @include min-width(larger) {
-    flex: 1 0 25%;
-    margin-left: 0;
-    padding: 0;
-    width: 25%;
-  }
-}
-
-.meta-action {
-  @include action(0, 1em);
-
-  font-weight: $weight-regular;
-  text-align: center;
-  width: 100%;
-
-  & + .meta-action {
-    margin-top: 1em;
-  }
-
-  svg {
-    height: .75em;
-    margin: auto 0;
-    width: 1.75em;
-  }
-
-  @include min-width(medium) {
-    margin-left: .5em;
-    text-align: right;
-    width: calc(100% - .5em);
-  }
 }
 
 .meta-credit {

@@ -6,3 +6,12 @@
     width: 50%;
   }
 }
+
+.action--center {
+  @include action;
+
+  @include min-width(medium) {
+    margin-left: auto;
+    width: 50%;
+  }
+}
