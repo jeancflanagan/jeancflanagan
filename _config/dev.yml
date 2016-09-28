@@ -3,8 +3,8 @@ imgix:
   source: dev-jeancflanagan.imgix.net
 
 ## Configuration URLs
-domain: 'dev.example.com'
-url: 'http://dev.example.com'
+domain: 'dev.jeancflanagan.com'
+url: 'http://dev.jeancflanagan.com'
 
 ## Sass configuration
 sass:

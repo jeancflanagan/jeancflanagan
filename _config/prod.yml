@@ -21,7 +21,7 @@ link:
   linkedin: https://www.linkedin.com/in/jeancflanagan
 ###### TODO Add other feeds as needed.
   subscribe:
-    full: /full.xml
+    full: /subscribe/full.xml
 
 # Site configuration
 
@@ -85,6 +85,7 @@ imgix:
 
 ## Project configuration
 include:
+  - _feeds
   - _pages
 
 exclude:
