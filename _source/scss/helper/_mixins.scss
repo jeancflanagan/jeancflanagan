@@ -39,4 +39,10 @@
   outline: 1px solid black;
   padding: $padding;
   text-align: center;
+
+  svg {
+    height: .75em;
+    margin: auto 0;
+    width: 1.75em;
+  }
 }
