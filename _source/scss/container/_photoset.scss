@@ -10,4 +10,12 @@
       text-align: left;
     }
   }
+
+  .block {
+    padding: 0 1em;
+
+    @include min-width(large) {
+      padding: 0;
+    }
+  }
 }
