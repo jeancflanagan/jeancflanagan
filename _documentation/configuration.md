@@ -145,7 +145,7 @@ For ease of navigation, the CSS file is organized by section, with comments bloc
 1. Print styles
 1. Animations
 
-Older browsers (like IE7 and IE8) *do not* support media queries, modern CSS, nor some HTML5 elements, which is why they are conditionally served a [more minimal "non-responsive" stylesheet](https://github.com/opattison/jeancflanagan/blob/master/ieold.css).
+Older browsers (like IE7 and IE8) *do not* support media queries, modern CSS, nor some HTML5 elements, which is why they are conditionally served a more minimal “non-responsive” stylesheet.
 
 ### Typography
 
