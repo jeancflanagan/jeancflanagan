@@ -3,12 +3,14 @@
 {% if image.quality %}
   {% assign quality = image.quality %}
 {% else %}
-  {% assign quality = 50 %}
+  {% assign quality = 60 %}
 {% endif %}
 
 <figure class="image--photo">
   <img
-    src="{{ site.photo_url }}/{{ image.src | imgix_url: w: 720, q: quality }}"
+    src="{{ image.src | prepend: '/' | prepend: site.photo_url | imgix_url: w: 480, q: quality }}"
+    sizes="{{ site.sizes }}"
+    srcset="{% for width in site.srcset %}{{ image.src | prepend: '/' | prepend: site.photo_url | imgix_url: w: width, q: quality }} {{ width }}w{% if forloop.last == false %}, {% endif %}{% endfor %}"
     alt="{{ image.alt }}">
   {% if image.caption %}
   <figcaption>{{ image.caption | markdownify }}</figcaption>

@@ -5,6 +5,7 @@ author:
   twitter: '@jeancflanagan'
   tagline: 'science education specialist, writer, editor'
 description: ''
+###### TODO Add a description
 
 license:
   short: 'CC BY-NC 4.0'
@@ -25,7 +26,7 @@ link:
 
 # Site configuration
 
-##Gems
+## Gems
 gems:
   - sass
   - jekyll/imgix
@@ -102,3 +103,13 @@ image_url: /images
 photo_url: /photos
 icon_url: /icons
 resources_url: /resources
+
+## srcset implementation
+sizes: '(min-width: 62.5em) 960px, 100vw'
+srcset:
+  - 480
+  - 640
+  - 720
+  - 960
+  - 1280
+  - 1440

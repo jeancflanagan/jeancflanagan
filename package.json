@@ -12,7 +12,7 @@
     "serve:watch": "watchify _source/js/site.js -o resources/site.js",
     "serve:jekyll": "bundle exec jekyll serve --config _config/prod.yml,_config/dev.yml",
     "dev:js": "browserify _source/js/site.js -o resources/site.js",
-    "dev:jekyll": "bundle exec jekyll build --config _config/prod.yml,_config/dev.yml",
+    "dev:jekyll": "JEKYLL_ENV=production bundle exec jekyll build --config _config/prod.yml,_config/dev.yml",
     "dev:svg": "svgo -q -f _site/icons _site/images",
     "dev:deploy": "s3_website push --config-dir _config",
     "prod:js": "browserify _source/js/site.js | uglifyjs --comments -o resources/site.js",

@@ -1,6 +1,12 @@
+{% if image.quality %}
+  {% assign quality = image.quality %}
+{% else %}
+  {% assign quality = 50 %}
+{% endif %}
+
 <figure class="image {% if include.class %}{{ include.class }}{% endif %}">
   <img
-    src="{{ site.image_url }}/{{ image.src }}"
+    src="{{ image.src | prepend: '/' | prepend: site.image_url | imgix_url: w: 888, q: quality }}"
     alt="{{ image.alt }}">
   {% if image.caption %}
   <figcaption>{{ image.caption | markdownify }}</figcaption>
