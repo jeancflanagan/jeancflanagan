@@ -35,9 +35,9 @@ If you use Feedly, you can <a href="http://feedly.com/index.html#subscription/fe
 
 ## About this site
 
-The site is the result of a collaboration with my partner, [Oliver Pattison](http://olivermak.es), who was primarily responsible for its design and development. It runs on [Jekyll](http://jekyllrb.com/), a static site generator.
+The site is the result of a collaboration with my partner, [Oliver Pattison](https://olivermak.es), who was primarily responsible for its design and development. It runs on [Jekyll](http://jekyllrb.com/), a static site generator.
 
-A minimalist, responsive, content-first design philosophy guided the project. (It should work equally well on phones, tablets, laptops, and desktops of various sizes!) Check out [Oliver's website](http://olivermak.es) and <a href="https://github.com/opattison/jeancflanagan" rel="source">the GitHub repository for this site</a> for more on the design process.
+A minimalist, responsive, content-first design philosophy guided the project. (It should work equally well on phones, tablets, laptops, and desktops of various sizes!) Check out [Oliver's website](https://olivermak.es) and <a href="https://github.com/jeancflanagan/jeancflanagan" rel="source">the GitHub repository for this site</a> for more on the design process.
 
 ## Disclaimer
 
