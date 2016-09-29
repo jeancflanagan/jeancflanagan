@@ -7,7 +7,13 @@
   display: flex;
   flex-flow: column wrap;
   flex: 1 0 50%;
-  margin: auto; // vertical center
+  margin: 1em auto 0;
+  order: 2; // after .meta-indices
+
+  @include min-width(medium) {
+    margin: auto; // vertical center
+    order: 1
+  }
 }
 
 .meta-link {
@@ -25,9 +31,14 @@
 
 .meta-indices {
   display: flex;
+  flex: 1 0 100%;
   flex-flow: column nowrap;
   margin: 1em auto 0;
-  flex: 1 0 100%;
+  order: 1; // before .meta-social
+
+  @include min-width(medium) {
+    order: 2
+  }
 
   @include min-width(medium) {
     flex: 1 0 50%;
@@ -53,6 +64,7 @@
 
 .meta-disclaimer {
   margin: 2em auto 0;
+  order: 3; // always last of the three
 }
 
 .meta-copyright {
