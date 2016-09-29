@@ -966,3 +966,20 @@ figure img,
 @keyframes floating {0% {transform: translate(0); } 10% {transform: translate(-.75em, 0); } 25% {transform: translate(.5em, .5em); } 50% {transform: translate(0, -.5em); } 75% {transform: translate(-1em, 0); } 90% {transform: translate(-.5em, -.5em); } 100% {transform: translate(0); } }
 
 /*** END Animations ***/
+
+/* Override styles for archive site */
+
+.archive-override {
+  background-color: black;
+  color: white;
+  display: block;
+  font-weight: 400;
+  padding: 1em;
+  width: 100%;
+}
+
+@media (min-width: 50em) {
+  .archive-override {
+    text-align: center;
+  }
+}
