@@ -8,7 +8,7 @@
 
 <figure class="image--photo">
   <img
-    src="{{ image.src | prepend: '/' | prepend: site.photo_url | imgix_url: w: 480, q: quality }}"
+    src="{{ image.src | prepend: '/' | prepend: site.photo_url | imgix_url: w: 640, q: quality }}"
     sizes="{{ site.sizes }}"
     srcset="{% for width in site.srcset %}{{ image.src | prepend: '/' | prepend: site.photo_url | imgix_url: w: width, q: quality }} {{ width }}w{% if forloop.last == false %}, {% endif %}{% endfor %}"
     alt="{{ image.alt }}">

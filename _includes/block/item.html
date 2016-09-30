@@ -7,7 +7,7 @@
     {% assign photo = post.photo[0] %}
     {% endif %}
   {% include helper/photo-from-collection.liquid %}
-  <div class="item-image" style="background-image: url({{ image.src | prepend: '/' | prepend: site.photo_url | imgix_url: w: 720, q: 50 }})"></div>
+  <div class="item-image" style="background-image: url({{ image.src | prepend: '/' | prepend: site.photo_url | imgix_url: w: 480, q: 40 }})"></div>
   {% endif %}
   <div class="item-description">
     <h2 class="item-title"><a href="{{ post.url }}">{{ post.title | markdownify | p_escape }}</a></h2>
