@@ -5,7 +5,6 @@
 
 <meta name="author" content="{{ site.author.name }}">
 
-<!-- TODO delete this block if not using a Twitter handle -->
 <meta name="twitter:site" content="{{ site.author.twitter }}">
 
 {% if image %}
@@ -33,6 +32,7 @@
   <meta property="og:article:modified_time" content="{{ site.time | date_to_xmlschema }}">
 {% endif %}
 
+<!-- TODO add images from articles -->
 {% if image %}
   <meta property="og:image" content="{{ site.url }}{{ site.image_url }}/{{ image.src }}">
 {% else %}
