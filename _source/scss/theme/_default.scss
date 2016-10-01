@@ -248,6 +248,20 @@ hr {
   outline-color: $lightgray;
 }
 
+.footnotes,
+.reference {
+  background-color: $lightgray;
+}
+
+.footnotes + .reference {
+  border-color: $back;
+}
+
+.footnote,
+.reversefootnote {
+  color: $link;
+}
+
 .content-meta {
   color: $fore--alt;
 }

@@ -24,10 +24,11 @@
         'container/photoset',
         'block/content',
         'block/image',
-        'block/video';
+        'block/video',
+        'block/footnotes',
+        'block/reference';
 
 @import 'container/end',
-        'block/meta',
-        'block/elsewhere';
+        'block/meta';
 
 @import 'theme/default';

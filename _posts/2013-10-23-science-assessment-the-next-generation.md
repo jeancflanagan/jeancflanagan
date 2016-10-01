@@ -10,6 +10,11 @@ image:
   - src: 2013-10-23-NGSS-blended-knowledge-rope-SSEC.png
     caption: 'NGSS performance expectations blend practices, crosscutting concepts, and core ideas. Image by the Smithsonian Science Education Center (SSEC).'
     alt: 'NGSS rope with three strands representing practices, crosscutting concepts, and core ideas'
+reference:
+  - '[Gotwals, A. W., & Songer, N. B. (2013)](http://onlinelibrary.wiley.com/doi/10.1002/tea.21083/abstract). Validity Evidence for Learning Progression-Based Assessment Items That Fuse Core Disciplinary Ideas and Science Practices. <cite>Journal of Research in Science Teaching</cite>, 50(5), n/a–n/a. doi:10.1002/tea.21083'
+  - '[Pellegrino, J. W. (2012)](http://onlinelibrary.wiley.com/doi/10.1002/tea.21032/abstract). Assessment of science learning: Living in interesting times. <cite>Journal of Research in Science Teaching</cite>, 49(6), 831–841. doi:10.1002/tea.21032'
+  - '[Songer, N. B., & Gotwals, A. W. (2012)](http://onlinelibrary.wiley.com/doi/10.1002/tea.20454/abstract). Guiding explanation construction by children at the entry points of learning progressions. <cite>Journal of Research in Science Teaching</cite>, 49(2), 141–165. doi:10.1002/tea.20454'
+  - '[Slides](http://www.k12center.org/events/research_meetings/science_assessment.html) from the Invitational Research Symposium on Science Assessment (September 2013), Washington, DC.'
 
 ---
 
@@ -28,7 +33,7 @@ Professor Songer recently attended and presented at the [Invitational Research S
 
 ### How do we align items to performance expectations?
 
-Professor Songer worries that there are misconceptions about this among some NGSS stakeholders.
+Professor Songer worries that there are misconceptions about this among some NGSS stakeholders [^1].
 
 > The most important thing for people to know is that **there is not a one-to-one relationship or alignment between a PE and an item**. Most PEs are too complex and have too many parts to be assessed by one item, or even one cluster of items. The PEs must be broken down into manageable pieces. Incidentally, knowing this can also be important for alleviating some of the anxiety people feel about the complexity of the PEs when they are first exploring the NGSS.   
 
@@ -61,15 +66,3 @@ Perhaps the most immediate challenge for NGSS-aligned assessment development is 
 >Considerable research and development will be needed to create and evaluate assessment tasks and situations that can provide adequate evidence of the proficiencies implied in the NGSS. This research must be carried out in instructional settings where **students have had an adequate opportunity to construct the integrated knowledge** envisioned by the NGSS.
 
 More development work must be done to create prototypes for coordinated systems of curriculum materials and assessments before research can move forward. With more materials and students to work with, much more could be learned about how students learn this integrated knowledge and how to measure it.
-
-### Related Reading & Resources
-
-[Gotwals, A. W., & Songer, N. B. (2013). Validity Evidence for Learning Progression-Based Assessment Items That Fuse Core Disciplinary Ideas and Science Practices. <cite>Journal of Research in Science Teaching</cite>, 50(5), n/a–n/a. doi:10.1002/tea.21083](http://onlinelibrary.wiley.com/doi/10.1002/tea.21083/abstract)
-
-[Pellegrino, J. W. (2013). Proficiency in science: assessment challenges and opportunities. <cite>Science</cite>, 340(6130), 320–3. doi:10.1126/science.1232065](http://www.sciencemag.org/content/340/6130/320.abstract)
-
-[Pellegrino, J. W. (2012). Assessment of science learning: Living in interesting times. <cite>Journal of Research in Science Teaching</cite>, 49(6), 831–841. doi:10.1002/tea.21032](http://onlinelibrary.wiley.com/doi/10.1002/tea.21032/abstract)
-
-[Songer, N. B., & Gotwals, A. W. (2012). Guiding explanation construction by children at the entry points of learning progressions. <cite>Journal of Research in Science Teaching</cite>, 49(2), 141–165. doi:10.1002/tea.20454](http://onlinelibrary.wiley.com/doi/10.1002/tea.20454/abstract)
-
-[Slides from the Invitational Research Symposium on Science Assessment (September 2013), Washington, DC.](http://www.k12center.org/events/research_meetings/science_assessment.html)

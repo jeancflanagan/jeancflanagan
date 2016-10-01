@@ -16,6 +16,17 @@
 
 {{ content }}
 
+    {% if page.reference %}
+      <div class="reference">
+        <h2 class="reference-title">References</h2>
+        <ul>
+          {% for reference in page.reference %}
+          <li>{{ reference | markdownify | p_escape }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+
     </article>
 
   </div>
