@@ -33,7 +33,7 @@ Professor Songer recently attended and presented at the [Invitational Research S
 
 ### How do we align items to performance expectations?
 
-Professor Songer worries that there are misconceptions about this among some NGSS stakeholders [^1].
+Professor Songer worries that there are misconceptions about this among some NGSS stakeholders.
 
 > The most important thing for people to know is that **there is not a one-to-one relationship or alignment between a PE and an item**. Most PEs are too complex and have too many parts to be assessed by one item, or even one cluster of items. The PEs must be broken down into manageable pieces. Incidentally, knowing this can also be important for alleviating some of the anxiety people feel about the complexity of the PEs when they are first exploring the NGSS.   
 
