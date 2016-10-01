@@ -4,7 +4,7 @@
     {% for organization in page.organizations %}
     <div class="organization-item">
       <div class="organization-frame">
-        <img src="{{ site.image_url }}/site/{{ organization.logo }}">
+        <img src="{{ site.image_url }}/site/{{ organization.logo }}" alt="logo for {{ organization.name }}">
       </div>
       <div class="organization-description">
         <h3 class="organization-role">{{ organization.role | markdownify | p_escape }}</h3>
