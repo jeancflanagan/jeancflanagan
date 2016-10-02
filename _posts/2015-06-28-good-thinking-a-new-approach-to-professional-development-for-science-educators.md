@@ -18,7 +18,7 @@ image:
     alt: 'Gummerson, a character form the Good Thinking series, taking the shape of the words mental model'
 video:
   - src: https://www.youtube.com/embed/FzXxHYJnsqo
-    caption: 'Trailer for *Good Thinking!: The Science of Teaching Science*'
+    caption: 'Trailer for *Good Thinking!: The Science of Teaching Science.*'
 reference:
   - 'AAAS Project 2061 Science Assessment. (2011). [http://assessment.aaas.org/](http://assessment.aaas.org/)'
 
@@ -69,8 +69,7 @@ As Nate mentioned in an earlier [*STEMvisions* post](http://www.ssec.si.edu/blog
 
 As far as we know, _Good Thinking!_ is the first substantial effort to translate science education research findings from journal articles into an animated format. Our team, and the teachers we’ve worked with so far, are very excited about the result, but we also recognize that this series is an experiment. We look forward to receiving feedback and hope to have the opportunity to refine our process and develop more episodes – the list of important topics and useful findings is always growing!
 
+[Subscribe to SSEC's YouTube channel](https://www.youtube.com/channel/UC6dyNTnSopdgye2gQBVSNVg) to stay up-to-date!
+
 {% assign video = page.video[0] %}
 {% include block/video.html %}
-
-
-[Subscribe to SSEC's YouTube channel](https://www.youtube.com/channel/UC6dyNTnSopdgye2gQBVSNVg) to stay up-to-date!
