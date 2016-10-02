@@ -142,8 +142,14 @@ hr {
   background-color: $back;
 }
 
+.organization-name,
+.organization-role {
+  color: $fore;
+}
+
+
 .organization-period {
-  color: $darkgray;
+  color: $fore--alt;
 }
 
 .end {

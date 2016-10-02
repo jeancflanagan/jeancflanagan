@@ -40,11 +40,13 @@
 }
 
 .organization-name {
+  font-feature-settings: initial; // reset
   font-weight: $weight-regular;
   margin: 0;
 }
 
 .organization-period {
+  font-feature-settings: initial; // reset
   font-size: 1em;
   font-weight: $weight-regular;
   margin: 0;
