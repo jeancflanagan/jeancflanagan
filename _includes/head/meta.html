@@ -38,7 +38,7 @@
 {% endif %}
 
 {% if image %}
-  <meta property="og:image" content="{{ site.url }}{{ site.image_url }}/{{ image.src | imgix_url: w: 1024, q: 50 }}">
+  <meta property="og:image" content="{{ image.src | prepend: '/' | prepend: site.image_url | imgix_url: w: 1024, q: 50 }}">
 {% else %}
   <meta property="og:image" content="{{ site.url }}{{ site.icon_url }}/touchicon192.png">
 {% endif %}
