@@ -1,6 +1,64 @@
 ---
-title: '404 error – page not found'
-layout: post
-description: ''
+title: '404 error: page not found'
+layout: photoset
+description: 'You are adrift!'
 
 ---
+
+<style>
+  .photoset h2 {
+    text-align: center;
+  }
+
+  .image--photo {
+    margin: 2em -1em;
+    padding: 2em;
+
+    background-color: hsl(198, 52%, 18%);
+    margin-top: 0;
+    -webkit-animation: blueshift 10s ease-in-out infinite forwards;
+    animation: blueshift 10s ease-in-out infinite forwards;
+  }
+
+  @media (min-width: 62.5em) {
+    .image--photo {
+      margin: 2em -8em;
+      padding: 2em 8em;
+    }
+  }
+
+  .svg-container {
+    padding: 1em;
+    margin: auto;
+    max-width: 30em;
+    -webkit-animation: floating 18s ease infinite forwards;
+    animation: floating 18s ease infinite forwards;
+  }
+
+  .icon--jellyfish {
+    max-width: 100%;
+  }
+
+  .icon--jellyfish path {
+    stroke: hsla(198, 52%, 80%, .5);
+    fill: hsla(198, 52%, 80%, .5);
+  }
+
+  @-webkit-keyframes blueshift {0% {hsl(198, 52%, 18%); } 50% {background-color: hsl(198, 52%, 32%); } 100% {background-color: hsl(198, 52%, 18%); } }
+  @keyframes blueshift {0% {hsl(198, 52%, 18%); } 50% {background-color: hsl(198, 52%, 32%); } 100% {background-color: hsl(198, 52%, 18%); } }
+  @-webkit-keyframes floating {0% {-webkit-transform: translate(0); transform: translate(0); } 10% {-webkit-transform: translate(-.75em, 0); transform: translate(-.75em, 0); } 25% {-webkit-transform: translate(.5em, .5em); transform: translate(.5em, .5em); } 50% {-webkit-transform: translate(0, -.5em); transform: translate(0, -.5em); } 75% {-webkit-transform: translate(-1em, 0); transform: translate(-1em, 0); } 90% {-webkit-transform: translate(-.5em, -.5em); transform: translate(-.5em, -.5em); } 100% {-webkit-transform: translate(0); transform: translate(0); } }
+  @keyframes floating {0% {transform: translate(0); } 10% {transform: translate(-.75em, 0); } 25% {transform: translate(.5em, .5em); } 50% {transform: translate(0, -.5em); } 75% {transform: translate(-1em, 0); } 90% {transform: translate(-.5em, -.5em); } 100% {transform: translate(0); } }
+
+</style>
+
+<figure class="image--photo">
+  <div class="svg-container">
+    {% include icon/jellyfish.svg %}
+  </div>
+</figure>
+
+<p>You are adrift! Maybe it is not your fault; perhaps you are drifting like a jellyfish, or perhaps someone sent you the wrong way.</p>
+
+<p>While you figure out where you will float next, you can <a href="/writing/">read something</a> or <a href="/photos/">take a look at some photos</a>.</p>
+
+<p>Jellyfish vector CC BY-NC <a href="http://phylopic.org/image/ef63437d-d6f4-4583-9d75-a8c9b19a203d/">Michelle Site</a> via Phylopic.</p>
