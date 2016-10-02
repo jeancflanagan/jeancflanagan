@@ -41,6 +41,7 @@
   // background-url set inline in _includes/block/item--featured.html
   background-position: 50% 50%;
   background-size: cover;
+  display: block;
   height: 10em;
 
   @include min-width(large) {
