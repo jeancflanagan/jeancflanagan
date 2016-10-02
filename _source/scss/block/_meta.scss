@@ -1,0 +1,103 @@
+.meta {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.meta-social {
+  display: flex;
+  flex-flow: column wrap;
+  flex: 1 0 50%;
+  margin: 1em auto 0;
+  order: 2; // after .meta-indices
+
+  @include min-width(medium) {
+    margin: auto; // vertical center
+    order: 1
+  }
+}
+
+.meta-link {
+  display: flex;
+  line-height: 1; // align to baseline for svg images
+  margin: 1em auto 0;
+  width: 100%;
+
+  svg {
+    height: 1em;
+    margin: auto .125em auto 0;
+    width: 1.5em;
+  }
+}
+
+.meta-indices {
+  display: flex;
+  flex: 1 0 100%;
+  flex-flow: column nowrap;
+  margin: 1em auto 0;
+  order: 1; // before .meta-social
+
+  @include min-width(medium) {
+    order: 2
+  }
+
+  @include min-width(medium) {
+    flex: 0 0 50%;
+    width: 50%;
+  }
+}
+
+.meta-index {
+  @include action(0, 1em);
+
+  font-weight: $weight-regular;
+  text-align: center;
+  width: 100%;
+
+  & + .meta-index {
+    margin-top: 1em;
+  }
+
+  @include min-width(medium) {
+    text-align: right;
+  }
+}
+
+.meta-disclaimer {
+  margin: 2em auto 0;
+  order: 3; // always last of the three
+}
+
+.meta-copyright {
+  margin: 1em auto;
+  flex: 1 0 100%;
+
+  button {
+    cursor: pointer;
+    font-family: $font-body;
+    font-weight: $weight-regular;
+    text-align: left;
+    touch-action: manipulation;
+
+    .arrow {
+      height: .75em;
+      width: 1.5em;
+    }
+
+    .jsRotated {
+      transform: rotate(180deg) translateY(4px);
+    }
+  }
+}
+
+.meta-attribution {
+  margin-top: .5em;
+}
+
+.meta-credit {
+  display: inline-flex;
+}
+
+.meta-logo {
+  align-self: center;
+  margin-left: .25em;
+}

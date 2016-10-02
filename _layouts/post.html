@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+
+  {% include block/who--inner.html %}
+
+  <div class="h-entry post" role="main">
+
+    <article class="content">
+
+      <h2>{{ page.title }}</h2>
+
+      {% if page.source %}<p class="content-meta">Published on {% if page.source != 'here' %}<a href="{{ page.sourceurl }}">{{ page.source }}</a><br>{% endif %}<time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %d, %Y" }}</time></p>{% endif %}
+
+{{ content }}
+
+    {% if page.reference %}
+      <div class="reference">
+        <h2 class="reference-title">References</h2>
+        <ul>
+          {% for reference in page.reference %}
+          <li>{{ reference | markdownify | p_escape }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+
+    </article>
+
+  </div>
+
+  {% include container/end.html %}
+
+</body>
+</html>

@@ -1,0 +1,254 @@
+---
+---
+
+@import 'helpers';
+
+@import 'utilities';
+
+// custom styles for the patterns page
+
+$black: #0f0f0f;
+$darkgray: #1f1f1f;
+$lightgray: #ccc;
+$white: #ebebeb;
+$blue: #0d5173;
+$red: #730d0d;
+
+body {
+  background-color: transparent; // reset
+  background-image: none; // reset
+  margin: 0; // reset
+  padding: 0; // reset
+}
+
+.pattern-sidebar {
+  background-color: $darkgray;
+  color: $lightgray;
+
+  @media (min-width: 60em) {
+    height: calc(100vh - 2.5em);
+    position: fixed;
+    width: 15em;
+    z-index: 2;
+  }
+}
+
+.pattern-main {
+
+  @media (min-width: 60em) {
+    padding: 4em 0 2em 15em;
+    width: 100%;
+  }
+}
+
+.pattern-nav {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  margin: 0;
+
+  @media (min-width: 60em) {
+    display: block;
+    max-height: 100%;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 10em;
+  }
+
+  ul,
+  li {
+    margin: 0;
+    list-style: none;
+  }
+}
+
+.pattern-nav-link,
+.pattern-nav-link--sub,
+.pattern-about-link {
+  border: none; // reset
+}
+
+.pattern-nav-link {
+  background-color: $black;
+  color: $lightgray;
+  display: block;
+  font-weight: $weight-bold;
+  padding: .5em 1em;
+
+  &:hover,
+  &:focus {
+    background-color: $white;
+    color: $darkgray;
+  }
+
+  &--active {
+    background-color: $red;
+    color: $white;
+  }
+}
+
+.pattern-nav-link--sub {
+  display: none;
+  color: $lightgray;
+  padding: .5em 2em;
+
+  &:hover,
+  &:focus {
+    background-color: $white;
+    color: $darkgray;
+  }
+
+  @media (min-width: 60em) {
+    display: block;
+  }
+}
+
+.pattern-about {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  bottom: 0;
+  left: 0;
+
+  @media (min-width: 60em) {
+    height: 2.5em;
+    flex-flow: column nowrap;
+    width: 15em;
+  }
+}
+
+.pattern-about-item {
+  display: flex;
+  flex: 1 1 auto;
+  list-style: none;
+  margin: 0;
+  width: 100%;
+
+  &:nth-child(2n) .pattern-about-link {
+    background-color: $white;
+    color: $black;
+
+    &:hover,
+    &:focus {
+      background-color: $red;
+      color: $white;
+    }
+  }
+}
+
+.pattern-about-link {
+  background-color: $lightgray;
+  color: $black;
+  display: block;
+  flex: 1 1 auto;
+  font-weight: $weight-regular;
+  padding: .5em 1em;
+
+  &:hover,
+  &:focus {
+    background-color: $red;
+    color: $white;
+  }
+}
+
+.pattern-meta {
+  width: 100%;
+}
+
+.pattern-title {
+  background-color: $blue;
+  color: $white;
+  position: relative;
+  padding: 1em 2em;
+  text-align: left;
+  width: 100%;
+
+  .arrow {
+    display: block;
+    position: absolute;
+    right: 2em;
+    top: 1.25em;
+
+    path {
+      fill: $white;
+    }
+  }
+
+  &:hover,
+  &:focus,
+  &.jsActive {
+    background-color: $red;
+    color: $white;
+    cursor: pointer;
+  }
+
+  &.jsActive {
+    background-color: $red;
+  }
+
+  .jsRotated {
+    transform: rotate(180deg) translateY(4px);
+  }
+}
+
+.pattern-expanded {
+  background-color: $white;
+  padding: 1em;
+
+  textarea {
+    background-color: $darkgray;
+    color: $lightgray;
+    margin-top: 1em;
+    padding: 1em;
+    font-family: monospace;
+    width: 80%;
+  }
+}
+
+.pattern-display {
+  padding: 2em;
+  overflow: hidden;
+}
+
+.grid--swatches {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 1rem;
+  justify-content: flex-start;
+  list-style-type: none;
+  margin: 1em auto;
+  max-width: 45em;
+}
+
+.swatch {
+  flex: 1 0 100%;
+  font-family: $font-mono;
+  font-size: .75em;
+  font-weight: $weight-regular;
+  line-height: 1.5;
+  margin-top: 1em;
+
+  @media (min-width: 60em) {
+    flex: 0 0 50%;
+  }
+
+  figure {
+    height: 12em;
+    position: relative;
+  }
+
+  figcaption {
+    background-color: transparentize($white, .1);
+    border-bottom: none;
+    bottom: 0;
+    margin: 0;
+    padding: .5em 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+}

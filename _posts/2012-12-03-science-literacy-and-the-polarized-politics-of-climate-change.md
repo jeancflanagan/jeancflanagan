@@ -1,16 +1,17 @@
 ---
-layout: writing
-category: writing
 title: 'Science literacy and the polarized politics of climate change'
-date: 2012-12-03 10:01
+category: writing
+option:
+  - selected
 description: 'If increasing science knowledge can increase climate change denial, how can educators respond?'
 source: <cite>PLOS Sci-Ed</cite>
 sourceurl: http://blogs.plos.org/scied/2012/12/03/science-literacy-and-the-polarized-politics-of-climate-change/
-image: 
-  - url: 2012-12-03-lone-polar-bear-on-sea-ice-fruchtzwergs-world-on-flickr.jpg
-    caption: 'Lone polar bear on sea ice. Photo by [fruchtzwerg’s world on Flickr](http://www.flickr.com/photos/78500427@N02/8900036455/in/photolist-eyt1Lp).'
+image:
+  - src: 2012-12-03-lone-polar-bear-on-sea-ice-fruchtzwergs-world-on-flickr.jpg
+    caption: 'Lone polar bear on sea ice. Photo CC BY-NC-ND by [fruchtzwerg’s world](http://www.flickr.com78500427@N02/8900036455/in/photolist-eyt1Lp).'
     alt: 'Lone polar bear on sea ice'
-  
+reference:
+  - '[Kahan, D. M., Peters, E., Wittlin, M., Slovic, P., Ouellette, L. L., Braman, D., & Mandel, G. (2012).](http://www.nature.com/nclimate/journal/v2/n10/full/nclimate1547.html) The polarizing impact of science literacy and numeracy on perceived climate change risks. *Nature Climate Change*, 2(10), 732-735.'
 ---
 
 One of the major goals of science education is for all citizens to have some basic level of science literacy. The rationale is that a basic understanding of science is necessary in order to participate in a modern democratic society, where we must often grapple with policy decisions that deal with socioscientific issues, and where scientific evidence can be a major deciding factor in policy.
@@ -23,7 +24,8 @@ The paper comes out of [Dan Kahan’s](http://www.culturalcognition.net/kahan/) 
 
 This isn’t just about conservatives denying science. Both liberals and conservatives have been found to diverge from scientific consensus on issues that have the potential to either reinforce or threaten their identities, values, and worldviews (for example, on the issue of the right to carry concealed handguns - see [Kahan et al. 2010](http://www.culturalcognition.net/browse-papers/cultural-cognition-of-scientific-consensus.html)). Furthermore, it isn’t about denying or mistrusting science as an institution; instead, people are developing different perceptions about what the science actually says. Both sides try to “claim” science for their side.
 
-{% figure_img 0 caption %}
+{% assign image = page.image[0] %}
+{% include block/image.html %}
 
 But what does this mean for science education? The findings pose more questions than answers. It would be a mistake to think that science literacy is useless—or even dangerous—because it might act as a polarizing force. Without it, citizens would have little basis or inclination to engage with socioscientific issues at all—hardly the recipe for a functioning democracy. So it is necessary, but not sufficient. However, the findings strongly suggest that a simplistic “[deficit](http://pus.sagepub.com/content/13/1/55.abstract)” model, in which students and citizens are blank slates that just need to be filled up with science facts and information, clearly won’t work.
 

@@ -1,0 +1,71 @@
+.details {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 1em;
+  padding: 0 1em;
+
+  @include min-width(medium) {
+    margin: 1em -.5em 0;
+    width: calc(100% + 1em);
+  }
+
+  @include min-width(larger) {
+    padding: 0;
+  }
+}
+
+.details-item {
+  margin: .5em 0;
+  width: 100%;
+
+  @include min-width(medium) {
+    margin: .5em;
+  }
+
+  @include min-width(large) {
+    flex: 1 0 calc(50% - 1em);
+  }
+}
+
+.details-title {
+  cursor: pointer;
+  display: flex;
+  font-family: $font-body;
+  font-weight: $weight-bold;
+  outline: 2px solid $black;
+  padding: 2em 1em;
+  position: relative;
+  text-align: left;
+  touch-action: manipulation;
+  transition: all 160ms;
+  width: 100%;
+
+  .icon {
+    float: left;
+    height: 1em;
+    margin: auto .25em auto 0;
+    width: 1.5em;
+  }
+
+  .arrow {
+    position: absolute;
+    right: 1.25em;
+    top: 2.25em;
+
+    @include min-width(large) {
+      right: 1.5em;
+    }
+  }
+
+  .jsRotated {
+    transform: rotate(180deg) translateY(4px);
+  }
+}
+
+.details-expanded {
+  margin: 0;
+  outline: 2px solid $black;
+  padding: 1em;
+}

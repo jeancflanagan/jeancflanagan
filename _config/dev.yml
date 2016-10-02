@@ -1,3 +1,11 @@
 ## Imgix configuration
 imgix:
   source: dev-jeancflanagan.imgix.net
+
+## Configuration URLs
+domain: 'dev.jeancflanagan.com'
+url: 'http://dev.jeancflanagan.com'
+
+## Sass configuration
+sass:
+  style: expanded

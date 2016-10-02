@@ -1,0 +1,25 @@
+<section class="pattern pattern--element" id="{{ pattern.title | slugify }}">
+  <div class="pattern-display{% if pattern.option contains 'center' %} pattern-display--center{% endif %}{% if pattern.option contains 'isolate' %} pattern-display--isolate{% endif %}{% if pattern.option contains 'fix-rem' %} pattern-display--fix-rem{% endif %}{% if pattern.option contains 'no-bullets' %} no-bullets{% endif %}">{{ pattern.content | markdownify }}</div>
+  <div class="pattern-meta">
+    <button class="pattern-title jsDisclose"><code>{{ pattern.title }}</code>{% include icon/arrow-down.svg %}</button>
+    <figure class="pattern-expanded jsExpanded">
+    {% if pattern.type == 'markdown' %}
+      <h3>Markdown</h3>
+      <textarea class="pattern-markdown">{{ pattern.content | xml_escape }}</textarea>
+    {% endif %}
+      <h3>HTML</h3>
+      <textarea class="pattern-html">{{ pattern.content | markdownify | xml_escape }}</textarea>
+      <figcaption>
+      {% if pattern.use %}
+        {{ pattern.use | prepend:'**Usage:** ' | markdownify }}
+      {% endif %}
+      {% if pattern.restriction %}
+        {{ pattern.restriction | prepend: '**Restrictions:** ' | markdownify }}
+        {% endif %}
+      {% if pattern.spec %}
+        {{ pattern.spec | prepend:'**Specification:** ' | markdownify }}
+      {% endif %}
+      </figcaption>
+    </figure>
+  </div>
+</section>

@@ -1,0 +1,30 @@
+.reference {
+  margin: 1em -1em -1em; // margins tied to .content padding
+  padding: 1em 1em 2em;
+
+  @include min-width(medium) {
+    margin: 1em -2em -2em;
+    padding: 1em 2em 2em 2em;
+  }
+
+  @include min-width(large) {
+    margin: 1em -4em -2em;
+    padding: 1em 4em 2em 4em;
+  }
+
+  li {
+    display: block;
+  }
+}
+
+.footnotes + .reference {
+  border-top: 1px solid white;
+}
+
+.reference-title {
+  font-feature-settings: 'smcp';
+  font-size: 1.25em;
+  font-weight: $weight-regular;
+  margin: 1em 0;
+  width: 100%;
+}

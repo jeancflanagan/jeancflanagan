@@ -1,0 +1,21 @@
+/* Main body content */
+.content {
+  @include container-width(normal);
+
+  outline: 1px solid lightgray;
+  margin: 1em auto;
+  padding: 1em;
+
+  @include min-width(medium) {
+    margin: 2em auto;
+    padding: 2em;
+  }
+
+  @include min-width(large) {
+    padding: 2em 4em;
+  }
+}
+
+.content-meta {
+  font-size: .875em;
+}

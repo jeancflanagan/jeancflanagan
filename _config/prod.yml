@@ -1,80 +1,115 @@
 title: Jean Flanagan
-tagline: "science education and communication"
 author:
   name: Jean Flanagan
   email: jeancflanagan@gmail.com
-domain: jeancflanagan.com
-url: http://jeancflanagan.com
-subscribe_url: http://jeancflanagan.com/subscribe
-image_url: /images
-siteimage_url: /images/site
-scripts_url: /scripts
+  twitter: '@jeancflanagan'
+  tagline: 'science education specialist, writer, editor'
+  portrait: 2012-09-16-jean-flanagan-portrait.jpg
+description: 'Personal website and portfolio for Jean Flanagan, a science education specialist.'
 
-meta_description: "Personal website and portfolio for Jean Flanagan, a science education specialist."
+license:
+  short: 'CC BY-NC 4.0'
+  long: 'Creative Commons Attribution-NonCommercial 4.0 International'
+  description: |+
+    All content published exclusively on this website is licensed [Creative Commons Attribution NonCommercial 4.0 License](http://creativecommons.org/licenses/by-nc/4.0/) by Jean Flanagan. Content that was originally published elsewhere (whether archived here in full or represented by a snippet) is subject to the copyright specified by those publishers.
 
-include:
-  - _pages
-exclude:
-  - Rakefile
-  - Gemfile
-  - Gemfile.lock
-  - .gitignore
+# Content
 
-permalink: /:year/:title/
-markdown: kramdown
+## Referenced URLs (internal and external links for inline use)
+link:
+  attribution: http://creativecommons.org/licenses/by-nc/4.0/
+  twitter: https://twitter.com/jeancflanagan
+  linkedin: https://www.linkedin.com/in/jeancflanagan
+  subscribe:
+    full: /subscribe/full.xml
+    writing: /subscribe/writing.xml
+    photo: /subscribe/photos.xml
 
-##Gems
+# Site configuration
+
+## Gems
 gems:
+  - sass
   - jekyll/imgix
+  - jekyll-archives
+
+## Markdown configuration
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+## Permalink configuration
+permalink: /:year/:title/
+
+## Collections
+collections:
+  patterns:
+    output: false
+  patterns-categories:
+    output: true
+    permalink: patterns/:path/
+  photos:
+    output: false
+
+defaults:
+  - scope:
+      type: posts
+    values:
+      layout: post
+  - scope:
+      type: patterns-categories
+    values:
+      layout: pattern
+      category: patterns
+
+## Jekyll Archives configuration
+jekyll-archives:
+  enabled:
+    - year
+    - categories
+  layouts:
+    year: archive
+    category: archive
+  permalinks:
+    year: '/:year/'
+    category: '/archive/:name/'
+
+## Sass configuration
+sass:
+  sass_dir: _source/scss
+  style: compressed
 
 ## Imgix configuration
 imgix:
   source: jeancflanagan.imgix.net
 
-# Colors for the site
+## Project configuration
+include:
+  - _feeds
+  - _pages
 
-white:
-  hsl: 'hsla(138, 10%, 98%, 1)'
-  hex: '#f9fafa'
-black:
-  hsl: 'hsla(138, 16%, 10%, 1)'
-  hex: '#151e18'
-charcoal:
-  hsl: 'hsla(218, 2%, 32%, 1)'
-  hex: '#505153'
-grayshadow1:
-  hsl: 'hsla(218, 2%, 10%, .75)'
-  hex: '#202022'
-grayshadow2:
-  hsl: 'hsla(218, 2%, 10%, .25)'
-  hex: '#bebfc1'
-slate:
-  hsl: 'hsla(138, 2%, 54%, .25)'
-  hex: '#e5e6e5'
-slateshadow:
-  hsl: 'hsla(138, 2%, 54%, 1)'
-  hex: '#878c89'
-green:
-  hsl: 'hsla(138, 40%, 50%, 1)'
-  hex: '#4cb36b'
-greenlight1:
-  hsl: 'hsla(138, 40%, 75%, 1)'
-  hex: '#a6d9b5'
-greenlight2:
-  hsl: 'hsla(138, 40%, 90%, 1)'
-  hex: '#dbf0e1'
-graygreen:
-  hsl: 'hsla(138, 4%, 45%, 1)'
-  hex: '#6e7771'
-golden:
-  hsl: 'hsla(52, 90%, 47%, 1)'
-  hex: '#e4c70c'
-goldenlight:
-  hsl: 'hsla(52, 45%, 92%, 1)'
-  hex: '#f4f1e1'
-blue:
-  hsl: 'hsla(190, 40%, 50%, 1)'
-  hex: '#4da1b3'
-bluelight:
-  hsl: 'hsla(190, 40%, 75%, 1)'
-  hex: '#a6d0d9'
+exclude:
+  - Gemfile*
+  - .gitignore
+  - node_modules
+  - package.json
+
+## Configuration URLs
+domain: jeancflanagan.com
+url: http://jeancflanagan.com
+patterns_url: /patterns
+image_url: /images
+icon_url: /icons
+resources_url: /resources
+
+## srcset implementation
+sizes: '(min-width: 62.5em) 960px, 100vw'
+srcset:
+  - 480
+  - 640
+  - 720
+  - 960
+  - 1280
+  - 1440

@@ -1,8 +1,0 @@
-    <nav class="site-nav" id="navigation" role="navigation">
-      <ul>
-        <li {% if page.title == 'Home' %}class="active"{% endif %}><a href="/">Home</a></li>
-        <li {% if page.categories contains 'writing' or page.title == 'Writing Archive' %}class="active"{% endif %}><a href="/writing/">Writing</a></li>
-        <li {% if page.categories contains 'photo' or page.title == 'Photo Archive' %}class="active"{% endif %}><a href="/photos/">Photos</a></li>
-        <li {% if page.title == 'About' %}class="active"{% endif %}><a href="/about/">About</a></li>
-      </ul>
-    </nav>

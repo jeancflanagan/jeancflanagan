@@ -1,0 +1,164 @@
+html {
+  font-family: $font-body;
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: $weight-regular;
+  line-height: 1.4375;
+     -moz-font-feature-settings: 'liga', 'dlig';
+      -ms-font-feature-settings: 'liga', 'dlig';
+       -o-font-feature-settings: 'liga', 'dlig';
+  -webkit-font-feature-settings: 'liga', 'dlig';
+          font-feature-settings: 'liga', 'dlig';
+  font-variant-ligatures: common-ligatures;
+  text-rendering: optimizeLegibility;
+}
+
+p > a,
+li > a,
+blockquote > a,
+figcaption > a {
+  border-bottom: 1px solid blue;
+}
+
+* + p,
+* + h1,
+* + h2,
+* + h3,
+* + h4,
+* + h5 {
+  margin-top: 1em;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: $weight-regular;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: $weight-bold;
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-weight: $weight-bold;
+  line-height: 1.2;
+}
+
+h4 {
+  font-feature-settings: 'smcp';
+  font-size: 1.125em;
+  font-weight: $weight-bold;
+  line-height: 1.2;
+}
+
+h5 {
+  font-feature-settings: 'smcp';
+  font-size: 1em;
+  font-weight: $weight-regular;
+  line-height: 1.25;
+}
+
+strong,
+b {
+  font-weight: $weight-bold;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+  padding: 0;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ul ul,
+ol ol {
+  margin: .5em 1em;
+}
+
+article ol {
+  counter-reset: ordered-list;
+  list-style-type: none;
+}
+
+article ol ol {
+  counter-reset: ordered-list-sub;
+}
+
+article ol ol ol {
+  counter-reset: ordered-list-sub-sub;
+}
+
+article ol li {
+  counter-increment: ordered-list;
+}
+
+article ol ol li {
+  counter-increment: ordered-list-sub;
+}
+
+article ol ol ol li {
+  counter-increment: ordered-list-sub-sub;
+}
+
+article ol li::before {
+  content: counter(ordered-list) ':';
+  font-weight: bolder;
+  margin-right: .25em;
+}
+
+article ol ol li::before {
+  content: counter(ordered-list) '.' counter(ordered-list-sub) ':';
+}
+
+article ol ol ol li::before {
+  content: counter(ordered-list) '.' counter(ordered-list-sub) '.' counter(ordered-list-sub-sub) ':';
+}
+
+li {
+  margin-top: .5em;
+}
+
+blockquote {
+  border-left: .5em solid lightgray;
+  margin: 2em 0;
+  padding-left: 1em;
+}
+
+blockquote footer {
+  font-size: .8em;
+  margin-top: 1em;
+  text-align: right;
+}
+
+hr {
+  border: 0;
+  height: .2em;
+  margin: 2em 0;
+}
+
+code,
+samp,
+pre {
+  font: 400 .8em/1.5 $font-mono;
+  white-space: pre-wrap;
+}
+
+button {
+  font-family: $font-body;
+}
+
+cite {
+  font-style: italic;
+}
+
+figcaption {
+  font-size: .875em;
+  line-height: 1.5;
+  margin-top: .5em;
+}

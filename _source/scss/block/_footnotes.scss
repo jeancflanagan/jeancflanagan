@@ -1,0 +1,31 @@
+.footnotes {
+  margin: 1em -1em -1em; // margins tied to .content padding
+  padding: 1em 1em 2em;
+
+  @include min-width(medium) {
+    margin: 1em -2em -2em;
+    padding: 1em 2em 2em 4em;
+  }
+
+  @include min-width(large) {
+    margin: 1em -4em -2em;
+    padding: 1em 4em 2em 8em;
+  }
+
+  li {
+    font-size: .875em;
+  }
+
+  p {
+    display: inline; // in case markdown paragraphs are rendered
+  }
+}
+
+.footnote {
+  font-weight: $weight-bold;
+}
+
+.reversefootnote {
+  border-bottom: none; // reset
+  font-weight: $weight-bold;
+}

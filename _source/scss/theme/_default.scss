@@ -1,0 +1,303 @@
+$back: $white;
+$back--alt: $offwhite;
+$back--inverse: $black;
+$fore: $black;
+$fore--inverse: $white;
+$fore--alt: $darkgray;
+$accent: $blue;
+$link: $blue;
+$link--hover: $green;
+$link-alt: $skyblue;
+$link-alt--hover: $palegreen;
+
+html {
+  background-color: $back;
+  color: $fore;
+}
+
+body {
+  background-image: linear-gradient(-22.5deg, scale-color($lightgray, $lightness: 25%), $lightgray);
+  background-size: 100% 2em;
+  padding-top: 2em;
+
+  @include min-width(medium) {
+    background-size: 100% 2em;
+    padding-top: 2em;
+  }
+
+  @include min-width(large) {
+    background-size: 100% 12em;
+    padding-top: 4em;
+  }
+}
+
+h1,
+h2 {
+  color: $fore;
+}
+
+h3,
+h4,
+h5 {
+  color: $fore--alt;
+}
+
+a {
+  color: currentColor;
+}
+
+p > a,
+li > a,
+blockquote > a,
+figcaption > a {
+  border-bottom-color: $link;
+
+  &:hover,
+  &:focus {
+    border-bottom-color: $link--hover;
+    color: $link--hover;
+  }
+}
+
+blockquote {
+  border-left-color: $lightgray;
+  color: $darkgray;
+}
+
+figcaption {
+  color: $darkgray;
+}
+
+hr {
+  background-color: $accent;
+}
+
+.selected,
+.archive {
+  background-color: $back--alt;
+}
+
+.action,
+.action--center {
+  background-color: $link;
+  color: $fore--inverse;
+  outline-color: $link-alt;
+
+  path {
+    fill: $fore--inverse;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $link--hover;
+    color: $fore--inverse;
+    outline-color: $link-alt--hover;
+
+    path {
+      fill: $fore--inverse;
+    }
+  }
+}
+
+.section-title {
+  color: $fore--alt;
+}
+
+.details-title {
+  background-color: $back;
+  color: $link;
+  outline-color: $link;
+
+  path {
+    fill: $link;
+  }
+
+  &:hover,
+  &:focus,
+  &.jsActive {
+    color: $link--hover;
+    outline-color: $link--hover;
+
+    path {
+      fill: $link--hover;
+    }
+  }
+}
+
+.details-expanded {
+  background-color: $back;
+  outline-color: $lightgray;
+}
+
+.who,
+.who--inner {
+  background-color: $back--alt;
+}
+
+.skills {
+  background-color: $back--alt;
+}
+
+.organization {
+  background-color: $back;
+}
+
+.organization-name,
+.organization-role {
+  color: $fore;
+}
+
+
+.organization-period {
+  color: $fore--alt;
+}
+
+.end {
+  background-image: linear-gradient(22.5deg, $black, $darkblue);
+  color: $fore--inverse;
+
+  p > a {
+    border-bottom-color: $link-alt;
+
+    &:hover,
+    &:focus {
+      border-bottom-color: $link-alt--hover;
+      color: $link-alt--hover;
+    }
+  }
+}
+
+.meta-credit {
+  border-bottom: none;
+  color: $link-alt;
+
+  &:hover,
+  &:focus {
+    color: $link-alt--hover;
+  }
+}
+
+.meta-copyright {
+  button {
+    color: $link-alt;
+
+    path {
+      fill: $link-alt;
+    }
+
+    &:hover,
+    &:focus {
+      color: $link-alt--hover;
+
+      path {
+        fill: $link-alt--hover;
+      }
+    }
+  }
+}
+
+.meta-link {
+  color: $link-alt;
+
+  path {
+    fill: $link-alt;
+  }
+
+  &:hover,
+  &:focus {
+    color: $link-alt--hover;
+
+    path {
+      fill: $link-alt--hover;
+    }
+  }
+}
+
+.meta-action {
+  background-color: $back--alt;
+  color: $fore;
+  outline-color: $link-alt;
+
+  path {
+    fill: $fore;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $link-alt--hover;
+    color: $fore;
+    outline-color: $link--hover;
+
+    path {
+      fill: $fore;
+    }
+  }
+}
+
+.meta-index {
+  background-color: transparent;
+  color: $link-alt;
+  outline-color: $link-alt;
+
+  path {
+    fill: $link-alt;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $link-alt--hover;
+    color: $fore;
+    outline-color: $link--hover;
+
+    path {
+      fill: $fore;
+    }
+  }
+}
+
+.post,
+.photoset {
+  background-color: $back--alt;
+}
+
+.content {
+  background-color: $back;
+  outline-color: $lightgray;
+}
+
+.footnotes,
+.reference {
+  background-color: $lightgray;
+}
+
+.footnotes + .reference {
+  border-color: $back;
+}
+
+.footnote,
+.reversefootnote {
+  color: $link;
+}
+
+.content-meta {
+  color: $fore--alt;
+}
+
+.item,
+.item--featured {
+  background-color: $back;
+  outline-color: $lightgray;
+
+  a {
+    color: $link;
+
+    &:hover,
+    &:focus {
+      color: $link--hover;
+    }
+  }
+}
+
+.screenshot {
+  outline: $lightgray;
+}

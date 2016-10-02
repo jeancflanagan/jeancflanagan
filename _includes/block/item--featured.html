@@ -1,0 +1,26 @@
+<article class="item--featured">
+  {% if post.category == 'writing' %}
+  {% assign image = post.image[0] %}
+  <a href="{{ post.url }}" class="item--featured-image" style="background-image: url({{ image.src | prepend: '/' | prepend: site.image_url | imgix_url: w: 912, q: 40 }})"></a>
+  {% elsif post.category == 'photo' %}
+    {% if post.featured_photo %}
+    {% assign count = post.featured_photo %}
+    {% assign photo = post.photo[count] %}
+    {% else %}
+    {% assign photo = post.photo[0] %}
+    {% endif %}
+  {% include helper/photo-from-collection.liquid %}
+  <a href="{{ post.url }}" class="item--featured-image" style="background-image: url({{ image.src | prepend: '/' | prepend: site.image_url | imgix_url: w: 912, q: 40 }})"></a>
+  {% endif %}
+  <div class="item-description">
+    <h2 class="item-title"><a href="{{ post.url }}">{{ post.title | markdownify | p_escape }}</a></h2>
+    {% if post.source %}
+    <p class="item-time">Published{% if post.source != 'here' %} on{% endif %} {{ post.source }}</p>
+    {% endif %}
+    {% if post.category == 'photo' %}
+    <p class="item-time">{{ post.period }}, {{ post.location }}</p>
+    {% elsif post.category == 'writing' %}
+    {{ post.description | markdownify }}
+    {% endif %}
+  </div>
+</article>

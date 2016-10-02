@@ -1,0 +1,21 @@
+.photoset {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 2em 0;
+
+  h2 {
+    text-align: center;
+
+    @include min-width(larger) {
+      text-align: left;
+    }
+  }
+
+  .block {
+    padding: 0 1em;
+
+    @include min-width(large) {
+      padding: 0;
+    }
+  }
+}

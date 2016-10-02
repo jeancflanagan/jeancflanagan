@@ -1,0 +1,54 @@
+<link rel="source" href="{{ site.link.source }}" />
+<link rel="me" href="mailto:{{ site.author.email }}">
+
+<meta name="author" content="{{ site.author.name }}">
+
+<meta name="twitter:site" content="{{ site.author.twitter }}">
+
+{% if image %}
+  <meta name="twitter:card" content="summary_large_image">
+{% else %}
+  <meta name="twitter:card" content="summary">
+{% endif %}
+
+{% if page.layout == 'default' %}
+  <meta property="og:type" content="website">
+{% else %}
+  <meta property="og:type" content="article">
+{% endif %}
+
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title" content="{{ page.title | strip_html }}">
+
+{% if page.date %}
+  <meta property="og:article:published_time" content="{{ page.date | date_to_xmlschema }}">
+{% endif %}
+{% if page.updated %}
+  <meta property="og:article:modified_time" content="{{ page.updated | date_to_xmlschema }}">
+{% else %}
+  <meta property="og:article:modified_time" content="{{ site.time | date_to_xmlschema }}">
+{% endif %}
+
+{% if page.category == 'photo' %}
+  {% assign photo = page.photo[0] %}
+  {% include helper/photo-from-collection.liquid %}
+{% elsif page.image[0] and page.category != 'photo' %}
+  {% assign image = page.image[0] %}
+{% endif %}
+
+{% if image %}
+  <meta property="og:image" content="{{ image.src | prepend: '/' | prepend: site.image_url | imgix_url: w: 1024, q: 50 }}">
+{% else %}
+  <meta property="og:image" content="{{ site.url }}{{ site.icon_url }}/touchicon192.png">
+{% endif %}
+
+{% if page.description %}
+  <meta property="og:description" content="{{ page.description | markdownify | strip_html }}">
+  <meta name="description" content="{{ page.description | markdownify | strip_html }}">
+{% else %}
+  <meta property="og:description" content="{{ site.description }}">
+  <meta name="description" content="{{ site.description }}">
+{% endif %}
+
+<meta name="google-site-verification" content="{{ site.google_verification }}" />

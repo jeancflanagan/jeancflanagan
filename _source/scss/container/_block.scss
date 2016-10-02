@@ -1,0 +1,11 @@
+.block {
+  @include container-width(normal);
+}
+
+.block--wide {
+  @include container-width(max);
+}
+
+.block--narrow {
+  @include container-width(min);
+}

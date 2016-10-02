@@ -1,0 +1,19 @@
+language: ruby
+rvm:
+  - 2.2.2
+
+cache:
+  bundler: true
+  directories:
+    - node_modules
+
+install:
+  - bundle install
+  - npm install
+
+script:
+  - npm run dev
+##### TODO enable htmlproofer
+#  - npm test
+##### TODO enable production deployment
+#  - if [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$TRAVIS_BRANCH" == "master" ]; then npm run prod; fi

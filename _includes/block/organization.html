@@ -1,0 +1,18 @@
+<section class="organization">
+  <div class="block">
+    <h2 class="section-title">Who I’ve Worked With</h2>
+    {% for organization in page.organizations %}
+    <div class="organization-item">
+      <div class="organization-frame">
+        <img src="{{ site.image_url }}/{{ organization.logo }}" alt="logo for {{ organization.name }}">
+      </div>
+      <div class="organization-description">
+        <h3 class="organization-role">{{ organization.role | markdownify | p_escape }}</h3>
+        <h4 class="organization-name">{{ organization.name | markdownify | p_escape }}</h4>
+        <h5 class="organization-period">{{ organization.period | markdownify | p_escape }}</h5>
+        {{ organization.summary | markdownify }}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

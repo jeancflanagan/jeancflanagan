@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+
+  <div class="archive">
+
+    {% include block/who--inner.html %}
+
+    <section class="block items">
+
+      <h2 class="section-title">{% if page.type == 'category' %}{{ page.title | capitalize }} archive{% elsif page.type == 'year' %}{{ page.date | date: '%Y' }} archive{% else %}{{ page.title }}{% endif %}</h2>
+
+      {% if page.type == 'category' or page.type == 'year' %}
+        {% for post in page.posts %}
+          {% include block/item.html %}
+        {% endfor %}
+      {% else %}
+        {% for post in site.posts %}
+          {% include block/item.html %}
+        {% endfor %}
+      {% endif %}
+
+      {{ content }}
+
+    </section>
+
+  </div>
+
+  {% include container/end.html %}
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+
+  <div class="selected">
+
+    {% include block/who--inner.html %}
+
+    <h2 class="section-title">{{ page.title }}</h2>
+
+    {{ content }}
+
+    <div class="block">
+      <a class="action" href="/archive/">Full site archive{% include icon/arrow-right.svg %}</a>
+    </div>
+
+  </div>
+
+  {% include container/end.html %}
+
+</body>
+</html>
