@@ -31,6 +31,17 @@ body {
   }
 }
 
+h1,
+h2 {
+  color: $fore;
+}
+
+h3,
+h4,
+h5 {
+  color: $fore--alt;
+}
+
 a {
   color: currentColor;
 }
