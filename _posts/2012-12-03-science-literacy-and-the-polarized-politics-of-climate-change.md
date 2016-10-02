@@ -8,9 +8,10 @@ source: <cite>PLOS Sci-Ed</cite>
 sourceurl: http://blogs.plos.org/scied/2012/12/03/science-literacy-and-the-polarized-politics-of-climate-change/
 image:
   - src: 2012-12-03-lone-polar-bear-on-sea-ice-fruchtzwergs-world-on-flickr.jpg
-    caption: 'Lone polar bear on sea ice. Photo by [fruchtzwerg’s world on Flickr](http://www.flickr.com78500427@N02/8900036455/in/photolist-eyt1Lp).'
+    caption: 'Lone polar bear on sea ice. Photo CC BY-NC-ND by [fruchtzwerg’s world](http://www.flickr.com78500427@N02/8900036455/in/photolist-eyt1Lp).'
     alt: 'Lone polar bear on sea ice'
-
+reference:
+  - '[Kahan, D. M., Peters, E., Wittlin, M., Slovic, P., Ouellette, L. L., Braman, D., & Mandel, G. (2012).](http://www.nature.com/nclimate/journal/v2/n10/full/nclimate1547.html) The polarizing impact of science literacy and numeracy on perceived climate change risks. *Nature Climate Change*, 2(10), 732-735.'
 ---
 
 One of the major goals of science education is for all citizens to have some basic level of science literacy. The rationale is that a basic understanding of science is necessary in order to participate in a modern democratic society, where we must often grapple with policy decisions that deal with socioscientific issues, and where scientific evidence can be a major deciding factor in policy.

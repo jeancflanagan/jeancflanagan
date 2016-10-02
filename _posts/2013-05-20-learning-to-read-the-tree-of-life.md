@@ -8,18 +8,21 @@ source: <cite>PLOS Sci-Ed</cite>
 sourceurl: http://blogs.plos.org/scied/2013/01/14/facing-the-research-practice-divide-in-science-education/
 image:
   - src: 2013-05-20-lone-tree-daveybot-cc-by-nc-sa.jpg
-    caption: 'Lone tree. Photo by [Daveybot on Flickr (CC BY-NC-SA)](http://www.flickr.comdavemorris/96442418/in/faves-jeancflanagan/).'
+    caption: 'Lone tree. Photo CC BY-NC-SA by [Daveybot](http://www.flickr.comdavemorris/96442418/in/faves-jeancflanagan/).'
     alt: 'Lone tree in sillhouette'
   - src: 2013-05-20-1000px-identical-cladograms-alexei-kouprianov-cc-by-sa.png
-    caption: 'Two styles of cladogram depicting identical relationships. Branches can rotate around nodes without altering the meaning of the diagram. Image by Alexei Kouprianov (CC BY-SA).'
+    caption: 'Two styles of cladogram depicting identical relationships. Branches can rotate around nodes without altering the meaning of the diagram. Image CC BY-SA by Alexei Kouprianov.'
     alt: 'Two alternate styles of cladograms that communicate the same thing'
   - src: 2013-05-20-dynamic-evolutionary-map-vultures-vultures-sonia-stephens-cc-by-nc-sa.jpg
-    caption: 'The Dynamic Evolutionary Map showing the present day. Visualization by Sonia Stephens (CC BY-NC-SA).'
+    caption: 'The Dynamic Evolutionary Map showing the present day. Visualization CC BY-NC-SA by Sonia Stephens.'
     alt: 'Dynamic Evolutionary Map example, a spatial graph of the relatedness of hawk, eagle and vulture species'
   - src: 2013-05-20-rosindell-harmon-2012-onezoom-fractal-tree-of-life-3-fractal-forms.jpg
-    caption: 'Users can toggle between three different tree shapes in the OneZoom Tree of Life Explorer. (Rosindell & Harmon 2012).'
+    caption: 'Users can toggle between three different tree shapes in the OneZoom Tree of Life Explorer. Image from Rosindell & Harmon 2012.'
     alt: 'Example of three different tree shapes in OneZoom Tree of Life Explorer'
+reference:
+  - '[Gregory, T. R. (2008).](http://www.cbs.dtu.dk/courses/27615.mol/pdf/understanding_evo_trees.pdf) Understanding evolutionary trees. *Evolution: Education and Outreach*, 1(2), 121-137.'
 
+  - '[Stephens, S. (2012).](http://link.springer.com/article/10.1007/s12052-012-0457-3) From tree to map: Using cognitive learning theory to suggest alternative ways to visualize macroevolution. *Evolution: Education and Outreach*, 5(4), 603-618.'
 
 ---
 
@@ -75,9 +78,3 @@ Another digital innovation on evolutionary tree diagrams, the amazing [OneZoom T
 {% include block/image.html %}
 
 The flexibility of digital visualization has the potential to overcome many of the obstacles to “tree thinking.” I look forward to seeing research evaluating the affordances of these new tools and the development of appropriate educational supports.
-
-### References
-
-[Gregory, T. R. (2008). Understanding evolutionary trees. Evolution: Education and Outreach, 1(2), 121-137.](http://www.cbs.dtu.dk/courses/27615.mol/pdf/understanding_evo_trees.pdf)
-
-[Stephens, S. (2012). From Tree to Map: Using Cognitive Learning Theory to Suggest Alternative Ways to Visualize Macroevolution. *Evolution: Education and Outreach*, 5(4), 603-618.](http://link.springer.com/article/10.1007/s12052-012-0457-3)

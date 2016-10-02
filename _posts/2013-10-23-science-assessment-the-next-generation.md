@@ -8,7 +8,7 @@ source: <cite>Smithsonian STEMvisions</cite>
 sourceurl: https://ssec.si.edu/stemvisions-blog/science-assessment-next-generation
 image:
   - src: 2013-10-23-NGSS-blended-knowledge-rope-SSEC.png
-    caption: 'NGSS performance expectations blend practices, crosscutting concepts, and core ideas. Image by the Smithsonian Science Education Center (SSEC).'
+    caption: 'NGSS performance expectations blend practices, crosscutting concepts, and core ideas. Image copyright Smithsonian Science Education Center (SSEC).'
     alt: 'NGSS rope with three strands representing practices, crosscutting concepts, and core ideas'
 reference:
   - '[Gotwals, A. W., & Songer, N. B. (2013)](http://onlinelibrary.wiley.com/doi/10.1002/tea.21083/abstract). Validity Evidence for Learning Progression-Based Assessment Items That Fuse Core Disciplinary Ideas and Science Practices. <cite>Journal of Research in Science Teaching</cite>, 50(5), n/a–n/a. doi:10.1002/tea.21083'

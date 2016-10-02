@@ -8,9 +8,10 @@ source: <cite>PLOS Sci-Ed</cite>
 sourceurl: http://blogs.plos.org/scied/2013/03/18/communicating-about-evolution-the-danger-of-shortcuts/
 image:
   - src: 2013-03-18-darwins-finches-charles-darwin-us-public-domain.jpg
-    caption: 'Darwin’s finches or Galapagos finches. Charles Darwin, 1845. U.S. public domain.'
+    caption: 'Darwin’s finches or Galapagos finches. Charles Darwin, 1845. Image U.S. public domain.'
     alt: 'Darwin’s finches or Galapagos finches'
-
+reference:
+  - '[Gregory, T. R. (2009).](http://link.springer.com/article/10.1007/s12052-009-0128-1) Understanding natural selection: essential concepts and common misconceptions. *Evolution: Education and Outreach*, 2(2), 156-175.'
 ---
 
 When we talk about evolution and education, our first thoughts usually race to evangelical churches, school boards, and states like [Kansas](http://en.wikipedia.org/wiki/Kansas_evolution_hearings) and [Tennessee](http://ncse.com/news/2012/04/monkey-bill-enacted-tennessee-007299). While cultural battles over “belief” in evolution and its place in public schools are certainly important, a lesser-known issue is that [acceptance and understanding are not the same thing](http://onlinelibrary.wiley.com/doi/10.1002/tea.10087/abstract), and  many people who enthusiastically “believe” in evolution don’t actually understand the basics of how it works. This may not be a problem if our only concern is that the public votes to keep non-science out of the public science classroom. But an understanding of evolution impacts more than just one hot-button issue at a time. It is necessary to understand issues surrounding antibiotic and pesticide resistance, overfishing, potential effects of climate change, the relevance of animal models in medical research, and it is the conceptual framework through which all other biological fields can be best understood.
