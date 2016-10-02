@@ -13,7 +13,7 @@ reference:
 
 One of the most pressing questions in evolutionary biology is whether or not species will be able to evolve in response to global climate change and its associated effects such as [ocean acidification](http://www.pmel.noaa.gov/co2/story/What+is+Ocean+Acidification%3F). A [paper](http://www.nature.com/ngeo/journal/v5/n5/abs/ngeo1441.html) published earlier this year in <cite>Nature Geoscience</cite>  provides experimental evidence that one of the ocean’s most important species, <i>Emiliania huxleyi</i>, is capable of quickly adapting to increased levels of acidification through natural selection.
 
-## Tiny organism, big impact
+### Tiny organism, big impact
 
 The fate of certain organisms will have an outsized impact on the world’s ecosystems, and <i class="taxonomy">E. huxleyi</i>, a species of phytoplankton, is one of them. It’s hard to overstate the importance of phytoplankton; these tiny photosynthesizing drifters form the base of nearly all the ocean’s food webs, and are responsible for half of all photosynthetic activity on the planet. Specifically, <i class="taxonomy">E. huxleyi</i> is a coccolithophore, a type of single-celled algae that makes up an important part of the ocean’s phytoplankton. The “coccoliths” that cover the cells are plates made of calcium carbonate, the same substance stony coral reefs are made of. Just as ocean acidification [threatens](http://www.sciencemag.org/content/318/5857/1737.short) the ability of corals to produce their reef-building calcium carbonate structures, it threatens to do the same for coccolithophores.
 
@@ -28,7 +28,7 @@ The researchers took advantage of this and ran a year-long experiment that allow
 
 The selection conditions were: ambient (the control, which is our current level of carbon dioxide), medium (projected carbon dioxide levels for early next century), and high (higher than any projected carbon dioxide levels). At the end of the year-long experiment, the researchers tested all three “evolved” populations in their selection condition and in the control condition. Algae grown in the control condition were tested in all three conditions.
 
-## Adaptations for acidification
+### Adaptations for acidification
 
 Not surprisingly, increased carbon dioxide conditions led to slower growth rates and calcium carbonate production than ambient conditions for all populations, even algae from the medium and high selection conditions. However, when tested in the acidic conditions, algae from the higher acidity selection conditions had significantly higher growth rates than those from ambient selection conditions, showing that natural selection had led to adaptations that partially restored growth rate.
 

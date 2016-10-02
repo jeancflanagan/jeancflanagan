@@ -33,7 +33,7 @@ Evolution education is entering an exciting time: scientists are working on the 
 
 Trees are one of the most powerful metaphors in art and science. For biologists, the "tree of life" stands for both the unity and diversity of life. But are students and non-scientists accurately interpreting its branches? As I've [discussed here](http://blogs.plos.org/scied/2013/03/18/communicating-about-evolution-the-danger-of-shortcuts/ "Communicating about evolution: the danger of shortcuts") before, misconceptions about the mechanism of natural selection—often referred to as microevolution—are rampant. However, understanding macroevolution—the big picture of biological evolution, including the common ancestry of life and the relationships among groups of living things—may be even more difficult.
 
-## Troubles with trees
+### Troubles with trees
 
 Science education researchers have been documenting students’ troubles with trees for many years. Textbooks, museum exhibits, and other learning resources are filled with a variety of tree-inspired diagrams that often represent different types of information from each other. Different diagrams may show different levels of taxa (for example, species, genera, or orders). Some may be oriented horizontally and others vertically. And they may or may not include shared traits, shared ancestors, or time. Some researchers have argued that diagrams that are not cladograms—which use a simple branching system to depict clades, or groups that share a common ancestor—are less useful and [only serve to confuse](http://evolution.berkeley.edu/UToL/catley_novick08.pdf "Catley & Novick - Seeing the Wood for the Trees"). Yet cladograms themselves are notoriously easy to misinterpret.
 
@@ -55,7 +55,7 @@ This suggestion dovetails well with the expectations for science practices set f
 Perhaps if students were given a totally different kind of visual model for common ancestry to use alongside the traditional tree metaphor, they could overcome some of the difficulties and learn something about the nature of scientific modeling in the process.
 
 
-## A change of perspective
+### A change of perspective
 
 I met [Sonia Stephens](http://terpsinoe.wordpress.com/my-cv/ "Sonia Stephens - CV") a little over a year ago at the  NARST (National Association for Research in Science Teaching) annual meeting and was immediately excited by her work. As part of her dissertation in science communication, she had responded to all the conceptual difficulties that trees seem to cause by creating a digital [dynamic evolutionary map](http://www.terpsinoe.com/dem/homeframe.html "Bird Evolution: A Dynamic Evolutionary Map") (DEM).
 
