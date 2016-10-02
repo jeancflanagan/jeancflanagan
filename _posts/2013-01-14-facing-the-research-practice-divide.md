@@ -8,14 +8,15 @@ source: <cite>PLOS Sci-Ed</cite>
 sourceurl: http://blogs.plos.org/scied/2013/01/14/facing-the-research-practice-divide-in-science-education/
 image:
   - src: 2013-01-14-sather-tower-uc-berkeley-brostad-flickr.jpg
-    caption: 'An ivory tower of sorts: Sather Tower, U.C. Berkeley. Photo by [Bernt Rostad on Flickr](http://www.flickr.combrostad/2878353059/)'
+    caption: 'An ivory tower of sorts: Sather Tower, U.C. Berkeley. Photo CC-BY by [Bernt Rostad.](http://www.flickr.combrostad/2878353059/)'
     alt: 'Sather Tower, U.C. Berkeley'
-
+reference:
+  - '[Jennifer M. Gore & Andrew D. Gitlin (2004).](http://www.tandfonline.com/doi/abs/10.1080/13540600320000170918#.UeG4zz5UM0M) REVisioning the academic–teacher divide: power and knowledge in the educational community, *Teachers and Teaching: Theory and Practice*, 10:1, 35-58.'
 ---
 
 Science education researchers and science teachers have much to offer each other. In an ideal world, knowledge would flow freely between researchers and educators. Unfortunately, research and practice tend to exist in parallel universes. As long as this divide persists, classrooms will rarely benefit from research findings, and research studies will rarely be rooted in the realities of the classroom. If we care about science education, we have to face the research-practice divide.
 
-## How did it get this way?
+### How did it get this way?
 
 When we talk about research and practice, we’re talking about academics and teachers. In the most typical case, we’re talking about professors of education working at universities, and teachers working at K-12 schools. The divide has its roots in historical and current differences between researchers and teachers in their training, methods, work environment, and career goals that have led to misunderstanding and mistrust. In a 2004 [paper](http://www.tandfonline.com/doi/abs/10.1080/13540600320000170918#.UeGz5D5UM0M) titled “Re-Visioning the academic–teacher divide: power and knowledge in the educational community” Jennifer Gore and Andrew Gitlin describe the state of the research-practice divide through the lens of the two groups of people involved, and the imbalance of power between them. Historically, they argue, the framework of science education research has been that researchers generate knowledge and materials that teachers need, but rarely recognize the need for teacher contributions. This assumed one-way flow of knowledge has certainly sparked animosity between the groups, deepened by cultural differences associated with differing career paths.
 
@@ -42,7 +43,7 @@ There is sometimes truth to the ivory tower criticisms; Gore and Gitlin noted th
 
 However, a lot of the mistrust between the two groups is based on their misunderstanding of each other’s professions. Teachers do not always appreciate that many researchers are often in the classroom regularly, conducting classroom-based studies and collecting data. This “back of the class” view can be highly illuminating, and is a valid way to have knowledge of classrooms. Some researchers got their start as K-12 teachers. And higher education is certainly not immune from classroom management issues or over-filled schedules. Professors have stress—just ask the [#realForbesProfessors](https://twitter.com/search?q=%23realforbesprofessors&src=typd) (this hashtag exploded on Twitter following the publication of a [*Forbes* article](http://www.forbes.com/sites/susanadams/2013/01/03/the-least-stressful-jobs-of-2013/) claiming that professors have one of the least stressful jobs). Similarly, researchers can forget that experienced teachers have a wealth of knowledge about the specific interactions of classroom context, pedagogy, and subject matter.
 
-## What can be done?
+### What can be done?
 
 My conversation with Professor Ron Gray about what academics can do to better connect with teachers aligned well with calls in the literature for more researcher-teacher partnerships. He said:
 
@@ -55,7 +56,3 @@ Similarly, certain aspects of teacher training might be due for a change. Teache
 The [open access](http://www.plos.org/about/open-access/) movement in scholarly publishing could also have a crucial role in breaking down barriers. Toll-access journals can function as practically impenetrable “ivory fortresses” where valuable knowledge is locked away from practitioners. However, open access will likely prove necessary, but not sufficient in closing the research-practice gap. Teachers I’ve spoken to are very positive about open access but guarded about how much more time they’ll spend reading research articles. Time is a huge issue for teachers. But the alternative—locking up research findings in places where both time and money can be barrier for teachers—is certainly not helping to connect research with practice.
 
 For the short term, most education research articles are still in toll-access journals. For those without easy access to the primary literature in science, research blogs have become an incredible resource. However, the science education research blogging community pales in comparison to the science research blogging community. While teachers can find the latest science news and engaging resources to share with their students by following the science blogging community, they are not as likely to find quick-and-easy write-ups of science education research findings that are relevant to their pedagogy, curriculum development, assessment practices. As the [Sci-Ed](http://blogs.plos.org/scied/) blog establishes itself, I hope that my fellow writers and I can attempt to partially fill this role. And I hope that many others in science education continue to follow the research blogging model.
-
-### Reference:
-
-[Jennifer M. Gore & Andrew D. Gitlin (2004): REVisioning the academic–teacher divide: power and knowledge in the educational community, Teachers and Teaching: Theory and Practice, 10:1, 35-58.](http://www.tandfonline.com/doi/abs/10.1080/13540600320000170918#.UeG4zz5UM0M)

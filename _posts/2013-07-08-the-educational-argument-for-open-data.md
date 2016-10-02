@@ -8,9 +8,11 @@ source: <cite>PLOS Sci-Ed</cite>
 sourceurl: http://blogs.plos.org/scied/2013/07/08/open-data-for-science-education/
 image:
   - src: 2013-07-08-open-data-opensourceway-cc-by-sa.png
-    caption: 'Open Data. Image by [Colleen Simon for opensource.com on Flickr (CC BY-SA)](http://www.flickr.comopensourceway/5538036200/in/faves-jeancflanagan/).'
+    caption: 'Image CC BY-SA by [Colleen Simon](http://www.flickr.comopensourceway/5538036200/in/faves-jeancflanagan/).'
     alt: 'Open data graphic'
-
+reference:
+  - '[Campbell, E. G., Clarridge, B. R., Gokhale, M., Birenbaum, L., Hilgartner, S., Holtzman, N. A., & Blumenthal, D. (2002).](http://jama.jamanetwork.com/article.aspx?articleid=194592&hc_location=ufi) Data withholding in academic genetics: evidence from a national survey. *JAMA*, 287(4), 473-480.'
+  - '[Vision, T. J. (2010).](http://www.jstor.org/stable/10.1525/bio.2010.60.5.2?seq=1#page_scan_tab_contents) Open data and the social contract of scientific publishing. *BioScience*, 60(5), 330-331.'
 ---
 
 [Open data](https://p2pu.org/en/courses/5/content/13/) is the idea that scientific data should be freely available to all, without restrictions, in searchable online repositories. The open data movement is gaining momentum in the scientific community because of its [promise](http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.1001195) to enable more frequent replication of studies and to accelerate the pace of research. But the advantages for science education are just as compelling.

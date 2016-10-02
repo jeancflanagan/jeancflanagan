@@ -1,7 +1,7 @@
 ---
 src: 2010-11-27-sweet-gum-leaves-dutch-gap.jpg
-caption: 'Bright red oak leaves'
-alt: 'Bright red oak leaves'
+caption: 'Sweet gum leaves'
+alt: 'Sweet gum leaves'
 date: 2010-11-27
 camera: 'Nikon D3000'
 location: 'Dutch Gap'

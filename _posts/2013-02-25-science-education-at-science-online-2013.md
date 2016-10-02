@@ -20,7 +20,7 @@ The design of the name badges nicely captured the feel of the “unconference”
 
 There were a few sessions directly focused on science education, and I’ve attempted to capture a few of the highlights from those here. However, many sessions that were more focused on science communication and journalism had implications for education as well, and may serve as inspiration for future posts.
 
-## Why won’t the science deficit model die?
+### Why won’t the science deficit model die?
 
 [Liz Neeley](http://www.compassonline.org/staff/LizNeeley), assistant director of science outreach at [COMPASS](http://www.compassonline.org/), and [John Bruno](http://johnfbruno.web.unc.edu/), a marine ecologist and science communicator, moderated this session. The deficit model is the notion that when the general public fails to understand science or support science-based policy recommendations it is because it simply lacks the information. In other words, if only the public knew what the experts know, all our science communication problems would be solved.
 
@@ -28,13 +28,13 @@ Current research and thinking in science communication has shown the deficit mod
 
 What will it take to kill deficit model thinking? Changes in science training and grants might take time, but more communication between social scientists and scientists could spark the transition. Dan Kahan’s cultural cognition research, which I [wrote about for Sci-Ed](/2012/science-literacy-and-the-polarized-politics-of-climate-change/) earlier, was mentioned here and throughout the conference. Perhaps at Science Online 2014 scientists could be paired with social scientists (based on an interests and expertise survey) and start work on a small science communication project.
 
-## Formal science education, informal science education, and science writing
+### Formal science education, informal science education, and science writing
 
 I was excited for this session as soon as I saw the preliminary conference schedule, as it ties together three threads that are all of great personal interest to me. [Marie Claire Shanahan](http://boundaryvision.com/), a science education researcher, and [Emily Finke](http://www.thisview.org/), a museum educator, co-moderated the session. Differences in training and careers can keep people working in school-based education, museum education, and journalism apart. But these fields have significant overlap and could almost certainly benefit from more collaboration. Many people at the session had projects that they knew could benefit from the perspective of a partner in one of the other two areas. Interestingly, they didn’t seem to know how to find each other until arriving at the session.
 
 Perhaps there’s a need for an online hub for projects in need of interdisciplinary collaborators. Of course, the Science Online community lives on year-round through Twitter, blog networks and other online communication. Readers of Sci-Ed: maybe you are a teacher looking for a museum collaboration, or a writer wanting to know more about research in how people learn science? Reach out to each other in the comments or on social media.
 
-## How can the science of science education inform communication about science?
+### How can the science of science education inform communication about science?
 
 [Andrea Novicki](http://scienceblogs.com/clock/2010/03/01/scienceonline2010-interview-11/), an academic technology consultant, and [Sandra Porter](http://scienceblogs.com/digitalbio/), a science education materials developer, organized this session. Their aim was to raise awareness of science education research among science writers and to brainstorm some ways its findings could improve science communication. [Conceptual change theory](http://en.wikipedia.org/wiki/Conceptual_change) tells us that learners receiving new information about science are attempting to integrate this information into what they already know, and that they can harbor a host of naive intuitive ideas or misconceptions. In a classroom setting, educators can actively find out the ideas their students hold and strategically select readings or activities that target the misconceptions.
 

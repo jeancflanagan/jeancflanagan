@@ -9,7 +9,9 @@ image:
   - src: 2013-04-22-gems-cc-jean-flanagan.jpg
     caption: 'A few representatives from my childhood rock and mineral collection. Photo by Jean Flanagan.'
     alt: 'Jean’s rock and mineral collection'
-
+reference:
+  - '[Naizer, G. L. (1993).](http://onlinelibrary.wiley.com/doi/10.1111/j.1949-8594.1993.tb12253.x/abstract) Science and engineering professors: Why did they choose science as a career?, *School Science and Mathematics*, 93(6), 321-324.'
+  - '[Maltese, A. V., & Tai, R. H. (2010).](http://www.tandfonline.com/doi/abs/10.1080/09500690902792385) Eyeballs in the fridge: Sources of early interest in science, *International Journal of Science Education*, 32(5), 669-685.'
 ---
 
 Collecting and polishing rocks and minerals, hunting for shells and fossils, gardening, birding, keeping freshwater and marine aquariums—this was how I spent my childhood: hopping from one hobby to the next, all centered around the natural (or semi-natural) world. My interest in science and nature started before I can remember—it just always seemed to be there. I'm sure my parents had something to do with it, my dad being an aerospace engineer, and my mom a student of botany and horticulture and a sort of unofficial lifelong naturalist. But while they supported my hobbies (often with a great deal of time, effort, and patience), these activities were all primarily driven by my own interests and inclinations. They weren't things I was pushed to do. Over the years I cycled through paleontologist, veterinarian, science teacher, ecologist and marine biologist as my career goal of choice, but it was always a given in my mind that I would go to college, study biology, and end up in some sort of science-related career. The career I was set on pursuing in any given year usually matched whichever hobby I was currently most engaged with.
