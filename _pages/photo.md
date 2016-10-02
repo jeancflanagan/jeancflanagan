@@ -1,7 +1,7 @@
 ---
 title: Selected photos
 layout: selected
-permalink: /photo/
+permalink: /photos/
 
 ---
 
