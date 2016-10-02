@@ -1,0 +1,25 @@
+---
+title: .details
+use: 'Expanding.'
+spec: '“Outline” style in blue (like links). Arrows on the right.'
+type: html
+category: interface
+priority: 30
+details:
+  - title: Standards & Assessment
+    expanded: |+
+      I’ve developed deep expertise in the [Next Generation Science Standards](http://www.nextgenscience.org/) (NGSS) and their parent document, the NRC’s [*A Framework for K-12 Science Education*](http://www.nextgenscience.org/framework-k%E2%80%9312-science-education). I also develop high-quality written and performance-based assessments through careful standards alignment.
+  - title: Curriculum Development
+    expanded: |+
+      I focus on developing research-based, standards-aligned materials for elementary and middle school science classrooms. I believe high-quality curriculum materials can be educative for both students and teachers.
+---
+
+<ul class="details">
+  {% for detail in page.details %}
+    <li class="details-item">
+      <button class="details-title jsDisclose">{{ detail.title }}{% include icon/arrow-down.svg %}</button>
+
+      <p class="details-expanded jsExpanded">{{ detail.expanded | markdownify | p_escape }}</p>
+    </li>
+  {% endfor %}
+</ul>

@@ -11,6 +11,7 @@
 
   figcaption {
     margin-left: 1rem; // keep away from page edge
+    margin-right: 1rem;
   }
 
   @include min-width(larger) {

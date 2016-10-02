@@ -41,7 +41,7 @@
   }
 
   @include min-width(medium) {
-    flex: 1 0 50%;
+    flex: 0 0 50%;
     width: 50%;
   }
 }

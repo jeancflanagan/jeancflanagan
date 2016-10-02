@@ -48,14 +48,16 @@ h3 {
 }
 
 h4 {
+  font-feature-settings: 'smcp';
   font-size: 1.125em;
   font-weight: $weight-bold;
   line-height: 1.2;
 }
 
 h5 {
+  font-feature-settings: 'smcp';
   font-size: 1em;
-  font-weight: $weight-bold;
+  font-weight: $weight-regular;
   line-height: 1.25;
 }
 
