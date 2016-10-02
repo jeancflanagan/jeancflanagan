@@ -7,8 +7,9 @@
     </div>
 
     <div class="meta-indices">
-      <a class="meta-index" href="/writing/">Selected articles{% include icon/arrow-right.svg %}</a>
-      <a class="meta-index" href="/photo/">Selected photography{% include icon/arrow-right.svg %}</a>
+      {% unless page.permalink contains 'writing' %}<a class="meta-index" href="/writing/">Selected articles{% include icon/arrow-right.svg %}</a>{% endunless %}
+      {% unless page.permalink contains 'photo' %}<a class="meta-index" href="/photo/">Selected photography{% include icon/arrow-right.svg %}</a>{% endunless %}
+      {% unless page.permalink == '/' %}<a class="meta-index" href="/">Back home{% include icon/arrow-left.svg %}</a>{% endunless %}
     </div>
 
     <div class="meta-disclaimer">
