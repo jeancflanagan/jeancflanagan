@@ -2,6 +2,9 @@
 title: Selected photos
 layout: selected
 permalink: /photos/
+description: 'Selected photography by Jean Flanagan.'
+image:
+  - src: 2012-11-04-orange-maple-leaves.jpg
 
 ---
 

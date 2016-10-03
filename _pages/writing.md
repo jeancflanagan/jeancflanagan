@@ -2,6 +2,7 @@
 title: Selected articles
 layout: selected
 permalink: /writing/
+description: 'Selected writing by Jean Flanagan.'
 
 ---
 
