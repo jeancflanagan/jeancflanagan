@@ -157,6 +157,7 @@ body {
 }
 
 .pattern-meta {
+  font-size: 1.125em;
   width: 100%;
 }
 
@@ -207,6 +208,7 @@ body {
   textarea {
     background-color: $darkgray;
     color: $lightgray;
+    min-height: 6em;
     margin-top: 1em;
     padding: 1em;
     font-family: monospace;
@@ -215,7 +217,7 @@ body {
 }
 
 .pattern-display {
-  padding: 1em 0;
+  padding: 4em 0 1em;
   overflow: hidden;
 }
 
