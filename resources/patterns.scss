@@ -34,6 +34,7 @@ body {
 }
 
 .pattern-main {
+  background-color: white;
 
   @media (min-width: 60em) {
     padding: 4em 0 2em 15em;
@@ -159,6 +160,10 @@ body {
   width: 100%;
 }
 
+.pattern-index {
+  padding: 1em;
+}
+
 .pattern-title {
   background-color: $blue;
   color: $white;
@@ -210,7 +215,7 @@ body {
 }
 
 .pattern-display {
-  padding: 2em;
+  padding: 1em 0;
   overflow: hidden;
 }
 
