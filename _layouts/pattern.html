@@ -9,8 +9,13 @@
     {% include meta/pattern-sidebar.html %}
 
     <section class="pattern-main" role="main">
-
+        {% unless page.category == 'index' %}
         {{ content }}
+        {% else %}
+        <div class="pattern-index block">
+          {{ content }}
+        </div>
+        {% endunless %}
 
         {% unless page.category == 'color' or page.category == 'shade' %}
 

@@ -1,5 +1,5 @@
 <section class="pattern pattern--element" id="{{ pattern.title | slugify }}">
-  <div class="pattern-display{% if pattern.option contains 'center' %} pattern-display--center{% endif %}{% if pattern.option contains 'isolate' %} pattern-display--isolate{% endif %}{% if pattern.option contains 'fix-rem' %} pattern-display--fix-rem{% endif %}{% if pattern.option contains 'no-bullets' %} no-bullets{% endif %}">{{ pattern.content | markdownify }}</div>
+  <div class="pattern-display{% if pattern.option contains 'center' %} pattern-display--center{% endif %}{% unless pattern.option contains 'isolate' %} block--wide{% endunless %}{% if pattern.option contains 'fix-rem' %} pattern-display--fix-rem{% endif %}{% if pattern.option contains 'no-bullets' %} no-bullets{% endif %}">{% if pattern.option contains 'content-simulation' %}<article class="content">{{ pattern.content | markdownify }}</article>{% else %}{{ pattern.content | markdownify }}{% endif %}</div>
   <div class="pattern-meta">
     <button class="pattern-title jsDisclose"><code>{{ pattern.title }}</code>{% include icon/arrow-down.svg %}</button>
     <figure class="pattern-expanded jsExpanded">

@@ -4,6 +4,8 @@ use: 'Expanding.'
 spec: '“Outline” style in blue (like links). Arrows on the right.'
 type: html
 category: interface
+option:
+  - isolate
 priority: 30
 details:
   - title: Standards & Assessment
@@ -14,12 +16,14 @@ details:
       I focus on developing research-based, standards-aligned materials for elementary and middle school science classrooms. I believe high-quality curriculum materials can be educative for both students and teachers.
 ---
 
-<ul class="details">
-  {% for detail in page.details %}
-    <li class="details-item">
-      <button class="details-title jsDisclose">{{ detail.title }}{% include icon/arrow-down.svg %}</button>
+<div class="block--wide">
+  <ul class="details">
+    {% for detail in page.details %}
+      <li class="details-item">
+        <button class="details-title jsDisclose">{{ detail.title }}{% include icon/arrow-down.svg %}</button>
 
-      <p class="details-expanded jsExpanded">{{ detail.expanded | markdownify | p_escape }}</p>
-    </li>
-  {% endfor %}
-</ul>
+        <p class="details-expanded jsExpanded">{{ detail.expanded | markdownify | p_escape }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

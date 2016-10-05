@@ -5,13 +5,17 @@ spec: 'Light blue on a dark blue background.'
 restriction: 'Only used in site footer.'
 type: html
 category: interface
+option:
+  - isolate
 priority: 50
 ---
 
 <div class="end">
-  <div class="meta-social">
-    <a class="meta-link" href="{{ site.link.twitter }}">{% include icon/twitter.svg %}Twitter</a>
-    <a class="meta-link" href="{{ site.link.linkedin }}">{% include icon/linkedin.svg %}LinkedIn</a>
-    <a class="meta-link" href="{{ site.link.subscribe.full }}">{% include icon/rss.svg %}Subscribe via RSS</a>
+  <div class="block">
+    <div class="meta-social">
+      <a class="meta-link" href="{{ site.link.twitter }}">{% include icon/twitter.svg %}Twitter</a>
+      <a class="meta-link" href="{{ site.link.linkedin }}">{% include icon/linkedin.svg %}LinkedIn</a>
+      <a class="meta-link" href="{{ site.link.subscribe.full }}">{% include icon/rss.svg %}Subscribe via RSS</a>
+    </div>
   </div>
 </div>
