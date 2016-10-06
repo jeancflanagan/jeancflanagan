@@ -29,7 +29,7 @@ gems:
 
 ## Imgix configuration
 imgix:
-  source: jeancflanagan.imgix.net
+  source: 2016-jeancflanagan.imgix.net
 
 # Colors for the site
 
