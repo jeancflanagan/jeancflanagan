@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - 2.2.2
+  - 2.3.1
 
 cache:
   bundler: true
@@ -14,3 +14,8 @@ install:
 script:
   - npm run dev
   - if [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$TRAVIS_BRANCH" == "master" ]; then npm run prod; fi
+
+notifications:
+  email: false
+  slack:
+    secure: m7gmdGNjjam98LX2bASLw+9IZun/s5PWDHYI1PU94UJxBXkKxmSQ3ZKY2ay990nKJ4OwF0EQn2fWV3wGVA5j6IJ2aB2jJUFjKqFkPLZ316fMFrEvkRBFXjz8icnya8xpEMm8lMrAjLnKC4QhlElN7FynTJ0NZfaY/46539HvobSRvyCrDuda59vhMnmHYzH4w9kvm6GMOFNOLgAkUaIqm+t9Dw3Gr5KyvpLT8feqoXasHe/rZIqe9f5pSuTTNukbte1anToIRdFxuzGR4r5jUeaFdCY9sbcMEY8Z8X81srpIuVxIjZZLTdEgnfNsOsFLbDTpH6ldf+LVfyhqBzBGoeMeTkrCDVCh0IkKKFRJS1Cqpev/0D4mY25QbIAwkKx1SbWXOk7WpRg/C0BHCup3Nsu8WLLqaFL3b1B5szZmR0060kiO9c5qJLUe9gEyWYcw6raX+VhXEJ5FFkGbajkgq5M+rH/3yftb3cXidGFdxnEs72dwcVVs7lNIqkRqgwNcARjTZcuUqREeCq5eJaZ/JPolE9/lPsAEJEDuvHyWTHVGIoI1vTXkmY2ZsAlZe79gCAP5Fsw1G75ha4zZgZAaWmSAuI3D4v1icqSxSMBJrzzSCTdM7PwtoJeIb+DgO8Af7QSqIXZl12mgSLFk7dKNkqIYCnca1s+AcGR2R9MIqao=
