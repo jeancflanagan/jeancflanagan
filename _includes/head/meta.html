@@ -40,7 +40,7 @@
 {% if image %}
   <meta property="og:image" content="{{ image.src | prepend: '/' | prepend: site.image_url | imgix_url: w: 1024, q: 50 }}">
 {% else %}
-  <meta property="og:image" content="{{ site.url }}{{ site.icon_url }}/touchicon192.png">
+  <meta property="og:image" content="{{ site.author.portrait | prepend: '/' | prepend: site.image_url | imgix_url: w: 1024, q: 60 }}">
 {% endif %}
 
 {% if page.description %}
