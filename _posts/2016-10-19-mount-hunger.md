@@ -16,3 +16,4 @@ photo:
   - 2016-10-19-oliver-sapphie-summit
 
 ---
+We've had the [*Explorer's Guide: 50 Hikes in Vermont*](http://books.wwnorton.com/books/Explorers-Guide-50-Hikes-in-Vermont/) lying around our living room ever since last time we visited the Green Mountains in the summer of 2015. This fall we came back for golden maples and aspens. The Guide's Hike #44 up the side of Hunger Mountain is a steep but straightforward out and back with a scramble near the top leading to a 360-degree view from atop the bare peak.
