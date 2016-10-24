@@ -2,6 +2,9 @@
 title: 'Mount Hunger, VT'
 category: photo
 layout: photoset
+option:
+  - featured
+featured_photo: 4
 location: 'Waterbury, VT'
 period: 'October 2016'
 photo:

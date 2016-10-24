@@ -2,8 +2,6 @@
 title: 'Sapphie by Boundary Bridge'
 category: photo
 layout: photoset
-option:
-  - featured
 location: 'Washington, DC'
 period: 'October 2015'
 featured_photo: 1
