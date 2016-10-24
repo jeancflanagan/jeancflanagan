@@ -3,10 +3,6 @@
 
   h2 {
     text-align: center;
-
-    @include min-width(larger) {
-      text-align: left;
-    }
   }
 
   .block {

@@ -5,6 +5,12 @@
 .image--photo {
   margin: 2em auto 1em;
 
+  img {
+    max-height: calc(100vh - 1em);
+    margin: 0 auto;
+    width: auto;
+  }
+
   &:first-of-type {
     margin-top: 1em;
   }
