@@ -47,12 +47,21 @@ permalink: /:year/:title/
 ## Collections
 collections:
   patterns:
+    title: Patterns
     output: false
   patterns-categories:
+    title: Pattern categories
     output: true
     permalink: patterns/:path/
   photos:
+    title: Photos
     output: false
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 
 defaults:
   - scope:
@@ -90,6 +99,7 @@ imgix:
 include:
   - _feeds
   - _pages
+  - _uploads
 
 exclude:
   - Gemfile*
@@ -101,7 +111,7 @@ exclude:
 domain: jeancflanagan.com
 url: http://jeancflanagan.com
 patterns_url: /patterns
-image_url: /images
+image_url: /uploads
 icon_url: /icons
 resources_url: /resources
 
