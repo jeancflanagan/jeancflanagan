@@ -2,6 +2,8 @@
 title: Home
 layout: default
 permalink: /
+statement: |+
+  I am committed to the idea that all students should have access to a high-quality science education. I apply expertise in education research, national standards, curriculum, assessment, and professional development to provide support, training, and resources to educators striving to raise expectations and meet this challenging, but achievable goal.
 organizations:
   - name: 'Smithsonian Science Education Center'
     logo: logo-ssec.svg
@@ -19,12 +21,18 @@ organizations:
     role: 'Research Associate, Project 2061'
     summary: 'I served on the research and development team for multiple federally funded (NSF, IES) grants investigating the effectiveness of research-based, standards-aligned [curriculum materials](http://www.aaas.org/sites/default/files/THSBSummaryBooklet-F.pdf) and [assessments](http://assessment.aaas.org/pages/home).'
 details:
-  - title: Standards & Assessment
+  - title: National Standards (NGSS)
     expanded: |+
-      I’ve developed deep expertise in the [Next Generation Science Standards](http://www.nextgenscience.org/) (NGSS) and their parent document, the NRC’s [*A Framework for K-12 Science Education*](http://www.nextgenscience.org/framework-k%E2%80%9312-science-education). I also develop high-quality written and performance-based assessments through careful standards alignment.
+      I have expertise in the [Next Generation Science Standards](http://www.nextgenscience.org/) (NGSS) and their parent document, the NRC’s [*A Framework for K-12 Science Education*](http://www.nextgenscience.org/framework-k%E2%80%9312-science-education). I was recently selected as a panelist on [Achieve's NGSS EQuIP Peer Review Panel](http://achieve.org/our-initiatives/equip/peer-review-panel).
   - title: Curriculum Development
     expanded: |+
       I focus on developing research-based, standards-aligned materials for elementary and middle school science classrooms. I believe high-quality curriculum materials can be educative for both students and teachers.
+  - title: Professional Development & Training
+    expanded: |+
+      I train educators on understanding and implementing the NGSS, using the [EQuIP rubric](http://www.nextgenscience.org/sites/default/files/EQuIP%20Rubric%20for%20Science%20v3.pdf) to identify NGSS-aligned materials, anticipating and probing student ideas, and facilitating student engagement in the science & engineering practices.
+  - title: Assessment
+    expanded: |+
+      I develop high-quality written- and performance-based assessments through careful review, pilot testing, and precise standards alignment.
   - title: Writing & Editing
     expanded: |+
       I [write](/writing/) about science, nature, and education for a variety of audiences, including teachers, students, and the general public. As an editor, I specialize in structural and line editing and especially enjoy opportunities for close collaboration with writers.
@@ -40,10 +48,10 @@ details:
 
 ---
 
+{% include block/statement.html %}
+
 {% include block/skills.html %}
 
 {% include block/organization.html %}
 
-<div class="block">
-  <a class="action--center" href="mailto:{{ site.author.email }}">Email me</a>
-</div>
+{% include block/contact.html %}

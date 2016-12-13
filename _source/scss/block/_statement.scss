@@ -1,0 +1,19 @@
+.statement {
+  padding: 1em;
+
+  @include min-width(medium) {
+    padding: 2em 0 1em !important;
+  }
+}
+
+.statement-block {
+  padding: 1em 0 0 0;
+
+  @include min-width(medium) {
+    padding: 1em 14em 0 1em;
+  }
+
+  @include min-width(large) {
+    padding-left: 2em;
+  }
+}
