@@ -54,9 +54,4 @@ details:
 
 {% include block/organization.html %}
 
-
-<div class="block">
-  Have a project for me?
-
-  <a class="action--center" href="mailto:{{ site.author.email }}">Email me</a>
-</div>
+{% include block/contact.html %}

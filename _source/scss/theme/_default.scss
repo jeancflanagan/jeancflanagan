@@ -78,8 +78,9 @@ hr {
 }
 
 .action,
-.action--center {
-  background-color: $link;
+.action--center,
+.contact-action {
+  background-image: linear-gradient(22.5deg, scale-color($link, $lightness: 12.5%), $link);
   color: $fore--inverse;
   outline-color: $link-alt;
 
@@ -89,7 +90,7 @@ hr {
 
   &:hover,
   &:focus {
-    background-color: $link--hover;
+    background-image: linear-gradient(22.5deg, $link--hover, scale-color($link--hover, $lightness: 12.5%));
     color: $fore--inverse;
     outline-color: $link-alt--hover;
 
@@ -228,7 +229,7 @@ hr {
 
   &:hover,
   &:focus {
-    background-color: $link-alt--hover;
+    background-image: linear-gradient(-22.5deg, scale-color($link-alt--hover, $lightness: -25%), $link-alt--hover);
     color: $fore;
     outline-color: $link--hover;
 

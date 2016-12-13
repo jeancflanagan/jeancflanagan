@@ -1,0 +1,16 @@
+.contact-prompt {
+  margin-top: 1em;
+  font-size: 1.25em;
+  font-style: italic;
+  text-align: center;
+}
+
+.contact-action {
+  @include action(1em 1em 2em);
+  font-weight: $weight-bold;
+
+  @include min-width(medium) {
+    margin: 1em auto 2em;
+    width: 50%;
+  }
+}
