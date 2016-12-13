@@ -3,7 +3,7 @@ title: Home
 layout: default
 permalink: /
 statement: |+
-  I am committed to the idea that all students should have access to a high-quality science education. I apply expertise in education research, national standards (NGSS), curriculum, assessment, and professional development to provide support, training, and resources to educators striving to raise expectations and meet this challenging, but achievable goal.
+  I am committed to the idea that all students should have access to a high-quality science education. I apply expertise in education research, national standards, curriculum, assessment, and professional development to provide support, training, and resources to educators striving to raise expectations and meet this challenging, but achievable goal.
 organizations:
   - name: 'Smithsonian Science Education Center'
     logo: logo-ssec.svg
