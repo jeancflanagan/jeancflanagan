@@ -16,8 +16,7 @@
 .who--inner-heading {
   display: flex;
   flex-flow: column nowrap;
-  margin-bottom: 1em;
-  padding: 2em 1em;
+  padding: 1.5em 1em;
   text-align: center;
 
   @include min-width(medium) {

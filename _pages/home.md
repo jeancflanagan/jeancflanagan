@@ -2,6 +2,8 @@
 title: Home
 layout: default
 permalink: /
+statement: |+
+  I am committed to the idea that all students should have access to a high-quality science education. I apply expertise in education research, national standards (NGSS), curriculum, assessment, and professional development to provide support, training, and resources to educators striving to raise expectations and meet this challenging, but achievable goal.
 organizations:
   - name: 'Smithsonian Science Education Center'
     logo: logo-ssec.svg
@@ -45,14 +47,16 @@ details:
       I’ve been a hobbyist photographer for over six years, and find editing in Lightroom just as engaging as shooting. I also shoot events for charities like [City Dogs Rescue](http://www.citydogsrescuedc.org/).
 
 ---
-I am committed to the idea that all students should have access to a high-quality science education. I apply expertise in education research, national standards (NGSS), curriculum, assessment, and professional development to provide support, training, and resources to educators striving to raise expectations and meet this challenging, but achievable goal.  
+
+{% include block/statement.html %}
 
 {% include block/skills.html %}
 
 {% include block/organization.html %}
 
-Have a project for me?
 
 <div class="block">
+  Have a project for me?
+
   <a class="action--center" href="mailto:{{ site.author.email }}">Email me</a>
 </div>
