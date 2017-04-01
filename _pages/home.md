@@ -3,13 +3,13 @@ title: Home
 layout: default
 permalink: /
 statement: |+
-  I am committed to the idea that all students should have access to a high-quality science education. I apply expertise in education research, national standards, curriculum, assessment, and professional development to provide support, training, and resources to educators striving to raise expectations and meet this challenging, but achievable goal.
+  I am committed to the idea that all students should have access to a high-quality science education. I apply expertise in education research, national standards (NGSS), curriculum, assessment, and professional development to provide support, training, and resources to educators striving to raise expectations.
 organizations:
   - name: 'Smithsonian Science Education Center'
     logo: logo-ssec.svg
     period: 2013–present
     role: 'Science Education Research Specialist'
-    summary: 'My role on the Curriculum & Communications team focuses on translating research into practice. I’m a managing editor on a new (in development) [NGSS](http://www.nextgenscience.org/)-aligned curriculum series, a project lead on the [*Good Thinking!*](https://www.youtube.com/playlist?list=PLHWBid5WSAzT7PN4Q8Mnpk1ZwCb2g_5V_) video series, and a contributor to the [*STEMvisions*](https://ssec.si.edu/stemvisions-blog) blog.'
+    summary: 'My role on the Curriculum & Communications team focuses on translating research into practice. Among many cross-departmental projects, I am currently a series developer and managing editor on a new (in development) [NGSS](http://www.nextgenscience.org/)-aligned curriculum series, and was a project lead on the [*Good Thinking!*](https://www.youtube.com/playlist?list=PLHWBid5WSAzT7PN4Q8Mnpk1ZwCb2g_5V_) video series, a [2017 AAP REVERE Awards finalist](http://publishers.org/2017-professional-resources-finalists-winners) for Innovation—Professional Resources.'
   - name: 'Public Library of Science Blog Network'
     logo: logo-plos.svg
     period: 2012–2013
@@ -35,13 +35,13 @@ details:
       I develop high-quality written- and performance-based assessments through careful review, pilot testing, and precise standards alignment.
   - title: Writing & Editing
     expanded: |+
-      I [write](/writing/) about science, nature, and education for a variety of audiences, including teachers, students, and the general public. As an editor, I specialize in structural and line editing and especially enjoy opportunities for close collaboration with writers.
+      I [write](/writing/) about science, nature, and education for a variety of audiences, including teachers, students, and the general public. As an editor, I specialize in developmental and structural editing and especially enjoy opportunities for close collaboration with writers.
   - title: Research
     expanded: |+
       I’ve served on the research team for multiple federally funded (NSF, IES) science education research studies collecting and analyzing data, including user interviews. I also specialize in translating research findings into the design of educational products – I spend a lot of time on Google Scholar.
   - title: Project Management
     expanded: |+
-      I am often managing multiple collaborative projects. I know my way around Basecamp and Slack, and am always looking for ways to streamline processes and foster creativity.
+      As an experienced COTR (contracting officer's tech rep), I am often managing multiple collaborative projects. I know my way around Basecamp and Slack, and am always looking for ways to streamline processes and foster creativity.
   - title: Photography & Photo Editing
     expanded: |+
       I’ve been a hobbyist photographer for over six years, and find editing in Lightroom just as engaging as shooting. I also shoot events for charities like [City Dogs Rescue](http://www.citydogsrescuedc.org/).
