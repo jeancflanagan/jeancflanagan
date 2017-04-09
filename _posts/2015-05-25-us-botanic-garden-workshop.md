@@ -2,8 +2,6 @@
 title: 'US Botanic Garden Workshop'
 category: photo
 layout: photoset
-option:
-  - featured
 location: 'US Botanic Garden'
 period: 'April 2015'
 photo:
