@@ -9,11 +9,7 @@
 .statement-block {
   padding: 1em 0 0 0;
 
-  @include min-width(medium) {
-    padding: 1em 14em 0 1em;
-  }
-
   @include min-width(large) {
-    padding-left: 2em;
+    //padding-left: 2em;
   }
 }

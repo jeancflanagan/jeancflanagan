@@ -6,6 +6,13 @@
   @include min-width(medium) {
     flex-flow: row nowrap;
   }
+
+  &:before {
+    content: '';
+    background-color: black;
+    transform: skewX(-22.5deg) translateX(-1.5em);
+    width: 25%;
+  }
 }
 
 .who--inner {
@@ -21,13 +28,13 @@
 
   @include min-width(medium) {
     margin-bottom: 0;
-    padding: 0 1em;
-    text-align: left;
+    padding: 0 2em;
+    text-align: right;
     width: 75%;
   }
 
   @include min-width(large) {
-    padding: 0 2em;
+
   }
 }
 
@@ -61,19 +68,6 @@
   @include min-width(large) {
     font-size: 1em;
     letter-spacing: -.02em;
-  }
-}
-
-.who-frame {
-  margin: 0 auto -6em;
-  width: 12em;
-
-  img {
-    display: block;
-  }
-
-  @include min-width(medium) {
-    flex: 0 0 12em;
   }
 }
 

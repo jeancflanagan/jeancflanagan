@@ -10,24 +10,18 @@ $link--hover: $green;
 $link-alt: $skyblue;
 $link-alt--hover: $palegreen;
 
-html {
-  background-color: $back;
-  color: $fore;
-}
-
 body {
+  background-color: $back;
   background-image: linear-gradient(-22.5deg, scale-color($lightgray, $lightness: 25%), $lightgray);
   background-size: 100% 2em;
-  padding-top: 1.5em;
+  color: $fore;
 
   @include min-width(medium) {
     background-size: 100% 2em;
-    padding-top: 2em;
   }
 
   @include min-width(large) {
-    background-size: 100% 12em;
-    padding-top: 4em;
+    background-size: 100% 20em;
   }
 }
 
