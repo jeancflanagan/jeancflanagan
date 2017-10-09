@@ -18,5 +18,3 @@ statement: |+
 ---
 
 {% include block/statement.html %}
-
-{% include block/contact.html %}

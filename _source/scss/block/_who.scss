@@ -1,7 +1,7 @@
-.who,
-.who--inner {
+.who {
   display: flex;
   flex-flow: column nowrap;
+  height: 10em;
 
   @include min-width(medium) {
     flex-flow: row nowrap;
@@ -9,32 +9,33 @@
 
   &:before {
     content: '';
-    background-color: black;
-    transform: skewX(-22.5deg) translateX(-1.5em);
-    width: 25%;
+    transform: skewX(-22.5deg) translateX(-2em);
+    position: absolute;
+    height: 8em;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+
+    @include min-width(medium) {
+      transform: skewX(-22.5deg) translateX(-10em);
+      height: 10em;
+    }
   }
 }
 
-.who--inner {
-  padding-bottom: 1em;
-}
-
-.who-heading,
-.who--inner-heading {
+.who-heading {
   display: flex;
   flex-flow: column nowrap;
   padding: 1.5em 1em;
   text-align: center;
+  z-index: 20;
 
   @include min-width(medium) {
     margin-bottom: 0;
-    padding: 0 2em;
+    padding: 2em;
     text-align: right;
-    width: 75%;
-  }
-
-  @include min-width(large) {
-
+    width: 100%;
   }
 }
 
@@ -61,7 +62,7 @@
 
 .who-subtitle {
   font-size: .875em;
-  font-weight: $weight-regular;
+  font-weight: $weight-bold;
   margin-top: .5em;
   letter-spacing: -.01em;
 
