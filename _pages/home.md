@@ -1,20 +1,18 @@
 ---
 title: Home
-layout: default
+layout: home
 permalink: /
 statement: |+
-  Hi, I’m into all things science and education — welcome to my home on the web!
+  ## I’m a science educator, writer, and editor from Washington DC.
 
-  I currently develop curriculum and other educational resources aligned to the Next Generation Science Standards for the Smithsonian Science Education Center; before that I contributed to educational research on curriculum and assessment at AAAS Project 2061.
+  I’m passionate about biodiversity, conservation, and high-quality science education in both formal and informal environments.
 
-  On a volunteer basis, I also founded and wrote for the Sci-Ed blog on the PLOS network, served as a visitor concierge at the National Museum of Natural History, and serve as a panelist on Achieve’s EQuIP Peer Review Panel for science.
+  In my free time I’m hiking with my rescued hound dog, cycling, traveling, taking photos, and downloading more podcasts than I’ll ever get through.
 
-  While I strayed from my original path as a biologist, my curiosity has always been stirred by the weird and wonderful life forms we share this planet with, and our practical and ethical obligations to understand and conserve them. Zooming out even further, I’m equally fascinated with the broader science media and policy ecosystem and the influence of identity and cultural cognition on how people process scientific information.
+  **This site is a personal archive for my writing, photography, and other projects.**
 
-  In my free time I’m hiking, cycling, taking photos, volunteering for a local dog rescue, downloading more podcasts than I’ll ever get through, or going down the science YouTube rabbit hole.
+  Since 2012 I’ve maintained my own website as a personal archive. It won’t suddenly change its rules, lose my content, or go out of business. If you’re interested, you can read more about the indie web movement.
 
   This site is a personal archive for my writing, photography, and other projects.
 
 ---
-
-{% include block/statement.html %}

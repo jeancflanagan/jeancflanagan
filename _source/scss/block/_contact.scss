@@ -1,0 +1,14 @@
+.contact {
+  align-items: flex-start;
+  clear: both;
+  display: flex;
+}
+
+.contact-image {
+  clip-path: polygon(0 0, 0% 200%, 100% 0);
+
+  @include min-width(small) {
+    margin-right: 1em;
+    width: 25%;
+  }
+}

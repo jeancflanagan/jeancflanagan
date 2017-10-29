@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+  &:before {
+    background-color: gray;
+    content: '';
+    height: 8em;
+    position: absolute;
+    right: 75%;
+    transform: skew(-26.565deg);
+    width: 75%;
+  }
+
+  @include min-width(larger) {
+    padding: 0;
+  }
+}
+
+.nav-item {
+  padding: 1em;
+  text-align: right;
+  width: 100%;
+
+  z-index: 10;
+}

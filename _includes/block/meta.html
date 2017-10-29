@@ -7,13 +7,16 @@
     </div>
 
     <div class="meta-indices">
+      {% unless page.permalink == '/' %}
       {% unless page.permalink contains 'writing' %}<a class="meta-index" href="/writing/">Selected articles{% include icon/arrow-right.svg %}</a>{% endunless %}
       {% unless page.permalink contains 'photo' %}<a class="meta-index" href="/photos/">Selected photography{% include icon/arrow-right.svg %}</a>{% endunless %}
-      {% unless page.permalink == '/' %}<a class="meta-index" href="/">Back home{% include icon/arrow-left.svg %}</a>{% endunless %}
+      <a class="meta-index" href="/">Back home{% include icon/arrow-left.svg %}</a>{% endunless %}
     </div>
 
     <div class="meta-disclaimer">
+      {% unless page.permalink == '/' %}
       <p>Disclaimer: Views expressed here are my own and are not intended to represent those of any of my employers, past or present.</p>
+      {% endunless %}
       <p>Content is licensed {{ site.license.short }}.</p>
 
       <div class="meta-copyright">

@@ -1,26 +1,9 @@
 .who {
   display: flex;
   flex-flow: column nowrap;
-  height: 10em;
 
   @include min-width(medium) {
     flex-flow: row nowrap;
-  }
-
-  &:before {
-    content: '';
-    transform: skewX(-22.5deg) translateX(-2em);
-    position: absolute;
-    height: 8em;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-
-    @include min-width(medium) {
-      transform: skewX(-22.5deg) translateX(-10em);
-      height: 10em;
-    }
   }
 }
 
@@ -29,7 +12,6 @@
   flex-flow: column nowrap;
   padding: 1.5em 1em;
   text-align: center;
-  z-index: 20;
 
   @include min-width(medium) {
     margin-bottom: 0;
@@ -70,8 +52,4 @@
     font-size: 1em;
     letter-spacing: -.02em;
   }
-}
-
-.who + section {
-  padding-top: 6em;
 }
