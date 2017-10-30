@@ -16,7 +16,6 @@
     <div class="meta-disclaimer">
       {% unless page.permalink == '/' %}
       <p>Disclaimer: Views expressed here are my own and are not intended to represent those of any of my employers, past or present.</p>
-      {% endunless %}
       <p>Content is licensed {{ site.license.short }}.</p>
 
       <div class="meta-copyright">
@@ -25,6 +24,7 @@
           {{ site.license.description | markdownify }}
         </div>
       </div>
+      {% endunless %}
 
       <p>Designed and developed by <a class="meta-credit" href="https://olivermak.es">Oliver Pattison {% include icon/oliver.svg %}</a></p>
     </div>

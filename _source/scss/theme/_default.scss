@@ -243,8 +243,33 @@ hr {
 }
 
 .nav {
+  background-image: url('/images/2017-09-02-jean-scotland.jpg');
+  background-size: cover;
+  background-position: bottom;
+
   &:before {
-    background-color: $skyblue;
+    background-color: $link-alt;
+  }
+}
+
+.nav-item--writing {
+  background-color: $link-alt;
+  color: $fore;
+
+  path {
+    fill: $fore;
+  }
+
+  @include min-width(medium) {
+    background: none;
+  }
+}
+
+.nav-item--photography {
+  color: $fore--inverse;
+
+  path {
+    fill: $fore--inverse;
   }
 }
 

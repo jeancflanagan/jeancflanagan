@@ -3,14 +3,15 @@
   flex-flow: row wrap;
   justify-content: space-around;
 
-  &:before {
-    background-color: gray;
-    content: '';
-    height: 8em;
-    position: absolute;
-    right: 75%;
-    transform: skew(-26.565deg);
-    width: 75%;
+  @include min-width(medium) {
+    &:before {
+      content: '';
+      height: 8em;
+      position: absolute;
+      left: -50%;
+      transform: skewX(-26.565deg);
+      width: 100%;
+    }
   }
 
   @include min-width(larger) {
@@ -19,9 +20,29 @@
 }
 
 .nav-item {
-  padding: 1em;
-  text-align: right;
+  flex: 0 0 100%;
+  font-weight: $weight-bold;
+  padding: 2em 1em;
+  text-align: center;
   width: 100%;
 
   z-index: 10;
+
+  svg {
+    height: .75em;
+    margin: auto 0;
+    width: 1.75em;
+  }
+
+  @include min-width(medium) {
+    flex: 1 0 50%;
+  }
+}
+
+.nav-item--writing {
+
+}
+
+.nav-item--photography {
+
 }
