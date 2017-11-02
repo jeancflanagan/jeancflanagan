@@ -9,7 +9,7 @@
       height: 8em;
       position: absolute;
       left: -50%;
-      transform: skewX(-26.565deg);
+      transform: skewX(-14.036deg);
       width: 100%;
     }
   }
@@ -37,12 +37,4 @@
   @include min-width(medium) {
     flex: 1 0 50%;
   }
-}
-
-.nav-item--writing {
-
-}
-
-.nav-item--photography {
-
 }
