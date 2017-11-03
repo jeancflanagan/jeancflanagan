@@ -23,6 +23,10 @@
   @include min-width(larger) {
     padding: 2em 4em;
   }
+
+  @include min-width(largest) {
+    text-align: center;
+  }
 }
 
 .who--inner-heading {
