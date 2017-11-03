@@ -33,7 +33,9 @@
   @include min-width(medium) {
     height: auto;
     order: 2;
-    width: 25%;
+    -webkit-clip-path: polygon(0 0, 100% 400%, 100% 0);
+    clip-path: polygon(0 0, 100% 400%, 100% 0);
+    width: 7.5em;
   }
 }
 

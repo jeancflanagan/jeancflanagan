@@ -2,12 +2,19 @@
   align-items: flex-start;
   clear: both;
   display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+
+  @include min-width(small) {
+    flex-direction: row;
+  }
 }
 
 .contact-image {
-  clip-path: polygon(0 0, 0% 400%, 100% 0);
+  width: 100%;
 
   @include min-width(small) {
+    clip-path: polygon(0 0, 0% 400%, 100% 0);
     margin-right: 1em;
     width: 25%;
   }

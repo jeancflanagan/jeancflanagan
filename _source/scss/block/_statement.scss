@@ -30,12 +30,12 @@
 }
 
 .statement-image {
-  -webkit-clip-path: polygon(0 0, 100% 400%, 100% 0);
-  clip-path: polygon(0 0, 100% 400%, 100% 0);
-  margin: 0 0 1em;
 
   @include min-width(small) {
+    -webkit-clip-path: polygon(0 0, 100% 400%, 100% 0);
+    clip-path: polygon(0 0, 100% 400%, 100% 0);
     float: right;
+    margin: 0 0 1em;
     shape-outside: polygon(-5% 0, 100% 410%, 100% 0);
     width: 50%;
   }
