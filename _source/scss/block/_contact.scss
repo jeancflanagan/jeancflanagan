@@ -8,6 +8,10 @@
   @include min-width(small) {
     flex-direction: row;
   }
+
+  @include min-width(larger) {
+    margin-top: 1em;
+  }
 }
 
 .contact-image {
