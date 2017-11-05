@@ -1,9 +1,5 @@
 .selected {
   margin: 0 auto;
-  padding: 0 1em 2em;
+  padding: 0 0 2em;
   margin-bottom: -2em;
-
-  @include min-width(large) {
-    padding: 0 0 2em;
-  }
 }
