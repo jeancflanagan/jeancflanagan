@@ -243,9 +243,9 @@ hr {
 }
 
 .nav {
-  background-image: url('/images/2017-09-02-jean-scotland.jpg');
+  background-image: url('/images/2014-06-15-leaf-teeth.jpg');
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
 
   &:before {
     background-color: $link-alt;
@@ -267,6 +267,7 @@ hr {
 
 .nav-item--photography {
   color: $fore--inverse;
+  text-shadow: 0 0 .5em $fore;
 
   path {
     fill: $fore--inverse;

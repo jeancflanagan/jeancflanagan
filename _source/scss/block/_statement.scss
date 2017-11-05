@@ -39,8 +39,4 @@
     shape-outside: polygon(-5% 0, 100% 410%, 100% 0);
     width: 50%;
   }
-
-  @include min-width(larger) {
-    margin: 0;
-  }
 }
