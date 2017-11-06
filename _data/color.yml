@@ -1,7 +1,7 @@
 - name: black
-  hsl: hsl(198, 20%, 8%)
+  hsl: hsl(198, 20%, 12%)
 - name: darkgray
-  hsl: hsl(198, 20%, 32%)
+  hsl: hsl(198, 20%, 36%)
 - name: lightgray
   hsl: hsl(198, 20%, 85%)
 - name: offwhite
@@ -9,7 +9,7 @@
 - name: white
   hsl: hsl(198, 26%, 95%)
 - name: blue
-  hsl: hsl(198, 52%, 32%)
+  hsl: hsl(198, 52%, 36%)
 - name: darkblue
   hsl: hsl(198, 52%, 18%)
 - name: skyblue

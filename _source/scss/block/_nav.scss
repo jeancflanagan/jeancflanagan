@@ -1,0 +1,45 @@
+.nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+  @include min-width(medium) {
+    &:before {
+      content: '';
+      height: 8em;
+      position: absolute;
+      left: -50%;
+      transform: skewX(-14.036deg);
+      width: 100%;
+    }
+  }
+
+  @include min-width(larger) {
+    padding: 0;
+  }
+}
+
+.nav-item {
+  flex: 0 0 100%;
+  font-weight: $weight-bold;
+  text-align: center;
+  width: 100%;
+
+  z-index: 10;
+
+  svg {
+    height: .75em;
+    margin: auto 0;
+    width: 1.75em;
+  }
+
+  @include min-width(medium) {
+    flex: 1 0 50%;
+    font-size: calc(.4vw + .8em);
+  }
+}
+
+.nav-link {
+  display: block;
+  padding: 2em;
+}

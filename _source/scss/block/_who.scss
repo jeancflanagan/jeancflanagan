@@ -1,5 +1,4 @@
-.who,
-.who--inner {
+.who {
   display: flex;
   flex-flow: column nowrap;
 
@@ -8,26 +7,33 @@
   }
 }
 
-.who--inner {
-  padding-bottom: 1em;
-}
-
-.who-heading,
-.who--inner-heading {
+.who-heading {
   display: flex;
   flex-flow: column nowrap;
   padding: 1.5em 1em;
   text-align: center;
 
+  @include min-width(small) {
+    font-size: calc(.4vw + .8em);
+  }
+
   @include min-width(medium) {
     margin-bottom: 0;
-    padding: 0 1em;
-    text-align: left;
-    width: 75%;
+    padding: 2em 1em;
+    text-align: right;
+    width: 100%;
   }
 
   @include min-width(large) {
-    padding: 0 2em;
+    padding: 2em;
+  }
+
+  @include min-width(larger) {
+    padding: 2em 4em;
+  }
+
+  @include min-width(largest) {
+    text-align: center;
   }
 }
 
@@ -48,35 +54,18 @@
 
   @include min-width(large) {
     font-size: 3em;
-    letter-spacing: -.025em;
+    letter-spacing: -.03em;
   }
 }
 
 .who-subtitle {
-  font-size: .875em;
-  font-weight: $weight-regular;
+  font-size: 1em;
+  font-weight: $weight-bold;
   margin-top: .5em;
-  letter-spacing: -.01em;
+  letter-spacing: -.02em;
 
   @include min-width(large) {
-    font-size: 1em;
+    font-size: 1.125em;
     letter-spacing: -.02em;
   }
-}
-
-.who-frame {
-  margin: 0 auto -6em;
-  width: 12em;
-
-  img {
-    display: block;
-  }
-
-  @include min-width(medium) {
-    flex: 0 0 12em;
-  }
-}
-
-.who + section {
-  padding-top: 6em;
 }

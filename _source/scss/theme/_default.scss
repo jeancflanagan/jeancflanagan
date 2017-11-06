@@ -1,6 +1,7 @@
 $back: $white;
 $back--alt: $offwhite;
 $back--inverse: $black;
+$back--gradient: linear-gradient(22.5deg, $black, $darkblue);
 $fore: $black;
 $fore--inverse: $white;
 $fore--alt: $darkgray;
@@ -10,24 +11,17 @@ $link--hover: $green;
 $link-alt: $skyblue;
 $link-alt--hover: $palegreen;
 
-html {
-  background-color: $back;
-  color: $fore;
-}
-
 body {
-  background-image: linear-gradient(-22.5deg, scale-color($lightgray, $lightness: 25%), $lightgray);
+  background-color: $back;
   background-size: 100% 2em;
-  padding-top: 1.5em;
+  color: $fore;
 
   @include min-width(medium) {
     background-size: 100% 2em;
-    padding-top: 2em;
   }
 
   @include min-width(large) {
-    background-size: 100% 12em;
-    padding-top: 4em;
+    background-size: 100% 20em;
   }
 }
 
@@ -69,7 +63,7 @@ figcaption {
 }
 
 hr {
-  background-color: $accent;
+  background-color: $lightgray;
 }
 
 .selected,
@@ -78,8 +72,7 @@ hr {
 }
 
 .action,
-.action--center,
-.contact-action {
+.action--center {
   background-image: linear-gradient(22.5deg, scale-color($link, $lightness: 12.5%), $link);
   color: $fore--inverse;
   outline-color: $link-alt;
@@ -104,61 +97,21 @@ hr {
   color: $fore--alt;
 }
 
-.details-title {
-  background-color: $back;
+.who {
+  background-color: $back--alt;
+
+  &:before {
+    background-image: $back--gradient;
+  }
+}
+
+.who-title,
+.who-subtitle {
   color: $link;
-  outline-color: $link;
-
-  path {
-    fill: $link;
-  }
-
-  &:hover,
-  &:focus,
-  &.jsActive {
-    color: $link--hover;
-    outline-color: $link--hover;
-
-    path {
-      fill: $link--hover;
-    }
-  }
-}
-
-.details-expanded {
-  background-color: $back;
-  outline-color: $lightgray;
-}
-
-.who,
-.who--inner {
-  background-color: $back--alt;
-}
-
-.statement {
-  background-color: $back--alt;
-}
-
-.skills {
-  background-color: $back--alt;
-}
-
-.organization {
-  background-color: $back;
-}
-
-.organization-name,
-.organization-role {
-  color: $fore;
-}
-
-
-.organization-period {
-  color: $fore--alt;
 }
 
 .end {
-  background-image: linear-gradient(22.5deg, $black, $darkblue);
+  background-image: $back--gradient;
   color: $fore--inverse;
 
   p > a {
@@ -240,23 +193,16 @@ hr {
 }
 
 .meta-index {
-  background-color: transparent;
-  color: $link-alt;
-  outline-color: $link-alt;
+  background-color: $link-alt;
+  color: $fore;
 
   path {
-    fill: $link-alt;
+    fill: $fore;
   }
 
   &:hover,
   &:focus {
     background-color: $link-alt--hover;
-    color: $fore;
-    outline-color: $link--hover;
-
-    path {
-      fill: $fore;
-    }
   }
 }
 
@@ -286,6 +232,57 @@ hr {
 
 .content-meta {
   color: $fore--alt;
+}
+
+.nav {
+  background-image: url('/images/2011-07-16-white-hibiscus-bokeh-williamsburg-va-crop.jpg');
+  background-size: cover;
+  background-position: center;
+
+  &:before {
+    background-color: $link-alt;
+  }
+}
+
+.nav-item--writing {
+  background-color: $link-alt;
+  color: $fore;
+
+  path {
+    fill: $fore;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+    color: $link--hover;
+
+    path {
+      fill: $link--hover;
+    }
+  }
+
+
+  @include min-width(medium) {
+    background: none;
+  }
+}
+
+.nav-item--photography {
+  color: $fore--inverse;
+  text-shadow: 0 0 .5em $fore;
+
+  path {
+    fill: $fore--inverse;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+    color: $link-alt;
+
+    path {
+      fill: $link-alt;
+    }
+  }
 }
 
 .item,

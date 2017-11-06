@@ -1,19 +1,42 @@
 .statement {
-  padding: 1em;
-
-  @include min-width(medium) {
-    padding: 2em 0 1em !important;
-  }
+  padding: 0;
 }
 
 .statement-block {
-  padding: 1em 0 0 0;
+  font-size: 1em;
+  max-width: none;
+  padding: 1em;
 
-  @include min-width(medium) {
-    padding: 1em 14em 0 1em;
+  @include min-width(small) {
+    font-size: calc(.4vw + .8em);
   }
 
   @include min-width(large) {
-    padding-left: 2em;
+    margin-left: 0;
+    padding: 2em;
+  }
+
+  @include min-width(larger) {
+    padding: 2em 4em;
+  }
+}
+
+.statement-container {
+  max-width: 100%;
+
+  svg {
+    width: 100%;
+  }
+}
+
+.statement-image {
+
+  @include min-width(small) {
+    -webkit-clip-path: polygon(0 0, 100% 400%, 100% 0);
+    clip-path: polygon(0 0, 100% 400%, 100% 0);
+    float: right;
+    margin: 0 0 1em;
+    shape-outside: polygon(-5% 0, 100% 410%, 100% 0);
+    width: 50%;
   }
 }

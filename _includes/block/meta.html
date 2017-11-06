@@ -3,16 +3,19 @@
     <div class="meta-social">
       <a class="meta-link" href="{{ site.link.twitter }}">{% include icon/twitter.svg %}Twitter</a>
       <a class="meta-link" href="{{ site.link.linkedin }}">{% include icon/linkedin.svg %}LinkedIn</a>
+      <a class="meta-link" href="mailto:{{ site.author.email }}">{% include icon/email.svg %}Email me</a>
       <a class="meta-link" href="{{ site.link.subscribe.full }}">{% include icon/rss.svg %}Subscribe via RSS</a>
     </div>
 
     <div class="meta-indices">
+      {% unless page.permalink == '/' %}
       {% unless page.permalink contains 'writing' %}<a class="meta-index" href="/writing/">Selected articles{% include icon/arrow-right.svg %}</a>{% endunless %}
       {% unless page.permalink contains 'photo' %}<a class="meta-index" href="/photos/">Selected photography{% include icon/arrow-right.svg %}</a>{% endunless %}
-      {% unless page.permalink == '/' %}<a class="meta-index" href="/">Back home{% include icon/arrow-left.svg %}</a>{% endunless %}
+      <a class="meta-index" href="/">Back home{% include icon/arrow-left.svg %}</a>{% endunless %}
     </div>
 
     <div class="meta-disclaimer">
+      {% unless page.permalink == '/' %}
       <p>Disclaimer: Views expressed here are my own and are not intended to represent those of any of my employers, past or present.</p>
       <p>Content is licensed {{ site.license.short }}.</p>
 
@@ -22,6 +25,7 @@
           {{ site.license.description | markdownify }}
         </div>
       </div>
+      {% endunless %}
 
       <p>Designed and developed by <a class="meta-credit" href="https://olivermak.es">Oliver Pattison {% include icon/oliver.svg %}</a></p>
     </div>

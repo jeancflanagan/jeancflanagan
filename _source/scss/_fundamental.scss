@@ -138,8 +138,10 @@ blockquote footer {
 
 hr {
   border: 0;
-  height: .2em;
-  margin: 2em 0;
+  height: 1em;
+  margin: 2em 1em;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, .5em 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, .5em 100%);
 }
 
 code,

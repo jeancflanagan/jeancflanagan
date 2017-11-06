@@ -5,8 +5,8 @@ $font-mono: consolas, courier, monospace;
 $weight-regular: 400;
 $weight-bold: 600;
 
-$black: hsl(198, 20%, 8%);
-$darkgray: hsl(198, 20%, 32%);
+$black: hsl(198, 20%, 12%);
+$darkgray: hsl(198, 20%, 36%);
 $lightgray: hsl(198, 20%, 85%);
 $offwhite: hsl(198, 20%, 92%);
 $white: hsl(198, 26%, 95%);
@@ -20,7 +20,8 @@ $widths: (
   small: 24em,
   medium: 32em,
   large: 48em,
-  larger: 62.5em
+  larger: 62.5em,
+  largest: 90em
 );
 
 $container-widths: (
