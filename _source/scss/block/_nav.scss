@@ -36,5 +36,6 @@
 
   @include min-width(medium) {
     flex: 1 0 50%;
+    font-size: calc(.4vw + .8em);
   }
 }
