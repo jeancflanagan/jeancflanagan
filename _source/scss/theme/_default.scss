@@ -193,23 +193,16 @@ hr {
 }
 
 .meta-index {
-  background-color: transparent;
-  color: $link-alt;
-  outline-color: $link-alt;
+  background-color: $link-alt;
+  color: $fore;
 
   path {
-    fill: $link-alt;
+    fill: $fore;
   }
 
   &:hover,
   &:focus {
     background-color: $link-alt--hover;
-    color: $fore;
-    outline-color: $link--hover;
-
-    path {
-      fill: $fore;
-    }
   }
 }
 
