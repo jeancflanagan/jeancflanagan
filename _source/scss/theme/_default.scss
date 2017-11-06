@@ -72,8 +72,7 @@ hr {
 }
 
 .action,
-.action--center,
-.contact-action {
+.action--center {
   background-image: linear-gradient(22.5deg, scale-color($link, $lightness: 12.5%), $link);
   color: $fore--inverse;
   outline-color: $link-alt;
