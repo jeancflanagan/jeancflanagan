@@ -22,7 +22,6 @@
 .nav-item {
   flex: 0 0 100%;
   font-weight: $weight-bold;
-  padding: 2em 1em;
   text-align: center;
   width: 100%;
 
@@ -38,4 +37,9 @@
     flex: 1 0 50%;
     font-size: calc(.4vw + .8em);
   }
+}
+
+.nav-link {
+  display: block;
+  padding: 2em;
 }

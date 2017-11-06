@@ -251,6 +251,16 @@ hr {
     fill: $fore;
   }
 
+  .nav-link:hover,
+  .nav-link:focus {
+    color: $link--hover;
+
+    path {
+      fill: $link--hover;
+    }
+  }
+
+
   @include min-width(medium) {
     background: none;
   }
@@ -262,6 +272,15 @@ hr {
 
   path {
     fill: $fore--inverse;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+    color: $link-alt;
+
+    path {
+      fill: $link-alt;
+    }
   }
 }
 
