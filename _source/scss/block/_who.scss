@@ -54,18 +54,18 @@
 
   @include min-width(large) {
     font-size: 3em;
-    letter-spacing: -.025em;
+    letter-spacing: -.03em;
   }
 }
 
 .who-subtitle {
-  font-size: .875em;
+  font-size: 1em;
   font-weight: $weight-bold;
   margin-top: .5em;
-  letter-spacing: -.01em;
+  letter-spacing: -.02em;
 
   @include min-width(large) {
-    font-size: 1em;
+    font-size: 1.125em;
     letter-spacing: -.02em;
   }
 }
