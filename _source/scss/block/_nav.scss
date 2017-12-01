@@ -2,11 +2,13 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  position: relative; // contains absolute-positioned ::before item
 
   @include min-width(medium) {
     &:before {
       content: '';
-      height: 8em;
+      font-size: calc(.4vw + .8em);
+      height: 6em;
       position: absolute;
       left: -50%;
       transform: skewX(-14.036deg);
@@ -34,12 +36,19 @@
   }
 
   @include min-width(medium) {
+    display: flex;
     flex: 1 0 50%;
     font-size: calc(.4vw + .8em);
+    height: 6em;
   }
 }
 
 .nav-link {
   display: block;
+  margin: auto;
   padding: 2em;
+
+  @include min-width(medium) {
+    padding: 0 2em;
+  }
 }
