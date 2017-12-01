@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="152px" height="152px" viewBox="0 0 152 152" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
     <title>touchicon152</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="touchicon152">
             <rect id="Background" fill="#F7F8F8" x="0" y="0" width="152" height="152"></rect>
-            <circle id="Oval" fill="#27637C" cx="76" cy="76" r="56"></circle>
+            <polygon id="Rectangle" fill="#27637C" points="24 24 128 24 128 128 50 128"></polygon>
         </g>
     </g>
 </svg>
