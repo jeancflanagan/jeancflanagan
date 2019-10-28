@@ -1,4 +1,4 @@
-<svg width="16px" height="16px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="arrow arrow--down">
+<svg aria-hidden="true" width="16px" height="16px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="arrow arrow--down">
   <title>arrow-down</title>
   <path d="M103.111111,109.25 L128,109.25 L64,37.25 L-2.84217094e-14,109.25 L24.8888889,109.25 L64,65.25 L103.111111,109.25 Z" transform="translate(64.000000, 64.000000) rotate(180.000000) translate(-64.000000, -64.000000) " fill="#292F32"></path>
 </svg>
